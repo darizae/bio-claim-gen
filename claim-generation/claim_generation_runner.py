@@ -119,9 +119,56 @@ SOURCE TEXT:
 #  CLAIM GENERATION LOGIC #
 ###########################
 
-def generate_claims_for_abstract(entry: Dict[str, Any], strategies: Dict[str, bool]) -> Dict[str, List[str]]:
+def generate_strategy_claims(strategy: str, text: str, entities: List[Dict[str, Any]],
+                             relations: List[Dict[str, Any]]) -> List[str]:
     """
-    Given one abstract entry, run selected generation strategies.
+    Generates claims for a single strategy.
+    """
+    # Use the OPENAI config for non-KG strategies.
+    if strategy in ["default_prompt", "biomed_specialized", "entities_aware", "relations_aware"]:
+        config = ModelConfig(
+            model_type=ModelType.OPENAI,
+            model_name_or_path=MODEL_NAME,
+            api_key=OPENAI_API_KEY,
+        )
+    else:
+        config = ModelConfig(
+            model_type=ModelType.KG_TO_CLAIMS,
+            model_name_or_path=MODEL_NAME,
+            api_key=OPENAI_API_KEY,
+        )
+
+    generator = create_generator(config, PromptTemplate.DEFAULT)
+
+    if strategy == "default_prompt":
+        prompt = text
+    elif strategy == "biomed_specialized":
+        prompt = get_biomedical_prompt(text)
+    elif strategy == "entities_aware":
+        prompt = get_entity_aware_prompt(text, entities)
+    elif strategy == "relations_aware":
+        prompt = get_relation_aware_prompt(text, relations)
+    elif strategy == "kg_based":
+        prompt = text
+    elif strategy == "kg_based_entities":
+        prompt = get_kg_prompt_with_entities(text, entities)
+    elif strategy == "kg_based_relations":
+        prompt = get_kg_prompt_with_relations(text, relations)
+    else:
+        raise ValueError(f"Unknown strategy: {strategy}")
+
+    claims = generator.generate_claims([prompt])[0]
+    return claims
+
+
+def generate_claims_for_abstract(entry: Dict[str, Any], strategies: Dict[str, bool], override_existing: bool) -> Dict[
+    str, List[str]]:
+    """
+    For a given abstract entry, generate claims for the enabled strategies.
+    Only generate claims for a strategy if:
+      - override_existing is True, OR
+      - The entry does not already have claims for that strategy.
+    Returns an updated dictionary of claims.
     """
     text = entry.get("abstract", "").strip()
     if not text:
@@ -130,82 +177,26 @@ def generate_claims_for_abstract(entry: Dict[str, Any], strategies: Dict[str, bo
     entities = entry.get("entities", [])
     relations = entry.get("relations", [])
 
-    claims_results = {}
+    # Use consistent strategy keys for existing claims.
+    existing_claims = entry.get("claims", {})
 
-    # All strategies use the same base config
-    base_config = ModelConfig(
-        model_type=ModelType.OPENAI,
-        model_name_or_path=MODEL_NAME,
-        api_key=OPENAI_API_KEY,
-        temperature=0.2
-    )
+    for strategy, enabled in strategies.items():
+        if not enabled:
+            continue
 
-    # (A) DEFAULT PROMPT
-    if strategies.get("default", False):
-        default_generator = create_generator(base_config, PromptTemplate.DEFAULT)
-        default_claims = default_generator.generate_claims([text])[0]
-        claims_results["default_prompt"] = default_claims
+        # Only generate for a strategy if it does not already exist (unless overriding)
+        if (not override_existing) and (strategy in existing_claims and existing_claims[strategy]):
+            print(f"Skipping strategy '{strategy}' for PMID={entry.get('pmid')} (already exists).")
+            continue
 
-    # (B) BIOMED SPECIALIZED PROMPT
-    if strategies.get("biomed_specialized", False):
-        specialized_generator = create_generator(base_config, PromptTemplate.DEFAULT)
-        specialized_prompt = get_biomedical_prompt(text)
-        specialized_claims = specialized_generator.generate_claims([specialized_prompt])[0]
-        claims_results["biomed_specialized"] = specialized_claims
+        print(f"Generating claims for strategy '{strategy}' for PMID={entry.get('pmid')}.")
+        try:
+            generated = generate_strategy_claims(strategy, text, entities, relations)
+            existing_claims[strategy] = generated
+        except Exception as e:
+            print(f"Error generating claims for strategy '{strategy}' for PMID={entry.get('pmid')}: {e}")
 
-    # (C) ENTITIES-AWARE
-    if strategies.get("entities_aware", False):
-        entity_prompt_generator = create_generator(base_config, PromptTemplate.DEFAULT)
-        entity_prompt = get_entity_aware_prompt(text, entities)
-        entity_prompt_claims = entity_prompt_generator.generate_claims([entity_prompt])[0]
-        claims_results["entities_aware"] = entity_prompt_claims
-
-    # (D) RELATIONS-AWARE
-    if strategies.get("relations_aware", False):
-        rel_prompt_generator = create_generator(base_config, PromptTemplate.DEFAULT)
-        rel_prompt = get_relation_aware_prompt(text, relations)
-        rel_prompt_claims = rel_prompt_generator.generate_claims([rel_prompt])[0]
-        claims_results["relations_aware"] = rel_prompt_claims
-
-    # (E) KG-BASED (WITHOUT EXTRA ENTITIES/RELATIONS)
-    if strategies.get("kg_based", False):
-        kg_config = ModelConfig(
-            model_type=ModelType.KG_TO_CLAIMS,
-            model_name_or_path=MODEL_NAME,
-            api_key=OPENAI_API_KEY,
-            temperature=0.2
-        )
-        kg_generator = create_generator(kg_config, PromptTemplate.DEFAULT)
-        kg_claims = kg_generator.generate_claims([text])[0]
-        claims_results["kg_based"] = kg_claims
-
-    # (F) KG-BASED + ENTITIES
-    if strategies.get("kg_based_entities", False):
-        kg_entities_config = ModelConfig(
-            model_type=ModelType.KG_TO_CLAIMS,
-            model_name_or_path=MODEL_NAME,
-            api_key=OPENAI_API_KEY,
-            temperature=0.2
-        )
-        kg_entities_generator = create_generator(kg_entities_config, PromptTemplate.DEFAULT)
-        kg_entities_prompt = get_kg_prompt_with_entities(text, entities)
-        kg_entities_claims = kg_entities_generator.generate_claims([kg_entities_prompt])[0]
-        claims_results["kg_based_entities"] = kg_entities_claims
-
-    # (G) KG-BASED + RELATIONS
-    if strategies.get("kg_based_relations", False):
-        kg_relations_config = ModelConfig(
-            model_type=ModelType.KG_TO_CLAIMS,
-            model_name_or_path=MODEL_NAME,
-            api_key=OPENAI_API_KEY,
-            temperature=0.2
-        )
-        kg_relations_generator = create_generator(kg_relations_config, PromptTemplate.DEFAULT)
-        kg_relations_prompt = get_kg_prompt_with_relations(text, relations)
-        kg_relations_claims = kg_relations_generator.generate_claims([kg_relations_prompt])[0]
-        claims_results["kg_based_relations"] = kg_relations_claims
-
-    return claims_results
+    return existing_claims
 
 
 def main():
@@ -213,12 +204,12 @@ def main():
     # User-defined variables:
     # ----------------------------
     NUM_ABSTRACTS_TO_PROCESS = 2  # set to None to process all abstracts
-    DUMP_FREQUENCY = 10             # dump output every 10 processed abstracts
-    OVERRIDE_EXISTING = True       # if False, skip abstracts that already have claims
+    DUMP_FREQUENCY = 10  # dump output every 10 processed abstracts
+    OVERRIDE_EXISTING = False  # if False, only generate for missing strategies
 
     # Toggle which strategies to run:
     strategies = {
-        "default": True,
+        "default_prompt": True,
         "biomed_specialized": False,
         "entities_aware": False,
         "relations_aware": False,
@@ -231,52 +222,60 @@ def main():
     abstracts = load_annotated_abstracts(INPUT_JSON)
     print(f"Loaded {len(abstracts)} records from {INPUT_JSON}.")
 
-    # If output file exists, load existing entries (to avoid re-processing)
+    # Load existing entries if available, keyed by PMID for fast lookup.
     output_path = Path(OUTPUT_JSON)
-    processed_pmids = set()
+    existing_entries_dict = {}
     if output_path.exists():
         with output_path.open("r", encoding="utf-8") as f:
             existing_entries = json.load(f)
-        processed_pmids = {entry.get("pmid") for entry in existing_entries if "claims" in entry}
-        updated_entries = existing_entries
-        print(f"Found {len(processed_pmids)} entries with existing claims.")
+        for entry in existing_entries:
+            pmid = entry.get("pmid")
+            if pmid:
+                existing_entries_dict[pmid] = entry
+        print(f"Found {len(existing_entries_dict)} existing entries.")
     else:
-        updated_entries = []
+        existing_entries = []
 
     processed_count = 0
 
+    # Process abstracts
     for entry in abstracts:
         pmid = entry.get("pmid")
         if not pmid:
             continue
 
-        # Skip if already processed and override is False
-        if (pmid in processed_pmids) and (not OVERRIDE_EXISTING):
-            print(f"Skipping PMID={pmid} (already processed).")
+        # Retrieve an existing entry if available
+        existing_entry = existing_entries_dict.get(pmid, {})
+        current_claims = existing_entry.get("claims", {})
+
+        # Generate claims only for missing or to-be-overridden strategies.
+        new_claims = generate_claims_for_abstract(entry, strategies, OVERRIDE_EXISTING)
+
+        # Instead of checking truthiness, check if any enabled strategy key is present
+        if not any(strategy in new_claims for strategy in strategies if strategies[strategy]):
+            print(f"No new strategies to process for PMID={pmid}. Skipping.")
             continue
 
-        print(f"Generating claims for PMID={pmid}...")
-        claims_dict = generate_claims_for_abstract(entry, strategies)
-        entry["claims"] = claims_dict
-
-        # Replace or append the entry in our output list
-        updated_entries = [e for e in updated_entries if e.get("pmid") != pmid] + [entry]
+        # Merge existing claims with new claims (new_claims overwrite if present)
+        updated_claims = {**current_claims, **new_claims}
+        entry["claims"] = updated_claims
+        existing_entries_dict[pmid] = entry
 
         processed_count += 1
 
         # Dump progress every DUMP_FREQUENCY processed abstracts
         if processed_count % DUMP_FREQUENCY == 0:
             with output_path.open("w", encoding="utf-8") as f:
-                json.dump(updated_entries, f, indent=2, ensure_ascii=False)
-            print(f"Dumped progress after {processed_count} abstracts.")
+                json.dump(list(existing_entries_dict.values()), f, indent=2, ensure_ascii=False)
+            print(f"Dumped progress after {processed_count} processed abstracts.")
 
-        # If a limit is set and reached, stop processing
+        # Stop processing if we've reached the limit
         if NUM_ABSTRACTS_TO_PROCESS is not None and processed_count >= NUM_ABSTRACTS_TO_PROCESS:
             break
 
     # Final dump of all results
     with output_path.open("w", encoding="utf-8") as f:
-        json.dump(updated_entries, f, indent=2, ensure_ascii=False)
+        json.dump(list(existing_entries_dict.values()), f, indent=2, ensure_ascii=False)
     print(f"Done! Wrote enriched data with claims to {output_path}")
 
 
