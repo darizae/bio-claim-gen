@@ -118,6 +118,20 @@
         "FGGE promoted the proliferation of bacteria negatively associated with AD, such as Methanosphaera and Lactobacillus.",
         "FGGE modulates the gut-brain axis, ultimately mitigating AD symptoms.",
         "FGGE represents an innovative functional food with significant therapeutic potential and promising application prospects."
+      ],
+      "kg_based": [
+        "Gastrodia elata BI. is an edible plant.",
+        "Gastrodia elata BI. has been reported in previous studies.",
+        "Gastrodia elata BI. possesses a strong capacity for alleviating symptoms of Alzheimer's disease.",
+        "The study focuses on ginger-processed and fermented Gastrodia elata BI (FGGE).",
+        "FGGE improved novel object recognition and correct alternation rate in Y-maze test for AD rats.",
+        "FGGE alleviated brain oxidative stress.",
+        "FGGE restored anti-inflammatory response, cholinergic function, and tissue morphology in the hippocampus.",
+        "FGGE activates the cAMP response element-binding protein/brain-derived neurotrophic factor signalling pathway.",
+        "FGGE promoted proliferation of bacteria negatively associated with Alzheimer's disease, such as Methanosphaera and Lactobacillus.",
+        "FGGE restored gut microbiota balance.",
+        "Mechanisms involve modulation of gut-brain axis.",
+        "FGGE represents an innovative functional food with significant therapeutic potential and promising application prospects."
       ]
     }
   },
@@ -391,6 +405,23 @@
         "Certain secondary bile acids have been reported to exacerbate Alzheimer's disease pathology.",
         "EVs released by L. johnsonii can suppress toxic TLA.",
         "L. johnsonii has the potential to be developed into health-promoting probiotics."
+      ],
+      "kg_based": [
+        "Dysbiosis in gut microbiota is linked to neurodegenerative diseases.",
+        "Studies are focused on the relationship between colonic bacteria and Alzheimer's disease.",
+        "Alterations in small intestine microbiota may play a critical role, as proposed by a study.",
+        "The small intestine plays a pivotal role in recycling bile acids through enterohepatic circulation.",
+        "The study uses amyloid precursor protein knock-in (APP(NL-G-F/NL-G-F)) transgenic mice.",
+        "Accumulation of beta-amyloid leads to decrease in Lactobacillus johnsonii and increase in Clostridium.",
+        "Bacteria are important for producing toxic bile acids.",
+        "Extracellular vesicles (EVs) are involved in bacterial interactions and bacteria-host interactions.",
+        "Treatment with L. johnsonii-derived extracellular vesicles inhibited the growth of Clostridium scindens.",
+        "Treatment with L. johnsonii-derived extracellular vesicles suppresses the production of toxic secondary lithocholic acid.",
+        "Small intestine microbiota may play a critical role in AD.",
+        "Deterioration of small intestine microbiota led to metabolism disruption of certain secondary bile acids.",
+        "Secondary bile acids have been reported to exacerbate Alzheimer's disease pathology.",
+        "EVs released by L. johnsonii can suppress toxic TLA.",
+        "EVs released by L. johnsonii have the potential to be developed into health-promoting probiotics."
       ]
     }
   },
@@ -756,6 +787,15 @@
         "Changes in apathy are mostly independent of cognitive changes.",
         "Apathy response to MPH may be independent from cognition.",
         "Apathy as a syndrome is related to but distinct from cognition."
+      ],
+      "kg_based": [
+        "Apathy in Dementia Methylphenidate Trial 2 has 199 participants.",
+        "Apathy in Dementia Methylphenidate Trial 2 has a duration of 6 months.",
+        "Apathy in Dementia Methylphenidate Trial 2 measures apathy with Neuropsychiatric Inventory-apathy (NPI-A) domain.",
+        "The Apathy in Dementia Methylphenidate Trial 2 measures cognition using various tests including Mini-Mental State Exam, Hopkins Verbal Learning, Digit Span, Trail Making, Action Verbal Fluency, Category Fluency, and Short Boston Naming Test.",
+        "Apathy in Dementia Methylphenidate Trial 2 offers treatment options of MPH (20 mg/day) or placebo.",
+        "Apathy in Dementia Methylphenidate Trial 2 has results showing worsening cognitive function associated with worsening apathy, with changes in HVLT-I linked to the interaction between changes in apathy and treatment.",
+        "Apathy in Dementia Methylphenidate Trial 2 concludes that changes in apathy are mostly independent of cognitive changes and apathy response to MPH may be independent from cognition."
       ]
     }
   },
@@ -1166,6 +1206,14 @@
         "The growth curve model for CDR-SOB trajectory was linear and included fixed and random effects of intercept and slope of time.",
         "After adjusting for various factors, failure to recover from proactive semantic interference (frPSI) remained statistically significant in predicting a steeper slope on the decline trajectory of CDR-SOB.",
         "frPSI at baseline predicted the rate of everyday functional decline over time among participants with aMCI, regardless of amyloid status."
+      ],
+      "kg_based": [
+        "Proactive semantic interference is predicted to contribute to everyday functional decline.",
+        "Failure to recover from proactive semantic interference predicts the rate of decline in CDR-SOB.",
+        "Older adults with amnestic mild cognitive impairment diagnosed at Florida Alzheimer's Disease Research Center.",
+        "Participants are followed annually for 3 to 4 visits.",
+        "The mean MMSE score was 28.0.",
+        "frPSI at baseline can predict the rate of everyday functional decline over time."
       ]
     }
   },
@@ -1450,6 +1498,27 @@
         "Cortisol levels were included as covariates in the linear regressions.",
         "Cerebrospinal fluid (CSF) AD biomarkers amyloid beta42 (Abeta42) and tau proteins modified the associations between GDS score and cognitive domain scores.",
         "The underlying amyloid pathology may affect the association between depressive symptoms and cognitive performance in memory clinic patients."
+      ],
+      "kg_based": [
+        "Depressive symptoms are associated with cognitive performance.",
+        "Cortisol levels may explain the association independently of Alzheimer's Disease biomarker levels.",
+        "The study was designed as a longitudinal observational study.",
+        "The study was conducted at the Memory clinic of Karolinska University Hospital in Stockholm, Sweden.",
+        "There were 162 consecutive patients who participated in the study.",
+        "Participants agreed to take part in the Co-STAR study.",
+        "Data is available for participants with variables of interest in the system.",
+        "Participants rated their depressive symptoms using the Geriatric Depression Scale.",
+        "Participants collected diurnal salivary cortisol samples at home.",
+        "Cognitive performance is assessed by standardized cognitive tests.",
+        "Cognitive performance encompasses domains such as memory, working memory, processing speed, perceptual reasoning, and general cognitive function.",
+        "Dementia, mild cognitive impairment, and subjective cognitive decline were diagnosed as part of a clinical work-up.",
+        "Associations between GDS and cognitive domain scores were determined by linear regressions.",
+        "Cortisol levels are included as covariates in regressions.",
+        "CSF AD biomarkers amyloid beta42 and tau proteins were tested to determine if they have modified associations.",
+        "GDS score is negatively associated with performance in working memory and processing speed.",
+        "Associations between GDS score and cognitive performance were no longer significant after introducing AD biomarkers as covariates.",
+        "Baseline GDS score is not associated with change in memory or processing speed at follow-up.",
+        "Amyloid pathology may affect the association between depressive symptoms and cognitive performance in memory clinic patients."
       ]
     }
   },
@@ -1700,6 +1769,23 @@
         "Natural compounds have value as potential anti-Alzheimer's disease therapeutics.",
         "Recent advances in extraction methods, pharmacological studies, and AI-driven screening technologies are integrated in this review.",
         "The review provides a valuable reference for future research and development of natural product-based interventions for Alzheimer's disease."
+      ],
+      "kg_based": [
+        "Alzheimer's disease is characterized by tau protein hyperphosphorylation.",
+        "Alzheimer's disease is characterized by neurofibrillary tangle formation.",
+        "Tau protein hyperphosphorylation is central to Alzheimer's disease pathogenesis.",
+        "Natural products target tau phosphorylation.",
+        "Natural products are being targeted for their potential to slow down Alzheimer's disease progression.",
+        "Natural products can modulate kinases and phosphatases.",
+        "Natural products can help mitigate oxidative stress.",
+        "Natural products can help mitigate inflammation.",
+        "Natural products have been found to mitigate tau pathology.",
+        "Natural products can enhance cognitive function.",
+        "Natural products have potential value as anti-Alzheimer's disease therapeutics.",
+        "The review focuses on the therapeutic potential of natural products.",
+        "The review summarizes current research on various natural compounds.",
+        "A review provides valuable reference for future research and development.",
+        "The review integrates recent advances in extraction methods, pharmacological studies, and AI-driven screening technologies."
       ]
     }
   },
@@ -1828,6 +1914,21 @@
         "Approaches target the gut-brain-metabolic axis.",
         "Approaches offer promising avenues for delaying cognitive decline.",
         "Approaches offer promising avenues for preventing cognitive decline."
+      ],
+      "kg_based": [
+        "Gut microbial dysbiosis suggests a pathogenic role for gut inflammation and microbial products in shaping a neuroinflammatory environment.",
+        "Metabolic diseases are associated with an increased risk of Alzheimer's Disease.",
+        "Metabolic landscape shifts during gut inflammation.",
+        "Gut inflammation impacts metabolic processes.",
+        "Gut microbes produce bacterial amyloids.",
+        "Bacterial amyloids may exacerbate amyloid aggregation in the brain.",
+        "Bacterial amyloids contribute to neurodegenerative processes.",
+        "Therapeutic strategies are aimed at reducing gut inflammation.",
+        "Therapeutic strategies are aimed at improving metabolic health.",
+        "Therapeutic strategies aim to decrease amyloid content.",
+        "Therapeutic strategies are aimed at mitigating Alzheimer's Disease progression.",
+        "Approaches are targeting the gut-brain-metabolic axis.",
+        "Approaches could offer promising avenues for delaying or preventing cognitive decline in affected individuals."
       ]
     }
   },
@@ -1927,6 +2028,17 @@
         "Data analysis elucidated the mechanisms of action of each of the seven peptide fragments on Abeta(1-42) cytotoxicity.",
         "The potential therapeutic value of four Abeta fragments has been established.",
         "Agents directed to the disruption of Abeta oligomers may be more effective AD drug candidates than those targeting Abeta fibrils."
+      ],
+      "kg_based": [
+        "Neurotoxic aggregates of amyloid beta (Abeta) peptide contribute to the etiology of Alzheimer's disease (AD).",
+        "Seven overlapping fragments derived from Abeta(1-42) affect oligomerization and toxicity of the full-length peptide.",
+        "Four fragments inhibited the toxicity of oligomeric Abeta(1-42).",
+        "Two other substances did not provide cellular protection against Abeta(1-42) toxicity.",
+        "One fragment enhances both Abeta(1-42) oligomerization and toxicity.",
+        "Peptides with strong inhibition of Abeta(1-42) toxicity were identified based on their structural and aggregation propensities.",
+        "Data analysis allowed elucidation of mechanisms of action of each of the seven peptide fragments on Abeta(1-42) cytotoxicity.",
+        "Our work establishes the potential therapeutic value of four Abeta fragments.",
+        "Our work supports the notion that agents directed to disruption of Abeta oligomers may be more effective Alzheimer's disease drug candidates than those targeting Abeta fibrils."
       ]
     }
   },
@@ -2109,6 +2221,24 @@
         "Myelination was identified as the main mechanism underlying white matter alterations.",
         "Combined exposure to multiple cardiometabolic risk factors negatively impacts white matter microstructural health, which may subsequently affect cognition.",
         "APOE4 carriers exhibited a different risk pattern, especially in the role of LDL, suggesting distinct underlying mechanisms in this group."
+      ],
+      "kg_based": [
+        "Alzheimer's disease has garnered significant attention.",
+        "Alzheimer's disease has garnered attention in the last few decades.",
+        "Interventions aimed at preventing progression are most effective when initiated early.",
+        "White matter alterations are among the earliest changes in Alzheimer's disease.",
+        "The user has comprehensively characterized the effects of Alzheimer's disease risk factors on White matter in limited work.",
+        "Older adults with a family history of Alzheimer's disease were investigated for sex-specific and APOE genotype-related relationships between White matter microstructure and risk factors.",
+        "MRI-derived metrics were integrated using a multivariate approach based on Mahalanobis distance.",
+        "Specific biological underpinnings of White matter alterations were uncovered by extracting contribution of each MRI feature to Mahalanobis distance in significant clusters.",
+        "White matter Mahalanobis distance in several regions was associated with high systolic blood pressure, BMI, and glycated hemoglobin, and low cholesterol in both males and females.",
+        "APOE4 is associated with a distinct risk pattern.",
+        "LDL-cholesterol has a detrimental effect only in APOE4 carriers.",
+        "APOE4 carriers have a risk pattern that is linked to immediate memory performance.",
+        "Myelination was the main mechanism underlying white matter alterations.",
+        "Combined exposure to multiple cardiometabolic risk factors negatively impacts microstructural health.",
+        "Negative impact on microstructural health may subsequently affect cognition.",
+        "APOE4 carriers exhibit a different risk pattern."
       ]
     }
   },
@@ -2319,6 +2449,24 @@
         "Liquid chromatography-mass spectrometry has identified 21 diarylheptanoids in turmeric.",
         "10 of the identified diarylheptanoids can trap MGO.",
         "Curcumin is the only one of the 10 diarylheptanoids previously reported in the literature."
+      ],
+      "kg_based": [
+        "Methylglyoxal is a reactive carbonyl compound.",
+        "Methylglyoxal forms advanced glycation end products.",
+        "Advanced glycation end products are associated with diseases such as diabetes, cancer, and Alzheimer's disease.",
+        "Turmeric contains bioactive diarylheptanoids.",
+        "Diarylheptanoids have compounds like curcumin.",
+        "Curcumin can trap Methylglyoxal.",
+        "Curcumin can inhibit the formation of advanced glycation end products.",
+        "Diarylheptanoids suffer from poor stability and solubility.",
+        "Natural deep eutectic solvents (NADES) improve the properties of diarylheptanoids.",
+        "BG12-10 % system is a type of NADES.",
+        "BG12-10 system enhances solubility and stability.",
+        "The BG12-10 system enables more accurate reaction kinetics.",
+        "NADES extract of turmeric can react with Methylglyoxal.",
+        "Liquid chromatography-mass spectrometry has identified 21 diarylheptanoids in turmeric.",
+        "10 of the 21 diarylheptanoids can trap Methylglyoxal.",
+        "Curcumin is the only one previously reported in the literature."
       ]
     }
   },
@@ -2502,6 +2650,25 @@
         "For depression, Physical Activity Program (PAP) ranked first with 96.0% probability.",
         "For neuropsychiatric inventory outcomes, AE ranked first with 71.1% probability.",
         "Aerobic exercise may be an effective intervention for improving overall cognition and quality of life in individuals aged 60 and above with Alzheimer's disease."
+      ],
+      "kg_based": [
+        "Alzheimer's disease has a high prevalence in the elderly.",
+        "Exercise is used as a non-pharmacological intervention.",
+        "Exercise modality is effective for improving quality of life.",
+        "Exercise is an effective modality for alleviating depression.",
+        "Exercise is effective for reducing neuropsychiatric symptoms.",
+        "A study aims to identify the optimal exercise modality.",
+        "A study was conducted that searched across six databases.",
+        "The study included randomized controlled trials.",
+        "A study conducted statistical analysis using the gemtc package in R.",
+        "The study assessed evidence quality using the CINeMA online platform.",
+        "A network meta-analysis showed that for global cognition, aerobic exercise ranked first.",
+        "Resistance Training ranked first for quality of daily life in a network meta-analysis.",
+        "Physical Activity Program ranked first for depression in a network meta-analysis.",
+        "A network meta-analysis showed that for neuropsychiatric inventory outcomes, aerobic exercise ranked first.",
+        "Aerobic exercise may be an effective intervention for improving overall cognition.",
+        "Aerobic exercise may be an effective intervention for improving quality of life.",
+        "Aerobic exercise may be an effective intervention for individuals aged 60 and above with Alzheimer's disease."
       ]
     }
   },
@@ -2743,6 +2910,27 @@
         "The method achieved complete concordance with sequencing results.",
         "The method demonstrates high specificity and sensitivity.",
         "The method shows potential as a valuable tool for the early diagnosis and personalized treatment of Alzheimer's disease."
+      ],
+      "kg_based": [
+        "Single nucleotide polymorphisms are critical determinants of disease susceptibility.",
+        "Single nucleotide polymorphisms are critical determinants of pathogenesis.",
+        "Single nucleotide polymorphisms are critical determinants of drug response.",
+        "The method utilizes restriction endonucleases AflIII and HaeII.",
+        "Restriction endonucleases AflIII and HaeII cleave the rs429358 and rs7412 sites.",
+        "Cleave generates distinct double-stranded DNA fragments.",
+        "Lambda exonuclease processes distinct double-stranded DNA fragments.",
+        "Lambda exonuclease produces single-stranded DNA.",
+        "Single-stranded DNA binds to triple-helix molecular switch (THMS).",
+        "The triple-helix molecular switch (THMS) induces a conformational transition into a hairpin structure.",
+        "Conformational transition into a hairpin structure results in a fluorescence change.",
+        "The optimized assay exhibits a linear detection range of 5-1000 copies for the rs429358 site.",
+        "The optimized assay exhibits a minimum detection limit of 2 copies for the rs429358 site.",
+        "An optimized assay exhibits a range of 10-1000 copies for the rs7412 site.",
+        "The optimized assay exhibits a minimum detection limit of 6 copies for the rs7412 site.",
+        "The method was validated using clinical samples from 10 Alzheimer's disease patients.",
+        "Clinical samples from 10 Alzheimer's disease patients achieved complete concordance with sequencing results.",
+        "The method underlines high specificity and sensitivity.",
+        "The method demonstrates potential as a valuable tool for the early diagnosis and personalized treatment of Alzheimer's disease."
       ]
     }
   },
@@ -2928,6 +3116,21 @@
         "PseudoSorter's high accuracy and throughput make it a valuable tool for studying neurodegenerative diseases.",
         "PseudoSorter enhances understanding of underlying mechanisms of neurodegenerative diseases.",
         "PseudoSorter is valuable for therapeutic drug screening."
+      ],
+      "kg_based": [
+        "Microelectrode arrays permit recordings with high electrode counts.",
+        "Microelectrode arrays generate complex datasets.",
+        "Microelectrode arrays benefit from precise neuronal spike sorting.",
+        "PseudoSorter introduces self-supervised learning techniques.",
+        "PseudoSorter uses a density-based pseudolabeling strategy.",
+        "PseudoSorter uses an iterative fine-tuning process.",
+        "PseudoSorter enhances spike sorting accuracy.",
+        "PseudoSorter demonstrates superior performance compared to other spike sorting algorithms.",
+        "PseudoSorter is applied to MEA recordings from hippocampal neurons exposed to subneuronal concentrations of monomeric Tau.",
+        "Tau diminishes the firing rate of a subset of neurons.",
+        "PseudoSorter is a valuable tool for studying neurodegenerative diseases.",
+        "PseudoSorter enhances understanding of underlying mechanisms of neurodegenerative diseases.",
+        "PseudoSorter is useful for therapeutic drug screening."
       ]
     }
   },
@@ -3071,6 +3274,23 @@
         "Microglia-specific AD-associated variants include recurrent CBL ring-domain mutations.",
         "AD-associated microglial clones drive a microglia transcriptional program characterized by a strong neuro-inflammatory response.",
         "Microglial expression of a MAPK pathway activating variant causes neurodegeneration in mice.",
+        "AD-associated neuroinflammatory microglial clones may contribute to the neurodegenerative process in patients."
+      ],
+      "kg_based": [
+        "Somatic genetic heterogeneity results from post-zygotic DNA mutations.",
+        "Somatic genetic heterogeneity is widespread in human tissues.",
+        "Somatic genetic heterogeneity can cause diseases.",
+        "Few studies have investigated the role of the system in neurodegenerative processes such as Alzheimer's disease.",
+        "Microglia clones carry pathogenic variants.",
+        "Microglia clones are not present in neuronal, glia/stromal cells, or blood.",
+        "Patients with Alzheimer's disease have microglia clones carrying pathogenic variants.",
+        "Microglia-specific AD-associated variants target the MAPK pathway.",
+        "Microglia-specific AD-associated variants include recurrent CBL ring-domain mutations.",
+        "Variants activate ERK.",
+        "Microglia transcriptional program characterized by a strong neuro-inflammatory response drives variants.",
+        "Variants are present in patients.",
+        "Establishing the natural history of humans is difficult.",
+        "Microglial expression was previously shown to cause neurodegeneration in mice.",
         "AD-associated neuroinflammatory microglial clones may contribute to the neurodegenerative process in patients."
       ]
     }
@@ -3267,6 +3487,17 @@
         "Transcriptional changes associated with intraneuronal tau in PART and AD were similar.",
         "These findings highlight the power of molecular analysis stratified by pathology.",
         "Insight into common pathways associated with tau pathology in PART and AD is provided."
+      ],
+      "kg_based": [
+        "Primary age-related tauopathy and tau aggregates share a similar structure and anatomic distribution.",
+        "Primary age-related tauopathy is distinct from tau pathology seen in other diseases.",
+        "mRNA is quantified in hippocampal neurons with and without tau pathology in PART and AD.",
+        "Synaptic genes are down-regulated in the overall disease.",
+        "Synaptic genes are up-regulated in tau-pathology-positive neurons.",
+        "Two transcriptional signatures are associated with intraneuronal tau.",
+        "Genes in the up-regulated signature are enriched in calcium regulation and synaptic function.",
+        "Findings highlight the power of molecular analysis stratified by pathology.",
+        "Findings provide insight into common pathways associated with tau pathology in PART and AD."
       ]
     }
   },
@@ -3413,6 +3644,22 @@
         "MoE is designed to dynamically select the most appropriate experts for each task to mitigate optimization conflicts in multi-task learning.",
         "The method is evaluated on multiple renowned brain imaging datasets including UK Biobank (UKB), Alzheimer's Disease Neuroimaging Initiative (ADNI), and Parkinson's Progression Markers Initiative (PPMI).",
         "Experimental results and comparison demonstrate that the method achieves promising performances for prediction of brain age and diagnosis of brain diseases."
+      ],
+      "kg_based": [
+        "Deep learning models have been investigated for computing and analyzing brain images.",
+        "Deep learning models have been investigated for use across various downstream tasks.",
+        "Deep learning models have been investigated for disease diagnosis.",
+        "Deep learning models have been investigated for age regression.",
+        "Existing models are tailored for specific tasks and diseases.",
+        "Existing models pose a challenge in developing a foundation model for diverse tasks.",
+        "The paper proposes a Dense Transformer Foundation Model with Mixture of Experts called DenseFormer-MoE.",
+        "Dense Transformer Foundation Model with Mixture of Experts (DenseFormer-MoE) integrates dense convolutional network, Vision Transformer, and Mixture of Experts (MoE).",
+        "DenseFormer-MoE is a foundation model that progressively learns and consolidates local and global features from T1-weighted magnetic resonance images (sMRI).",
+        "Dense Transformer Foundation Model with Mixture of Experts (DenseFormer-MoE) is created by merging Vision Transformer with Densenet.",
+        "Vision Transformer is pre-trained with Masked Autoencoder and self-supervised learning.",
+        "MoE is designed to dynamically select the most appropriate experts for each task.",
+        "The method is evaluated on multiple renowned brain imaging datasets including UK Biobank (UKB), Alzheimer's Disease Neuroimaging Initiative (ADNI), and Parkinson's Progression Markers Initiative (PPMI).",
+        "Method achieves promising performances for prediction of brain age and diagnosis of brain diseases."
       ]
     }
   },
@@ -3798,6 +4045,31 @@
         "SCZ may downregulate gamma-glutamylphenylalanine.",
         "Signal pathways related to mTOR, post-translational protein modifications, and immune regulation may mediate the causal relationship of CSF metabolites on ED and SCZ.",
         "A causal genetic relationship was identified between CSF metabolites and both ED and SCZ."
+      ],
+      "kg_based": [
+        "Cerebrospinal fluid facilitates waste clearance.",
+        "Cerebrospinal fluid facilitates nutrient transport.",
+        "Cerebrospinal fluid facilitates immune signaling.",
+        "CSF metabolites are associated with psychiatric disorders.",
+        "CSF metabolites are linked to psychiatric disorders.",
+        "CSF metabolites are linked to 12 psychiatric disorders.",
+        "CSF metabolites are linked to eating disorders.",
+        "CSF metabolites are linked to schizophrenia.",
+        "CSF metabolites are associated with the genetic risk of eating disorders.",
+        "CSF metabolites are associated with the risk of schizophrenia.",
+        "CSF metabolites are associated with threonate.",
+        "CSF metabolites are associated with oxalate.",
+        "CSF metabolites are associated with phenyllactate.",
+        "CSF metabolites are associated with N-acetylglucosamine.",
+        "CSF metabolites are associated with citramalate.",
+        "CSF metabolites upregulate gamma-glutamylleucine.",
+        "CSF metabolites upregulate O-sulfo-L-tyrosine.",
+        "CSF metabolites downregulate gamma-glutamylphenylalanine.",
+        "CSF metabolites have a causal relationship with eating disorders.",
+        "CSF metabolites have a causal relationship with schizophrenia.",
+        "CSF metabolites are mediated by energy metabolism pathways.",
+        "CSF metabolites are mediated by post-translational modifications pathways.",
+        "CSF metabolites are mediated by immune regulation pathways."
       ]
     }
   },
@@ -3952,6 +4224,24 @@
         "The study highlights innovative therapeutic targets for Alzheimer's disease and inflammatory bowel disease.",
         "The study contributes to a deeper understanding of the gut-brain interplay in neurodegeneration and chronic inflammation.",
         "Insights from the study pave the way for precision medicine strategies targeting mitochondrial dysfunction in Alzheimer's disease and inflammatory bowel disease."
+      ],
+      "kg_based": [
+        "Mitochondrial dysfunction is a shared feature of Alzheimer's disease and inflammatory bowel disease.",
+        "Mitochondrial dysfunction is linked through overlapping pathways of hypoxia and immune dysregulation.",
+        "Study integrated transcriptomic and genetic analyses.",
+        "Study aims to uncover mitochondria-related mechanisms underlying these diseases.",
+        "Hypoxia-induced mitochondrial dysfunction is identified as a central risk factor for both conditions in a study.",
+        "A study revealed several mitochondrial-related genes shared between Alzheimer's disease (AD) and Inflammatory Bowel Disease (IBD), including BCL6, PFKFB3, NDUFS3, and COX5B.",
+        "Genes serve as critical regulators bridging mitochondrial and immune pathways.",
+        "Drug enrichment analyses identified promising therapeutic candidates including decitabine, DMOG, and estradiol.",
+        "Drugs target shared regulators including BCL6, PFKFB3, MAFF, and TGFBI.",
+        "Drugs have demonstrated potential to modulate mitochondrial autophagy and oxidative phosphorylation (OXPHOS).",
+        "Mendelian randomization analysis identified MAP1LC3A as significantly associated with increased risk for both Alzheimer's disease (AD) and inflammatory bowel disease (IBD).",
+        "MAP1LC3A is associated with an increased risk for both Alzheimer's disease (AD) and inflammatory bowel disease (IBD).",
+        "NME1 emerged as strongly protective.",
+        "Hypoxia-induced mitochondrial dysfunction is a unifying mechanism in Alzheimer's disease and inflammatory bowel disease, mediated by hypoxia-inducible factor-1alpha (HIF-1alpha).",
+        "A study highlights innovative therapeutic targets and contributes to a deeper understanding of the gut-brain interplay in neurodegeneration and chronic inflammation.",
+        "Insights pave the way for precision medicine strategies targeting mitochondrial dysfunction in Alzheimer's disease and inflammatory bowel disease."
       ]
     }
   },
@@ -4223,6 +4513,27 @@
         "Evaluation of the tracers' off-target binding profiles was performed.",
         "Both tracers had similar binding properties for tau aggregates with preference to middling tangle maturity as shown by comparison to immunohistochemical distributions.",
         "Both tracers showed strong binding to AD tau aggregates and no or minimal binding to non-AD tauopathies which corroborates with other studies."
+      ],
+      "kg_based": [
+        "Tau positron emission tomography radiotracers enhance visualization of tau aggregates in Alzheimer's disease.",
+        "Neurofibrillary tangles affect recognition by biomarkers.",
+        "Detection of tau aggregates is of interest in early diagnosis.",
+        "Tau radiotracers are important in studying tangle pathology.",
+        "A study focused on a head-to-head pathologic comparison of [(18)F]MK-6240 and [(18)F]Flortaucipir postmortem binding.",
+        "[(18)F]MK-6240 and [(18)F]Flortaucipir exhibit strong binding to AD tau aggregates.",
+        "[(18)F]MK-6240 and [(18)F]Flortaucipir exhibit little to no binding to non-Alzheimer's tauopathies.",
+        "[(18)F]MK-6240 and [(18)F]Flortaucipir have similar binding properties for tau aggregates.",
+        "[(18)F]MK-6240 and [(18)F]Flortaucipir show a preference for middling tangle maturity.",
+        "[(18)F]MK-6240 and [(18)F]Flortaucipir show comparable results to CP-13 and PHF-1 immunohistochemistry.",
+        "Analyses were performed on serial 5 μm formalin-fixed paraffin-embedded human brain sections.",
+        "Tracers' off-target binding profiles are evaluated for both tracers.",
+        "Tracers showed strong binding to AD tau aggregates.",
+        "Tracers showed no or minimal binding to non-AD tauopathies.",
+        "Tracers had similar binding properties for tau aggregates.",
+        "Tracers have a preference for middling tangle maturity.",
+        "Tracers are compared to immunohistochemical distributions.",
+        "Tracers showed strong binding to AD tau aggregates.",
+        "Tracers showed no or minimal binding to non-AD tauopathies."
       ]
     }
   },
@@ -4690,7 +5001,8 @@
         "The strongest association was observed for NfL in medial parietal structures.",
         "The brain metabolic decline in DS with age reflects Alzheimer's pathological processes and involves temporoparietal regions.",
         "Hypometabolism is more tightly related to CSF NfL levels than to core AD biomarkers."
-      ]
+      ],
+      "kg_based": []
     }
   },
   {
@@ -4845,6 +5157,21 @@
         "Tailored support from various healthcare professionals, including occupational therapists, is important.",
         "Findings suggest that the transition into a residential care facility is complex and filled with emotional, psychological, familial, and functional changes.",
         "Navigating these changes represents a unique opportunity for occupational therapists to utilize their distinctive skill set to support the health and well-being of caregivers and persons living with dementia."
+      ],
+      "kg_based": [
+        "A scoping review aims to describe literature about experiences of family caregivers and persons living with dementia transitioning into residential care facilities.",
+        "A scoping review aims to identify missed opportunities for occupational therapy to support transitions.",
+        "A methodological framework guided the review.",
+        "Six electronic databases were systematically searched for peer-reviewed studies published between January 2017 and June 2024.",
+        "Peer-reviewed studies included people with dementia aged 65+ years prior to, during, and post-admission to a residential care facility and/or family caregiver.",
+        "Studies have reported research from Australia, Europe, and North America.",
+        "Family caregivers and people with dementia face multiple challenges before, during, and after admission to a residential care facility.",
+        "Four overarching themes were identified during the transition process, including caregiver perceptions and heightened emotions, trying to get help, effectiveness of transition interventions, and unmet needs.",
+        "Families may feel overwhelmed with uncertainty when accessing residential care, experience guilt when relinquishing care, and face role loss post-admission.",
+        "Persons living with dementia report experiencing a loss of autonomy and connection with their family, staff, and co-residents.",
+        "Understanding dynamics and relationships during transitions can impact health and well-being.",
+        "Tailored support is highlighted by the findings.",
+        "Occupational therapists can use their unique skill set to help caregivers and individuals with dementia during transitions and to support their health and well-being."
       ]
     }
   },
@@ -5245,6 +5572,28 @@
         "Multiple regression analyses were conducted to assess the relationships between DALYs and protein or amino acid intakes with lifestyle factors and sociodemographic index as confounding factors.",
         "Higher protein-to-energy ratios were correlated with lower DALYs in women in their 70s, men in their 60s, and both sexes combined in their 60s.",
         "Elevated levels of isoleucine, lysine, tyrosine, histidine, arginine, alanine, asparagine, and glycine were correlated with lower DALYs in women in their 70s.",
+        "Adequate protein and specific amino acid intakes may be associated with DALYs for Alzheimer's disease."
+      ],
+      "kg_based": [
+        "Patients with dementia are increasing worldwide.",
+        "Dementia is the most significant reason recognized for people requiring nursing care in Japan.",
+        "Protein is a possible preventive nutrient for dementia.",
+        "Adequate intake levels can differ according to usual protein intakes and protein sources.",
+        "A study examined the relationships between disability-adjusted life years (DALYs) for Alzheimer's disease and protein or amino acid intakes.",
+        "Global Burden of Disease Study data is used to calculate Disability-Adjusted Life Years (DALYs) for each sex and age group in each year.",
+        "National Health and Nutrition Survey Japan data used de-identified individual records from 46,831 subjects from 2001 to 2019.",
+        "Multiple regression analyses were conducted to assess the relationships between DALYs and protein or amino acid intakes with lifestyle factors and sociodemographic index as confounding factors.",
+        "Higher protein-to-energy ratios are correlated with lower DALYs in women in their 70s, with a partial regression coefficient of -349.488 and a p-value of 0.034.",
+        "Higher protein-to-energy ratios are correlated with lower DALYs in men in their 60s, with a partial regression coefficient of -51.484.",
+        "Higher protein-to-energy ratios are correlated with lower DALYs in both sexes combined in their 60s, with a partial regression coefficient of -26.696 and p-value of 0.015.",
+        "Elevated isoleucine levels are correlated with lower DALYs in women in their 70s, with a partial regression coefficient of -2.752.",
+        "Elevated lysine levels are correlated with lower DALYs in women in their 70s, with a partial regression coefficient of -2.752.",
+        "Elevated tyrosine levels are correlated with lower DALYs in women in their 70s, with a partial regression coefficient of -2.752.",
+        "Elevated histidine levels are correlated with lower DALYs in women in their 70s, with a partial regression coefficient of -2.752.",
+        "Elevated arginine levels are correlated with lower DALYs in women in their 70s, with a partial regression coefficient of -2.752.",
+        "Elevated alanine levels are correlated with lower DALYs in women in their 70s, with a partial regression coefficient of -2.752.",
+        "Elevated asparagine levels are correlated with lower DALYs in women in their 70s, with a partial regression coefficient of -2.752.",
+        "Elevated glycine levels are correlated with lower disability-adjusted life years (DALYs) in women in their 70s, with a partial regression coefficient of -2.752.",
         "Adequate protein and specific amino acid intakes may be associated with DALYs for Alzheimer's disease."
       ]
     }
@@ -5737,6 +6086,21 @@
         "The diagnostic accuracy was not optimal between DLB patients and AD patients.",
         "Salivary alpha-synuclein and tau species might be promising in identifying DLB patients compared to PD patients and healthy subjects.",
         "The diagnostic potential of salivary biomarkers is limited in differentiating DLB patients from AD patients."
+      ],
+      "kg_based": [
+        "Dementia with Lewy bodies is the second most common form of neurodegenerative dementia.",
+        "Alpha-synuclein and tau species have been detected in peripheral tissues and biological fluids of DLB patients.",
+        "Saliva represents an easily accessible and non-invasive source for biomarker detection.",
+        "A study aimed to investigate salivary a-syn and tau species as molecular disease biomarkers.",
+        "Total a-syn was not significantly changed between different groups.",
+        "All pathological groups had higher oligomeric a-syn concentration than healthy subjects.",
+        "Total-tau concentration was higher in all pathological groups than healthy subjects.",
+        "Salivary levels of pS199-tau were higher in DLB and AD patients compared to healthy subjects and PD patients.",
+        "Core clinical features of dementia with Lewy bodies are related to alpha-synuclein pathology.",
+        "Cognitive decline was associated with salivary levels of pS199-tau in both DLB and AD patients.",
+        "High diagnostic accuracy has been reported for both a-syn oligomers and pS199-tau between subjects with Dementia with Lewy Bodies (DLB) and healthy individuals.",
+        "Adequate accuracy was reported between DLB and PD.",
+        "Diagnostic accuracy was not optimal between patients with dementia with Lewy bodies (DLB) and patients with Alzheimer's disease (AD)."
       ]
     }
   },
@@ -5993,6 +6357,22 @@
         "Plasma amyloid-beta 42 and 40 (Abeta(42:40)) ratio has a curvilinear relationship with age.",
         "The study investigated the relationship between plasma amyloid-beta 42 and 40 (Abeta(42:40)) ratio and age in 315 men and women Veterans.",
         "A curvilinear relationship between age and Abeta(42:40) was observed in individuals with higher genetic risk."
+      ],
+      "kg_based": [
+        "Alzheimer's disease has biomarkers in the form of plasma amyloid-beta 42 and 40 ratio.",
+        "Plasma amyloid-beta 42 and 40 ratio has a relationship with age.",
+        "Plasma amyloid-beta 42 and 40 ratio has a curvilinear relationship with age.",
+        "Individuals have a genetic risk for Alzheimer's disease.",
+        "The study investigated the relationship between plasma amyloid-beta 42 and 40 ratio and age.",
+        "The study included 315 men and women Veterans.",
+        "Hierarchical regression models investigated relationships between age, genetic risk, and Abeta(42:40) ratio.",
+        "There is a curvilinear relationship observed between age and the Abeta(42:40) ratio.",
+        "Individuals with higher genetic risk have a curvilinear relationship between age and Abeta(42:40) ratio.",
+        "Abeta metabolism has distinct patterns in genetically predisposed individuals.",
+        "Metabolic shifts may play a role in the progression of Alzheimer's disease.",
+        "Understanding changes is essential for refining the use of Abeta(42:40) ratio as a biomarker.",
+        "Refining the use of Abeta(42:40) ratio may result in accurate risk stratification.",
+        "Intervention strategies may be earlier with refined use of Abeta(42:40) ratio."
       ]
     }
   },
@@ -6216,6 +6596,16 @@
         "Over 80% of responders reported these symptoms.",
         "Primary caregivers expressed the highest degree of distress from agitation and aggressive behavior.",
         "45.9% of primary caregivers reported being the target of violent behaviors from DLB patients.",
+        "No statistical association was found between the presence of BPSD and violent acts."
+      ],
+      "kg_based": [
+        "The study used a transversal national online survey.",
+        "A study evaluated the prevalence and characteristics of behavioral and psychological symptoms of dementia with Lewy bodies.",
+        "A study specifically evaluated the perpetration of violent acts against primary caregivers.",
+        "A study analyzed 196 responses obtained in one month.",
+        "BPSD symptoms include delirium, hallucinations, anxiety, and apathy.",
+        "Primary caregivers have expressed distress from agitation and aggressive behavior.",
+        "Primary caregivers of patients with Dementia with Lewy Bodies (DLB) reported being the target of violent behaviors.",
         "No statistical association was found between the presence of BPSD and violent acts."
       ]
     }
@@ -6595,6 +6985,20 @@
         "197 rare variants (MAF < 1%) within ADSP participants not reported in known clinical databases were identified.",
         "A small proportion of individuals in the ADSP are carriers of a previously-reported clinically-relevant variant allele for AD.",
         "Participants with these variants have significantly earlier age of AD onset compared to noncarriers."
+      ],
+      "kg_based": [
+        "Presenilin-2 has a variant known as PSEN2.",
+        "Presenilin-1 has a variant called PSEN1.",
+        "Amyloid precursor protein has a variant called APP.",
+        "The Alzheimer's Disease Sequencing Project has 31,490 individuals as participants.",
+        "PSEN2 has 4 clinically-relevant variants in ADSP.",
+        "PSEN1 has 25 clinically-relevant variants in ADSP.",
+        "APP has 2 clinically-relevant variants in ADSP.",
+        "ADSP has a variant carrier rate of 0.3%.",
+        "ADSP has 79.5% variant carriers who are cases and 31 clinically-relevant variants.",
+        "ADSP has 3.9% variant carriers who are controls and 31 clinically-relevant variants.",
+        "ADSP: Variant carriers have a mean age of onset of Alzheimer's disease 19.6 +/- 1.4 years earlier than noncarriers.",
+        "ADSP has 197 rare variants within participants not reported in known clinical databases with a minor allele frequency of less than 1%."
       ]
     }
   },
@@ -6912,6 +7316,19 @@
         "Final NPIQ scores were highest in DLB compared to AD.",
         "NPS burden and severity progression rate might be useful clinical metrics.",
         "These metrics may help predict underlying pathological diagnoses."
+      ],
+      "kg_based": [
+        "Neuropsychiatric symptoms are frequent in Alzheimer's disease dementia.",
+        "Neuropsychiatric symptoms are found in higher burden in dementia with Lewy bodies.",
+        "Lewy body pathology frequently co-occurs with AD pathology.",
+        "Lewy body pathology may not meet neuropathological criteria for DLB.",
+        "NPS trajectories are not well understood in AD, ADLB, DLB, and controls.",
+        "Cases were selected from the Arizona Study of Aging and Neurodegenerative Disorders.",
+        "Differences in rate of change were compared between AD, ADLB, DLB, and controls.",
+        "First NPIQ scores were highest in ADLB.",
+        "A significant increase in NPS severity was observed in DLB and AD.",
+        "Rate of change was significantly greater in DLB.",
+        "Final NPIQ scores were highest in DLB."
       ]
     }
   },
@@ -7228,6 +7645,32 @@
         "Among patients with affective/anxiety disorder, 80% scored below the cutoff for cognitive impairment on BASIC and 94% on BASIC-Q.",
         "Applying an Objective Performance vs. Subjective Complaints ratio to differentiate between patients with cognitive impairment and affective/anxiety disorder resulted in high overall classification accuracies, with AUC values of 0.80 and 0.74, respectively.",
         "The present study suggests that BASIC and BASIC-Q are valid brief case-finding instruments for cognitive impairment in a multicultural setting."
+      ],
+      "kg_based": [
+        "Brief Assessment of Impaired Cognition has high diagnostic accuracy.",
+        "Brief Assessment of Impaired Cognition was used in a European cross-sectional multi-center study.",
+        "Brief Assessment of Impaired Cognition identifies cognitive impairment.",
+        "BASIC-Q has high diagnostic accuracy.",
+        "BASIC-Q was used in a European cross-sectional multi-center study.",
+        "BASIC-Q identifies cognitive impairment.",
+        "The study included 479 participants.",
+        "The study had 169 participants with an immigrant background.",
+        "Age affects BASIC scores.",
+        "Sex does not affect BASIC scores.",
+        "Education does not affect BASIC scores.",
+        "Immigrant status does not affect BASIC scores.",
+        "Assessment in a second language does not affect BASIC scores.",
+        "Age does not affect BASIC-Q scores.",
+        "Sex does not affect BASIC-Q scores.",
+        "Education does not affect BASIC-Q scores.",
+        "Immigrant status does not affect BASIC-Q scores.",
+        "Assessment in a second language does not affect BASIC-Q scores.",
+        "Patients with affective/anxiety disorder scored below cutoff for cognitive impairment on the BASIC assessment.",
+        "Patients with affective/anxiety disorder scored below cutoff for cognitive impairment on BASIC-Q.",
+        "Objective Performance vs. Subjective Complaints ratio is used to differentiate between patients with cognitive impairment and affective/anxiety disorder.",
+        "The high overall classification accuracies resulted from the Objective Performance vs. Subjective Complaints ratio.",
+        "Objective Performance vs. Subjective Complaints ratio has AUC values of 0.80 and 0.74.",
+        "BASIC and BASIC-Q are valid and brief case-finding instruments for cognitive impairment."
       ]
     }
   },
@@ -7313,6 +7756,26 @@
         "PET imaging offers insights into drug distribution across the blood-brain barrier and receptor occupancy.",
         "PET imaging provides critical insights into the pharmacodynamic effects of alpha7 nAChR-targeted therapies.",
         "PET imaging can deepen our understanding of alpha7 nAChR-mediated signalling pathways.",
+        "Future innovations in radioligand development will be key to fully realizing the potential of PET imaging in alpha7 nAChR-targeted research and treatment."
+      ],
+      "kg_based": [
+        "Positron emission tomography has significantly advanced our understanding of the brain.",
+        "Positron emission tomography enables non-invasive imaging and quantification of molecular processes.",
+        "Positron emission tomography enables receptor binding.",
+        "PET radioligands are used in the development and application of PET imaging technology.",
+        "PET radioligands target the alpha7 nicotinic acetylcholine receptor.",
+        "The alpha7 nicotinic acetylcholine receptor is implicated in Alzheimer's disease.",
+        "The alpha7 nicotinic acetylcholine receptor is implicated in schizophrenia.",
+        "The alpha7 nicotinic acetylcholine receptor is implicated in cognitive disorders.",
+        "Several promising radioligands, including (11)C-(R)-MeQAA, have been developed.",
+        "Several promising radioligands, including (11)C-NS14492, have been developed.",
+        "Several promising radioligands, including (18)F-ASEM, have been developed.",
+        "Radioligands facilitate the evaluation of 'three pillars of survival' in drug development.",
+        "PET imaging offers critical insights into drug distribution across the blood-brain barrier.",
+        "PET imaging offers receptor occupancy assessment.",
+        "PET imaging offers pharmacodynamic effects of alpha7 nAChR-targeted therapies.",
+        "PET imaging has the potential to deepen understanding of alpha7 nAChR-mediated signaling pathways by reviewing current radioligands and their applications.",
+        "PET imaging has potential for CNS drug discovery, highlighted by reviewing current radioligands and their applications.",
         "Future innovations in radioligand development will be key to fully realizing the potential of PET imaging in alpha7 nAChR-targeted research and treatment."
       ]
     }
@@ -7470,6 +7933,22 @@
         "Determining optimal stimulation parameters for EMF devices in AD is essential for clinical application.",
         "Repeated EMF stimulation (REMFS) is suggested as the most appropriate device for human AD treatments.",
         "Consideration of genetic and epigenetic effects of REMFS-biological system interaction is necessary for clinical application."
+      ],
+      "kg_based": [
+        "Neurostimulation devices are used for the treatment of Alzheimer's disease.",
+        "Neurostimulation devices were examined in a review.",
+        "Neurostimulation devices provide non-pharmacological relief.",
+        "Neurostimulation devices include electrical stimulation.",
+        "Neurostimulation devices include electromagnetic field stimulation.",
+        "Neurostimulation devices target cortical and subcortical brain areas.",
+        "Neurostimulation devices modulate neuronal activity.",
+        "Neurostimulation devices provide therapeutic effects for Alzheimer's disease.",
+        "EMF devices have shown both beneficial and harmful effects in cell cultures and animal models.",
+        "EMF devices have shown effects in human studies on Alzheimer's disease.",
+        "REMFS is suggested as the most appropriate device for human Alzheimer's disease treatments.",
+        "REMFS needs to consider genetic and epigenetic effects.",
+        "User needs to understand the mechanism of action for REMFS.",
+        "REMFS is a therapy for electromagnetic field exposure in human Alzheimer's disease."
       ]
     }
   },
@@ -7683,6 +8162,22 @@
         "TMS may offer a therapeutic avenue for AD by modulating the activity of APP.",
         "The article employs bibliometric methods to unveil trends in research related to AD and TMS.",
         "The article provides objective data that serves as a reference for scientific research and clinical work concerning AD and TMS."
+      ],
+      "kg_based": [
+        "Transcranial Magnetic Stimulation is being researched for its potential effects on Alzheimer's disease.",
+        "Transcranial Magnetic Stimulation is increasing in research.",
+        "Transcranial Magnetic Stimulation is conducted in the domain.",
+        "The study employs bibliometric methods.",
+        "A study identifies research trends and hotspots.",
+        "A search was conducted in the Web of Science Core Database.",
+        "Articles related to Alzheimer's disease and TMS.",
+        "Analysis was performed using Excel, VOSviewer, CiteSpace, and CoreMine.",
+        "Giacomo Koch has the highest publication output.",
+        "The Journal of Alzheimer's disease has the most publications in the field of journal.",
+        "Text mining revealed that the anatomical structure 'brain' and the gene 'Amyloid Precursor Protein (APP)' are significantly related to both Alzheimer's Disease (AD) and Transcranial Magnetic Stimulation (TMS).",
+        "TMS may offer a therapeutic avenue for Alzheimer's disease by modulating the activity of APP.",
+        "The article unveils trends in research related to AD and TMS.",
+        "The article provides objective data as reference for scientific research and clinical work concerning AD and TMS."
       ]
     }
   },
@@ -8190,6 +8685,25 @@
         "Declines in recognition memory domains were associated with lower baseline hippocampus and amygdala volume.",
         "Declines in recognition memory domains were associated with increases in total WMSA volumes.",
         "Segmental brain volume and WMSA volume have domain-specific associations with longitudinal cognitive changes."
+      ],
+      "kg_based": [
+        "Participants in the study are aged over 50 years.",
+        "Participants did not have a confirmed central nervous system disorder.",
+        "Participants underwent baseline and follow-up evaluations for cognitive function and brain MRI.",
+        "Cognitive function is assessed using the Consortium to Establish a Registry for Alzheimer's Disease-Korean version (CERAD-K) assessment battery.",
+        "Performance changes were analyzed for associations with serial data of segmental brain volume and WMSA volume.",
+        "Declines in global cognition are associated with lower baseline volumes of the hippocampus and amygdala.",
+        "Declines in global cognition are associated with decreasing volumes of the hippocampus and amygdala.",
+        "Declines in global cognition are associated with increasing total WMSA volumes.",
+        "Declines in the executive function domain are associated with lower baseline volumes of the hippocampus and amygdala.",
+        "Declines in the executive function domain are associated with increasing total WMSA volumes.",
+        "Declines in the language function domain are associated with lower baseline volumes of the hippocampus and amygdala.",
+        "Declines in the verbal learning domain are associated with lower baseline volumes of the hippocampus and amygdala.",
+        "Declines in the language function domain are associated with decreasing volumes of the hippocampus and amygdala.",
+        "Declines in the verbal learning domain are associated with decreasing volumes of the hippocampus and amygdala.",
+        "Higher total WMSA volumes at baseline are associated with a decline in memory recall.",
+        "Declines in recognition memory domains are associated with lower baseline hippocampus and amygdala volume.",
+        "Increases in total white matter signal abnormality volumes are associated with declines in recognition memory domains."
       ]
     }
   },
@@ -8396,6 +8910,17 @@
         "The method prevents the loss of soluble proteins in IHC stained samples.",
         "The method expands the scope of molecular analysis methods to chemically native plaques.",
         "Insight into soluble plaque components complements our understanding of plaques and their role in Alzheimer's disease."
+      ],
+      "kg_based": [
+        "The method detects amyloid-beta plaques.",
+        "The method is used for label-free detection.",
+        "Amyloid-beta plaques are the key hallmark of Alzheimer's disease.",
+        "The method uses a semi-supervised convolutional neural network.",
+        "The method trains on quantum cascade laser infrared microscopy images.",
+        "The method extracts plaques using laser microdissection.",
+        "The method prevents loss of soluble proteins in IHC stained samples.",
+        "The method expands the scope of molecular analysis methods to chemically native plaques.",
+        "Soluble plaque components provide insight into plaques and their role in Alzheimer's disease."
       ]
     }
   },
@@ -8633,7 +9158,8 @@
         "CS perturbations and defects in dendrite structural plasticity could be partially rescued by knocking down Miro.",
         "The elucidation of CS modulation modes in the GELM network model reveals a cascaded dysregulation of organelle crosstalk during APP amyloidogenic processing.",
         "The study expands the mechanisms of inter-organelle communication and provides novel insights into neurodegeneration in AD pathology."
-      ]
+      ],
+      "kg_based": []
     }
   },
   {
@@ -8836,6 +9362,19 @@
         "Significant stabilization is provided by inter- or intra-subunit interfaces between a straight beta sheet and a bent beta sheet.",
         "This work presents a comprehensive picture of membrane-assisted aggregation of Abeta40.",
         "The findings have broad implications for developing AD therapies and rationalizing disease-specific polymorphisms of amyloidogenic proteins."
+      ],
+      "kg_based": [
+        "Alzheimer's disease is caused by the assembly of amyloid-beta peptides into oligomers and fibrils.",
+        "Amyloid-beta peptides can assemble into oligomers and fibrils.",
+        "Endogenous Abeta aggregation is assisted by cell membranes.",
+        "Cell membranes accelerate the nucleation step enormously.",
+        "Molecular dynamics simulations are used to characterize key intermediates along the membrane-assisted aggregation pathways of Abeta40.",
+        "Simulations reveal unique roles of GM1 ganglioside and cholesterol in stabilizing membrane-embedded beta sheets.",
+        "Simulations reveal the roles of Y10 and K28 in the ordered release of a small oligomeric seed into solution.",
+        "A small oligomeric seed can lead to either an open-shaped or R-shaped fibril.",
+        "Inter-subunit interfaces provide significant stabilization between straight beta sheet (residues Q15-D23) and bent beta sheet (residues A30-V36).",
+        "Work presents a comprehensive picture of membrane-assisted aggregation of Abeta40.",
+        "Implications for developing AD therapies and rationalizing disease-specific polymorphisms of amyloidogenic proteins."
       ]
     }
   },
@@ -8945,6 +9484,20 @@
         "This study serves as a primer for reconstructive microsurgeons, introducing the topic and current hypotheses about the potential role of lymphatic drainage in AD.",
         "Current research is evaluating the feasibility of lymphatic reconstruction as a surgical approach to improving Abeta clearance.",
         "The aim is to inspire others to design robust preclinical and clinical investigations into the hypothesis of lymphatic reconstruction for AD."
+      ],
+      "kg_based": [
+        "A novel lymphatic system was discovered in the brain meninges.",
+        "Neurons and glial cells generate waste products.",
+        "Waste products include proteins associated with Alzheimer's disease pathology.",
+        "Proteins associated with Alzheimer's disease pathology include amyloid beta and tau.",
+        "Evidence suggests disease progression in Alzheimer's disease and other cognitive impairments.",
+        "Disease progression could be explained by dysfunction in the brain's lymphatic system or obstruction of drainage.",
+        "Relieving obstruction of flow could serve as a potential novel treatment for the implication of the hypothesis.",
+        "Lymphatic reconstruction could serve as a surgical solution to the problem.",
+        "Study is meant to serve as a primer for reconstructive microsurgeons.",
+        "The study introduces the topic and current hypotheses about the potential role of lymphatic drainage in Alzheimer's disease.",
+        "The research evaluates the feasibility of lymphatic reconstruction as a surgical approach to improving amyloid beta clearance.",
+        "The aim of the research is to inspire others to design robust preclinical and clinical investigations into hypothesis."
       ]
     }
   },
@@ -9061,6 +9614,27 @@
         "TREM2 signaling plays a protective role in cardiac macrophages in myocardial infarction, sepsis-induced cardiomyopathy, and hypertensive heart failure.",
         "Elevated soluble TREM2 (sTREM2) is clinically significant in cardiovascular disease.",
         "Potential therapies targeting TREM2 are proposed for cardiovascular diseases."
+      ],
+      "kg_based": [
+        "TREM2 is a transmembrane immune receptor.",
+        "TREM2 is expressed on macrophages.",
+        "TREM2 senses tissue damage.",
+        "TREM2 activates immune remodeling.",
+        "TREM2 is involved in the signaling pathway in Alzheimer's disease.",
+        "TREM2 is involved in the signaling pathway in metabolic syndrome.",
+        "TREM2 is involved in the signaling pathway in cancer.",
+        "TREM2 is involved in the signaling pathway of cardiovascular diseases.",
+        "TREM2 promotes foam cell formation.",
+        "TREM2 is crucial for maintaining macrophage survival.",
+        "TREM2 is crucial for maintaining plaque stability.",
+        "TREM2 is involved in efferocytosis.",
+        "TREM2 regulates cholesterol efflux.",
+        "TREM2 is implicated in myocardial infarction.",
+        "TREM2 is implicated in sepsis-induced cardiomyopathy.",
+        "TREM2 is implicated in hypertensive heart failure.",
+        "TREM2 plays a protective role in cardiac macrophages.",
+        "Elevated soluble TREM2 (sTREM2) has clinical significance.",
+        "Soluble TREM2 (sTREM2) levels are elevated in cardiovascular disease."
       ]
     }
   },
@@ -9312,6 +9886,24 @@
         "Tanshinones increased the time in target quadrants in AD model group.",
         "Tanshinones are thought to have positive effects on cognitive impairment in rodent models of AD.",
         "More high-quality randomized controlled animal studies are required to guide future scientific and clinical research."
+      ],
+      "kg_based": [
+        "Alzheimer's disease is an age-related neurological illness.",
+        "Alzheimer's disease poses a significant hazard to human health.",
+        "Tanshinones are isolated from Danshen.",
+        "Clinical trials are examining the effects of tanshinones on cognitive impairment.",
+        "Tanshinones are not yet commonly utilized in the therapeutic treatment of Alzheimer's disease.",
+        "The effectiveness of tanshinones is not yet adequately supported by evidence.",
+        "Tanshinones' impact on cognitive impairment in experimental rodent models of AD was assessed.",
+        "Studies on the usage of tanshinones in AD model animals were systematically retrieved.",
+        "CAMARADES checklist is used to assess methodological quality.",
+        "Meta-analysis was calculated and graphed in Stata 14.0 software.",
+        "Tanshinones significantly reduced escape latency in an Alzheimer's disease model group without intervention.",
+        "Tanshinones increased the times of platform crossing in the AD model group without intervention.",
+        "Tanshinones increased time in target quadrants in an Alzheimer's disease model group without intervention.",
+        "Tanshinones are believed to have positive effects on cognitive impairment in rodent models of Alzheimer's disease, as shown in a study.",
+        "The level of quality of included research may have an impact on the accuracy of positive outcomes.",
+        "More high-quality randomized controlled animal studies are required to guide future scientific and clinical research."
       ]
     }
   },
@@ -9343,7 +9935,8 @@
       "biomed_specialized": [],
       "entities_aware": [
         "No abstract was found."
-      ]
+      ],
+      "kg_based": []
     }
   },
   {
@@ -9794,6 +10387,40 @@
         "P301S neurons showed hyperexcitability.",
         "GABA(A) alpha2 subunit expression significantly declined with age in P301S mice.",
         "FSCV showed significantly elevated NE release in P301S mice at 3 and 6 months compared to WT."
+      ],
+      "kg_based": [
+        "Locus coeruleus is affected by phosphorylated tau in Alzheimer's disease.",
+        "The locus coeruleus is affected early in Alzheimer's disease.",
+        "Locus coeruleus is affected by tau pathology.",
+        "The locus coeruleus is affected by functional consequences.",
+        "P301S mouse model is used to investigate the temporal progression of tau pathology.",
+        "The P301S mouse model is used to investigate functional consequences.",
+        "Immunohistochemistry is used to assess p-tau deposition in LC noradrenergic neurons.",
+        "Electrophysiological recordings were used to evaluate neuronal hyperexcitability.",
+        "Electrophysiological recordings measured membrane potential.",
+        "Electrophysiological recordings measured the rheobase.",
+        "Electrophysiological recordings measured the spontaneous action potential frequency.",
+        "Fast-scan cyclic voltammetry is used to measure norepinephrine release.",
+        "GABA(A) receptor subunit expression was analyzed via immunoblotting.",
+        "P-tau is detected in LC neurons at 2-3 months.",
+        "P-tau is detected in LC neurons at 5-6 months.",
+        "P301S neurons showed hyperexcitability.",
+        "P301S neurons are characterized by depolarized membrane potentials.",
+        "P301S neurons are characterized by a more negative rheobase.",
+        "P301S neurons are characterized by increased spontaneous action potential frequency.",
+        "Synaptic blockade elicited a reduced increase in action potential frequency.",
+        "GABA(A) alpha2 subunit expression significantly declined with age in P301S mice.",
+        "GABA(A) alpha3 subunit expression remained unchanged in P301S mice.",
+        "FSCV showed elevated NE release in P301S mice at 3 months.",
+        "FSCV showed elevated NE release in P301S mice at 6 months.",
+        "Findings highlight early LC dysfunction in tauopathies.",
+        "LC dysfunction is characterized by increased excitability.",
+        "LC dysfunction is characterized by reduced inhibitory tone.",
+        "LC dysfunction is characterized by exaggerated release of NE.",
+        "Hyperactivity may contribute to excitotoxicity.",
+        "Hyperactivity may contribute to downstream dysfunction in LC-regulated brain regions.",
+        "Targeting LC hyperactivity could be a promising therapeutic strategy for mitigating AD progression.",
+        "Restoring inhibitory signaling could be a promising therapeutic strategy for mitigating Alzheimer's disease progression."
       ]
     }
   },
@@ -10309,6 +10936,19 @@
         "Adding four neurotransmitter receptor density z-scores increased the proportion of explained variance by 3% to 7% compared to the epicenter-connectivity distance model in group-level analysis.",
         "Adding nine neurotransmitter receptor density z-scores to the epicenter-connectivity distance model increased the explanatory power of variability in individual levels of tau-PET z-score by 3% to 8%.",
         "The current study demonstrated the additive value of atlas-based neurotransmitter receptor mapping and individual-level amyloid-beta-PET scans to enhance the connectivity-based explanation of tau accumulation."
+      ],
+      "kg_based": [
+        "Alzheimer's disease tau pathology spreads through neuronal pathways and synaptic connections.",
+        "Alteration in synaptic activity facilitates tau spreading.",
+        "Multiple neurotransmitter systems are implicated in Alzheimer's disease.",
+        "Alzheimer's disease is not well understood and has an influence on the trans-synaptic spread of tau.",
+        "Resting-state functional magnetic resonance imaging connectomics, neurotransmitter receptor profiles, and tau-PET data are combined to explain the regional susceptibility to tau accumulation.",
+        "161 amyloid-beta-negative cognitively unimpaired participants were recruited from the Alzheimer's Disease Neuroimaging Initiative (ADNI).",
+        "259 amyloid-beta-positive subjects were recruited from the Alzheimer's Disease Neuroimaging Initiative (ADNI).",
+        "Higher tau-PET z-score is associated with lower density of nine receptors in various neurotransmitter systems.",
+        "Four neurotransmitter receptor density z-scores are added to the epicenter-connectivity distance model.",
+        "Nine neurotransmitter receptor density z-scores were added to an epicenter-connectivity distance model.",
+        "Atlas-based neurotransmitter receptor mapping and individual-level amyloid-beta-PET scans enhance the connectivity-based explanation of tau accumulation."
       ]
     }
   },
@@ -10560,6 +11200,22 @@
         "Dynamic brain network patterns differed between MCI and NC participants during memory retrieval in working memory tasks.",
         "Brain functional areas associated with low load WM disorders were located in the left prefrontal lobe and right occipital lobe.",
         "Behavioral data and abnormal electrophysiological signals in specific brain regions could be used for MCI diagnosis."
+      ],
+      "kg_based": [
+        "Mild Cognitive Impairment is an intermediate stage between normal aging and Alzheimer's disease.",
+        "Management of Mild Cognitive Impairment is crucial in order to intervene and slow the progression of cognitive decline to Alzheimer's disease.",
+        "Mild Cognitive Impairment is a symptom of working memory damage.",
+        "A study focused on the core stage of working memory, i.e., the memory retrieval stage.",
+        "21 participants with Mild Cognitive Impairment (MCI) and 20 participants with normal cognitive control were recruited.",
+        "A paradigm is employed to evaluate working memory functions.",
+        "A network was constructed based on EEG signals.",
+        "Results showed significant differences in accuracy and accuracy/reaction time between individuals with Mild Cognitive Impairment (MCI) and Normal Cognition (NC) in tasks with memory load capacity of low load-four and high load-six.",
+        "Results showed significant differences in dynamic changes of brain network patterns between the two groups during memory retrieval stage of working memory task.",
+        "Brain functional areas associated with low load working memory disorders are mainly located in the left prefrontal lobe (FC1) and right occipital lobe (PO8).",
+        "Dynamic brain network changes in individuals with normal cognition during the memory retrieval stage show regular patterns, with core nodes consistently transitioning from top to bottom and back up.",
+        "Dynamic brain network changes in individuals with mild cognitive impairment during the memory retrieval stage were irregular, with core nodes not showing a consistent transition phenomenon.",
+        "Behavioral data in the low load working memory task paradigm and abnormal electrophysiological signals in the left prefrontal and right occipital lobes can be utilized for diagnosing mild cognitive impairment.",
+        "Dynamic network methods are used to investigate dynamic network patterns of MCI memory retrieval stages under different load WM tasks."
       ]
     }
   },
@@ -10792,6 +11448,32 @@
         "Results provide potential trajectories for studying microglial-mediated sex differences.",
         "Results provide potential trajectories for targeting microglial-mediated sex differences.",
         "Results emphasize the complex interplay between sex chromosomes and hormones during Alzheimer's disease."
+      ],
+      "kg_based": [
+        "Alzheimer's disease is a neurodegenerative disorder.",
+        "Alzheimer's disease affects women.",
+        "Alzheimer's disease has sex-specific disease manifestations.",
+        "Alzheimer's disease has therapeutic responses.",
+        "Microglial-mediated inflammation occurs in response to disease processes.",
+        "Microglial-mediated inflammation perpetuates disease processes.",
+        "Sex differences contribute to sex biases.",
+        "Sex chromosomes can influence the shape of immune responses.",
+        "Gonad-derived hormones shape immune responses.",
+        "Sex chromosomes contribute to immune-mediated mechanisms.",
+        "Gonad-derived hormones contribute to immune-mediated mechanisms.",
+        "FCG model was crossed to 5xFAD model.",
+        "FCG model separates sex chromosome and gonad-derived hormone effects.",
+        "Sex chromosome complement impacts microgliosis.",
+        "Sex chromosome complement impacts neuroinflammation.",
+        "Sex chromosome complement impacts plaque burden.",
+        "Sex chromosome complement impacts neuritic dystrophy.",
+        "Modification of pathology correlates with microgliosis.",
+        "Sex chromosomes influence plaque remodeling.",
+        "Sex chromosomes influence microglial CD11c expression.",
+        "Gonad-derived hormones influence plaque remodeling.",
+        "Gonad-derived hormones influence microglial CD11c expression.",
+        "Results provide potential trajectories for studying and targeting microglial-mediated sex differences.",
+        "Results emphasize complex interplay between sex chromosomes and hormones during Alzheimer's disease."
       ]
     }
   },
@@ -11319,6 +12001,31 @@
         "Retromer complex component vacuolar protein sorting-associated protein 35 (VPS35) and lysosome-associated membrane glycoprotein 2 (LAMP2) are associated with specific types of phospho-tau lesions in tauopathies.",
         "Glycogen synthase kinase alpha (GSK3alpha), ferritin light chain (FTL), and neuropeptide precursor VGF are disease-specifically associated with distinct pathological lesions.",
         "FTL-positive microglia in CBD astrocytic plaques indicate their potential role in the pathogenesis of these lesions."
+      ],
+      "kg_based": [
+        "Tauopathies are characterized by abnormal aggregation of the microtubule-associated protein tau.",
+        "Tauopathies are a diverse group of neurodegenerative disorders.",
+        "Tauopathies involve a diversity of neuronal and glial tau pathology with poorly understood underlying mechanisms.",
+        "Tauopathies exhibit tauopathy-specific differences in tau isoforms and fibrillar structures.",
+        "Tauopathies are characterized by a specific composition of tau lesions, but the heterogeneity of these lesions is not well understood.",
+        "Alzheimer's disease is an instance of tauopathy.",
+        "Corticobasal degeneration is an instance of tauopathy.",
+        "Pick's disease is an instance of tauopathy.",
+        "Progressive supranuclear palsy is an instance of tauopathy.",
+        "ProPPr is an approach for in situ proximity labeling and isolation of aggregate-associated proteins.",
+        "ProPPr is used for analyzing proteomes associated with AT8-positive cellular lesions from frontal cortices.",
+        "ProPPr was successfully implemented for unbiased discovery of aggregate-associated proteins in human brain tissue.",
+        "VPS35 is associated with specific types of phospho-tau lesions in tauopathies.",
+        "Lysosome-associated membrane glycoprotein 2 (LAMP2) is associated with specific types of phospho-tau lesions in tauopathies.",
+        "Glycogen synthase kinase alpha (GSK3alpha) is associated with distinct pathological lesions.",
+        "Ferritin light chain (FTL) is associated with distinct pathological lesions.",
+        "Neuropeptide precursor VGF is associated with distinct pathological lesions.",
+        "FTL-positive microglia are found in CBD astrocytic plaques.",
+        "ProPPr approach is suitable for unbiased discovery of local proteomes in FFPE brain tissue.",
+        "ProPPr approach provides insights into proteomic landscape of tauopathies.",
+        "ProPPr approach sheds light on molecular mechanisms underlying tau pathology.",
+        "ProPPr approach enhances understanding of disease heterogeneity and mechanisms.",
+        "ProPPr approach informs strategies for development of diagnostic biomarkers and targeted therapies."
       ]
     }
   },
@@ -11350,7 +12057,8 @@
       "biomed_specialized": [],
       "entities_aware": [
         "No abstract was found."
-      ]
+      ],
+      "kg_based": []
     }
   },
   {
@@ -11675,6 +12383,17 @@
         "Human oligodendrocyte-like cells responded profoundly to IL-12 stimulation.",
         "Oligodendroglial and neuronal IL-12 signaling, but not IL-23 signaling, are key in orchestrating AD-related neuroimmune crosstalk.",
         "IL-12 represents an attractive therapeutic target in AD."
+      ],
+      "kg_based": [
+        "Neuroinflammation is central to Alzheimer's disease pathology.",
+        "Inhibition of p40 attenuates pathology in AD-like mice.",
+        "IL-12 receptors are predominantly expressed in neurons and oligodendrocytes in AD-like APPPS1 mice and in patients with AD.",
+        "Deletion of the IL-12 receptor ameliorated AD pathology in APPPS1 mice.",
+        "Genetic ablation of IL-12 signaling restored myelin homeostasis and phagocytosis-related changes in microglia, rescued the amyloid-beta-dependent reduction of parvalbumin-positive interneurons, and reverted the loss of mature oligodendrocytes in APPPS1 mice.",
+        "IL-12 protein expression was increased in human AD brains compared to healthy age-matched controls.",
+        "Human oligodendrocyte-like cells responded profoundly to IL-12 stimulation.",
+        "IL-12 signaling is key in orchestrating AD-related neuroimmune crosstalk.",
+        "IL-12 represents an attractive therapeutic target in AD."
       ]
     }
   },
@@ -11830,6 +12549,24 @@
         "Lactylation plays a role in diseases such as melanoma, myocardial infarction, hepatocellular carcinoma, Alzheimer's disease, and nonalcoholic fatty liver disease.",
         "A correlation between lactylation and inflammation has been observed.",
         "This article provides a comprehensive review of the mechanism underlying lactylation in IRI."
+      ],
+      "kg_based": [
+        "Ischemia-reperfusion injury is a critical condition.",
+        "Ischemia-reperfusion injury poses a threat to patient safety.",
+        "Production of lactate increases during the IRI process.",
+        "Lactate serves as an indicator for assessing the severity of injury.",
+        "Lactylation is induced by lactic acid.",
+        "Lactylation occurs on lysine residues of proteins.",
+        "Lactylation was discovered in 2019.",
+        "Lactylation plays a role in the pathogenesis of diseases.",
+        "Lactylation plays a role in the progression of diseases.",
+        "Melanoma is a type of disease.",
+        "Diseases include myocardial infarction.",
+        "Hepatocellular carcinoma is a type of disease.",
+        "Alzheimer's disease is included in diseases.",
+        "Diseases include nonalcoholic fatty liver disease.",
+        "The article provides a comprehensive review of the lactylation mechanism in IRI.",
+        "The article aims to establish a theoretical foundation for understanding the interplay between lactylation and IRI."
       ]
     }
   },
@@ -12042,6 +12779,31 @@
         "Activation of ER stress can be beneficial in treating some diseases.",
         "Inhibiting ER stress can be useful in treating other diseases.",
         "Understanding ER stress pathways can aid in designing novel therapeutics for diseases."
+      ],
+      "kg_based": [
+        "Endoplasmic reticulum is a specialized organelle.",
+        "Endoplasmic reticulum plays a role in cellular function.",
+        "Endoplasmic reticulum's major functions include protein synthesis and transport.",
+        "Endoplasmic reticulum's major functions include folding of proteins.",
+        "Endoplasmic reticulum's major functions include biosynthesis of lipids.",
+        "Endoplasmic reticulum's major functions include storing calcium (Ca(2+)).",
+        "Endoplasmic reticulum's major functions include maintaining redox balance.",
+        "Loss of ER integrity induces ER stress.",
+        "ER stress commences the Unfolded Protein Response (UPR).",
+        "The Unfolded Protein Response (UPR) counteracts ER stress.",
+        "The Unfolded Protein Response (UPR) establishes ER homeostasis.",
+        "The Unfolded Protein Response (UPR) alleviates ER stress.",
+        "Severe ER dysfunction results in the induction of apoptosis.",
+        "ER stress is implicated in the development and progression of diseases.",
+        "ER stress is implicated in tuberculosis.",
+        "ER stress is implicated in malaria.",
+        "ER stress is implicated in Alzheimer's disease.",
+        "ER stress is implicated in Parkinson's disease.",
+        "ER stress is implicated in diabetes.",
+        "ER stress is implicated in cancer.",
+        "Activation of ER stress is beneficial for treating some diseases.",
+        "Inhibiting ER stress is useful in treating other diseases.",
+        "Deeper understanding of pathways provides key insights in designing novel therapeutics."
       ]
     }
   },
@@ -12127,6 +12889,34 @@
         "The resulting resolution estimators varied between 3.5 mm and 8.5 mm for both PET and matching phantom images.",
         "The spatial resolution estimators showed high reproducibility, cross-tracer linear correlations, and within-subject longitudinal consistency.",
         "The novel approach eliminates the need for surrogate phantom data and can be applied to various tracers and imaging modalities."
+      ],
+      "kg_based": [
+        "Estimation is important in several fields.",
+        "Estimation involves acquisition of images from a physical phantom.",
+        "Estimation typically involves the Hoffman phantom.",
+        "Estimation poses a logistical burden.",
+        "Estimation requires constant monitoring of scanner updates.",
+        "Estimation requires constant monitoring of scanner replacements.",
+        "Estimation requires constant monitoring of scanning protocol changes.",
+        "Estimation requires constant monitoring of image reconstruction guidelines.",
+        "The authors proposed an approach.",
+        "Approach allows estimation of spatial resolution directly from human subject PET images.",
+        "Technique is based on generalization of logarithmic intensity plots in 2D Fourier domain to 3D case.",
+        "Resolution is obtained through estimated coefficients of a multiple linear regression problem.",
+        "The dependent variable in the resolution is the logarithm of the squared norm of the Fourier transform.",
+        "Resolution predictors are squared 3D frequencies.",
+        "Approach was applied to a cohort of subjects.",
+        "A Cohort consists of [18F]florbetapir amyloid PET images and matching phantoms.",
+        "Cohort includes beta-amyloid, FDG, and tau PET images from ADNI study.",
+        "Estimators varied between 3.5 mm and 8.5 mm for both PET and matching phantom images.",
+        "Estimators yielded less than one voxel size across-subjects variability.",
+        "Estimators showed very high reproducibility.",
+        "Estimators showed strong cross-tracer linear correlations.",
+        "Estimators showed high within-subject longitudinal consistency.",
+        "Approach eliminates the need for surrogate phantom data.",
+        "Approach provides a general framework for a wide range of tracers and imaging modalities.",
+        "Cognito Therapeutics conducted the OVERTURE clinical trial to collect clinical trial data.",
+        "Clinical trial data for study NCT03556280 is available at https://clinicaltrials.gov."
       ]
     }
   },
@@ -12298,6 +13088,30 @@
         "Problems in current research on WMH are revealed.",
         "The correlation between WMH and SCD is explained in terms of physiopathology and cognitive function.",
         "Several suggestions for future research are put forward."
+      ],
+      "kg_based": [
+        "The population is aging rapidly.",
+        "The incidence of Alzheimer's disease is increasing year by year.",
+        "The World Health Organization stresses early prevention.",
+        "Early prevention plays a key role in reducing the incidence of Alzheimer's disease.",
+        "Subjective cognitive decline is an early window of Alzheimer's disease development.",
+        "Timely intervention can effectively slow down the progression of disease.",
+        "Timely intervention can prevent dementia.",
+        "Timely intervention can prevent disease from developing into dementia.",
+        "Timely intervention can effectively slow down the progression of Alzheimer's disease.",
+        "Timely intervention can prevent Alzheimer's disease from developing into dementia.",
+        "Timely intervention can prevent disease from developing into Alzheimer's disease.",
+        "Timely intervention can effectively slow down the progression of disease into Alzheimer's disease.",
+        "Timely intervention can prevent dementia from developing into Alzheimer's disease.",
+        "Timely intervention can effectively slow down the progression of dementia into Alzheimer's disease.",
+        "White matter hyperintensity can effectively reflect white matter changes.",
+        "White matter hyperintensity can provide strong evidence.",
+        "White matter hyperintensity can provide evidence to identify Subjective cognitive decline.",
+        "Research progress on White matter hyperintensity and Subjective cognitive decline is reviewed.",
+        "Problems are revealed in current research on White matter hyperintensity.",
+        "Correlation is explained between White matter hyperintensity and Subjective cognitive decline.",
+        "Correlation is explained between White matter hyperintensity and cognitive function.",
+        "Suggestions are put forward for future research."
       ]
     }
   },
@@ -12404,6 +13218,19 @@
         "This review introduces the anatomy and functions of the vermiform appendix.",
         "This review expounds the associations of appendicitis and appendectomy with diseases related to the gut-brain axis.",
         "This review summarizes the mechanisms of the vermiform appendix in affecting the occurrence and development of diseases related to the gut-brain axis."
+      ],
+      "kg_based": [
+        "The gut-brain axis is a bidirectional communication pathway connecting the central nervous system and gastrointestinal tract.",
+        "The gut-brain axis plays a key role in the occurrence and development of diseases related to this axis.",
+        "The vermiform appendix is connected to the cecum.",
+        "The vermiform appendix has a unique anatomical location.",
+        "The vermiform appendix has a rich microbiome.",
+        "The vermiform appendix has abundant immune cells.",
+        "Appendicitis is associated with the development of diseases related to the gut-brain axis.",
+        "Appendectomy is associated with the development of diseases related to the gut-brain axis.",
+        "The review introduces the anatomy and functions of the vermiform appendix.",
+        "Review expounds the associations of appendicitis and appendectomy with diseases related to the gut-brain axis.",
+        "The review summarizes the mechanisms of the vermiform appendix in affecting diseases related to the gut-brain axis."
       ]
     }
   },
@@ -12435,7 +13262,8 @@
       "biomed_specialized": [],
       "entities_aware": [
         "No abstract was found."
-      ]
+      ],
+      "kg_based": []
     }
   },
   {
@@ -12466,7 +13294,8 @@
       "biomed_specialized": [],
       "entities_aware": [
         "No abstract was found."
-      ]
+      ],
+      "kg_based": []
     }
   },
   {
@@ -12780,6 +13609,26 @@
         "Poor sleep is associated with elevated plasma Abeta.",
         "Further investigation is needed to substantiate or refute the trends related to lifestyle factors and plasma biomarkers of Alzheimer's disease.",
         "Future research should include the analysis of lifestyle on plasma biomarkers according to gender, metabolic health, and APOE status."
+      ],
+      "kg_based": [
+        "Alzheimer's disease is characterized by neurodegeneration.",
+        "Alzheimer's disease is characterized by amyloid-beta.",
+        "Alzheimer's disease is characterized by tau hyperphosphorylation.",
+        "Blood-based biomarkers are emerging as a minimally invasive tool for disease detection and monitoring.",
+        "Review depicts relationships between modifiable lifestyle factors and plasma biomarkers of AD.",
+        "Plasma biomarkers of Alzheimer's disease include Abeta(42).",
+        "Plasma biomarkers of Alzheimer's disease include Abeta(40).",
+        "Plasma biomarkers of Alzheimer's disease include Abeta(42/40).",
+        "Plasma biomarkers of Alzheimer's disease include phosphorylated tau.",
+        "Plasma biomarkers of Alzheimer's disease include total tau.",
+        "Plasma biomarkers of Alzheimer's disease include neurofilament light chain (NfL).",
+        "Plasma biomarkers of Alzheimer's disease include glial fibrillary acidic protein.",
+        "Better nutrition is associated with favorable Alzheimer's disease plasma biomarker profiles.",
+        "Physical activity is associated with lower levels of plasma NfL and Abeta.",
+        "Poor sleep is associated with elevated plasma Abeta.",
+        "Lack of data and inconsistent findings highlight the need for further investigation.",
+        "Future research should include analysis of lifestyle on plasma biomarkers based on gender, metabolic health, and APOE status.",
+        "Growing emphasis on modifiable lifestyle factors justifies further investigation for preventing and delaying dementia onset."
       ]
     }
   },
@@ -13113,6 +13962,21 @@
         "The expression of genes related to innate immune responses was downregulated by the administration of dexamethasone and tacrolimus.",
         "The persistence of hMSCs in the AD mouse brain was not affected by immunosuppressants.",
         "The study supports the use of immunosuppressants to mitigate fever during stem cell therapy in patients with AD."
+      ],
+      "kg_based": [
+        "Mesenchymal stem cells are used for therapeutic applications.",
+        "Mesenchymal stem cells are used in pre-clinical settings.",
+        "Mesenchymal stem cells are used in clinical settings.",
+        "Mesenchymal stem cells have the capacity for immune modulation.",
+        "Mesenchymal stem cells have the capacity for neuroprotective effects.",
+        "Fever is commonly observed as an adverse event following MSC injection.",
+        "Fever is an adverse event following MSC injection in patients with Alzheimer's disease.",
+        "Dexamethasone is an example of an immunosuppressant.",
+        "Immunosuppressants like tacrolimus are used in medical treatment.",
+        "Exposure to high concentrations of dexamethasone and tacrolimus in vitro did not significantly alter the characteristics of hMSCs.",
+        "Additional administration of dexamethasone and tacrolimus to the brain parenchyma of AD mice downregulates genes related to innate immune responses.",
+        "hMSC persistence in the AD mouse brain is not affected by the administration of dexamethasone and tacrolimus.",
+        "Immunosuppressants are used to mitigate fever during stem cell therapy in patients with AD, as supported by a study."
       ]
     }
   },
@@ -13260,6 +14124,19 @@
         "Loss of iRhom2 enhances TREM2 signaling and microglial phagocytosis of amyloid beta-peptide.",
         "ADAM17 is a physiological TREM2 protease in microglia.",
         "iRhom2 is suggested as a potential drug target for modulating TREM2 proteolysis in Alzheimer's disease."
+      ],
+      "kg_based": [
+        "TREM2 is a key genetic risk factor in Alzheimer's disease.",
+        "TREM2 is a drug target in Alzheimer's disease.",
+        "TREM2 is expressed in microglia.",
+        "TREM2 undergoes proteolytic cleavage in microglia.",
+        "iRhom2 is a modifier of ADAM17-mediated TREM2 shedding.",
+        "iRhom2 binds to ADAM17.",
+        "iRhom2 acts as a non-catalytic subunit of ADAM17.",
+        "iRhom2 increases TREM2 in cell lysates.",
+        "iRhom2 enhances microglial phagocytosis of amyloid beta-peptide.",
+        "ADAM17 is a physiological TREM2 protease in microglia.",
+        "iRhom2 is a potential drug target for modulating TREM2 proteolysis in Alzheimer's disease."
       ]
     }
   },
@@ -13577,6 +14454,25 @@
         "African American older adults have more than twice the prevalence of Alzheimer's disease and related dementias compared with non-Hispanic white older adults in the USA.",
         "African American adult daughters are the largest group of care partners for African American persons living with ADRD.",
         "The study aims to develop a structured culturally responsive prototype intervention to improve healthcare decision-making self-efficacy and quality of life for African American parent-adult daughter dementia dyads."
+      ],
+      "kg_based": [
+        "African American older adults have more than twice the prevalence of Alzheimer's disease and related dementias compared with non-Hispanic white older adults in the USA.",
+        "African American adult daughters are the largest group of care partners for African American individuals living with ADRD.",
+        "African American adult daughters navigate multiple health-related decisions to optimize the quality of life of their parent with ADRD.",
+        "African American adult daughters have influence over their own quality of life.",
+        "This study was guided by the National Institute on Aging's Health Disparities Research Framework, Black Family Socio-Ecological Context Model, and Superwoman Schema.",
+        "The purpose of this study is to develop a structured culturally responsive prototype intervention to improve the healthcare decision-making self-efficacy and quality of life of African American parent-adult daughter dementia dyads.",
+        "A prototype intervention will be piloted in a single-group clinical trial to evaluate feasibility, acceptability, and preliminary efficacy.",
+        "A study was conducted in two phases using an explanatory sequential mixed-methods design.",
+        "Quantitative data collection will examine the lifecourse influences on healthcare decision-making self-efficacy and quality of life of 70 African American parent-adult daughter dementia dyads.",
+        "Qualitative data collection will consist of a nested sample of 15 dementia dyads focusing on decision-making processes affecting healthcare use for parents with ADRD.",
+        "The study will explore how these processes influence the quality of life of both members.",
+        "Integrated findings from phase 1 will provide the basis for developing the prototype intervention using design thinking and intervention mapping with key informants and community advisory board oversight.",
+        "A clinical trial will enroll a new sample of 20 African American parent-adult daughter dementia dyads using a pretest-post-test design.",
+        "The first phase of the study is approved by Emory University Institutional Review Board and is registered on ClinicalTrials.gov (NCT05139290).",
+        "The study will contribute to the development of a structured culturally responsive prototype intervention for African American parent-adult daughter dementia dyads.",
+        "The findings will determine if a larger randomized controlled trial is needed.",
+        "The results of the research will be disseminated in both academic and community settings."
       ]
     }
   },
@@ -13710,6 +14606,30 @@
         "Alterations in several taxa have been suggested to be associated with disease states.",
         "The potential of the microbiome to modulate neurological function has sparked multiple clinical trials.",
         "Some clinical trials using gut-altering treatments have shown positive preliminary results."
+      ],
+      "kg_based": [
+        "The gastrointestinal tract is inhabited by trillions of micro-organisms.",
+        "The gastrointestinal tract forms the gut microbiome.",
+        "The gut microbiome serves various functions.",
+        "The gut microbiome influences neurological pathways.",
+        "The gut microbiome can release metabolites.",
+        "Metabolites affect the nervous system.",
+        "The intestine communicates with the central nervous system.",
+        "Communication between the gut and the brain is known as the gut-brain axis.",
+        "Microbiota impacts communication.",
+        "Microbiota impacts communication.",
+        "Microbiota impacts communication.",
+        "The microbiome is connected to neurological disorders.",
+        "Neurological disorders include epilepsy.",
+        "Neurological disorders include Alzheimer's disease.",
+        "Neurological disorders include Parkinson's disease.",
+        "Neurological disorders include multiple sclerosis.",
+        "Connection has been explored in both human and animal studies.",
+        "Alterations in several taxa are suggested to be associated with disease states.",
+        "The microbiome has the potential to modulate neurological function.",
+        "Potential sparked multiple clinical trials.",
+        "Clinical trials use gut-altering treatments.",
+        "Some have positive preliminary results."
       ]
     }
   },
@@ -14018,6 +14938,31 @@
         "MN-08's beneficial effects were attenuated by carboxy-PTIO, a potent NO scavenger.",
         "MN-08-derived NO may alleviate cognitive impairment from cerebral hypoperfusion.",
         "Studies demonstrate that MN-08 is a promising therapeutic agent for dementia treatment."
+      ],
+      "kg_based": [
+        "Alzheimer's disease is a form of dementia.",
+        "Vascular dementia is a form of dementia.",
+        "Vascular dementia is linked to cerebrovascular lesions.",
+        "Cerebrovascular lesions include white matter ischemia.",
+        "Cerebrovascular lesions include chronic cerebral hypoperfusion.",
+        "Nitric oxide regulates cerebral blood flow.",
+        "Memantine is an NMDA receptor antagonist.",
+        "Memantine is approved for the treatment of Alzheimer's disease.",
+        "MN-08 is a novel memantine nitrate.",
+        "MN-08 experienced an increase in CBF.",
+        "MN-08 has been shown to ameliorate cognitive and memory functions.",
+        "MN-08 is more effective than memantine.",
+        "MN-08 increased the survival rate of CA1 neurons.",
+        "MN-08 has mitigated white matter lesions and axonal damage.",
+        "MN-08 protects neurons from OGD-induced loss.",
+        "MN-08 promoted axonal outgrowth in the hippocampus.",
+        "MN-08 upregulates phosphorylated Akt.",
+        "MN-08 upregulates glycogen synthase kinase-3beta.",
+        "MN-08 upregulates high-molecular-weight neurofilaments.",
+        "Carboxy-PTIO is a potent NO scavenger.",
+        "Carboxy-PTIO attenuates the beneficial effects of MN-08.",
+        "MN-08-derived NO may alleviate cognitive impairment from cerebral hypoperfusion.",
+        "MN-08 is a therapeutic agent for the treatment of dementia, including VaD and AD."
       ]
     }
   },
@@ -14335,6 +15280,12 @@
         "No evidence of a causal relationship between autoimmune thyroid disease and dementia.",
         "Graves' disease is associated with heightened risk of major depressive disorder.",
         "Autoimmune thyroiditis is correlated with increased risk of bipolar disorder."
+      ],
+      "kg_based": [
+        "Autoimmune thyroid disease is associated with mood disorders.",
+        "Autoimmune thyroid disease is associated with dementia.",
+        "Graves' disease is associated with major depressive disorder.",
+        "Autoimmune thyroiditis is associated with bipolar disorder."
       ]
     }
   },
@@ -14702,6 +15653,25 @@
         "The SVM model based on diffusivities and ALPS was effective for AD dementia diagnosis.",
         "Higher ALPS levels are associated with a lower risk of AD-related changes.",
         "ALPS may provide a useful AD progression or treatment biomarker."
+      ],
+      "kg_based": [
+        "Diffusion-tensor image analysis along the perivascular space (ALPS) index has the potential to reflect brain interstitial fluid (ISF) dynamics.",
+        "ALPS index is related to AD dementia diagnosis.",
+        "The ALPS index is related to AD-related changes.",
+        "The study included a discovery cohort.",
+        "The study included a validation cohort.",
+        "Participants underwent brain magnetic resonance imaging examination.",
+        "Participants underwent neuropsychological evaluation.",
+        "SVM model was built in a discovery cohort.",
+        "The SVM model was validated in a validation cohort.",
+        "Linear mixed-effects models are used to evaluate the association between ALPS and cognitive decline.",
+        "Cox regression models are used to evaluate the association between ALPS and the risk of AD dementia.",
+        "AD dementia group had a lower median ALPS index compared to other groups.",
+        "SVM model produced an AUC of 0.802 in the discovery cohort.",
+        "SVM model produced an AUC of 0.783 in an external validation cohort.",
+        "Higher ALPS levels are associated with less cognitive decline.",
+        "Lower baseline ALPS had greater risk of converting to AD dementia.",
+        "ALPS may provide useful AD progression or treatment biomarker."
       ]
     }
   },
@@ -14890,6 +15860,24 @@
         "The default mode network connectivity pattern is linked with typical AD patterns.",
         "The occipito-temporal cortex connectivity pattern is linked with atypical AD patterns.",
         "Dynamic connectivity markers can assist in identifying patients with AD-like clinical profiles but with different underlying pathologies."
+      ],
+      "kg_based": [
+        "Alzheimer's disease can be conceptualized as a network-based syndrome.",
+        "Network alterations are linked to molecular hallmarks of Alzheimer's disease.",
+        "Molecular hallmarks of Alzheimer's disease involve amyloid-beta and tau accumulation.",
+        "Molecular hallmarks of Alzheimer's disease involve neurodegeneration.",
+        "Molecular and resting-state functional magnetic resonance imaging can assess different biological patterns of Alzheimer's disease.",
+        "Different biological patterns of Alzheimer's disease are matched with specific abnormalities in brain dynamic connectivity.",
+        "Patient clusters have been identified into three main clusters.",
+        "The first group displayed mild pathological alterations.",
+        "The second cluster exhibited typical behavioral impairment alongside Alzheimer's disease pathology.",
+        "The third cluster demonstrated similar behavioral impairment but with divergent tau (low) and neurodegeneration (high) profile.",
+        "Univariate and multivariate analyses revealed two connectivity patterns.",
+        "Connectivity patterns encompass the default mode network and occipito-temporal cortex.",
+        "Default mode network connectivity pattern is linked with typical patterns.",
+        "Atypical patterns are linked with occipito-temporal cortex connectivity pattern.",
+        "Results support a key association between macro-scale and molecular alterations.",
+        "Dynamic connectivity markers can assist in identifying patients with Alzheimer's disease-like clinical profiles but with different underlying pathologies."
       ]
     }
   },
@@ -15110,6 +16098,18 @@
         "Participants perceived TPAB as practical, feasible, and necessary for rural-dwelling participants with cognitive impairment and their care partners.",
         "Several adaptations and the creation of the Cognitive Impairment Rural Community-TPAB are required to optimize rural implementation.",
         "There is an identified need for the TPAB intervention with outlined redesign approaches to facilitate intervention development and rural implementation."
+      ],
+      "kg_based": [
+        "Rural populations face an elevated risk of Alzheimer's disease and related dementias.",
+        "Physical inactivity is a modifiable risk factor partially attributed to rural populations.",
+        "Study gathered key community partners' perspectives.",
+        "Study is conducted on the feasibility of implementing the telerehabilitation physical activity behavioral (TPAB) intervention.",
+        "Study about necessary adaptations for implementation for rural-dwelling people with cognitive impairment and care partners (dyads).",
+        "Participants need to improve physical activity in the community.",
+        "Participants supported care partners receiving TPAB alongside individuals with mild cognitive impairment.",
+        "Participants suggested modifications to TPAB.",
+        "Participants perceived that TPAB was practical, feasible, and necessary for rural-dwelling participants with cognitive impairment and their care partners.",
+        "Participants outlined redesign approaches to facilitate intervention development and rural implementation."
       ]
     }
   },
@@ -15260,6 +16260,27 @@
         "The framework achieves diagnosis accuracy for distinguishing MCI from control normal, lately MCI from early MCI, MCI from AD, and AD from control normal.",
         "Multi-modal biomarkers related to MCI progression are identified.",
         "The proposed framework is effective for MCI diagnosis and guiding the development of genetic and imaging-based brain studies."
+      ],
+      "kg_based": [
+        "Mild cognitive impairment is a precursor to Alzheimer's disease.",
+        "Mild cognitive impairment progression involves complex pathogenic mechanisms.",
+        "Gene variants disturb pathogenic mechanisms.",
+        "Regulation of gene expression ultimately changes brain structure.",
+        "Brain structure can influence the progression of brain diseases.",
+        "Existing works rarely take into account mechanisms when designing diagnosis methods.",
+        "We propose a novel gradual multi-modal fusion framework.",
+        "The framework fuses representative data from each stage of disease progression in a hybrid feature space.",
+        "Representative data includes single nucleotide polymorphism (SNP), gene expression (GE), and magnetic resonance imaging (MRI).",
+        "We design a SNP-GE fusion module to integrate genetic sequence and expression data.",
+        "The SNP-GE fusion module performs multi-modal fusion to obtain genetic embedding by considering the relation between SNP and GE.",
+        "Genetic embedding and MRI representation have more obvious heterogeneity, especially in correlation with disease.",
+        "We propose to align manifold of genetic and imaging representations.",
+        "Alignment of manifold can explore high-order relationship between imaging and genetic data in presence of modal heterogeneity.",
+        "The proposed framework was validated using the Alzheimer's Disease Neuroimaging Initiative dataset.",
+        "The framework achieved diagnosis accuracy ranging from 76.88% to 95.00% for distinguishing different stages of cognitive impairment and control groups.",
+        "A proposed framework helps to identify multi-modal biomarkers related to MCI progression.",
+        "The proposed framework is effective for MCI diagnosis and guiding further development of genetic and imaging-based brain studies.",
+        "Our code is published at https://github.com/tianxu8822/workflow_MCI/tree/main/"
       ]
     }
   },
@@ -15579,6 +16600,21 @@
         "ESP alleviated AD-like pathological features in SAMP8 mice.",
         "ESP reduced intracellular ROS levels.",
         "ESP holds significant potential for developing therapeutic strategies for AD."
+      ],
+      "kg_based": [
+        "Alzheimer's disease is a neurodegenerative disorder.",
+        "Alzheimer's disease progression involves oxidative stress.",
+        "Eleutherococcus senticosus is known as a functional food.",
+        "Phenylpropanoid components are extracted from Eleutherococcus senticosus.",
+        "Phenylpropanoid components exhibit bioactivities.",
+        "Phenylpropanoid components are employed in the treatment of CNS disorders.",
+        "ESP alleviates oxidative stress in AD models, and its exact mechanisms require further investigation.",
+        "Study utilized SAMP8 mice as models for AD.",
+        "Study employed L-glutamate-induced HT22 cells to establish an in vitro AD model.",
+        "ESP was evaluated for its effects on cognitive function using the Morris water maze test.",
+        "Various techniques, such as pathology, IF staining, ROS staining, CETSA, Mst1 inhibitor analysis, and WB, were conducted.",
+        "ESP improved cognitive function in SAMP8 mice.",
+        "Findings suggest that ESP holds significant potential for developing therapeutic strategies for AD."
       ]
     }
   },
@@ -15735,6 +16771,27 @@
         "The MCNEL outperforms recent comparable algorithms in terms of various evaluation metrics.",
         "The study enhances the diagnostic capabilities for AD, allowing patients to receive timely treatments.",
         "Timely treatments can slow down disease progression and improve patients' quality of life."
+      ],
+      "kg_based": [
+        "Alzheimer's disease threatens community well-being and healthcare resource allocation.",
+        "Alzheimer's disease has a high incidence and mortality.",
+        "Alzheimer's disease requires early detection and intervention.",
+        "Deep learning-based approaches often struggle to capture complex structural features of MRI data effectively.",
+        "Techniques for multi-scale feature fusion introduce redundant noise.",
+        "Challenges highlight the need for developing more advanced methods.",
+        "A study proposes the MCNEL framework for early and accurate Alzheimer's disease diagnosis.",
+        "MCNEL framework adopts enhanced versions of EfficientNet-B0 and MobileNetV2 models.",
+        "The MCNEL framework is integrated with the DenseNet121 model.",
+        "MCNEL framework is capable of extracting features from multi-view slices.",
+        "The study develops a SimAM-based feature fusion method.",
+        "The feature fusion method synthesizes key feature information derived from multi-scale images.",
+        "The study designs an ensemble learning classifier model.",
+        "An ensemble learning classifier model uses multiple classifiers and a self-adaptive weight adjustment strategy.",
+        "Experiments validate the effectiveness of MCNEL solution on ADNI dataset.",
+        "MCNEL solution achieves average accuracies of 96.67% for ADNI-1 and 96.20% for ADNI-2.",
+        "MCNEL outperforms recent comparable algorithms in terms of various evaluation metrics.",
+        "Study enhances diagnostic capabilities for Alzheimer's disease.",
+        "Patients receive timely treatments that can slow down disease progression and improve quality of life."
       ]
     }
   },
@@ -15898,6 +16955,20 @@
         "Differences in brain-wide tau progression can be explained by microscopic properties.",
         "Numerical evidence supports distinct and rich dynamics in tau spread when simulating the NTM on the hippocampal subnetwork.",
         "The NTM provides theoretical insights with broad implications for understanding AD pathophysiology."
+      ],
+      "kg_based": [
+        "Alzheimer's disease is characterized by the accumulation and spread of toxic aggregates of tau protein.",
+        "The progression of AD tau pathology is thought to be highly stereotyped.",
+        "Tau can spread between brain regions.",
+        "Spread of tau between brain regions is proportional to the concentration gradient and amount of white matter between them.",
+        "Tau spreading is governed by diffusion and active transport along axonal microtubules.",
+        "Tau spreading results in distinct patterns of deposition.",
+        "The mathematical model is called Network Transport Model (NTM).",
+        "NTM predicts tau dynamics at regional level.",
+        "NTM is parameterized in terms of microscopic processes such as aggregation and transport rates.",
+        "Differences in brain-wide tau progression can be explained by microscopic properties.",
+        "We provide numerical evidence that there are distinct and rich dynamics with respect to overall rate of spread and staging of pathology.",
+        "Theoretical insights provided by NTM have broad implications for understanding AD pathophysiology more generally."
       ]
     }
   },
@@ -16084,7 +17155,8 @@
         "Peptides containing the 'Trp-Tyr' sequence demonstrated strong binding affinities to many hub targets, especially matrix metalloproteinase-9.",
         "The findings provided valuable insights into the molecular mechanisms through which bioactive peptides may act against AD/MCI.",
         "Network pharmacology has potential for future exploration of bioactive peptides from natural foods."
-      ]
+      ],
+      "kg_based": []
     }
   },
   {
@@ -16341,6 +17413,22 @@
         "Scores for behavioural problems and symptoms were higher in residents with psychiatric or both diagnoses compared to those with only neurocognitive disorders.",
         "Conversely, scores for limitations were higher in residents with only a neurocognitive disorder.",
         "Almost 1 in 5 nursing home residents have a psychiatric vulnerability with higher levels of symptoms and behavioural problems."
+      ],
+      "kg_based": [
+        "Belgian nursing homes are located in Belgium.",
+        "The study aims to gain insight into the prevalence of psychiatric vulnerability in Belgian nursing homes.",
+        "Belgian nursing homes have an impact on care levels for individuals with psychiatric vulnerability.",
+        "Belgian nursing homes screened 3238 patient files.",
+        "Belgian nursing homes obtained informed consent from 1155 residents or their legal representatives.",
+        "Belgian nursing homes used the Health of Nations Outcome Scale 65+ assessment tool.",
+        "Residents are classified into three groups.",
+        "Residents in group 1 have only a psychiatric diagnosis.",
+        "Residents in group 2 have only a neurocognitive diagnosis.",
+        "Residents in group 3 have both psychiatric and neurocognitive diagnoses.",
+        "17.5% of residents have a prevalence of psychiatric vulnerability.",
+        "41.8% of residents have a prevalence of neurocognitive disorder.",
+        "Residents with a psychiatric diagnosis tend to have higher scores for behavioral problems and symptoms.",
+        "Residents with a neurocognitive diagnosis tend to have higher scores for limitations."
       ]
     }
   },
@@ -16477,6 +17565,21 @@
         "cfDNA can serve as an indicator of ongoing cellular damage and mortality, including neuronal loss.",
         "cfDNA may provide valuable insights into disease processes, progression, and therapeutic responses.",
         "Recent advances in the potential use of cfDNA as a biomarker for neurodegenerative disorders are being examined."
+      ],
+      "kg_based": [
+        "Neurodegenerative disorders include Alzheimer's disease.",
+        "Neurodegenerative disorders include Parkinson's disease.",
+        "Neurodegenerative disorders include multiple sclerosis.",
+        "Neurodegenerative disorders include amyotrophic lateral sclerosis.",
+        "Neurodegenerative disorders are characterized by progressive and gradual degeneration of neurons.",
+        "Prevalence and rates of these disorders rise significantly with age.",
+        "The number of cases is expected to grow in the foreseeable future.",
+        "High heterogeneity of neurodegenerative diseases calls for more accurate and definitive biomarkers.",
+        "Cell-free DNA has emerged as a non-invasive diagnostic tool.",
+        "cfDNA is an indicator of ongoing cellular damage and mortality.",
+        "cfDNA may provide valuable insights into disease processes, progression, and therapeutic responses.",
+        "Review covers key aspects of cfDNA.",
+        "Recent advances in the potential use of review as a biomarker for neurodegenerative disorders are being examined."
       ]
     }
   },
@@ -16619,6 +17722,20 @@
         "The 'epidemiological triangulation' concept can help mitigate individual study limitations.",
         "Using data appropriately can better understand the pathobiology underlying CKD and cognitive impairment.",
         "Addressing challenges with a clear strategy is crucial for advancing understanding of CKD and cognitive impairment."
+      ],
+      "kg_based": [
+        "Research is critical due to the public health challenge posed by CKD and cognitive impairment.",
+        "CKD affects 10-15% of the adult population.",
+        "Chronic kidney disease has a higher prevalence in the elderly.",
+        "Elderly individuals are at increased risk for cognitive decline.",
+        "Cognitive impairment is notably higher in CKD patients.",
+        "CKD patients progress more rapidly when on dialysis.",
+        "Review explores data from large biobank studies.",
+        "Strengths of the system include large sample sizes and longitudinal data.",
+        "Limitations lead to challenges in dealing with heterogeneous data collection methods.",
+        "Limitations lead to challenges in addressing missing data.",
+        "Combining data can be done via the 'epidemiological triangulation' concept.",
+        "Using data holds immense potential to better understand the pathobiology underlying CKD and cognitive impairment."
       ]
     }
   },
@@ -16943,6 +18060,19 @@
         "The causal relevance of these associations remains unclear.",
         "The available evidence points to a complex interplay between different biomarkers and cognitive health in CKD patients.",
         "More research is needed to elucidate the relationships between biomarkers and cognitive health in CKD patients."
+      ],
+      "kg_based": [
+        "Chronic kidney disease is often accompanied by cognitive dysfunction and dementia.",
+        "Cognitive dysfunction and dementia increase the risk of hospitalization, cardiovascular events, and death.",
+        "Studies are focused on genetic markers of cognitive impairment in chronic kidney disease (CKD) and kidney failure.",
+        "Genetic markers of cognitive impairment are associated with cognitive decline in CKD patients.",
+        "Cognitive function is connected to kidney disease markers such as eGFR, Cystatin C, and albuminuria.",
+        "eGFR decline is associated with cognitive deterioration and vascular dementia.",
+        "Diminished executive function in elderly men is associated with eGFR reductions.",
+        "Biomarkers are associated with Alzheimer's disease or dementia in chronic kidney disease and kidney failure.",
+        "Biomarkers include amyloid beta and phosphorylated tau proteins, uremic toxins, gut microbiota, metabolic indicators, hypertension, endothelial dysfunction, vitamins, and inflammation.",
+        "Evidence points to a complex interplay between biomarkers and cognitive health in CKD patients.",
+        "Research is needed to elucidate the relationships between biomarkers and cognitive health in CKD patients."
       ]
     }
   },
@@ -17267,6 +18397,26 @@
         "Mild behavioral impairment (MBI) is a neurobehavioral prodrome to dementia with multiple phenotypic characteristics.",
         "MBI is associated with a composite MRI measure that reflects mixed pathologies of dementia.",
         "MBI participants with low MRI scores had a greater increase in CDR-SB over time."
+      ],
+      "kg_based": [
+        "Mild behavioral impairment is a neurobehavioral prodrome to dementia.",
+        "Mild behavioral impairment has multiple phenotypic characteristics.",
+        "Mild behavioral impairment is associated with a composite MRI measure.",
+        "Mild behavioral impairment is associated with cerebrovascular disease and neurodegeneration.",
+        "Participants were included in the study.",
+        "Participants in the study had a mean age of 71.9.",
+        "Participants were followed up for a period of 49.89 months.",
+        "Participants in the study were recruited from two memory clinics.",
+        "Participants met clinical diagnostic criteria for MBI.",
+        "MBI participants had a greater increase in CDR-SB over time.",
+        "MRI scores are computed using a weighted sum of white matter hyperintensities volume, presence of infarct, hippocampal volume, and cortical thickness.",
+        "Clinical outcomes are evaluated using the Clinical Dementia Rating sum-of-boxes.",
+        "Cognitive outcomes were evaluated using standardized global cognitive scores from a comprehensive neuropsychological battery.",
+        "Lower MRI scores yielded a 3.8-fold likelihood of MBI.",
+        "Lower MRI scores indicate a greater burden of comorbid CeVD and neurodegeneration.",
+        "MBI participants with low MRI scores had a greater increase in CDR-SB over time.",
+        "Composite MRI measure reflects mixed pathologies of dementia.",
+        "Co-evaluation of MBI and composite MRI measure may improve risk profiling and identification of memory clinic patients without dementia."
       ]
     }
   },
@@ -17496,6 +18646,20 @@
         "Both aerobic exercise (AE) and resistance exercise (RE) contribute to improved cerebral blood flow and vascular function.",
         "Exercise modalities influence brain vascularization in aging and Alzheimer's disease (AD).",
         "This review expands knowledge regarding the processes underlying the neuroprotective effects of exercise in neurodegenerative and aging conditions."
+      ],
+      "kg_based": [
+        "Alzheimer's disease is a leading cause of morbidity and mortality worldwide.",
+        "Alzheimer's disease is a result of cognitive decline and neurological dysfunction.",
+        "Alzheimer's disease is associated with reduced cerebral blood flow and impaired vascularization due to capillary bed degeneration and decreased angiogenesis.",
+        "Alzheimer's disease has been observed in patients and animal models.",
+        "Physical exercise is recognized as a potential intervention to delay Alzheimer's disease progression and reduce disease risk.",
+        "Studies have focused on the benefits of aerobic exercise.",
+        "Resistance exercise has positive effects on overall health and cognitive function in aging and Alzheimer's disease.",
+        "A review explores how aerobic exercise and resistance exercise influence brain vascularization in aging and Alzheimer's disease.",
+        "Both aerobic exercise and resistance exercise contribute to improved cerebral blood flow and vascular function, promoting vascular repair in the aging and AD-affected brain.",
+        "Review expands knowledge regarding the relationship between exercise modalities and brain vascularization.",
+        "A review examines the relationship between exercise modalities and brain vascularization.",
+        "Review expands knowledge regarding processes underlying neuroprotective effects of exercise in neurodegenerative and aging conditions."
       ]
     }
   },
@@ -17726,6 +18890,18 @@
         "Tau-4 selectively binds high-molecular-weight tau aggregates in late-stage AD patient brain tissues.",
         "Proteomic analysis verified the specific isolation of pathogenic tau from AD brain samples.",
         "The photoaffinity probes have potential as powerful tools for investigating tau proteins and neurofibrillary tangles in neurodegenerative diseases."
+      ],
+      "kg_based": [
+        "Tau aggregation plays a crucial role in the development of Alzheimer's disease.",
+        "Specific techniques can isolate pathogenic tau from brain tissue.",
+        "Isolating pathogenic tau is important for understanding tauopathies and advancing targeted therapies.",
+        "We develop photoaffinity small molecular probes and a novel method for in situ tissue labeling.",
+        "We investigate their activity in interacting with tau in cells and AD patient brains.",
+        "We designed and synthesized two tau-specific probes, namely, Tau-2 and Tau-4.",
+        "Tau-2 effectively labels soluble tau in cell and mouse models based on photolabeling results.",
+        "Tau-4 selectively binds high-molecular-weight tau aggregates in late-stage Alzheimer's disease patient brain tissues.",
+        "Proteomic analysis verified the specific isolation of pathogenic tau from AD brain samples.",
+        "The findings highlight the potential of photoaffinity probes for studying tau proteins and neurofibrillary tangles in neurodegenerative diseases."
       ]
     }
   },
@@ -18101,6 +19277,15 @@
         "The ALPS index was lower in patients with more severe disease.",
         "The ALPS index was significantly lower in Abeta-positive HCs than in Abeta-negative HCs.",
         "MRI-based clearance markers were correlated with P-tau and T-tau protein levels and cognitive scores.",
+        "Brain clearance markers on MRI are associated with tau deposition, neurodegeneration, and cognitive dysfunction."
+      ],
+      "kg_based": [
+        "Alzheimer's disease continuum is characterized by amyloid and tau protein deposition.",
+        "Alzheimer's disease continuum is attributable to dysfunction of the brain clearance system.",
+        "Aberrant clearance is present in a specific phase of the Alzheimer's disease continuum where it is unclear.",
+        "A study aimed to assess noninvasive MRI indices related to brain clearance functions.",
+        "MRI indices include choroid plexus volume, lateral ventricular volume, and ALPS index.",
+        "MRI-based clearance markers are correlated with P-tau and T-tau protein levels and cognitive scores.",
         "Brain clearance markers on MRI are associated with tau deposition, neurodegeneration, and cognitive dysfunction."
       ]
     }
@@ -18654,6 +19839,21 @@
         "APOE4-targeted replacement mice exhibit more severe cerebral hypoperfusion and cognitive impairment than APOE3-targeted replacement mice with carotid artery stenosis.",
         "APOE4 contributes to cerebral hemodynamic and cognitive impairment in subjects with asymptomatic carotid artery stenosis or occlusion.",
         "APOE4 carriers have lower cerebral blood flow in the anterior circulation territory and short-term memory impairment."
+      ],
+      "kg_based": [
+        "APOE4-targeted replacement mice exhibit severe cerebral hypoperfusion.",
+        "APOE4-targeted replacement mice exhibit cognitive impairment.",
+        "APOE4-targeted replacement mice with carotid artery stenosis.",
+        "APOE4-targeted replacement mice exhibit neurovascular dysfunction.",
+        "APOE4 contributes to cerebral hemodynamic impairment.",
+        "APOE4 contributes to cognitive impairment.",
+        "APOE4 is a risk factor for lower cerebral blood flow.",
+        "APOE4 is a risk factor for short-term memory impairment.",
+        "APOE4 is a risk factor for memory impairment.",
+        "APOE4 is a risk factor for decreased cerebral blood flow.",
+        "APOE4 is a risk factor for memory impairment.",
+        "APOE4 may confer increased risk.",
+        "APOE4 may be useful for early detection of disease severity."
       ]
     }
   },
@@ -18801,6 +20001,21 @@
         "Compound 2q emerged as a promising candidate for AD treatment.",
         "Compound 2q effectively restored AD-associated pathological impairments.",
         "Compound 2q has been identified as a potential target of HCN2."
+      ],
+      "kg_based": [
+        "Palmatine is an active ingredient in traditional Chinese medicine.",
+        "Palmatine has demonstrated efficacy in ameliorating the manifestations of AD.",
+        "The research group previously designed and synthesized a novel oxo-PAL derivative 2q.",
+        "oxo-PAL derivative 2q exhibited notable neuroprotective properties.",
+        "Compound 2q has a therapeutic impact on Alzheimer's disease (AD).",
+        "Compound 2q displayed significant anti-AbetaOs activity in vitro.",
+        "Compound 2q crosses the blood-brain barrier.",
+        "Administration of compound 2q resulted in significant improvement in Abeta accumulation and hyperphosphorylation of Tau in 3xTg mice.",
+        "Compound 2q enhances pathological characteristics of Alzheimer's disease by targeting Potassium/Sodium Hyperpolarization-Activated Cyclic Nucleotide-Gated Channel 2 (HCN2).",
+        "Compound 2q has emerged as a promising candidate for Alzheimer's disease treatment.",
+        "Compound 2q has been shown to restore AD-associated pathological impairments.",
+        "Compound 2q has been identified as a potential target of HCN2.",
+        "HCN2 offers novel avenues for the development of treatments for Alzheimer's disease."
       ]
     }
   },
@@ -19237,6 +20452,34 @@
         "Neuropathology revealed an unexpected number and diversity of degenerative pathologies.",
         "The patient had an unprecedented number and combination of additional degenerative pathologies.",
         "Globular glial tauopathy Type II is a rare disorder that has been mostly reported in association with progressive supranuclear gaze palsy."
+      ],
+      "kg_based": [
+        "Former professional football player presented with language deficits and cognitive changes.",
+        "Former professional football player had difficulty completing sentences.",
+        "Former professional football player reduced to one-word answers.",
+        "A former professional football player developed severe apathy and agitation.",
+        "Former professional football player became more impulsive.",
+        "Former professional football player became mute.",
+        "The former professional football player had difficulty with walking and balance.",
+        "Former professional football player had a mild repetitive head injury while playing football.",
+        "The former professional football player had three concussions.",
+        "Former professional football player revealed to have left > right frontotemporal atrophy.",
+        "Former professional football player had a duration of illness of 6 years.",
+        "A former professional football player revealed an unexpected number and diversity of degenerative pathologies.",
+        "The former professional football player had a high level of chronic traumatic encephalopathy (CTE).",
+        "Former professional football player had high level Alzheimer's disease neuropathologic change.",
+        "The former professional football player had limbic Lewy body disease.",
+        "Former professional football player had cerebral amyloid angiopathy (type 2).",
+        "Former professional football player had Stage 2 argyrophilic grain disease.",
+        "The former professional football player had neuronal intranuclear hyaline inclusion body disease.",
+        "Former professional football player had selective and asymmetric involvement of the corticospinal tract with globular oligodendroglial tau pathology corresponding to globular glial tauopathy (Type II).",
+        "The former professional football player had patchy and irregular accentuation of cortical tau pathology.",
+        "Former professional football player was allowed the diagnosis of CTE-neuropathologic change.",
+        "Former professional football player is correlated with a past medical history of multiple concussions.",
+        "The former professional football player had an unprecedented number and combination of additional degenerative pathologies.",
+        "The former professional football player had rare disorders.",
+        "Former professional football players may have rare disorders that can occur in the same individual and be overlooked.",
+        "Former professional football player is essential for neuropathologists to consider an extensive array of neuropathological examinations when assessing patients with neurodegenerative disorders."
       ]
     }
   },
@@ -19501,6 +20744,20 @@
         "The UFP-associated dementia risk was higher in rural areas than in urban areas.",
         "These findings underscore UFPs as neurotoxicants.",
         "Targeted public health interventions are needed to protect vulnerable populations."
+      ],
+      "kg_based": [
+        "Fine particulate matter is linked to an increased risk of dementia.",
+        "Ultrafine particles are more toxic than fine particulate matter.",
+        "Ultrafine particles are linked to dementia.",
+        "A study assessed the association between UFP exposure and Alzheimer's disease.",
+        "A study assessed the association between UFP exposure and related dementias.",
+        "Approximately 21 million participants are estimated for AD.",
+        "Approximately 20 million participants are affected by ADRD.",
+        "Increase in ultrafine particle (UFP) exposure is associated with a higher risk of Alzheimer's disease (AD).",
+        "Increase in ultrafine particle (UFP) exposure is associated with a higher risk of Alzheimer's disease and related dementias (ADRD).",
+        "UFP-associated dementia risk is higher in rural areas than in urban areas.",
+        "UFPs are identified as neurotoxicants in the findings.",
+        "Findings highlight the need for targeted public health interventions."
       ]
     }
   },
@@ -19841,6 +21098,22 @@
         "Each population of excitatory hippocampal neurons shows unique gene expression alterations in Ts65Dn mice.",
         "Cell-type specific vulnerabilities may underlie degenerative endophenotypes.",
         "Precision medicine targeting individual populations of neurons may be beneficial for therapeutic development."
+      ],
+      "kg_based": [
+        "Individuals with Down syndrome exhibit neurological deficits.",
+        "Individuals with Down syndrome develop Alzheimer's disease pathology.",
+        "Individuals with Down syndrome develop cognitive impairment.",
+        "Dysregulation in neuronal gene expression is observed in postmortem human brain.",
+        "Dysregulation in neuronal gene expression is observed in mouse models of DS/AD.",
+        "RNA-sequencing analysis revealed a knowledge gap in Down syndrome.",
+        "Hippocampal neurons display unique gene expression patterns.",
+        "Dysfunction of hippocampal neurons can lead to a loss of integrity in intrinsic circuitry.",
+        "Ts65Dn mouse model exhibits age-dependent neurodegeneration.",
+        "Excitatory hippocampal neurons exhibit unique gene expression alterations.",
+        "Bioinformatic inquiry revealed unique vulnerabilities.",
+        "Bioinformatic inquiry revealed differences with mechanistic implications.",
+        "Precision medicine targets individual populations of neurons.",
+        "Precision medicine targets are used for rational therapeutic development."
       ]
     }
   },
@@ -20153,6 +21426,19 @@
         "Associations were observed between ROI CBF and Mini Mental State Examination.",
         "ASL perfusion may help identify early AD-related alterations.",
         "The study contributes to the comprehension of the correlation between CSF biomarkers, brain perfusion, and cognitive function."
+      ],
+      "kg_based": [
+        "Alzheimer's disease is a neurodegenerative condition.",
+        "Alzheimer's disease has a growing impact on a global scale.",
+        "A study aims to examine the relationship between cerebral blood flow and growth-associated protein 43.",
+        "The study utilizes arterial spin labeling.",
+        "A study identified correlations between cerebrospinal fluid GAP-43 levels, CBF, and cognitive composite scores.",
+        "Participants with mild cognitive impairment possess the APOE-epsilon4 gene.",
+        "A study examined 92 participants from the ADNI database.",
+        "Participants in the study include 36 cognitively normal individuals and 56 individuals with Mild Cognitive Impairment (MCI).",
+        "Participants' cognitive status was evaluated using ADNI composite scores.",
+        "CSF biomarkers and ASL regions did not show statistical significance between diagnostic groups.",
+        "Study contributes to comprehension of correlation between CSF biomarkers, regional brain perfusion, and cognitive function in individuals with AD."
       ]
     }
   },
@@ -20402,6 +21688,23 @@
         "TG3 epitope is stable to proteolytic processing by caspase-3.",
         "Truncation is evidenced by the TauC-3 antibody.",
         "Entorhinal cortex is sensitive to neurodegeneration and pathological tau processing."
+      ],
+      "kg_based": [
+        "Alzheimer's disease is characterized by progressive memory loss and deterioration of cognitive functions.",
+        "Alzheimer's disease is associated with the presence of neurofibrillary tangles in the hippocampal areas.",
+        "Neurofibrillary tangles correlate with cognitive impairment.",
+        "Tau protein is the subject of pathological processing.",
+        "Tau protein is characterized by post-translational changes such as hyperphosphorylation and truncation.",
+        "Post-translational changes favor conformational changes within tau.",
+        "Conformational changes can be regional or structural.",
+        "Phosphorylation is dependent on conformational changes.",
+        "Structural changes depend on regional conformational changes and truncation.",
+        "TG3 antibody is used for immunohistochemical and immunofluorescence staining in hippocampus Alzheimer disease brains.",
+        "TG3 correlates with cognitive impairment.",
+        "TG3 is present in pre-tangle.",
+        "TG3 antibody is stable to proteolytic processing by caspase-3.",
+        "Truncation is evidenced by the TauC-3 antibody.",
+        "The entorhinal cortex exhibits high sensitivity to neurodegeneration and pathological tau processing."
       ]
     }
   },
@@ -20740,6 +22043,26 @@
         "Combination therapies could reduce oxidative stress and enhance regulatory T cells function.",
         "Immunotherapy may reduce neuroinflammation in neurodegenerative pathology.",
         "Enhancing the immune environment may inhibit the progression of Alzheimer's disease."
+      ],
+      "kg_based": [
+        "Alzheimer's disease is a growing problem in the healthcare world.",
+        "Alzheimer's disease affects the ageing population.",
+        "Alzheimer's disease has no effective treatments available.",
+        "Targeting neuroinflammation may be a successful approach in slowing the progression of neurodegeneration.",
+        "Reducing destructive hyperinflammatory pathology is a promising option to maintain homeostasis in neural tissue.",
+        "The review explores the mechanisms behind neuroinflammation.",
+        "The review explores the effectiveness of immunotherapy in slowing the progression of cognitive decline in patients with Alzheimer's disease.",
+        "Key components of neuroinflammation in Alzheimer's disease include microglia, astrocytes, cytokines, and CD8+ effector T cells.",
+        "Oxidative stress plays a role in modulating regulatory T cells.",
+        "Limitations of regulatory T cell-based therapies are explored.",
+        "Increasing regulatory T cells can decrease activation of microglia, proinflammatory cytokines, and astrocytes.",
+        "Increasing regulatory T cells can increase levels of inflammatory cytokines.",
+        "Regulatory T cell interactions can reduce Alzheimer's disease pathology.",
+        "Further research into the use of immunotherapy in Alzheimer's disease is vital to determine the potential of these techniques.",
+        "Increasing regulatory T cells count prevents Alzheimer's disease symptoms and pathology in patients with Alzheimer's disease.",
+        "Regulatory T cells' function should be further investigated in patients with neurogenerative disorders.",
+        "Combination therapies could reduce oxidative stress while enhancing regulatory T cells function.",
+        "Immunotherapy methods could reduce neuroinflammation in neurodegenerative pathology, inhibiting progression of Alzheimer's disease."
       ]
     }
   },
@@ -20922,6 +22245,17 @@
         "Changes in the deep cortical microvasculature were more pronounced than in the superficial vasculature, suggesting a more direct involvement of the deep vessels in AD progression.",
         "The proposed OACD method enhances OCTA imaging by reducing tail artifacts from superficial vessels, facilitating improved assessment of deep cortical microvasculature.",
         "Deep cortical vascular changes may play a key role in the pathogenesis of AD, offering potential insights for early detection and monitoring of AD progression."
+      ],
+      "kg_based": [
+        "Deep cortical microvasculature is closely linked to the pathogenesis of Alzheimer's disease.",
+        "Tail artifacts interfere with detecting deep vessels in optical coherence tomography angiography imaging.",
+        "The method is used to visualize and quantitatively analyze deep cortical microvasculature in vivo in a mouse model of AD.",
+        "OACD method significantly reduces superficial vessel artifacts.",
+        "Changes are more pronounced in deep cortical microvasculature than in superficial vasculature.",
+        "Deep vessels have more direct involvement in the progression of Alzheimer's disease.",
+        "OACD method enhances OCTA imaging by reducing tail artifacts from superficial vessels.",
+        "Deep cortical vascular changes may play a key role in the pathogenesis of Alzheimer's disease.",
+        "Findings offer potential insights for early detection and monitoring of AD progression."
       ]
     }
   },
@@ -21238,6 +22572,24 @@
         "Variants rs897551430 and rs993255773 are predicted to evoke significant structural changes in the primary miRNA and downregulate mature miR885 levels.",
         "Functional investigation of miRNAs/variants in this study could propose novel miRNA-mediated molecular cascades in FTD and AD pathogenicity.",
         "Genetic evidence suggests a role for MIR885 in molecular mechanisms involved in AD and warrants genetic follow-up in larger cohorts."
+      ],
+      "kg_based": [
+        "miRNAs regulate molecular processes.",
+        "miRNAs regulate developmental functions.",
+        "miRNAs regulate executive functions.",
+        "miRNAs dysregulation could contribute to brain neurodegeneration.",
+        "miRNA profiling studies suggest miRNAs.",
+        "miRNA profiling studies have been conducted on individuals suffering from neurodegenerative brain diseases.",
+        "miRNA variants have been reported in patients with Alzheimer's dementia and frontotemporal dementia.",
+        "miRNA variants have been identified in FTD patients.",
+        "miRNAs bind to FTD-associated genes.",
+        "miRNA variants can create novel binding sites for genes associated with FTD.",
+        "MIR885 locus was sequenced in the Flanders-Belgian AD cohort.",
+        "MIR885 variants are enriched in Alzheimer's disease patients compared to controls.",
+        "MIR885 variants downregulate mature miR885 levels.",
+        "miRNAs/variants propose novel miRNA-mediated molecular cascades in FTD and AD pathogenicity.",
+        "Genetic evidence suggests a role for MIR885 in molecular mechanisms involved in Alzheimer's disease.",
+        "Genetic evidence warrants genetic follow-up in larger cohorts to explore this hypothesis."
       ]
     }
   },
@@ -21469,6 +22821,27 @@
         "Individuals with PD-MCI had significantly lower RIN3 methylation levels than the control group and PD-NC group.",
         "RIN3 methylation is associated with PD-MCI.",
         "RIN3 gene methylation could serve as a predictor for the development of PD-MCI."
+      ],
+      "kg_based": [
+        "Parkinson's disease is a neurodegenerative disorder.",
+        "Parkinson's disease is the second most common neurodegenerative disorder, after Alzheimer's disease.",
+        "Individuals with Parkinson's disease may experience cognitive impairment.",
+        "Abnormal DNA methylation is linked to neurodegenerative conditions.",
+        "The RIN3 gene encodes a guanine nucleotide exchange factor.",
+        "RIN3 gene plays a role in inhibiting amyloid-beta formation.",
+        "The RIN3 gene affects protein endocytosis.",
+        "RIN3 gene methylation is connected to cognitive decline in Parkinson's patients.",
+        "The RIN3 gene plays a role in the development of certain diseases.",
+        "The RIN3 gene is being studied for identifying potential targets for diagnosing and treating cognitive impairment.",
+        "The study aims to explore the methylation status of the RIN3 gene.",
+        "Methylation status of RIN3 gene is associated with cognitive impairment in Parkinson's disease.",
+        "The methylation status of the RIN3 gene plays a significant role in the pathogenesis of the disease.",
+        "The study involved 50 control subjects and 51 Parkinson's disease patients.",
+        "Patients with Parkinson's disease have lower DNA methylation levels compared to healthy controls.",
+        "Individuals with Parkinson's disease mild cognitive impairment have lower RIN3 methylation levels than the control group.",
+        "Individuals with Parkinson's disease and mild cognitive impairment have lower RIN3 methylation levels compared to the Parkinson's disease without cognitive impairment group.",
+        "RIN3 methylation is associated with PD-MCI.",
+        "RIN3 gene methylation serves as a predictor for the development of PD-MCI."
       ]
     }
   },
@@ -21772,6 +23145,21 @@
         "Cerebrovascular reactivity impacts brain activation patterns during a working memory task in type 2 diabetes patients.",
         "Accounting for cerebrovascular reactivity altered the brain regions showing activation related to working memory and glycemic control.",
         "The findings emphasize the importance of considering vascular factors when interpreting fMRI data in populations with vascular dysfunction."
+      ],
+      "kg_based": [
+        "Impaired cerebrovascular reactivity is common in type 2 diabetes patients.",
+        "Impaired cerebrovascular reactivity is a risk factor for dementia.",
+        "fMRI studies in Type 2 Diabetes disregarded the impact of impaired cerebrovascular reactivity on brain activation patterns.",
+        "This study investigated the relationship between CVR and brain activation during an fMRI task in T2D patients.",
+        "Seventy-four T2D patients underwent a working-memory fMRI task.",
+        "CVR was measured by the breath-holding index test using transcranial Doppler.",
+        "Regression analyses examined associations between CVR and brain activation.",
+        "Regression analyses examined associations between glycated hemoglobin and activation with/without adjusting for CVR.",
+        "An association was found in the left middle and inferior frontal gyri.",
+        "Adjusting for CVR led to a different pattern of HbA1c-related activation.",
+        "The findings emphasize the importance of accounting for impaired CVR when analyzing fMRI data in T2D patients.",
+        "The study found that cerebrovascular reactivity impacts brain activation patterns during a working memory task in type 2 diabetes patients.",
+        "The study highlighted the importance of considering vascular factors when interpreting fMRI data in populations with vascular dysfunction."
       ]
     }
   },
@@ -22135,6 +23523,26 @@
         "Significant heterogeneity in MCI studies impacts data interpretation.",
         "Follow-up length is crucial for data interpretation.",
         "Long-term prognosis studies on MCI in low- and middle-income countries are urgently needed."
+      ],
+      "kg_based": [
+        "There are knowledge gaps in the prognosis of MCI.",
+        "MCI is a condition that can lead to dementia.",
+        "MCI has a conversion risk of 41.5% in clinical studies.",
+        "MCI has a conversion risk of 27.0% in population-based studies.",
+        "MCI is the most common outcome leading to Alzheimer's dementia.",
+        "MCI stability rates were found to be 49.3% in clinical studies.",
+        "MCI stability rates are 49.8% in population-based studies.",
+        "MCI has a reversion rate of 8.7% in clinical studies.",
+        "MCI reversion rate is 28.2% in population-based studies.",
+        "MCI calls for sustainable care pathway development.",
+        "MCI prognosis varies depending on setting variation.",
+        "MCI is associated with a higher risk of dementia in clinical-based studies.",
+        "In clinical-based studies, the probability of reversion for MCI is lower.",
+        "MCI is associated with approximately 50% cognitive stability in both settings.",
+        "MCI could ensure sustainable care through health services reorganization.",
+        "MCI has a significant impact on heterogeneity in data interpretation.",
+        "MCI follow-up length is crucial.",
+        "Long-term prognosis studies for MCI are urgently needed in low- and middle-income countries."
       ]
     }
   },
@@ -22409,6 +23817,16 @@
         "There were significant disparities across nations and regions in the burden of ND.",
         "Over the past 32 years, the burden of these diseases has gradually decreased.",
         "The trend of decreasing burden is expected to continue from 2022 to 2050."
+      ],
+      "kg_based": [
+        "Tobacco use is a major public health concern.",
+        "Tobacco use impacts quality of life.",
+        "A study aims to analyze trends in the burden of tobacco-related neurological disorders.",
+        "The study analyzed mortality and disability-adjusted life years using data from the Global Burden of Diseases Study.",
+        "A study explored the burden of tobacco-related nicotine dependence.",
+        "ASMR prevalence in 2021 was 0.50 per 100,000 persons for the burden of neurological disorders.",
+        "ASDR for burden of neurological disorders in 2021 was 11.25 per 100,000 persons.",
+        "Parkinson's disease had an age-standardized death rate of -8.38 per 100,000 persons in 2021."
       ]
     }
   },
@@ -22572,6 +23990,27 @@
         "Epilepsy and living in a long-stay hospital were associated with earlier mortality.",
         "Implications for clinical practice include reflections on the importance of early baseline assessments and caregiver awareness.",
         "Future research should investigate the intersectionality of social factors with genetics to better understand AD trajectories."
+      ],
+      "kg_based": [
+        "People with Down syndrome have an increased risk for Alzheimer's disease.",
+        "People with Down syndrome have an increased risk for Alzheimer's disease.",
+        "Alzheimer's disease is associated with dementia onset.",
+        "Alzheimer's disease is associated with subsequent survival.",
+        "Factors are associated with the onset of dementia.",
+        "Factors are associated with survival times.",
+        "279 adults with Down syndrome accessed a community learning disability service.",
+        "Regression and hazard regression models are used for disease onset.",
+        "Regression and hazard regression models are used for analyzing survival times.",
+        "Earlier age at first assessment predicts earlier age at diagnosis.",
+        "Earlier age at first assessment led to longer survival.",
+        "Living with family is predicted to result in an earlier age at diagnosis.",
+        "Living with family led to longer survival.",
+        "Epilepsy is associated with earlier mortality.",
+        "Living in a long-stay hospital is associated with earlier mortality.",
+        "Early baseline assessments are important for clinical practice and should be included in reflections on their implications.",
+        "Caregiver awareness reflections have implications for clinical practice.",
+        "Future research should investigate the intersectionality of social factors with genetics.",
+        "Future research could focus on investigating to better understand Alzheimer's disease trajectories."
       ]
     }
   },
@@ -22792,6 +24231,29 @@
         "Prenatal stress (PS) strongly determines the profile of inflame-aging based on the age of animals and brain structure under study.",
         "FPR2 receptors regulate the RoI process in the brain.",
         "Prenatal stress (PS) diversifies the picture of age-dependent neurodegenerative pathology."
+      ],
+      "kg_based": [
+        "Brain aging involves genetic factors.",
+        "Brain aging involves neurodevelopmental factors.",
+        "Brain aging involves environmental factors.",
+        "Brain aging involves cellular senescence.",
+        "Brain aging involves senescence-associated secretory phenotype (SASP).",
+        "Brain aging involves prolonged inflammation.",
+        "FPR2 receptors play a role in inflammation resolution in the brain.",
+        "Prenatal stress influences inflammation resolution in physiological aging.",
+        "Prenatal stress influences inflammation resolution in neurodegenerative disorders pathology.",
+        "Age-dependent cognitive changes are conditions that affect the cognitive abilities of individuals as they grow older.",
+        "Inflammation resolution changes can be influenced by PS conditions.",
+        "Conditions can lead to prefrontal cortex changes.",
+        "Hippocampus changes occur under certain conditions.",
+        "Memory deficits are accompanied by limitation of availability of pro-resolving FPR2 ligands.",
+        "Memory deficits are accompanied by rising proinflammatory microglia polarization.",
+        "Memory deficits are accompanied by inflammatory ligands mediated FPR2 overactivation.",
+        "RoI deficits contribute to brain cells' senescence.",
+        "RoI deficits contribute to shifting immunomodulators to a proinflammatory direction.",
+        "PS modulates the inflame-aging profile.",
+        "FPR2 receptors regulate the RoI process in the brain.",
+        "PS diversifies age-dependent neurodegenerative pathology."
       ]
     }
   },
@@ -22976,6 +24438,27 @@
         "Phosphatidylserine at 300 mg/day, multinutrient formulations, probiotics, vitamin E at 2000 IU/day, and melatonin at 3-10 mg/day also have benefits.",
         "High-quality research is needed due to mixed results and lack of optimal dosage and safety data.",
         "Future research should focus on personalized, multimodal strategies for enhanced neuroprotection."
+      ],
+      "kg_based": [
+        "Alzheimer's disease represents a major challenge of modern medicine.",
+        "Alzheimer's disease has a growing impact on public health and healthcare systems.",
+        "Dietary supplements use is a subject of increasing interest.",
+        "Dietary supplements are used as a complementary strategy for the prevention and treatment of Alzheimer's disease.",
+        "A review of reviews was conducted following PRISMA guidelines and REAPPRAISED checklist.",
+        "Review of reviews evaluated the efficacy and safety of supplement use in Alzheimer's disease.",
+        "The search identified 54 relevant articles.",
+        "A search was performed across major scientific databases.",
+        "Supplements may help reduce cognitive decline, inflammation, and target mechanisms behind Alzheimer's disease.",
+        "Supplements are under investigation with mixed results, highlighting the need for high-quality research.",
+        "Lack of data limits clinical guidelines.",
+        "Curcumin is taken at a dosage of 800 mg per day.",
+        "The recommended dosage of omega-3 fatty acids is 2 grams per day.",
+        "Resveratrol is typically taken at a dosage of 600 mg per day.",
+        "Phosphatidylserine is typically taken at a dosage of 300 mg per day.",
+        "Vitamin E dosage is 2000 IU per day.",
+        "The recommended dosage of melatonin is 3-10 mg per day.",
+        "Inconsistent findings and gaps in dosage and safety data highlight the need for rigorous, large-scale trials.",
+        "Future research should focus on personalized multimodal strategies integrating targeted supplementation, dietary patterns, and microbiota-gut-brain interactions for enhanced neuroprotection."
       ]
     }
   },
@@ -23340,6 +24823,21 @@
         "Lipidomic analyses of the mouse hippocampus revealed that HUP intervention substantially increased the levels of phospholipids, such as PEt (phosphatidylethanol) and BisMePA (bis(methylthio)phenylacetic acid), which are recognized as vital components of neuronal cell membranes.",
         "HUP intervention markedly elevated the levels of phospholipids incorporating PUFAs in the hippocampus.",
         "These results revealed a mitigating role for unsaturated egg yolk PC in AD prevention and offer new insights into AD prevention from a lipidomic perspective."
+      ],
+      "kg_based": [
+        "Egg yolk phosphatidylcholine has a mechanism in alleviating Alzheimer's disease.",
+        "Egg yolk phosphatidylcholine contains fatty acid composition.",
+        "The ratio of polyunsaturated fatty acids in fatty acid composition is a critical determinant of structural and functional roles.",
+        "A study aimed to conduct a comparative analysis of unsaturation levels of egg yolk PC.",
+        "Oral administration of high and low unsaturation phosphatidylcholine enhances learning and memory abilities in Alzheimer's disease mice.",
+        "HUP intervention demonstrated superior efficacy compared to LUP intervention.",
+        "HUP intervention effectively mitigated oxidative-stress damage.",
+        "HUP intervention inhibited tau hyperphosphorylation in AD mice.",
+        "Lipidomic analyses of mouse hippocampus revealed increased levels of phospholipids.",
+        "PEt and BisMePA are recognized as vital components of neuronal cell membranes.",
+        "HUP intervention increases levels of phospholipids incorporating PUFAs in the hippocampus.",
+        "Unsaturated egg yolk PC plays a mitigating role in Alzheimer's disease prevention, as revealed by the results.",
+        "Results offer new insights into Alzheimer's disease prevention from a lipidomic perspective."
       ]
     }
   },
@@ -23540,6 +25038,28 @@
         "Recent advances in the associations between blood transfusion and the occurrence and development of AD were reviewed.",
         "Whether blood transfusion could increase the risk of AD was discussed.",
         "Proposals for blood management and future research were advanced to provide references for the prevention and control of AD."
+      ],
+      "kg_based": [
+        "Alzheimer's disease is a progressive neurodegenerative disease.",
+        "Alzheimer's disease pathogenesis is complex.",
+        "Alzheimer's disease involves amyloid-beta.",
+        "Alzheimer's disease involves phosphorylated tau.",
+        "Alzheimer's disease involves inflammation.",
+        "Alzheimer's disease involves microbial infections.",
+        "Alzheimer's disease lacks effective clinical intervention.",
+        "Blood transfusion is a life-saving medical procedure.",
+        "Blood transfusion is facing a growing demand.",
+        "Blood transfusion may increase the risk of Alzheimer's disease.",
+        "Abeta plays a role in the pathogenesis of Alzheimer's disease.",
+        "Tau plays a role in the pathogenesis of Alzheimer's disease.",
+        "Iron overload can influence Alzheimer's disease pathogenesis.",
+        "Chronic inflammation can influence Alzheimer's disease pathogenesis.",
+        "Herpesvirus accelerates Alzheimer's disease progression.",
+        "Herpesvirus can be transmitted by blood transfusion.",
+        "Study reviewed associations between blood transfusion and Alzheimer's disease.",
+        "Study discussed whether blood transfusion could increase risk of Alzheimer's disease.",
+        "Study advanced proposals for blood management and future research.",
+        "Study provides references for prevention and control of Alzheimer's disease."
       ]
     }
   },
@@ -23634,6 +25154,16 @@
         "Molecular docking revealed that ferulic acid exhibits strong binding affinity to monoamine oxidase B.",
         "Molecular dynamics simulations confirmed the stability of the interaction between ferulic acid and monoamine oxidase B.",
         "These findings provide novel insights into the neuroprotective mechanisms of lingonberry and suggest its potential as a natural therapeutic intervention for Alzheimer's disease."
+      ],
+      "kg_based": [
+        "Alzheimer's disease is a progressive neurodegenerative disorder.",
+        "Alzheimer's disease has limited treatment options.",
+        "Lingonberry has neuroprotective and anti-inflammatory properties.",
+        "Lingonberry contains ferulic acid.",
+        "Pathway analysis identified monoamine oxidase B as a key target.",
+        "Monoamine oxidase B is involved in serotonergic synapse dysfunction related to Alzheimer's disease.",
+        "Ferulic acid exhibits strong binding affinity to monoamine oxidase B.",
+        "Ferulic acid has a potential inhibitory effect on monoamine oxidase B."
       ]
     }
   },
@@ -23735,6 +25265,21 @@
         "Specific adaptations that may contribute to or result from cellular responses to pathological stressors were highlighted.",
         "The findings may support the development of a unified model for the causal mechanisms of Alzheimer's disease.",
         "The diverse manifestations of Alzheimer's disease arise from multiple pathways working together to produce the disease's complex clinical patho-phenotype."
+      ],
+      "kg_based": [
+        "Alzheimer's disease is a genetically heterogeneous disorder.",
+        "Alzheimer's disease results from interactions between genetic and environmental factors.",
+        "Alzheimer's disease influences multiple biological pathways.",
+        "Alzheimer's disease offers a way to assess phenotype-specific states.",
+        "A study calculated key network metrics.",
+        "Study characterizes the network transcriptional structure and organization in LOAD.",
+        "A study focused on genes and pathways implicated in Alzheimer's disease pathology within the dorsolateral prefrontal cortex (DLPFC).",
+        "Findings revealed disease-specific coexpression markers associated with diverse metabolic functions.",
+        "Differences are observed at both the mesoscopic and local levels between AD and control networks.",
+        "Results show molecular reorganization of the transcriptional program occurring in LOAD.",
+        "Specific adaptations that may contribute to or result from cellular responses to pathological stressors are highlighted in the results.",
+        "Findings may support the development of a unified model for the causal mechanisms of AD.",
+        "Findings suggest that the diverse manifestations of the disease arise from multiple pathways working together to produce its complex clinical patho-phenotype."
       ]
     }
   },
@@ -24207,6 +25752,29 @@
         "NfL correlated with cognitive decline in patients without stroke lesions.",
         "NfL correlated with delusion in patients with stroke lesions.",
         "Past stroke lesions should be considered in assessing the correlation between blood biomarkers and cognitive decline in dementia patients."
+      ],
+      "kg_based": [
+        "Dementia blood biomarkers are becoming increasingly important.",
+        "Various factors can influence the pathomechanism of dementia.",
+        "Various factors include ischemic lesions.",
+        "Inflammation is one of the various factors.",
+        "We aimed to evaluate effects of past stroke lesions on blood biomarkers.",
+        "Patients with an average age of 74.5 years-old (standard deviation of 9.1) were enrolled in the study, with a total of 111 participants.",
+        "Brain magnetic resonance imaging, cognitive function, and neuropsychological symptoms were analyzed.",
+        "Plasma biomarkers were assessed as amyloid-beta 42 (Abeta42)/Abeta40 ratio.",
+        "Plasma Biomarkers were assessed as phosphorylated tau181 (p-tau181).",
+        "Plasma biomarkers were assessed as glial fibrillary acidic protein (GFAP).",
+        "Plasma biomarkers were assessed as neurofilament light chain (NfL).",
+        "Plasma biomarkers were assessed as the Abeta42/p-tau181 ratio.",
+        "45 patients were diagnosed with Alzheimer's disease.",
+        "56 patients were diagnosed with mild cognitive impairment.",
+        "8 patients were diagnosed with depression.",
+        "Four patients were diagnosed with subjective cognitive impairment.",
+        "All measured BM indicators were significantly associated with cognitive decline in patients without past stroke lesions in bivariate analysis.",
+        "Patients with stroke lesions presented a significant association only between GFAP and cognitive decline (p = 0.0011).",
+        "NfL significantly correlated with cognitive decline only in patients without stroke lesions.",
+        "NfL significantly correlated with delusion only in those with stroke lesions.",
+        "Past stroke lesions should be addressed in the assessment of correlation between blood biomarkers and cognitive decline in dementia patients."
       ]
     }
   },
@@ -24354,6 +25922,22 @@
         "UBE3A is involved in neurodegenerative diseases.",
         "A model of bi-directional interactions between neurons and glia mediated by UBE3A underlies brain functions.",
         "Insights from research on UBE3A could lead to new therapeutic interventions for brain disorders."
+      ],
+      "kg_based": [
+        "UBE3A is an instance of ubiquitin-protein ligase E3A.",
+        "UBE3A is also known as E6-AP.",
+        "UBE3A belongs to the HECT family.",
+        "UBE3A plays roles in stability of various proteins through the proteasomal degradation system.",
+        "UBE3A is associated with the initiation and progression of several cancers.",
+        "UBE3A is associated with an increased risk of autism spectrum disorders.",
+        "UBE3A is associated with Angelman syndrome.",
+        "UBE3A is associated with the development of various brain disorders including schizophrenia, Huntington's disease, Parkinson's disease, and Alzheimer's disease.",
+        "UBE3A is expressed in neurons.",
+        "UBE3A is expressed in glial cells.",
+        "UBE3A is involved in neurodegenerative diseases.",
+        "UBE3A mediates interactions between neurons and glia.",
+        "UBE3A underlies brain functions.",
+        "UBE3A provides avenues for therapeutic interventions targeting various brain disorders."
       ]
     }
   },
@@ -24561,6 +26145,24 @@
         "Non-contact stimulations have been studied in in vitro studies.",
         "Non-contact stimulations have been studied in in vivo animal models.",
         "Non-contact stimulations have been studied in human clinical cases."
+      ],
+      "kg_based": [
+        "Methods of electrical stimulation have been studied in recent years.",
+        "Electrical stimulation methods are used to enhance neural function.",
+        "Electrical stimulation methods are used for treating neurodegenerative diseases like Alzheimer's disease.",
+        "Electrical stimulation methods are used for related dementias.",
+        "Neurodegenerative diseases such as Alzheimer's disease cause cognitive decline.",
+        "Neurodegenerative diseases such as Alzheimer's disease can cause other neurological symptoms.",
+        "Radiofrequency is a rate of oscillation in the range of 3 kHz to 300 GHz.",
+        "Radiofrequency is suggested as a non-contact neuronal stimulation technique.",
+        "Radiofrequency is used for improving brain function.",
+        "Electrical stimulation uses a radiofrequency electromagnetic field.",
+        "RF exposure has been shown to modulate neural stimulation.",
+        "RF exposure has been shown to influence brain activities.",
+        "Studies explored the effects of RF-EMF on human physiology.",
+        "Studies focused on brain activity.",
+        "Studies focused on cognition.",
+        "Studies focused on sleep behavior."
       ]
     }
   }
