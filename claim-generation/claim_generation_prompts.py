@@ -181,30 +181,74 @@ def get_relation_aware_prompt(source_text: str, relations: list) -> str:
 
 def get_kg_parser_prompt_with_entities(source_text: str, entities: List[dict]) -> str:
     """
-    A custom KG parser prompt that includes known entities.
-    We'll embed them in the instructions so the parser
-    tries to incorporate or align them.
+    A custom KG parser prompt that includes known entities. We embed them so
+    the parser tries to incorporate them in the KG (if they appear in the text).
     """
-    entity_list = "\n".join(f"- {ent['word']} (type: {ent['entity_group']})" for ent in entities)
+    entity_list_str = "\n".join(
+        f"- {ent['word']} (type: {ent['entity_group']})"
+        for ent in entities
+    )
 
     return f"""
 ("system",
 ""
-You are an expert at extracting a knowledge graph from text.
-1) Identify all entities (including these known entities):
-{entity_list}
+You are an expert at extracting information in structured formats to build a knowledge graph.
+Step 1 – Entity detection: Identify all entities in the raw text. Entities should be basic and unambiguous, similar to Wikipedia nodes.
+Additionally, please incorporate or confirm the following known entities:
+{entity_list_str}
 
-2) Avoid duplicates by merging co-referent entities.
+Step 2 – Coreference resolution: Merge expressions referring to the same entity to avoid duplicates.
+Step 3 – Relation extraction: Identify semantic relationships between the entities.
 
-3) For each relationship, produce a triple: [subject, relation, object].
-Output only valid JSON: {{ "triples": [...] }}
+Format: Return the knowledge graph as a JSON object with a single key \\"triples\\".
+The value must be a list of triples, each triple = [subject, relation, object],
+for example: [\\"entity 1\\", \\"relation\\", \\"entity 2\\"].
+
+The output must be valid JSON and include nothing but the JSON object.
 ""
-)
-
+,
+"human",
+"Use the above instructions to extract a knowledge graph from the input. Return only the JSON object without any extra text or commentary."
+,
+"human",
+""
+Important Tips:
+- Each triple must contain exactly three non-empty strings.
+- Do not add extra commentary outside the JSON.
+- Validate that the JSON output is well-formed.
+""
+),
 ("human",
 ""
-The raw text to parse is:
-{source_text}
+Here are some example input and output pairs.
+
+Example 1.
+Input:
+\\"The Walt Disney Company, commonly known as Disney, is an American multinational mass media and entertainment conglomerate that is headquartered at the Walt Disney Studios complex in Burbank, California.\\"
+Output:
+{{
+  "triples": [
+    ["The Walt Disney Company", "headquartered at", "Walt Disney Studios complex in Burbank, California"],
+    ["The Walt Disney Company", "commonly known as", "Disney"],
+    ["The Walt Disney Company", "instance of", "American multinational mass media and entertainment conglomerate"]
+  ]
+}}
+
+Example 2.
+Input:
+\\"Amanda Jackson was born in Springfield, Ohio, USA on June 1, 1985. She was a basketball player for the U.S. women’s team.\\"
+Output:
+{{
+  "triples": [
+    ["Amanda Jackson", "born in", "Springfield, Ohio, USA"],
+    ["Amanda Jackson", "born on", "June 1, 1985"],
+    ["Amanda Jackson", "occupation", "basketball player"],
+    ["Amanda Jackson", "played for", "U.S. women’s basketball team"]
+  ]
+}}
+
+Now, process the following input:
+<input>{source_text}</input>
 ""
 )
 """.strip()

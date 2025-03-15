@@ -186,10 +186,10 @@ def main():
 
     strategies = {
         "default_prompt": False,
-        "biomed_specialized": True,
+        "biomed_specialized": False,
         "entities_aware": False,
         "relations_aware": False,
-        "kg_based": False,
+        "kg_based": True,
         "kg_based_entities": False,
         "kg_based_relations": False,
     }
