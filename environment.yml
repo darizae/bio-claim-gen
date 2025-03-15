@@ -1,0 +1,6 @@
+name: bio-claim-gen
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+prefix: /opt/homebrew/Caskroom/miniforge/base/envs/bio-claim-gen
