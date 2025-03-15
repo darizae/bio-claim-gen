@@ -185,8 +185,8 @@ def main():
     OVERRIDE_EXISTING = False
 
     strategies = {
-        "default_prompt": True,
-        "biomed_specialized": False,
+        "default_prompt": False,
+        "biomed_specialized": True,
         "entities_aware": False,
         "relations_aware": False,
         "kg_based": False,
