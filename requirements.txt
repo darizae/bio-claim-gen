@@ -1,2 +1,3 @@
 biopython==1.85
 numpy==2.2.3
+python-dotenv==1.0.1
