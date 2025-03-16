@@ -33,6 +33,13 @@ class AbstractSanityChecker:
 
         return missing_fields
 
+    def check_no_abstract_found(self):
+        """Checks how many abstracts are explicitly labeled as 'No abstract found'."""
+        no_abstract_entries = [
+            entry["pmid"] for entry in self.data if entry.get("abstract", "").strip().lower() == "no abstract found"
+        ]
+        return no_abstract_entries
+
     def check_data_types(self):
         """Ensures that certain fields have expected data types."""
         type_issues = {"pmid": 0, "title": 0, "abstract": 0, "authors": 0}
@@ -87,6 +94,14 @@ class AbstractSanityChecker:
 
         short_abstracts = self.check_short_abstracts()
         print(f"\nShort Abstracts (<50 chars): {short_abstracts}")
+
+        # New check: Flagging "No abstract found"
+        no_abstract_pmids = self.check_no_abstract_found()
+        print(f"\nEntries with 'No abstract found': {len(no_abstract_pmids)}")
+        if no_abstract_pmids:
+            print("  - PMIDs with missing abstracts:")
+            for pmid in no_abstract_pmids:
+                print(f"    * {pmid}")
 
         print("\nSanity check complete.")
 
