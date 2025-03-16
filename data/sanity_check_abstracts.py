@@ -1,5 +1,6 @@
 import json
 import os
+from collections import defaultdict
 
 
 class AbstractSanityChecker:
@@ -57,27 +58,32 @@ class AbstractSanityChecker:
         return type_issues
 
     def check_duplicates(self):
-        """Checks for duplicate abstracts based on PMID."""
-        seen_pmids = set()
-        duplicates = 0
+        """Checks for duplicate abstracts based on PMID and returns duplicate PMIDs."""
+        seen_pmids = defaultdict(int)  # Track how many times each PMID appears
+        duplicates = []
 
         for entry in self.data:
             pmid = entry.get("pmid")
-            if pmid in seen_pmids:
-                duplicates += 1
-            else:
-                seen_pmids.add(pmid)
+            seen_pmids[pmid] += 1
+
+        # Collect PMIDs that appear more than once
+        duplicates = [pmid for pmid, count in seen_pmids.items() if count > 1]
 
         return duplicates
 
     def check_short_abstracts(self, min_length=50):
         """Identifies abstracts that are too short (potentially irrelevant)."""
-        short_abstracts = sum(1 for entry in self.data if len(entry.get("abstract", "")) < min_length)
+        short_abstracts = [
+            entry["pmid"] for entry in self.data if len(entry.get("abstract", "")) < min_length
+        ]
         return short_abstracts
 
     def run_checks(self):
         """Runs all sanity checks and prints a report."""
-        print(f"Running sanity checks on {len(self.data)} abstracts from '{self.filename}'...\n")
+        total_entries = len(self.data)
+        print(f"Running sanity checks on {total_entries} abstracts from '{self.filename}'...\n")
+
+        print(f"Total number of entries: {total_entries}\n")
 
         missing = self.check_missing_fields()
         print("Missing Fields Report:")
@@ -89,24 +95,18 @@ class AbstractSanityChecker:
         for field, count in type_issues.items():
             print(f"  - {field}: {count} incorrect")
 
-        duplicates = self.check_duplicates()
-        print(f"\nDuplicate Entries: {duplicates}")
+        duplicate_pmids = self.check_duplicates()
+        print(f"\nDuplicate Entries: {len(duplicate_pmids)}")
 
         short_abstracts = self.check_short_abstracts()
-        print(f"\nShort Abstracts (<50 chars): {short_abstracts}")
+        print(f"\nShort Abstracts (<50 chars): {len(short_abstracts)}")
 
-        # New check: Flagging "No abstract found"
         no_abstract_pmids = self.check_no_abstract_found()
         print(f"\nEntries with 'No abstract found': {len(no_abstract_pmids)}")
-        if no_abstract_pmids:
-            print("  - PMIDs with missing abstracts:")
-            for pmid in no_abstract_pmids:
-                print(f"    * {pmid}")
 
         print("\nSanity check complete.")
 
 
 if __name__ == "__main__":
-    # Run sanity checks on the extracted data
     checker = AbstractSanityChecker("pubmed_abstracts.json")
     checker.run_checks()

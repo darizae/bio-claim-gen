@@ -13,6 +13,9 @@ class RelationExtractionSanityChecker:
         self.filename = filename
         self.data = self.load_data()
 
+        # Print total number of entries
+        print(f"Total number of entries found: {len(self.data)}")
+
     def load_data(self):
         """Loads the JSON file containing extracted relations and entities."""
         with open(self.filename, "r", encoding="utf-8") as f:
@@ -108,7 +111,7 @@ class RelationExtractionSanityChecker:
 
     def run_checks(self):
         """Runs all sanity checks and prints a report."""
-        print(f"Running sanity checks on {len(self.data)} abstracts from '{self.filename}'...\n")
+        print(f"\nRunning sanity checks on {len(self.data)} abstracts from '{self.filename}'...\n")
 
         missing = self.check_missing_fields()
         print("Missing Fields Report:")
