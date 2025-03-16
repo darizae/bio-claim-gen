@@ -6,21 +6,21 @@
     "entities": [
       {
         "entity_group": "Disease_disorder",
-        "score": 0.9231060147285461,
+        "score": 0.9231070280075073,
         "word": "alzheimer ' s disease",
         "start": 146,
         "end": 165
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.8979451060295105,
+        "score": 0.8979423642158508,
         "word": "ginger - processed",
         "start": 194,
         "end": 210
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.7525451183319092,
+        "score": 0.7525496482849121,
         "word": "fermented",
         "start": 215,
         "end": 224
@@ -34,56 +34,56 @@
       },
       {
         "entity_group": "Coreference",
-        "score": 0.9404430389404297,
+        "score": 0.9404431581497192,
         "word": "##gg",
         "start": 440,
         "end": 442
       },
       {
         "entity_group": "Coreference",
-        "score": 0.8251461386680603,
+        "score": 0.8251463174819946,
         "word": "f",
         "start": 570,
         "end": 571
       },
       {
         "entity_group": "Coreference",
-        "score": 0.9252932667732239,
+        "score": 0.9252936840057373,
         "word": "##gg",
         "start": 571,
         "end": 573
       },
       {
         "entity_group": "Coreference",
-        "score": 0.8927540183067322,
+        "score": 0.8927551507949829,
         "word": "f",
         "start": 731,
         "end": 732
       },
       {
         "entity_group": "Coreference",
-        "score": 0.9397012591362,
+        "score": 0.9397010803222656,
         "word": "##gg",
         "start": 732,
         "end": 734
       },
       {
         "entity_group": "Coreference",
-        "score": 0.7440973520278931,
+        "score": 0.7441012263298035,
         "word": "##gg",
         "start": 1103,
         "end": 1105
       },
       {
         "entity_group": "Coreference",
-        "score": 0.7392792701721191,
+        "score": 0.7392834424972534,
         "word": "f",
         "start": 1206,
         "end": 1207
       },
       {
         "entity_group": "Coreference",
-        "score": 0.9498752951622009,
+        "score": 0.9498755931854248,
         "word": "##gg",
         "start": 1207,
         "end": 1209
@@ -201,6 +201,16 @@
         "Mechanisms involve modulation of gut-brain axis.",
         "FGGE has been shown to mitigate symptoms of Alzheimer's disease.",
         "FGGE represents an innovative functional food with significant therapeutic potential and promising application prospects."
+      ],
+      "relations_aware": [
+        "Gastrodia elata BI. possesses a strong capacity for alleviating the symptoms of Alzheimer's disease (AD).",
+        "Ginger-processed and fermented Gastrodia elata BI. (FGGE) was investigated for its effects on behaviour, brain neuroregulation, and the gut microbiota in an AlCl(3)-induced AD rat model.",
+        "Results indicate that FGGE significantly improved novel object recognition and the correct alternation rate in the Y-maze test for AD rats.",
+        "FGGE alleviated brain oxidative stress and restored the anti-inflammatory response, cholinergic function, and tissue morphology in the hippocampus.",
+        "FGGE activated the cAMP response element-binding protein/brain-derived neurotrophic factor signalling pathway, reversing neural network abnormalities and enhancing neural regulation.",
+        "FGGE promoted the proliferation of bacteria negatively associated with AD, such as Methanosphaera and Lactobacillus, thereby restoring gut microbiota balance.",
+        "The mechanisms by which FGGE alleviates AD may involve the modulation of the gut-brain axis, ultimately mitigating AD symptoms.",
+        "FGGE represents an innovative functional food with significant therapeutic potential and promising application prospects."
       ]
     }
   },
@@ -211,21 +221,21 @@
     "entities": [
       {
         "entity_group": "Sign_symptom",
-        "score": 0.8340691328048706,
+        "score": 0.8340686559677124,
         "word": "dysbiosis",
         "start": 0,
         "end": 9
       },
       {
         "entity_group": "Biological_structure",
-        "score": 0.6944363117218018,
+        "score": 0.694434642791748,
         "word": "gut",
         "start": 13,
         "end": 16
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.6777492761611938,
+        "score": 0.6777483224868774,
         "word": "##biota",
         "start": 22,
         "end": 27
@@ -246,21 +256,21 @@
       },
       {
         "entity_group": "Coreference",
-        "score": 0.8736621737480164,
+        "score": 0.8736599683761597,
         "word": "bacteria",
         "start": 176,
         "end": 184
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9958006739616394,
+        "score": 0.995800793170929,
         "word": "bile",
         "start": 376,
         "end": 380
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9930062294006348,
+        "score": 0.9930059313774109,
         "word": "amyloid precursor protein knock - in",
         "start": 438,
         "end": 472
@@ -274,126 +284,126 @@
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.9430001378059387,
+        "score": 0.9430002570152283,
         "word": "transgenic mice",
         "start": 494,
         "end": 509
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.7339456081390381,
+        "score": 0.7339417934417725,
         "word": "bile",
         "start": 575,
         "end": 579
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.5450336337089539,
+        "score": 0.5450317859649658,
         "word": "amy",
         "start": 646,
         "end": 649
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.2847864627838135,
+        "score": 0.28478819131851196,
         "word": "##loid",
         "start": 649,
         "end": 653
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9616372585296631,
+        "score": 0.9616368412971497,
         "word": "abe",
         "start": 655,
         "end": 658
       },
       {
         "entity_group": "Lab_value",
-        "score": 0.8160970211029053,
+        "score": 0.8160958886146545,
         "word": "decrease",
         "start": 685,
         "end": 693
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9016828536987305,
+        "score": 0.9016809463500977,
         "word": "lactobaci",
         "start": 697,
         "end": 706
       },
       {
         "entity_group": "Lab_value",
-        "score": 0.6211075782775879,
+        "score": 0.6211023926734924,
         "word": "increase",
         "start": 735,
         "end": 743
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.574661374092102,
+        "score": 0.5746574401855469,
         "word": "bacteria",
         "start": 747,
         "end": 755
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.5119917392730713,
+        "score": 0.511992335319519,
         "word": "interactions",
         "start": 923,
         "end": 935
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.3500397801399231,
+        "score": 0.35004425048828125,
         "word": "ev",
         "start": 1038,
         "end": 1040
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.8515581488609314,
+        "score": 0.851556122303009,
         "word": "##ium scinden",
         "start": 1117,
         "end": 1128
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.96937096118927,
+        "score": 0.9693708419799805,
         "word": "lithocholic acid",
         "start": 1179,
         "end": 1195
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9081984162330627,
+        "score": 0.9081981182098389,
         "word": "small rna",
         "start": 1274,
         "end": 1283
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.8935958743095398,
+        "score": 0.8935973644256592,
         "word": "ev",
         "start": 1310,
         "end": 1312
       },
       {
         "entity_group": "Coreference",
-        "score": 0.8975258469581604,
+        "score": 0.8975264430046082,
         "word": "t",
         "start": 1364,
         "end": 1365
       },
       {
         "entity_group": "Coreference",
-        "score": 0.4887872636318207,
+        "score": 0.4887886345386505,
         "word": "##la",
         "start": 1365,
         "end": 1367
       },
       {
         "entity_group": "Coreference",
-        "score": 0.9105010032653809,
+        "score": 0.9105002284049988,
         "word": "ad",
         "start": 1652,
         "end": 1654
@@ -407,14 +417,14 @@
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.5020982027053833,
+        "score": 0.502103328704834,
         "word": "toxic",
         "start": 1755,
         "end": 1760
       },
       {
         "entity_group": "Coreference",
-        "score": 0.9244144558906555,
+        "score": 0.9244151711463928,
         "word": "t",
         "start": 1761,
         "end": 1762
@@ -612,6 +622,27 @@
         "EVs released by L. johnsonii can suppress toxic TLA.",
         "L. johnsonii is abundant in the small intestine.",
         "EVs released by L. johnsonii have the potential to be developed into health-promoting probiotics."
+      ],
+      "relations_aware": [
+        "Dysbiosis in gut microbiota has been linked to neurodegenerative diseases.",
+        "Abnormalities in bile acids have been linked to neurodegenerative diseases.",
+        "Many studies have focused on the relationship between colonic bacteria and Alzheimer's disease.",
+        "This study proposes that alterations in the small intestine microbiota may play a more critical role in Alzheimer's disease.",
+        "The small intestine is pivotal in recycling bile acids through enterohepatic circulation.",
+        "This study uses amyloid precursor protein knock-in transgenic mice to investigate the association between intestinal microbiota and bile acid metabolism.",
+        "The accumulation of beta-amyloid leads to a decrease in Lactobacillus johnsonii in the small intestine.",
+        "The accumulation of beta-amyloid leads to an increase in bacteria of the genus Clostridium in the small intestine.",
+        "Lactobacillus johnsonii is important for producing toxic bile acids.",
+        "Bacteria of the genus Clostridium are important for producing toxic bile acids.",
+        "Extracellular vesicles are involved in bacterial interactions and bacteria-host interactions.",
+        "Treatment with L. johnsonii-derived extracellular vesicles inhibited the growth of Clostridium scindens.",
+        "Treatment with L. johnsonii-derived extracellular vesicles suppressed the production of toxic secondary lithocholic acid.",
+        "The removal of small RNA from L. johnsonii-derived extracellular vesicles resulted in the loss of their ability to suppress toxic secondary lithocholic acid production.",
+        "The small intestine microbiota may play a more critical role than the colonic microbiota in Alzheimer's disease.",
+        "Deterioration of small intestine microbiota led to the metabolism disruption of certain secondary bile acids.",
+        "Certain secondary bile acids have been reported to exacerbate Alzheimer's disease pathology.",
+        "Extracellular vesicles released by L. johnsonii can suppress toxic secondary lithocholic acid.",
+        "L. johnsonii has the potential to be developed into health-promoting probiotics."
       ]
     }
   },
@@ -622,7 +653,7 @@
     "entities": [
       {
         "entity_group": "Lab_value",
-        "score": 0.5495312213897705,
+        "score": 0.5495343208312988,
         "word": "improvements",
         "start": 39,
         "end": 51
@@ -636,35 +667,35 @@
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.9948034882545471,
+        "score": 0.9948036074638367,
         "word": "cognition",
         "start": 71,
         "end": 80
       },
       {
         "entity_group": "Medication",
-        "score": 0.861254096031189,
+        "score": 0.861251950263977,
         "word": "methylph",
         "start": 86,
         "end": 94
       },
       {
         "entity_group": "Medication",
-        "score": 0.8428570032119751,
+        "score": 0.8428640961647034,
         "word": "##enidate",
         "start": 94,
         "end": 101
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.9934338927268982,
+        "score": 0.993433952331543,
         "word": "apathy",
         "start": 150,
         "end": 156
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.9521195888519287,
+        "score": 0.9521201848983765,
         "word": "cognition",
         "start": 184,
         "end": 193
@@ -678,7 +709,7 @@
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.789111852645874,
+        "score": 0.7891174554824829,
         "word": "dementia",
         "start": 211,
         "end": 219
@@ -692,7 +723,7 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.3388935625553131,
+        "score": 0.3388979732990265,
         "word": "##ph",
         "start": 226,
         "end": 228
@@ -706,7 +737,7 @@
       },
       {
         "entity_group": "Severity",
-        "score": 0.8221903443336487,
+        "score": 0.8221902251243591,
         "word": "moderate",
         "start": 277,
         "end": 285
@@ -727,14 +758,14 @@
       },
       {
         "entity_group": "Lab_value",
-        "score": 0.6882804036140442,
+        "score": 0.6882820129394531,
         "word": "mph",
         "start": 347,
         "end": 350
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.5145418643951416,
+        "score": 0.5145339369773865,
         "word": "place",
         "start": 366,
         "end": 371
@@ -748,21 +779,21 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.7439236640930176,
+        "score": 0.743918776512146,
         "word": "ne",
         "start": 431,
         "end": 433
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9936386346817017,
+        "score": 0.9936385154724121,
         "word": "##uropsychiatric inventory",
         "start": 433,
         "end": 457
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.6491775512695312,
+        "score": 0.6491809487342834,
         "word": "apathy",
         "start": 458,
         "end": 464
@@ -776,7 +807,7 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9973697662353516,
+        "score": 0.997369647026062,
         "word": "mini - mental state exam",
         "start": 514,
         "end": 536
@@ -790,14 +821,14 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9875279068946838,
+        "score": 0.987528383731842,
         "word": "hopkins",
         "start": 545,
         "end": 552
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9961024522781372,
+        "score": 0.9961025714874268,
         "word": "verbal learning",
         "start": 553,
         "end": 568
@@ -811,35 +842,35 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9672409296035767,
+        "score": 0.9672395586967468,
         "word": "trail making",
         "start": 658,
         "end": 670
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.745762825012207,
+        "score": 0.7457590103149414,
         "word": "fluency",
         "start": 701,
         "end": 708
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.6447151899337769,
+        "score": 0.6447112560272217,
         "word": "test",
         "start": 766,
         "end": 770
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.9837740659713745,
+        "score": 0.9837745428085327,
         "word": "linear",
         "start": 786,
         "end": 792
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.4609333872795105,
+        "score": 0.460936576128006,
         "word": "mixed",
         "start": 793,
         "end": 798
@@ -860,7 +891,7 @@
       },
       {
         "entity_group": "Lab_value",
-        "score": 0.7027722001075745,
+        "score": 0.7027731537818909,
         "word": "worse",
         "start": 1211,
         "end": 1216
@@ -888,7 +919,7 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.8822606205940247,
+        "score": 0.882261335849762,
         "word": "##v",
         "start": 1311,
         "end": 1312
@@ -902,7 +933,7 @@
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.7808221578598022,
+        "score": 0.7808232307434082,
         "word": "apathy",
         "start": 1447,
         "end": 1453
@@ -916,14 +947,14 @@
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.9854825139045715,
+        "score": 0.9854824542999268,
         "word": "apathy",
         "start": 1502,
         "end": 1508
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.4207818806171417,
+        "score": 0.4207833409309387,
         "word": "mph",
         "start": 1521,
         "end": 1524
@@ -1060,6 +1091,19 @@
         "Changes in apathy are mostly independent of cognitive changes.",
         "Apathy response to MPH is independent from cognition.",
         "Apathy is related to but distinct from cognition."
+      ],
+      "relations_aware": [
+        "Previous trials have shown improvements in both apathy and cognition with methylphenidate (MPH).",
+        "Changes in apathy correlated with changes in cognition in the Apathy in Dementia Methylphenidate Trial 2 (ADMET 2).",
+        "Mild to moderate AD patients with clinically significant apathy were randomized to MPH (20 mg/day) or placebo for 6 months.",
+        "Apathy was measured with the Neuropsychiatric Inventory-apathy (NPI-A) domain.",
+        "Cognition was measured using the Mini-Mental State Exam (MMSE), Hopkins Verbal Learning (immediate [HVLT-I], delayed [HVLT-D] recall), Digit Span (Forward [DF], Backward [DB]), Trail Making (TMT-A, TMT-B), Action Verbal Fluency (AV), Category Fluency (CF), and the Short Boston Naming Test (BNT).",
+        "Linear mixed models included cognitive change scores as dependent variables and time, treatment, change in NPI-A and the interaction between treatment and change in NPI-A as independent variables.",
+        "Worsening CF was associated with worsening apathy among all participants.",
+        "Change in HVLT-I was associated with the interaction between changes in apathy and treatment.",
+        "Changes in apathy are mostly independent of cognitive changes.",
+        "Apathy response to MPH may be independent from cognition.",
+        "Apathy as a syndrome is related to but distinct from cognition."
       ]
     }
   },
@@ -1070,63 +1114,63 @@
     "entities": [
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.3540947735309601,
+        "score": 0.3540974259376526,
         "word": "semantic",
         "start": 60,
         "end": 68
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.9906336069107056,
+        "score": 0.9906337261199951,
         "word": "interference",
         "start": 69,
         "end": 81
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.5672692060470581,
+        "score": 0.5672737956047058,
         "word": "recover",
         "start": 103,
         "end": 110
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.9267374873161316,
+        "score": 0.9267369508743286,
         "word": "semantic interference",
         "start": 126,
         "end": 147
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.9746707677841187,
+        "score": 0.974670946598053,
         "word": "fr",
         "start": 149,
         "end": 151
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.8998004198074341,
+        "score": 0.8998005390167236,
         "word": "##ps",
         "start": 151,
         "end": 153
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.9670423865318298,
+        "score": 0.9670431613922119,
         "word": "everyday",
         "start": 185,
         "end": 193
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.8396716713905334,
+        "score": 0.8396674394607544,
         "word": "functional",
         "start": 194,
         "end": 204
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.5597602725028992,
+        "score": 0.5597627758979797,
         "word": "decline",
         "start": 205,
         "end": 212
@@ -1140,14 +1184,14 @@
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.5117456912994385,
+        "score": 0.5117337107658386,
         "word": "dementia",
         "start": 229,
         "end": 237
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9981409311294556,
+        "score": 0.998140811920166,
         "word": "sum",
         "start": 245,
         "end": 248
@@ -1161,28 +1205,28 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.8232426643371582,
+        "score": 0.8232452273368835,
         "word": "cd",
         "start": 259,
         "end": 261
       },
       {
         "entity_group": "Age",
-        "score": 0.8726161122322083,
+        "score": 0.8726167678833008,
         "word": "older",
         "start": 274,
         "end": 279
       },
       {
         "entity_group": "Sex",
-        "score": 0.5555933117866516,
+        "score": 0.5555931925773621,
         "word": "adults",
         "start": 280,
         "end": 286
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.7567529678344727,
+        "score": 0.7567605972290039,
         "word": "amnestic",
         "start": 292,
         "end": 300
@@ -1196,91 +1240,91 @@
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.8964033722877502,
+        "score": 0.8964052200317383,
         "word": "cognitive impairment",
         "start": 306,
         "end": 326
       },
       {
         "entity_group": "Dosage",
-        "score": 0.26432493329048157,
+        "score": 0.26432570815086365,
         "word": "1",
         "start": 391,
         "end": 392
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.6422555446624756,
+        "score": 0.6422594785690308,
         "word": "alzheimer",
         "start": 400,
         "end": 409
       },
       {
         "entity_group": "Nonbiological_location",
-        "score": 0.5848971605300903,
+        "score": 0.5848960876464844,
         "word": "'",
         "start": 409,
         "end": 410
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.7266312837600708,
+        "score": 0.7266370058059692,
         "word": "s disease",
         "start": 410,
         "end": 419
       },
       {
         "entity_group": "Nonbiological_location",
-        "score": 0.7312971949577332,
+        "score": 0.7312970161437988,
         "word": "research center",
         "start": 420,
         "end": 435
       },
       {
         "entity_group": "Lab_value",
-        "score": 0.5311748385429382,
+        "score": 0.5311773419380188,
         "word": "97",
         "start": 461,
         "end": 463
       },
       {
         "entity_group": "Age",
-        "score": 0.6627329587936401,
+        "score": 0.6627311706542969,
         "word": "older adults",
         "start": 464,
         "end": 476
       },
       {
         "entity_group": "Age",
-        "score": 0.8779446482658386,
+        "score": 0.8779443502426147,
         "word": "aged 54 to 98 years",
         "start": 477,
         "end": 496
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.9668108820915222,
+        "score": 0.9668108224868774,
         "word": "amci",
         "start": 521,
         "end": 525
       },
       {
         "entity_group": "Lab_value",
-        "score": 0.7889859080314636,
+        "score": 0.7889869809150696,
         "word": ".",
         "start": 581,
         "end": 582
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9768258333206177,
+        "score": 0.9768252968788147,
         "word": "mmse",
         "start": 660,
         "end": 664
       },
       {
         "entity_group": "Lab_value",
-        "score": 0.9868252873420715,
+        "score": 0.9868254661560059,
         "word": "28. 0",
         "start": 675,
         "end": 679
@@ -1294,28 +1338,28 @@
       },
       {
         "entity_group": "Frequency",
-        "score": 0.9910368919372559,
+        "score": 0.9910367727279663,
         "word": "annually",
         "start": 708,
         "end": 716
       },
       {
         "entity_group": "Quantitative_concept",
-        "score": 0.758394181728363,
+        "score": 0.7583921551704407,
         "word": "3 to 4",
         "start": 721,
         "end": 727
       },
       {
         "entity_group": "Clinical_event",
-        "score": 0.43064412474632263,
+        "score": 0.4306483268737793,
         "word": "visits",
         "start": 728,
         "end": 734
       },
       {
         "entity_group": "Lab_value",
-        "score": 0.983494758605957,
+        "score": 0.9834944009780884,
         "word": "38. 9 months",
         "start": 765,
         "end": 776
@@ -1329,35 +1373,35 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.5421966314315796,
+        "score": 0.5421998500823975,
         "word": "sob",
         "start": 824,
         "end": 827
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.7508047223091125,
+        "score": 0.7508128881454468,
         "word": "cd",
         "start": 898,
         "end": 900
       },
       {
         "entity_group": "Coreference",
-        "score": 0.6509198546409607,
+        "score": 0.6509185433387756,
         "word": "sob",
         "start": 902,
         "end": 905
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.7340156435966492,
+        "score": 0.7340090870857239,
         "word": "psi",
         "start": 946,
         "end": 949
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9897399544715881,
+        "score": 0.9897398352622986,
         "word": "verbal learning test",
         "start": 1249,
         "end": 1269
@@ -1378,14 +1422,14 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9662636518478394,
+        "score": 0.9662641882896423,
         "word": "amyloid",
         "start": 1311,
         "end": 1318
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.8661584854125977,
+        "score": 0.8661585450172424,
         "word": "fr",
         "start": 1331,
         "end": 1333
@@ -1399,21 +1443,21 @@
       },
       {
         "entity_group": "Coreference",
-        "score": 0.9423708319664001,
+        "score": 0.9423700571060181,
         "word": "sob",
         "start": 1473,
         "end": 1476
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.4623432457447052,
+        "score": 0.46234920620918274,
         "word": "fr",
         "start": 1491,
         "end": 1493
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.4692831039428711,
+        "score": 0.4692862331867218,
         "word": "decline",
         "start": 1551,
         "end": 1558
@@ -1427,7 +1471,7 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.6188317537307739,
+        "score": 0.6188334822654724,
         "word": "amyloid status",
         "start": 1612,
         "end": 1626
@@ -1624,6 +1668,21 @@
         "frPSI is statistically significant in predicting a steeper slope on the trajectory of decline in CDR-SOB.",
         "frPSI predicted the rate of everyday functional decline over time.",
         "frPSI predicted the rate of change in CDR-SOB."
+      ],
+      "relations_aware": [
+        "The study evaluated the predictive utility of proactive semantic interference (PSI) and failure to recover from proactive semantic interference (frPSI) deficits on the longitudinal everyday functional decline on the Clinical Dementia Rating Sum of Boxes (CDR-SOB) among older adults with amnestic mild cognitive impairment (aMCI).",
+        "The study was a longitudinal prospective cohort study.",
+        "The study was conducted at the 1Florida Alzheimer's Disease Research Center (1FLADRC).",
+        "97 older adults aged 54 to 98 years were diagnosed with aMCI following a baseline evaluation.",
+        "The average age of the participants was 71.9 years, with 51% male, average education of 15.7 years, and 56% Hispanic.",
+        "The mean MMSE score of the participants was 28.0.",
+        "Participants were followed annually for 3 to 4 visits with a mean follow-up time of 38.9 months.",
+        "CDR-SOB measurements were obtained at each visit and the latent growth curve trajectory of CDR-SOB was estimated.",
+        "The associations between PSI and frPSI and the growth curve trajectory of CDR-SOB were examined.",
+        "The growth curve model that best fits the CDR-SOB trajectory was a linear form and included the fixed and random effect of intercept and slope of time.",
+        "After adjusting for age, sex, education, Hispanic background, Hopkins Verbal Learning Test (HVLT) immediate and delayed recall, and amyloid positivity, frPSI remained statistically significant in predicting a steeper slope on the trajectory of decline in CDR-SOB.",
+        "frPSI at baseline predicted the rate of everyday functional decline over time among participants with aMCI regardless of amyloid status.",
+        "frPSI demonstrated its utility of longitudinal prediction of change in CDR-SOB."
       ]
     }
   },
@@ -1634,7 +1693,7 @@
     "entities": [
       {
         "entity_group": "Sign_symptom",
-        "score": 0.9717588424682617,
+        "score": 0.9717589020729065,
         "word": "depressive symptoms",
         "start": 36,
         "end": 55
@@ -1655,49 +1714,49 @@
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.9544395208358765,
+        "score": 0.9544399380683899,
         "word": "stress",
         "start": 418,
         "end": 424
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.7835800647735596,
+        "score": 0.7835811972618103,
         "word": "ad",
         "start": 428,
         "end": 430
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.9878515601158142,
+        "score": 0.987851619720459,
         "word": "depressive symptoms",
         "start": 553,
         "end": 572
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.805569589138031,
+        "score": 0.8055682182312012,
         "word": "g",
         "start": 611,
         "end": 612
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.9642528295516968,
+        "score": 0.9642520546913147,
         "word": "di",
         "start": 630,
         "end": 632
       },
       {
         "entity_group": "Biological_structure",
-        "score": 0.8653126955032349,
+        "score": 0.8653146624565125,
         "word": "##urn",
         "start": 632,
         "end": 635
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.7206373810768127,
+        "score": 0.720636248588562,
         "word": "##al saliva",
         "start": 635,
         "end": 644
@@ -1711,21 +1770,21 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9798159599304199,
+        "score": 0.9798154830932617,
         "word": "##sol",
         "start": 652,
         "end": 655
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.7975376844406128,
+        "score": 0.7975380420684814,
         "word": "cognitive performance",
         "start": 673,
         "end": 694
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.972095787525177,
+        "score": 0.9720959067344666,
         "word": "cognitive tests",
         "start": 724,
         "end": 739
@@ -1746,7 +1805,7 @@
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.908005952835083,
+        "score": 0.9080058336257935,
         "word": "cognitive decline",
         "start": 920,
         "end": 937
@@ -1760,28 +1819,28 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.609928548336029,
+        "score": 0.6099199652671814,
         "word": "g",
         "start": 1031,
         "end": 1032
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.8428500890731812,
+        "score": 0.8428493142127991,
         "word": "co",
         "start": 1099,
         "end": 1101
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.8223125338554382,
+        "score": 0.8223145604133606,
         "word": "amyloid beta",
         "start": 1188,
         "end": 1200
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.7259069681167603,
+        "score": 0.7259059548377991,
         "word": "abe",
         "start": 1204,
         "end": 1207
@@ -1802,7 +1861,7 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.789220929145813,
+        "score": 0.7892171740531921,
         "word": "##ds",
         "start": 1273,
         "end": 1275
@@ -1823,14 +1882,14 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.6359725594520569,
+        "score": 0.6359724998474121,
         "word": "g",
         "start": 1501,
         "end": 1502
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.8090249300003052,
+        "score": 0.8090269565582275,
         "word": "##ds",
         "start": 1502,
         "end": 1504
@@ -1844,14 +1903,14 @@
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.8006696701049805,
+        "score": 0.8006721138954163,
         "word": "##loid pathology",
         "start": 1617,
         "end": 1631
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.7363198399543762,
+        "score": 0.7363182902336121,
         "word": "depressive symptoms",
         "start": 1667,
         "end": 1686
@@ -2054,6 +2113,23 @@
         "Associations were no longer significant after introducing AD biomarkers as covariates.",
         "Baseline GDS score is not associated with change in memory or processing speed at follow-up.",
         "Amyloid pathology may affect the association between depressive symptoms and cognitive performance in memory clinic patients."
+      ],
+      "relations_aware": [
+        "The study was a longitudinal observational study.",
+        "The study was conducted at a memory clinic in Karolinska University Hospital, Stockholm, Sweden.",
+        "Participants in the study were consecutive patients who agreed to take part in the Co-STAR study.",
+        "Participants in the study rated their depressive symptoms using the Geriatric Depression Scale (GDS).",
+        "Participants in the study collected diurnal salivary cortisol samples at home.",
+        "Cognitive performance was assessed by standardized cognitive tests in various domains.",
+        "Dementia, mild cognitive impairment (MCI), and subjective cognitive decline (SCD) were diagnosed as part of the clinical work-up.",
+        "Associations were determined between GDS and cognitive domain scores using linear regressions.",
+        "Cortisol levels were included as covariates in the linear regressions.",
+        "CSF AD biomarkers amyloid beta42 (Abeta42) and tau proteins were tested for modifying associations.",
+        "The GDS score was negatively associated with performance in working memory and processing speed.",
+        "The negative associations were independent of cortisol levels.",
+        "The negative associations were no longer significant after introducing AD biomarkers as covariates.",
+        "Baseline GDS score was not associated with change in memory or processing speed at follow-up.",
+        "The underlying amyloid pathology may affect the association between depressive symptoms and cognitive performance in memory clinic patients."
       ]
     }
   },
@@ -2071,7 +2147,7 @@
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.8625686764717102,
+        "score": 0.8625717759132385,
         "word": "ne",
         "start": 37,
         "end": 39
@@ -2085,7 +2161,7 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9858384728431702,
+        "score": 0.9858382344245911,
         "word": "tau protein",
         "start": 81,
         "end": 92
@@ -2099,154 +2175,154 @@
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.9594614505767822,
+        "score": 0.9594609141349792,
         "word": "ne",
         "start": 118,
         "end": 120
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.7695794701576233,
+        "score": 0.7695779204368591,
         "word": "##uro",
         "start": 120,
         "end": 123
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.9179410934448242,
+        "score": 0.917938232421875,
         "word": "##brillary tangle",
         "start": 125,
         "end": 140
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.8759759664535522,
+        "score": 0.8759748935699463,
         "word": "alzheimer",
         "start": 310,
         "end": 319
       },
       {
         "entity_group": "Medication",
-        "score": 0.6226164102554321,
+        "score": 0.6226193904876709,
         "word": "flav",
         "start": 430,
         "end": 434
       },
       {
         "entity_group": "Medication",
-        "score": 0.726617693901062,
+        "score": 0.7266178727149963,
         "word": "al",
         "start": 442,
         "end": 444
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.6034080982208252,
+        "score": 0.6034114360809326,
         "word": "sap",
         "start": 453,
         "end": 456
       },
       {
         "entity_group": "Medication",
-        "score": 0.27080482244491577,
+        "score": 0.2708057761192322,
         "word": "##oni",
         "start": 456,
         "end": 459
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.37888967990875244,
+        "score": 0.3788914978504181,
         "word": "polysacchari",
         "start": 463,
         "end": 475
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.8429599404335022,
+        "score": 0.8429595828056335,
         "word": "ph",
         "start": 480,
         "end": 482
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.6283061504364014,
+        "score": 0.6283065676689148,
         "word": "ph",
         "start": 489,
         "end": 491
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.35459986329078674,
+        "score": 0.3546028137207031,
         "word": "##en",
         "start": 491,
         "end": 493
       },
       {
         "entity_group": "Medication",
-        "score": 0.394915908575058,
+        "score": 0.39491650462150574,
         "word": "##yl",
         "start": 493,
         "end": 495
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.41715627908706665,
+        "score": 0.41715869307518005,
         "word": "##pro",
         "start": 495,
         "end": 498
       },
       {
         "entity_group": "Medication",
-        "score": 0.44659504294395447,
+        "score": 0.44659513235092163,
         "word": "##pan",
         "start": 498,
         "end": 501
       },
       {
         "entity_group": "Medication",
-        "score": 0.54244065284729,
+        "score": 0.5424397587776184,
         "word": "ter",
         "start": 511,
         "end": 514
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9776043891906738,
+        "score": 0.9776048064231873,
         "word": "mod",
         "start": 574,
         "end": 577
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.8502652645111084,
+        "score": 0.8502644896507263,
         "word": "kinase",
         "start": 585,
         "end": 591
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.6962868571281433,
+        "score": 0.696293830871582,
         "word": "ph",
         "start": 597,
         "end": 599
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.9889198541641235,
+        "score": 0.9889199733734131,
         "word": "tau pathology",
         "start": 690,
         "end": 703
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.8072858452796936,
+        "score": 0.807283878326416,
         "word": "cognitive function",
         "start": 720,
         "end": 738
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.8657674789428711,
+        "score": 0.865772545337677,
         "word": "alzheimer",
         "start": 781,
         "end": 790
@@ -2414,6 +2490,25 @@
         "Natural products have potential value as anti-Alzheimer's disease therapeutics.",
         "Recent advances have integrated extraction methods, pharmacological studies, and artificial intelligence-driven screening technologies.",
         "The review provides valuable reference for future research and development of natural product-based interventions for Alzheimer's disease."
+      ],
+      "relations_aware": [
+        "Alzheimer's disease is a progressive neurodegenerative disorder.",
+        "Alzheimer's disease is characterized by tau protein hyperphosphorylation.",
+        "Alzheimer's disease is characterized by neurofibrillary tangle formation.",
+        "Tau protein hyperphosphorylation is central to the pathogenesis of Alzheimer's disease.",
+        "This review focuses on the therapeutic potential of natural products in targeting tau phosphorylation.",
+        "Tau phosphorylation is a key factor in Alzheimer's disease progression.",
+        "Current research on natural compounds includes flavonoids, alkaloids, saponins, polysaccharides, phenols, phenylpropanoids, and terpenoids.",
+        "Natural compounds have multitarget mechanisms, such as modulating kinases and phosphatases.",
+        "Natural compounds can mitigate oxidative stress.",
+        "Natural compounds can mitigate inflammation.",
+        "Natural compounds can mitigate tau pathology.",
+        "Natural compounds can enhance cognitive function.",
+        "Natural compounds have value as potential anti-Alzheimer's disease therapeutics.",
+        "Recent advances in extraction methods are integrated in this review.",
+        "Pharmacological studies are integrated in this review.",
+        "Artificial intelligence-driven screening technologies are integrated in this review.",
+        "This review provides a valuable reference for future research and development of natural product-based interventions for Alzheimer's disease."
       ]
     }
   },
@@ -2431,63 +2526,63 @@
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.9901937246322632,
+        "score": 0.9901938438415527,
         "word": "metabolic diseases",
         "start": 212,
         "end": 230
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.7524836659431458,
+        "score": 0.7524877190589905,
         "word": "alzheimer",
         "start": 308,
         "end": 317
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.883855938911438,
+        "score": 0.8838582038879395,
         "word": "bacterial",
         "start": 586,
         "end": 595
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.32805386185646057,
+        "score": 0.3280535042285919,
         "word": "amy",
         "start": 596,
         "end": 599
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.7717036008834839,
+        "score": 0.7717068195343018,
         "word": "##loid",
         "start": 599,
         "end": 603
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.9815961718559265,
+        "score": 0.981596052646637,
         "word": "amy",
         "start": 652,
         "end": 655
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.7249158620834351,
+        "score": 0.7249187231063843,
         "word": "##loid aggregation",
         "start": 655,
         "end": 671
       },
       {
         "entity_group": "Biological_structure",
-        "score": 0.9673596024513245,
+        "score": 0.9673594236373901,
         "word": "brain",
         "start": 679,
         "end": 684
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9272260665893555,
+        "score": 0.9272264838218689,
         "word": "amyloid",
         "start": 870,
         "end": 877
@@ -2591,6 +2686,20 @@
         "Therapeutic strategies are aimed at mitigating Alzheimer's Disease progression.",
         "Approaches are targeting the gut-brain-metabolic axis.",
         "Approaches could offer promising avenues for delaying or preventing cognitive decline in affected individuals."
+      ],
+      "relations_aware": [
+        "Gut microbial dysbiosis in Alzheimer's Disease suggests a pathogenic role for gut inflammation.",
+        "Gut microbial dysbiosis in Alzheimer's Disease suggests a pathogenic role for microbial products in shaping a neuroinflammatory environment.",
+        "Metabolic diseases such as obesity are associated with an increased risk of Alzheimer's Disease.",
+        "Metabolic diseases such as diabetes are associated with an increased risk of Alzheimer's Disease.",
+        "The metabolic landscape shifts during gut inflammation.",
+        "Gut inflammation impacts metabolic processes.",
+        "Bacterial amyloids produced by gut microbes may exacerbate amyloid aggregation in the brain.",
+        "Bacterial amyloids produced by gut microbes may contribute to neurodegenerative processes.",
+        "Therapeutic strategies aim to reduce gut inflammation.",
+        "Therapeutic strategies aim to improve metabolic health.",
+        "Therapeutic strategies aim to decrease amyloid content.",
+        "Targeting the gut-brain-metabolic axis could delay or prevent cognitive decline in affected individuals."
       ]
     }
   },
@@ -2601,56 +2710,56 @@
     "entities": [
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.7888396978378296,
+        "score": 0.7888395190238953,
         "word": "##uro",
         "start": 2,
         "end": 5
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9579110741615295,
+        "score": 0.9579105377197266,
         "word": "amyloid beta",
         "start": 25,
         "end": 37
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.47124630212783813,
+        "score": 0.47124555706977844,
         "word": "abeta",
         "start": 39,
         "end": 44
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.7637374997138977,
+        "score": 0.7637393474578857,
         "word": "'",
         "start": 93,
         "end": 94
       },
       {
         "entity_group": "Coreference",
-        "score": 0.9699337482452393,
+        "score": 0.9699338674545288,
         "word": "abe",
         "start": 181,
         "end": 184
       },
       {
         "entity_group": "Coreference",
-        "score": 0.8280673027038574,
+        "score": 0.8280667662620544,
         "word": "abe",
         "start": 397,
         "end": 400
       },
       {
         "entity_group": "Coreference",
-        "score": 0.5808707475662231,
+        "score": 0.5808719992637634,
         "word": "abe",
         "start": 820,
         "end": 823
       },
       {
         "entity_group": "Coreference",
-        "score": 0.7551621794700623,
+        "score": 0.7551634907722473,
         "word": "abe",
         "start": 898,
         "end": 901
@@ -2731,6 +2840,17 @@
         "Data analysis allowed elucidation of the mechanisms of action of each of the seven peptide fragments on Abeta(1-42) cytotoxicity.",
         "Our work establishes the potential therapeutic value of four Abeta fragments.",
         "Our work supports the notion that agents directed to disruption of Abeta oligomers may be more effective Alzheimer's disease drug candidates than those targeting Abeta fibrils."
+      ],
+      "relations_aware": [
+        "Neurotoxic aggregates of amyloid beta (Abeta) peptide contribute to the etiology of Alzheimer's disease (AD).",
+        "Seven overlapping fragments derived from Abeta(1-42) were examined for their effects on the oligomerization and toxicity of the full-length peptide.",
+        "Four fragments inhibited the toxicity of oligomeric Abeta(1-42) to various degrees.",
+        "Two fragments conferred no cellular protection against Abeta(1-42) toxicity.",
+        "One fragment enhanced both Abeta(1-42) oligomerization and toxicity.",
+        "The structural and aggregation propensities of the peptides that support strong inhibition of Abeta(1-42) toxicity have been identified.",
+        "Data analysis elucidated the mechanisms of action of each of the seven peptide fragments on Abeta(1-42) cytotoxicity.",
+        "The potential therapeutic value of four Abeta fragments has been established.",
+        "Agents directed to disruption of Abeta oligomers may be more effective AD drug candidates than those targeting Abeta fibrils."
       ]
     }
   },
@@ -2755,7 +2875,7 @@
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.9900714159011841,
+        "score": 0.9900715947151184,
         "word": "alzheimer ' s disease",
         "start": 43,
         "end": 62
@@ -2769,21 +2889,21 @@
       },
       {
         "entity_group": "Duration",
-        "score": 0.8266522288322449,
+        "score": 0.8266519904136658,
         "word": "few decades",
         "start": 115,
         "end": 126
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.5580970048904419,
+        "score": 0.5581021308898926,
         "word": "white",
         "start": 226,
         "end": 231
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.5233602523803711,
+        "score": 0.52336186170578,
         "word": "w",
         "start": 240,
         "end": 241
@@ -2797,7 +2917,7 @@
       },
       {
         "entity_group": "Subject",
-        "score": 0.40840137004852295,
+        "score": 0.40839865803718567,
         "word": "older",
         "start": 386,
         "end": 391
@@ -2811,42 +2931,42 @@
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.9911954402923584,
+        "score": 0.991195559501648,
         "word": "multiple",
         "start": 545,
         "end": 553
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9657541513442993,
+        "score": 0.9657548069953918,
         "word": "mri",
         "start": 554,
         "end": 557
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.9917147755622864,
+        "score": 0.9917148947715759,
         "word": "w",
         "start": 718,
         "end": 719
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.9125950932502747,
+        "score": 0.912596583366394,
         "word": "w",
         "start": 846,
         "end": 847
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.6515475511550903,
+        "score": 0.6515455842018127,
         "word": "w",
         "start": 881,
         "end": 882
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.9020864963531494,
+        "score": 0.902087390422821,
         "word": "##m",
         "start": 882,
         "end": 883
@@ -2860,7 +2980,7 @@
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.5726417899131775,
+        "score": 0.5726402997970581,
         "word": "ap",
         "start": 1444,
         "end": 1446
@@ -2986,6 +3106,25 @@
         "Impacts on cognition may subsequently affect cognition.",
         "APOE4 carriers exhibit a different risk pattern.",
         "Distinct underlying mechanisms were suggested in this group."
+      ],
+      "relations_aware": [
+        "Early detection of pathological changes in Alzheimer's disease has garnered significant attention in the last few decades.",
+        "Interventions aiming to prevent progression will likely be most effective when initiated early.",
+        "White matter alterations are among the earliest changes in Alzheimer's disease.",
+        "Limited work has comprehensively characterized the effects of Alzheimer's disease risk factors on white matter.",
+        "Older adults with a family history of Alzheimer's disease investigated the sex-specific and APOE genotype-related relationships between white matter microstructure and risk factors.",
+        "Multiple MRI-derived metrics were integrated using a multivariate approach based on the Mahalanobis distance.",
+        "The specific biological underpinnings of white matter alterations were uncovered.",
+        "The contribution of each MRI feature to the Mahalanobis distance in significant clusters was extracted.",
+        "The links between white matter Mahalanobis distance and cognition were explored.",
+        "White matter Mahalanobis distance in several regions was associated with high systolic blood pressure, BMI, and glycated hemoglobin, and low cholesterol, in both males and females.",
+        "APOE4 + displayed a distinct risk pattern, with LDL-cholesterol having a detrimental effect only in carriers.",
+        "The risk pattern of APOE4 + carriers was linked to immediate memory performance.",
+        "Myelination was the main mechanism underlying white matter alterations.",
+        "Combined exposure to multiple cardiometabolic risk factors negatively impacts white matter microstructural health.",
+        "This impact may subsequently affect cognition.",
+        "APOE4 carriers exhibited a different risk pattern, especially in the role of LDL.",
+        "Distinct underlying mechanisms were suggested in the APOE4 carrier group."
       ]
     }
   },
@@ -2996,49 +3135,49 @@
     "entities": [
       {
         "entity_group": "Medication",
-        "score": 0.982275128364563,
+        "score": 0.9822748899459839,
         "word": "methylglyoxal",
         "start": 0,
         "end": 13
       },
       {
         "entity_group": "Medication",
-        "score": 0.8489497303962708,
+        "score": 0.8489469885826111,
         "word": "mg",
         "start": 15,
         "end": 17
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.8984279036521912,
+        "score": 0.8984246253967285,
         "word": "g",
         "start": 72,
         "end": 73
       },
       {
         "entity_group": "Medication",
-        "score": 0.9266576170921326,
+        "score": 0.926656186580658,
         "word": "cu",
         "start": 261,
         "end": 263
       },
       {
         "entity_group": "Medication",
-        "score": 0.8368086814880371,
+        "score": 0.8368079662322998,
         "word": "diarylhepta",
         "start": 332,
         "end": 343
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.9976466298103333,
+        "score": 0.9976465106010437,
         "word": "natural",
         "start": 436,
         "end": 443
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.7959956526756287,
+        "score": 0.7959942817687988,
         "word": "##tic solvents",
         "start": 454,
         "end": 466
@@ -3052,70 +3191,70 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.979721188545227,
+        "score": 0.979720950126648,
         "word": "b",
         "start": 493,
         "end": 494
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.7767423391342163,
+        "score": 0.776740550994873,
         "word": "##g12 - 10 %",
         "start": 494,
         "end": 502
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.991555392742157,
+        "score": 0.9915552735328674,
         "word": "beta",
         "start": 511,
         "end": 515
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.8504167795181274,
+        "score": 0.8504140973091125,
         "word": "##ine",
         "start": 515,
         "end": 518
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9887588024139404,
+        "score": 0.9887586832046509,
         "word": "g",
         "start": 523,
         "end": 524
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9605758190155029,
+        "score": 0.9605752825737,
         "word": "##ly",
         "start": 524,
         "end": 526
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9814069271087646,
+        "score": 0.9814066886901855,
         "word": "##cer",
         "start": 526,
         "end": 529
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.5185519456863403,
+        "score": 0.5185505151748657,
         "word": "##ol",
         "start": 529,
         "end": 531
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.9226556420326233,
+        "score": 0.9226554036140442,
         "word": ": 2 ratio",
         "start": 544,
         "end": 552
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.7355205416679382,
+        "score": 0.7355214953422546,
         "word": "nad",
         "start": 696,
         "end": 699
@@ -3129,21 +3268,21 @@
       },
       {
         "entity_group": "Lab_value",
-        "score": 0.9924161434173584,
+        "score": 0.9924159049987793,
         "word": "21",
         "start": 849,
         "end": 851
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9145927429199219,
+        "score": 0.9145907163619995,
         "word": "diary",
         "start": 852,
         "end": 857
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.5955536365509033,
+        "score": 0.5955531001091003,
         "word": "##he",
         "start": 858,
         "end": 860
@@ -3280,6 +3419,24 @@
         "Liquid chromatography-mass spectrometry has identified 21 diarylheptanoids in turmeric.",
         "10 of the 21 diarylheptanoids can trap MGO.",
         "Curcumin is one of the diarylheptanoids."
+      ],
+      "relations_aware": [
+        "Methylglyoxal (MGO) is a reactive carbonyl compound.",
+        "MGO forms advanced glycation end products (AGEs).",
+        "AGEs are associated with diseases such as diabetes, cancer, and Alzheimer's disease.",
+        "Turmeric contains bioactive diarylheptanoids.",
+        "Curcumin is a compound found in turmeric.",
+        "Curcumin can trap MGO.",
+        "Curcumin can inhibit the formation of AGEs.",
+        "Diarylheptanoids have poor stability and solubility.",
+        "Natural deep eutectic solvents (NADES) can improve the stability and solubility of diarylheptanoids.",
+        "The BG12-10 % system consists of betaine and glycerol mixed in a 1:2 ratio with 10 % water added.",
+        "NADES can enhance solubility and stability of diarylheptanoids.",
+        "NADES enable more accurate reaction kinetics.",
+        "NADES extract of turmeric can directly react with MGO.",
+        "Liquid chromatography-mass spectrometry has identified 21 diarylheptanoids in turmeric.",
+        "10 of the identified diarylheptanoids can trap MGO.",
+        "Curcumin is the only diarylheptanoid previously reported in the literature."
       ]
     }
   },
@@ -3290,7 +3447,7 @@
     "entities": [
       {
         "entity_group": "Disease_disorder",
-        "score": 0.9923731684684753,
+        "score": 0.9923732280731201,
         "word": "alzheimer ' s disease",
         "start": 49,
         "end": 68
@@ -3304,112 +3461,112 @@
       },
       {
         "entity_group": "Subject",
-        "score": 0.6540977954864502,
+        "score": 0.6540985107421875,
         "word": "elderly",
         "start": 81,
         "end": 88
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.736332356929779,
+        "score": 0.7363269329071045,
         "word": "##psy",
         "start": 292,
         "end": 295
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.7318572402000427,
+        "score": 0.7318558096885681,
         "word": "##tric symptoms",
         "start": 299,
         "end": 312
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.9398665428161621,
+        "score": 0.9398667812347412,
         "word": "ad",
         "start": 316,
         "end": 318
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9832894802093506,
+        "score": 0.9832895398139954,
         "word": "statistical analysis",
         "start": 874,
         "end": 894
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.8354686498641968,
+        "score": 0.8354666233062744,
         "word": "gemtc",
         "start": 906,
         "end": 911
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9895500540733337,
+        "score": 0.9895499348640442,
         "word": "rc",
         "start": 1027,
         "end": 1029
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.8664199709892273,
+        "score": 0.8664174675941467,
         "word": "sm",
         "start": 1236,
         "end": 1238
       },
       {
         "entity_group": "Lab_value",
-        "score": 0.6894229054450989,
+        "score": 0.6894208788871765,
         "word": "%",
         "start": 1251,
         "end": 1252
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.5656823515892029,
+        "score": 0.565680980682373,
         "word": "sm",
         "start": 1346,
         "end": 1348
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9341393709182739,
+        "score": 0.9341400861740112,
         "word": "ae",
         "start": 1454,
         "end": 1456
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.930482029914856,
+        "score": 0.9304817318916321,
         "word": "sm",
         "start": 1458,
         "end": 1460
       },
       {
         "entity_group": "Lab_value",
-        "score": 0.657081127166748,
+        "score": 0.6570771932601929,
         "word": "95 %",
         "start": 1471,
         "end": 1475
       },
       {
         "entity_group": "Activity",
-        "score": 0.5887412428855896,
+        "score": 0.5887432098388672,
         "word": "aero",
         "start": 1583,
         "end": 1587
       },
       {
         "entity_group": "Activity",
-        "score": 0.8709831833839417,
+        "score": 0.8709840178489685,
         "word": "##bic exercise",
         "start": 1587,
         "end": 1599
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.954353392124176,
+        "score": 0.9543553590774536,
         "word": "alzheimer",
         "start": 1723,
         "end": 1732
@@ -3519,6 +3676,22 @@
         "Physical Activity Program ranked first for depression in a network meta-analysis.",
         "Aerobic exercise ranked first for neuropsychiatric inventory outcomes in a network meta-analysis.",
         "Aerobic exercise may be effective for improving overall cognition and quality of life in individuals aged 60 and above with Alzheimer's disease."
+      ],
+      "relations_aware": [
+        "The global prevalence of Alzheimer's disease in the elderly is rising.",
+        "Exercise is increasingly used as a non-pharmacological intervention for Alzheimer's disease.",
+        "The most effective exercise modality for improving quality of life, alleviating depression, and reducing neuropsychiatric symptoms in AD patients remains unclear.",
+        "This study aims to identify the optimal exercise modality for addressing these symptoms through a network meta-analysis.",
+        "The study conducted a comprehensive search across six databases: PubMed, Embase, Web of Science, the Cochrane Central Register of Controlled Trials, CINAHL, and PsycINFO.",
+        "The study included only randomized controlled trials (RCTs) with study durations ranging from 2 to 24 weeks.",
+        "The statistical analysis was conducted using the 'gemtc' package in R.",
+        "Evidence quality was assessed via the CINeMA online platform.",
+        "A network meta-analysis of 29 RCTs with 1507 participants was conducted.",
+        "For global cognition, Aerobic exercise (AE) ranked first with 79.5% probability.",
+        "For quality of daily life, Resistance Training (RT) ranked first with 83.7% probability.",
+        "For depression, Physical Activity Program (PAP) ranked first with 96.0% probability.",
+        "For neuropsychiatric inventory outcomes, Aerobic exercise (AE) ranked first with 71.1% probability.",
+        "Based on the findings from retrospective studies, aerobic exercise may be an effective intervention for improving overall cognition and quality of life in individuals aged 60 and above with Alzheimer's disease."
       ]
     }
   },
@@ -3529,7 +3702,7 @@
     "entities": [
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9287813305854797,
+        "score": 0.928781270980835,
         "word": "single nucleotide polymorphism",
         "start": 0,
         "end": 30
@@ -3543,14 +3716,14 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9768235683441162,
+        "score": 0.9768238067626953,
         "word": "apolipoprotein e ( apoe",
         "start": 233,
         "end": 255
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.7761672139167786,
+        "score": 0.7761677503585815,
         "word": "genotype",
         "start": 323,
         "end": 331
@@ -3564,14 +3737,14 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9503582715988159,
+        "score": 0.9503584504127502,
         "word": "afl",
         "start": 499,
         "end": 502
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.7529327273368835,
+        "score": 0.7529313564300537,
         "word": "##iii",
         "start": 502,
         "end": 505
@@ -3585,84 +3758,84 @@
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.7883896827697754,
+        "score": 0.7883899211883545,
         "word": "##eii",
         "start": 512,
         "end": 515
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.9120450019836426,
+        "score": 0.9120451211929321,
         "word": "selectively cleave",
         "start": 519,
         "end": 537
       },
       {
         "entity_group": "Biological_structure",
-        "score": 0.610585629940033,
+        "score": 0.6105914115905762,
         "word": "rs",
         "start": 542,
         "end": 544
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.7901628017425537,
+        "score": 0.7901632785797119,
         "word": "##429358",
         "start": 544,
         "end": 550
       },
       {
         "entity_group": "Biological_structure",
-        "score": 0.7221546173095703,
+        "score": 0.72215735912323,
         "word": "rs",
         "start": 555,
         "end": 557
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.740024745464325,
+        "score": 0.7400271892547607,
         "word": "##741",
         "start": 557,
         "end": 560
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.9921091198921204,
+        "score": 0.9921091794967651,
         "word": "exonuclease",
         "start": 681,
         "end": 692
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.9723264575004578,
+        "score": 0.9723265171051025,
         "word": "a triple - helix molecular switch",
         "start": 740,
         "end": 771
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.7118045091629028,
+        "score": 0.711809515953064,
         "word": "thms",
         "start": 773,
         "end": 777
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.6620518565177917,
+        "score": 0.6620604395866394,
         "word": "##ay",
         "start": 900,
         "end": 902
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.7150838375091553,
+        "score": 0.7150802612304688,
         "word": "linear detection",
         "start": 914,
         "end": 930
       },
       {
         "entity_group": "Lab_value",
-        "score": 0.7149782180786133,
+        "score": 0.714979887008667,
         "word": "range",
         "start": 931,
         "end": 936
@@ -3676,7 +3849,7 @@
       },
       {
         "entity_group": "Lab_value",
-        "score": 0.9538966417312622,
+        "score": 0.9538961052894592,
         "word": "copies",
         "start": 990,
         "end": 996
@@ -3690,7 +3863,7 @@
       },
       {
         "entity_group": "Lab_value",
-        "score": 0.9854782819747925,
+        "score": 0.985478401184082,
         "word": "copies",
         "start": 1086,
         "end": 1092
@@ -3801,7 +3974,27 @@
         "The method underlines high specificity and sensitivity.",
         "The method demonstrates potential as a valuable tool for the early diagnosis and personalized treatment of Alzheimer's disease."
       ],
-      "kg_based_entities": []
+      "kg_based_entities": [],
+      "relations_aware": [
+        "Single nucleotide polymorphisms (SNPs) are critical determinants of disease susceptibility, pathogenesis, and drug response.",
+        "Accurate monitoring of SNPs is essential in clinical practice.",
+        "A novel apolipoprotein E (APOE) genotyping method was proposed in this study.",
+        "The method allows for the rapid and precise identification of six genotypes.",
+        "Restriction endonucleases AflIII and HaeII are used in the method to cleave specific sites.",
+        "Distinct double-stranded DNA fragments are generated by the cleavage.",
+        "Lambda exonuclease is utilized to process the DNA fragments.",
+        "The processed DNA binds to a triple-helix molecular switch (THMS).",
+        "The binding induces a conformational transition of THMS into a hairpin structure.",
+        "The conformational transition results in a fluorescence change.",
+        "The optimized assay has a linear detection range of 5-1000 copies for the rs429358 site.",
+        "The minimum detection limit for the rs429358 site is 2 copies.",
+        "The assay has a detection range of 10-1000 copies for the rs7412 site.",
+        "The minimum detection limit for the rs7412 site is 6 copies.",
+        "The method was validated using clinical samples from 10 Alzheimer's disease patients.",
+        "The validation achieved complete concordance with sequencing results.",
+        "The method demonstrates high specificity and sensitivity.",
+        "The method has the potential to be a valuable tool for the early diagnosis and personalized treatment of Alzheimer's disease."
+      ]
     }
   },
   {
@@ -3825,70 +4018,70 @@
       },
       {
         "entity_group": "Lab_value",
-        "score": 0.9866112470626831,
+        "score": 0.9866113662719727,
         "word": "high",
         "start": 52,
         "end": 56
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.9423049688339233,
+        "score": 0.9423053860664368,
         "word": "conventional",
         "start": 209,
         "end": 221
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.7896105051040649,
+        "score": 0.7896144986152649,
         "word": "sorting",
         "start": 228,
         "end": 235
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.6867191791534424,
+        "score": 0.6867201328277588,
         "word": "pseudo",
         "start": 317,
         "end": 323
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.9751082062721252,
+        "score": 0.9751080274581909,
         "word": "supervised learning",
         "start": 347,
         "end": 366
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.819248616695404,
+        "score": 0.819251537322998,
         "word": "fine",
         "start": 437,
         "end": 441
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.8106867074966431,
+        "score": 0.8106863498687744,
         "word": "process",
         "start": 449,
         "end": 456
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9335625171661377,
+        "score": 0.9335620999336243,
         "word": "pseudo",
         "start": 557,
         "end": 563
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.4081326723098755,
+        "score": 0.4081312119960785,
         "word": "##sor",
         "start": 563,
         "end": 566
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9516762495040894,
+        "score": 0.9516760110855103,
         "word": "spike sorting",
         "start": 588,
         "end": 601
@@ -3902,21 +4095,21 @@
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.6930521726608276,
+        "score": 0.6930509805679321,
         "word": "##sor",
         "start": 635,
         "end": 638
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.4561839997768402,
+        "score": 0.4561842083930969,
         "word": "##ter",
         "start": 638,
         "end": 641
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.8548474311828613,
+        "score": 0.8548476696014404,
         "word": "mea",
         "start": 645,
         "end": 648
@@ -3930,7 +4123,7 @@
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.6004781723022461,
+        "score": 0.6004728674888611,
         "word": "conventional",
         "start": 900,
         "end": 912
@@ -4077,6 +4270,25 @@
         "Tau is a biological structure.",
         "MEA recordings from hippocampal neurons.",
         "MEA is a type of Diagnostic procedure."
+      ],
+      "relations_aware": [
+        "Microelectrode arrays permit recordings with high electrode counts.",
+        "MEAs generate complex datasets.",
+        "Complex datasets would benefit from precise neuronal spike sorting.",
+        "Precise neuronal spike sorting is for meaningful data extraction.",
+        "Conventional spike sorting methods face limitations in recognizing diverse spike shapes.",
+        "PseudoSorter uses self-supervised learning techniques.",
+        "PseudoSorter uses a density-based pseudolabeling strategy.",
+        "PseudoSorter uses an iterative fine-tuning process.",
+        "PseudoSorter enhances spike sorting accuracy.",
+        "PseudoSorter demonstrates superior performance compared to other spike sorting algorithms.",
+        "PseudoSorter is applied on MEA recordings from hippocampal neurons.",
+        "Hippocampal neurons are exposed to subneuronal concentrations of monomeric Tau.",
+        "Tau is a model for Alzheimer's disease.",
+        "Tau diminishes the firing rate of a subset of neurons.",
+        "PseudoSorter's high accuracy and throughput make it a valuable tool for studying neurodegenerative diseases.",
+        "PseudoSorter enhances understanding of the underlying mechanisms of neurodegenerative diseases.",
+        "PseudoSorter is valuable for therapeutic drug screening."
       ]
     }
   },
@@ -4087,42 +4299,42 @@
     "entities": [
       {
         "entity_group": "Sign_symptom",
-        "score": 0.7877870202064514,
+        "score": 0.7877861857414246,
         "word": "heterogeneity",
         "start": 16,
         "end": 29
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.5430492758750916,
+        "score": 0.5430445075035095,
         "word": "post",
         "start": 45,
         "end": 49
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.8625566959381104,
+        "score": 0.8625594973564148,
         "word": "zygo",
         "start": 50,
         "end": 54
       },
       {
         "entity_group": "Coreference",
-        "score": 0.5518048405647278,
+        "score": 0.5518035292625427,
         "word": "dna mutations",
         "start": 58,
         "end": 71
       },
       {
         "entity_group": "Biological_structure",
-        "score": 0.6791415214538574,
+        "score": 0.6791355013847351,
         "word": "tissues",
         "start": 95,
         "end": 102
       },
       {
         "entity_group": "Coreference",
-        "score": 0.6084964275360107,
+        "score": 0.6084980964660645,
         "word": "##glia",
         "start": 289,
         "end": 293
@@ -4136,49 +4348,49 @@
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.6679726839065552,
+        "score": 0.6679775714874268,
         "word": "##glia",
         "start": 470,
         "end": 474
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.5607783198356628,
+        "score": 0.5607812404632568,
         "word": "ad",
         "start": 484,
         "end": 486
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.6659567952156067,
+        "score": 0.6659615635871887,
         "word": "variants",
         "start": 498,
         "end": 506
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.5066817998886108,
+        "score": 0.5066949725151062,
         "word": "map",
         "start": 533,
         "end": 536
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.6568270921707153,
+        "score": 0.6568347215652466,
         "word": "cb",
         "start": 567,
         "end": 569
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.8362691402435303,
+        "score": 0.8362706899642944,
         "word": "erk",
         "start": 618,
         "end": 621
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.9773334264755249,
+        "score": 0.977332592010498,
         "word": "##eration",
         "start": 954,
         "end": 961
@@ -4294,7 +4506,19 @@
         "Microglial expression was previously shown to cause neurodegeneration in mice.",
         "AD-associated neuroinflammatory microglial clones may contribute to the neurodegenerative process in patients."
       ],
-      "kg_based_entities": []
+      "kg_based_entities": [],
+      "relations_aware": [
+        "Somatic genetic heterogeneity results from post-zygotic DNA mutations in human tissues.",
+        "Post-zygotic DNA mutations can cause diseases.",
+        "Few studies have investigated the role of post-zygotic DNA mutations in neurodegenerative processes like Alzheimer's disease (AD).",
+        "Microglia clones carrying pathogenic variants are selectively enriched in patients with AD compared to age-matched controls.",
+        "Pathogenic variants are not present in neuronal, glia/stromal cells, or blood.",
+        "Microglia-specific AD-associated variants target the MAPK pathway.",
+        "Recurrent CBL ring-domain mutations are part of the MAPK pathway.",
+        "CBL ring-domain mutations activate ERK.",
+        "ERK drives a microglia transcriptional program characterized by a strong neuro-inflammatory response.",
+        "AD-associated microglial clones may contribute to the neurodegenerative process in patients."
+      ]
     }
   },
   {
@@ -4304,7 +4528,7 @@
     "entities": [
       {
         "entity_group": "Disease_disorder",
-        "score": 0.825019359588623,
+        "score": 0.8250188231468201,
         "word": "age",
         "start": 11,
         "end": 14
@@ -4318,35 +4542,35 @@
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.957918107509613,
+        "score": 0.9579183459281921,
         "word": "alzheimer ' s disease",
         "start": 44,
         "end": 63
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.5235955715179443,
+        "score": 0.5235942006111145,
         "word": "tau aggregate",
         "start": 70,
         "end": 83
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.953301191329956,
+        "score": 0.9533005356788635,
         "word": "tau",
         "start": 161,
         "end": 164
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.7831391096115112,
+        "score": 0.7831383943557739,
         "word": "geo",
         "start": 344,
         "end": 347
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.8414695262908936,
+        "score": 0.8414695858955383,
         "word": "mrna",
         "start": 375,
         "end": 379
@@ -4360,84 +4584,84 @@
       },
       {
         "entity_group": "Biological_structure",
-        "score": 0.896212100982666,
+        "score": 0.8962159752845764,
         "word": "##pocampal neurons",
         "start": 401,
         "end": 417
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.9669378995895386,
+        "score": 0.9669380784034729,
         "word": "tau pathology",
         "start": 435,
         "end": 448
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.7857369184494019,
+        "score": 0.7857380509376526,
         "word": "syn",
         "start": 465,
         "end": 468
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.3780272305011749,
+        "score": 0.3780318796634674,
         "word": "##tic",
         "start": 470,
         "end": 473
       },
       {
         "entity_group": "Lab_value",
-        "score": 0.9874744415283203,
+        "score": 0.9874742031097412,
         "word": "down",
         "start": 485,
         "end": 489
       },
       {
         "entity_group": "Lab_value",
-        "score": 0.9922614693641663,
+        "score": 0.9922613501548767,
         "word": "regulated",
         "start": 490,
         "end": 499
       },
       {
         "entity_group": "Lab_value",
-        "score": 0.8563574552536011,
+        "score": 0.8563583493232727,
         "word": "up",
         "start": 523,
         "end": 525
       },
       {
         "entity_group": "Lab_value",
-        "score": 0.9719364047050476,
+        "score": 0.9719359278678894,
         "word": "two",
         "start": 571,
         "end": 574
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9546105861663818,
+        "score": 0.9546100497245789,
         "word": "calcium",
         "start": 736,
         "end": 743
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9764730930328369,
+        "score": 0.9764727354049683,
         "word": "transcription",
         "start": 787,
         "end": 800
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.48431968688964844,
+        "score": 0.4843181371688843,
         "word": "ad",
         "start": 857,
         "end": 859
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9225900769233704,
+        "score": 0.9225886464118958,
         "word": "analysis",
         "start": 970,
         "end": 978
@@ -4600,6 +4824,21 @@
         "Transcriptional changes are associated with intraneuronal tau.",
         "Findings highlight the power of molecular analysis stratified by pathology.",
         "Findings provide insight into common pathways associated with tau pathology in primary age-related tauopathy and Alzheimer's disease."
+      ],
+      "relations_aware": [
+        "In primary age-related tauopathy (PART) and Alzheimer's disease (AD), tau aggregates share a similar structure and anatomic distribution.",
+        "The structure and anatomic distribution of tau aggregates in PART and AD are distinct from tau pathology in other diseases.",
+        "Transcriptional similarities between PART and AD are largely unknown.",
+        "Gene expression changes within tau-pathology-bearing neurons are largely unknown.",
+        "mRNA was quantified in hippocampal neurons with and without tau pathology in PART and AD.",
+        "Synaptic genes were down-regulated in disease overall but up-regulated in tau-pathology-positive neurons.",
+        "Two transcriptional signatures were associated with intraneuronal tau.",
+        "The transcriptional signatures associated with intraneuronal tau were validated in a cortical AD dataset.",
+        "Genes in the up-regulated signature were enriched in calcium regulation and synaptic function.",
+        "Transcriptional changes associated with intraneuronal tau in PART and AD were similar.",
+        "There is a possible mechanistic relationship between transcriptional changes associated with intraneuronal tau in PART and AD.",
+        "These findings highlight the power of molecular analysis stratified by pathology.",
+        "Insight into common pathways associated with tau pathology in PART and AD is provided."
       ]
     }
   },
@@ -4610,49 +4849,49 @@
     "entities": [
       {
         "entity_group": "Detailed_description",
-        "score": 0.8080922961235046,
+        "score": 0.8080926537513733,
         "word": "learning",
         "start": 5,
         "end": 13
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.4169790744781494,
+        "score": 0.4169817268848419,
         "word": "models",
         "start": 14,
         "end": 20
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.7720301151275635,
+        "score": 0.7720286250114441,
         "word": "dense transform",
         "start": 330,
         "end": 345
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.8872507214546204,
+        "score": 0.8872518539428711,
         "word": "vision transformer",
         "start": 454,
         "end": 472
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.533432126045227,
+        "score": 0.5334327816963196,
         "word": "experts",
         "start": 488,
         "end": 495
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.951339840888977,
+        "score": 0.9513399004936218,
         "word": "t1 - weighted magnetic",
         "start": 572,
         "end": 592
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9066405296325684,
+        "score": 0.9066407680511475,
         "word": "resonance images",
         "start": 593,
         "end": 609
@@ -4666,28 +4905,28 @@
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.8689054846763611,
+        "score": 0.8689051866531372,
         "word": "brain diseases",
         "start": 666,
         "end": 680
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.8460316061973572,
+        "score": 0.8460335731506348,
         "word": "vision transformer",
         "start": 759,
         "end": 777
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.9976553916931152,
+        "score": 0.99765545129776,
         "word": "densenet",
         "start": 783,
         "end": 791
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.8175168037414551,
+        "score": 0.8175144195556641,
         "word": "- trained",
         "start": 806,
         "end": 814
@@ -4701,7 +4940,7 @@
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.9975912570953369,
+        "score": 0.9975911974906921,
         "word": "self - supervised learning",
         "start": 843,
         "end": 867
@@ -4816,6 +5055,16 @@
         "Method achieves promising performances as demonstrated by experimental results and comparison.",
         "The method achieves promising performances for prediction of brain age.",
         "The method achieves promising performances for the diagnosis of brain diseases."
+      ],
+      "relations_aware": [
+        "Deep learning models have been widely investigated for computing and analyzing brain images across various downstream tasks such as disease diagnosis and age regression.",
+        "Most existing models are tailored for specific tasks and diseases, posing a challenge in developing a foundation model for diverse tasks.",
+        "This paper proposes a Dense Transformer Foundation Model with Mixture of Experts (DenseFormer-MoE).",
+        "DenseFormer-MoE integrates dense convolutional network, Vision Transformer, and Mixture of Experts (MoE) to learn and consolidate local and global features from T1-weighted magnetic resonance images (sMRI) for multiple tasks.",
+        "A foundation model is built by combining the Vision Transformer with Densenet, pre-trained with Masked Autoencoder and self-supervised learning to enhance the generalization of feature representations.",
+        "MoE is designed to dynamically select the most appropriate experts for each task to mitigate optimization conflicts in multi-task learning.",
+        "The method is evaluated on multiple renowned brain imaging datasets including UK Biobank (UKB), Alzheimer's Disease Neuroimaging Initiative (ADNI), and Parkinson's Progression Markers Initiative (PPMI).",
+        "Experimental results and comparison demonstrate that the method achieves promising performances for prediction of brain age and diagnosis of brain diseases."
       ]
     }
   },
@@ -4826,70 +5075,70 @@
     "entities": [
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9791689515113831,
+        "score": 0.9791688323020935,
         "word": "ce",
         "start": 0,
         "end": 2
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9015116691589355,
+        "score": 0.9015110731124878,
         "word": "##brospinal fluid",
         "start": 4,
         "end": 19
       },
       {
         "entity_group": "Biological_structure",
-        "score": 0.541476309299469,
+        "score": 0.5414835214614868,
         "word": "cs",
         "start": 21,
         "end": 23
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.54230135679245,
+        "score": 0.5422988533973694,
         "word": "cs",
         "start": 172,
         "end": 174
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9901772141456604,
+        "score": 0.9901770949363708,
         "word": "men",
         "start": 320,
         "end": 323
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9945478439331055,
+        "score": 0.9945477247238159,
         "word": "##ian randomization analysis",
         "start": 326,
         "end": 352
       },
       {
         "entity_group": "Biological_structure",
-        "score": 0.5278034210205078,
+        "score": 0.5278083086013794,
         "word": "cs",
         "start": 407,
         "end": 409
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.9040793776512146,
+        "score": 0.9040790796279907,
         "word": "psychiatric",
         "start": 470,
         "end": 481
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.5927132368087769,
+        "score": 0.5927096009254456,
         "word": "psychiatric",
         "start": 514,
         "end": 525
       },
       {
         "entity_group": "Biological_structure",
-        "score": 0.6766244173049927,
+        "score": 0.6766273379325867,
         "word": "cs",
         "start": 568,
         "end": 570
@@ -4903,112 +5152,112 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9404739141464233,
+        "score": 0.9404715895652771,
         "word": "##rop",
         "start": 689,
         "end": 692
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.566897988319397,
+        "score": 0.5668858289718628,
         "word": "inverse",
         "start": 748,
         "end": 755
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.8748995661735535,
+        "score": 0.8748980760574341,
         "word": "##ome - wide association study",
         "start": 885,
         "end": 911
       },
       {
         "entity_group": "Biological_structure",
-        "score": 0.5103233456611633,
+        "score": 0.510328471660614,
         "word": "cs",
         "start": 988,
         "end": 990
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.980169951915741,
+        "score": 0.9801700711250305,
         "word": "eating disorders",
         "start": 1051,
         "end": 1067
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9580367207527161,
+        "score": 0.9580366015434265,
         "word": "le",
         "start": 1093,
         "end": 1095
       },
       {
         "entity_group": "Medication",
-        "score": 0.982593297958374,
+        "score": 0.9825929403305054,
         "word": "salicylate",
         "start": 1154,
         "end": 1164
       },
       {
         "entity_group": "Medication",
-        "score": 0.9374846816062927,
+        "score": 0.9374822378158569,
         "word": "1 - methylnicotinamide",
         "start": 1222,
         "end": 1242
       },
       {
         "entity_group": "Medication",
-        "score": 0.9912121295928955,
+        "score": 0.9912121891975403,
         "word": "methylmalonate",
         "start": 1302,
         "end": 1316
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.918663740158081,
+        "score": 0.9186623096466064,
         "word": "ed",
         "start": 1328,
         "end": 1330
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.8895549178123474,
+        "score": 0.8895580768585205,
         "word": "schizophrenia",
         "start": 1412,
         "end": 1425
       },
       {
         "entity_group": "Lab_value",
-        "score": 0.5912095904350281,
+        "score": 0.5912091135978699,
         "word": "reduced",
         "start": 1439,
         "end": 1446
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.7281966805458069,
+        "score": 0.7281932830810547,
         "word": "th",
         "start": 1450,
         "end": 1452
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.928013801574707,
+        "score": 0.928013265132904,
         "word": "##re",
         "start": 1452,
         "end": 1454
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9606630802154541,
+        "score": 0.9606618881225586,
         "word": "##onate",
         "start": 1454,
         "end": 1459
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.6201702952384949,
+        "score": 0.6201653480529785,
         "word": "ox",
         "start": 1513,
         "end": 1515
@@ -5022,7 +5271,7 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9522545337677002,
+        "score": 0.9522533416748047,
         "word": "##te",
         "start": 1518,
         "end": 1520
@@ -5036,7 +5285,7 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9643681049346924,
+        "score": 0.9643687605857849,
         "word": "##en",
         "start": 1576,
         "end": 1578
@@ -5050,7 +5299,7 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.5362731218338013,
+        "score": 0.5362765192985535,
         "word": "##la",
         "start": 1580,
         "end": 1582
@@ -5064,35 +5313,35 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.6407414674758911,
+        "score": 0.6407429575920105,
         "word": "##te",
         "start": 1585,
         "end": 1587
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9823046922683716,
+        "score": 0.9823040962219238,
         "word": "n",
         "start": 1641,
         "end": 1642
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9596598148345947,
+        "score": 0.9596586227416992,
         "word": "ace",
         "start": 1643,
         "end": 1646
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.8094916343688965,
+        "score": 0.8094881176948547,
         "word": "##l",
         "start": 1648,
         "end": 1649
       },
       {
         "entity_group": "Medication",
-        "score": 0.6295663714408875,
+        "score": 0.6295740008354187,
         "word": "##osa",
         "start": 1653,
         "end": 1656
@@ -5354,6 +5603,22 @@
         "Immune regulation pathways mediate the causal relationship of CSF metabolites on ED and SCZ.",
         "CSF metabolites are causally related to eating disorders.",
         "CSF metabolites are causally related to Schizophrenia."
+      ],
+      "relations_aware": [
+        "CSF is crucial in maintaining brain homeostasis by facilitating waste clearance, nutrient transport, and immune signaling.",
+        "CSF metabolites are linked to psychiatric disorders.",
+        "The links between CSF metabolites and psychiatric disorders remain largely unexamined.",
+        "A bidirectional two-sample Mendelian randomization analysis was conducted to investigate potential causal relationships between CSF metabolites and 12 psychiatric disorders.",
+        "Summary data for psychiatric disorders were sourced from the Psychiatric Genomics Consortium.",
+        "Information on CSF metabolites was derived from two studies within the Wisconsin Alzheimer's Disease cohort.",
+        "Causal estimates and pleiotropy were assessed using several robust methods.",
+        "A transcriptome-wide association study was conducted to explore potential mechanisms and shared etiologies between CSF metabolites and psychiatric disorders.",
+        "The genetic risk of eating disorders can be increased by leucine, salicylate, and 1-methylnicotinamide.",
+        "Methylmalonate may reduce the risk of eating disorders.",
+        "The risk of schizophrenia may be reduced by threonate, oxalate, phenyllactate, N-acetylglucosamine, and citramalate.",
+        "Schizophrenia may upregulate gamma-glutamylleucine and O-sulfo-L-tyrosine, while downregulating gamma-glutamylphenylalanine.",
+        "Signal pathways related to the mechanistic target of rapamycin, post-translational protein modifications, and immune regulation may mediate the causal relationship of CSF metabolites on eating disorders and schizophrenia.",
+        "A casual genetic causal relationship was identified between CSF metabolites and both eating disorders and schizophrenia, potentially mediated by pathways related to energy metabolism, post-translational modifications, and immune regulation."
       ]
     }
   },
@@ -5371,91 +5636,91 @@
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.9438698291778564,
+        "score": 0.9438700675964355,
         "word": "alzheimer ' s disease",
         "start": 76,
         "end": 95
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.9516531229019165,
+        "score": 0.9516562223434448,
         "word": "ad",
         "start": 97,
         "end": 99
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.993520975112915,
+        "score": 0.9935210943222046,
         "word": "inflammatory bowel disease",
         "start": 105,
         "end": 131
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.9642062783241272,
+        "score": 0.9642078280448914,
         "word": "ib",
         "start": 133,
         "end": 135
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.6270644664764404,
+        "score": 0.6270688772201538,
         "word": "genetic",
         "start": 252,
         "end": 259
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.5620419979095459,
+        "score": 0.5620425939559937,
         "word": "h",
         "start": 518,
         "end": 519
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.6363638639450073,
+        "score": 0.6363634467124939,
         "word": "induced",
         "start": 526,
         "end": 533
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.9601114988327026,
+        "score": 0.9601115584373474,
         "word": "mitochondrial dysfunction",
         "start": 534,
         "end": 559
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.5332738757133484,
+        "score": 0.5332737565040588,
         "word": "related",
         "start": 650,
         "end": 657
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.7543938755989075,
+        "score": 0.7543991804122925,
         "word": "map",
         "start": 1329,
         "end": 1332
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9842979907989502,
+        "score": 0.9842981100082397,
         "word": "nme",
         "start": 1413,
         "end": 1416
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.9855306148529053,
+        "score": 0.9855307340621948,
         "word": "mitochondrial dysfunction",
         "start": 1537,
         "end": 1562
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.9791972637176514,
+        "score": 0.9791973829269409,
         "word": "mitochondrial dysfunction",
         "start": 1964,
         "end": 1989
@@ -5680,6 +5945,36 @@
         "A study highlights innovative therapeutic targets.",
         "Study contributes to deeper understanding of the gut-brain interplay in neurodegeneration and chronic inflammation.",
         "Insights pave the way for precision medicine strategies targeting mitochondrial dysfunction in Alzheimer's disease and inflammatory bowel disease."
+      ],
+      "relations_aware": [
+        "Mitochondrial dysfunction is recognized as a shared feature of Alzheimer's disease (AD) and inflammatory bowel disease (IBD).",
+        "Mitochondrial dysfunction is linked through overlapping pathways of hypoxia and immune dysregulation.",
+        "Hypoxia and immune dysregulation are overlapping pathways for mitochondrial dysfunction.",
+        "A study integrated transcriptomic and genetic analyses to uncover mitochondria-related mechanisms underlying AD and IBD.",
+        "Multiple AD and IBD datasets were analyzed through DEG analyses, biological pathway enrichment, and co-expression module construction.",
+        "Hypoxia-induced mitochondrial dysfunction is a central risk factor for both AD and IBD.",
+        "Several mitochondrial-related genes are shared between AD and IBD, including BCL6, PFKFB3, NDUFS3, and COX5B.",
+        "BCL6, PFKFB3, NDUFS3, and COX5B serve as critical regulators bridging mitochondrial and immune pathways.",
+        "Decitabine, DMOG, and estradiol are promising therapeutic candidates targeting shared regulators such as BCL6, PFKFB3, MAFF, and TGFBI.",
+        "Decitabine has use for AD.",
+        "Decitabine has use for IBD.",
+        "DMOG has use for AD.",
+        "DMOG has use for IBD.",
+        "Estradiol has use for AD.",
+        "Estradiol has use for IBD.",
+        "MAFF has use for AD.",
+        "MAFF has use for IBD.",
+        "TGFBI has use for AD.",
+        "TGFBI has use for IBD.",
+        "MAP1LC3A has use for AD.",
+        "MAP1LC3A has use for IBD.",
+        "NME1 has use for AD.",
+        "Hypoxia-induced mitochondrial dysfunction is a unifying mechanism in AD and IBD.",
+        "Hypoxia-induced mitochondrial dysfunction is mediated by HIF-1alpha.",
+        "Key mitochondria-associated genes and pathways were identified in the study.",
+        "The study highlights innovative therapeutic targets for AD and IBD.",
+        "The study contributes to a deeper understanding of the gut-brain interplay in neurodegeneration and chronic inflammation.",
+        "The insights pave the way for precision medicine strategies targeting mitochondrial dysfunction in AD and IBD."
       ]
     }
   },
@@ -5697,7 +5992,7 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.877561092376709,
+        "score": 0.8775553107261658,
         "word": "(",
         "start": 56,
         "end": 57
@@ -5711,91 +6006,91 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.985349714756012,
+        "score": 0.9853501319885254,
         "word": "radiotracer",
         "start": 62,
         "end": 73
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9875126481056213,
+        "score": 0.9875127673149109,
         "word": "tau",
         "start": 110,
         "end": 113
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.8161718249320984,
+        "score": 0.8161770701408386,
         "word": "##brillary tangle",
         "start": 183,
         "end": 198
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.8694874048233032,
+        "score": 0.8694854974746704,
         "word": "tau aggregate",
         "start": 261,
         "end": 274
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.9779666662216187,
+        "score": 0.9779669046401978,
         "word": "tangle",
         "start": 286,
         "end": 292
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.772607684135437,
+        "score": 0.7726106643676758,
         "word": "tau radio",
         "start": 355,
         "end": 364
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.475226491689682,
+        "score": 0.47522521018981934,
         "word": "head",
         "start": 423,
         "end": 427
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.4320732355117798,
+        "score": 0.4320700764656067,
         "word": "to head",
         "start": 428,
         "end": 435
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.542657732963562,
+        "score": 0.5426551103591919,
         "word": "##auci",
         "start": 492,
         "end": 496
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.6741020679473877,
+        "score": 0.6741012930870056,
         "word": "##pir",
         "start": 496,
         "end": 499
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9460004568099976,
+        "score": 0.94599848985672,
         "word": "postmortem binding",
         "start": 500,
         "end": 518
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.907878041267395,
+        "score": 0.9078807830810547,
         "word": "high resolution",
         "start": 530,
         "end": 545
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9740908145904541,
+        "score": 0.9740898013114929,
         "word": "autoradiography",
         "start": 546,
         "end": 561
@@ -5809,14 +6104,14 @@
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.9654999375343323,
+        "score": 0.9655001163482666,
         "word": "early",
         "start": 584,
         "end": 589
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9494277238845825,
+        "score": 0.949428379535675,
         "word": "phf - 1",
         "start": 611,
         "end": 616
@@ -5837,7 +6132,7 @@
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.7300638556480408,
+        "score": 0.7300631999969482,
         "word": "tangle",
         "start": 687,
         "end": 693
@@ -5872,7 +6167,7 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.74488365650177,
+        "score": 0.7448809146881104,
         "word": "tau aggregate",
         "start": 1142,
         "end": 1155
@@ -5886,21 +6181,21 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9682003855705261,
+        "score": 0.9682005643844604,
         "word": "ad tau",
         "start": 1304,
         "end": 1310
       },
       {
         "entity_group": "Lab_value",
-        "score": 0.9563363790512085,
+        "score": 0.9563368558883667,
         "word": "no",
         "start": 1326,
         "end": 1328
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.4422273635864258,
+        "score": 0.4422348141670227,
         "word": "ad",
         "start": 1355,
         "end": 1357
@@ -6058,6 +6353,21 @@
         "Tracers have a preference for middling tangle maturity.",
         "Tracers are shown by comparison to immunohistochemical distributions.",
         "Tracers corroborate with other studies."
+      ],
+      "relations_aware": [
+        "Recent developments in tau positron emission tomography (PET) radiotracers have enhanced the visualization of tau aggregates in Alzheimer's disease (AD).",
+        "The maturity level of neurofibrillary tangles can affect its recognition by biomarkers.",
+        "Early detection of tau aggregates regarding tangle pathology is of interest in early diagnosis.",
+        "Comparison of tau radiotracers in this aspect is important.",
+        "This study focused on head to head pathologic comparison of [(18)F]MK-6240 and [(18)F]Flortaucipir postmortem binding.",
+        "The study compared the binding to CP-13 (early tangle maturity) and PHF-1 (middling tangle maturity) immunohistochemistry (IHC).",
+        "The evaluation aimed to assess the tangle maturity pathology specificity of binding for tau aggregates in AD, atypical AD, and non-AD tauopathies.",
+        "Analyses were performed on serial 5 mum formalin-fixed paraffin-embedded human brain sections acquired from the Mayo Clinic brain bank.",
+        "Visual assessment of colocalization with IHC as well as quantitative analyses were used.",
+        "Evaluation of the tracers' off-target binding profiles were performed.",
+        "Both tracers had similar binding properties for tau aggregates with preference to middling tangle maturity.",
+        "Comparison to immunohistochemical distributions showed strong binding to AD tau aggregates and no or minimal binding to non-AD tauopathies.",
+        "The findings corroborate with other studies."
       ]
     }
   },
@@ -6089,21 +6399,21 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.729120135307312,
+        "score": 0.7291197776794434,
         "word": "healthy controls",
         "start": 207,
         "end": 223
       },
       {
         "entity_group": "Lab_value",
-        "score": 0.9991887211799622,
+        "score": 0.9991886019706726,
         "word": "105",
         "start": 233,
         "end": 236
       },
       {
         "entity_group": "Sex",
-        "score": 0.7221544981002808,
+        "score": 0.7221543788909912,
         "word": "adults",
         "start": 237,
         "end": 243
@@ -6117,14 +6427,14 @@
       },
       {
         "entity_group": "Lab_value",
-        "score": 0.8425781726837158,
+        "score": 0.8425759673118591,
         "word": "67",
         "start": 253,
         "end": 255
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9723049998283386,
+        "score": 0.9723042249679565,
         "word": "flu",
         "start": 393,
         "end": 396
@@ -6138,14 +6448,14 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9430557489395142,
+        "score": 0.9430562853813171,
         "word": "##deoxyglucose positron emission",
         "start": 399,
         "end": 429
       },
       {
         "entity_group": "Lab_value",
-        "score": 0.7358837723731995,
+        "score": 0.7358831763267517,
         "word": "3",
         "start": 442,
         "end": 443
@@ -6159,7 +6469,7 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.7552849054336548,
+        "score": 0.7552839517593384,
         "word": "##tic resonance",
         "start": 450,
         "end": 463
@@ -6173,7 +6483,7 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.9916670322418213,
+        "score": 0.9916671514511108,
         "word": "##mbar",
         "start": 479,
         "end": 483
@@ -6187,14 +6497,14 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.6337631344795227,
+        "score": 0.6337628960609436,
         "word": "##spinal fluid",
         "start": 511,
         "end": 523
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.7454862594604492,
+        "score": 0.745484471321106,
         "word": "cs",
         "start": 525,
         "end": 527
@@ -6208,14 +6518,14 @@
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.88825523853302,
+        "score": 0.8882542848587036,
         "word": "vox",
         "start": 649,
         "end": 652
       },
       {
         "entity_group": "Diagnostic_procedure",
-        "score": 0.5280666351318359,
+        "score": 0.5280711054801941,
         "word": "wise",
         "start": 655,
         "end": 659
@@ -6229,14 +6539,14 @@
       },
       {
         "entity_group": "Biological_structure",
-        "score": 0.9451171159744263,
+        "score": 0.9451187252998352,
         "word": "brain",
         "start": 821,
         "end": 826
       },
       {
         "entity_group": "Biological_structure",
-        "score": 0.9773403406143188,
+        "score": 0.97734135389328,
         "word": "frontal",
         "start": 874,
         "end": 881
@@ -6250,21 +6560,21 @@
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.913763165473938,
+        "score": 0.9137653708457947,
         "word": "ds",
         "start": 962,
         "end": 964
       },
       {
         "entity_group": "Biological_structure",
-        "score": 0.8197224736213684,
+        "score": 0.8197171092033386,
         "word": "pro",
         "start": 1072,
         "end": 1075
       },
       {
         "entity_group": "Biological_structure",
-        "score": 0.6786258220672607,
+        "score": 0.6786195039749146,
         "word": "medial parietal",
         "start": 1098,
         "end": 1113
@@ -6285,21 +6595,21 @@
       },
       {
         "entity_group": "Biological_structure",
-        "score": 0.9518777132034302,
+        "score": 0.9518783688545227,
         "word": "other",
         "start": 1154,
         "end": 1159
       },
       {
         "entity_group": "Biological_structure",
-        "score": 0.9743015766143799,
+        "score": 0.9743010401725769,
         "word": "##ari",
         "start": 1168,
         "end": 1171
       },
       {
         "entity_group": "Biological_structure",
-        "score": 0.9943594336509705,
+        "score": 0.99435955286026,
         "word": "frontal",
         "start": 1180,
         "end": 1187
@@ -6313,7 +6623,7 @@
       },
       {
         "entity_group": "Detailed_description",
-        "score": 0.6773428320884705,
+        "score": 0.6773418188095093,
         "word": "as",
         "start": 1222,
         "end": 1224
@@ -6348,28 +6658,28 @@
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.8765966892242432,
+        "score": 0.8765983581542969,
         "word": "##bolism",
         "start": 1281,
         "end": 1287
       },
       {
         "entity_group": "Biological_structure",
-        "score": 0.9976531267166138,
+        "score": 0.9976530075073242,
         "word": "medial frontal",
         "start": 1314,
         "end": 1328
       },
       {
         "entity_group": "Biological_structure",
-        "score": 0.9973388314247131,
+        "score": 0.9973387718200684,
         "word": "parietal",
         "start": 1333,
         "end": 1341
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.40760087966918945,
+        "score": 0.40760475397109985,
         "word": "cs",
         "start": 1355,
         "end": 1357
@@ -6383,7 +6693,7 @@
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.9976310729980469,
+        "score": 0.9976311922073364,
         "word": "##yp",
         "start": 1400,
         "end": 1402
@@ -6397,7 +6707,7 @@
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.8002142310142517,
+        "score": 0.8002151846885681,
         "word": "##tabolism",
         "start": 1405,
         "end": 1413
@@ -6411,14 +6721,14 @@
       },
       {
         "entity_group": "Biological_structure",
-        "score": 0.9913509488105774,
+        "score": 0.9913508892059326,
         "word": "medial parie",
         "start": 1501,
         "end": 1513
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.9925798773765564,
+        "score": 0.992579996585846,
         "word": "decline",
         "start": 1565,
         "end": 1572
@@ -6432,35 +6742,35 @@
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.6180891990661621,
+        "score": 0.6180889010429382,
         "word": "alzheimer",
         "start": 1597,
         "end": 1606
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.8644247651100159,
+        "score": 0.8644195199012756,
         "word": "h",
         "start": 1726,
         "end": 1727
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.680810809135437,
+        "score": 0.6808025240898132,
         "word": "##yp",
         "start": 1727,
         "end": 1729
       },
       {
         "entity_group": "Sign_symptom",
-        "score": 0.9846832156181335,
+        "score": 0.984683096408844,
         "word": "##ism",
         "start": 1737,
         "end": 1740
       },
       {
         "entity_group": "Disease_disorder",
-        "score": 0.8281285762786865,
+        "score": 0.8281247615814209,
         "word": "cs",
         "start": 1768,
         "end": 1770
@@ -6600,7 +6910,35 @@
         "Hypometabolism is more tightly related to CSF NfL levels than to core AD biomarkers."
       ],
       "kg_based": [],
-      "kg_based_entities": []
+      "kg_based_entities": [],
+      "relations_aware": [
+        "The goal was to examine the effect of sociodemographic variables, Alzheimer's disease (AD) clinical stages and pathology on brain metabolism in Down syndrome (DS).",
+        "71 euploid healthy controls (HC) were included in the study.",
+        "105 adults with DS were included in the study.",
+        "67 DS participants were asymptomatic.",
+        "12 DS participants were at the prodromal stage.",
+        "26 DS participants had dementia.",
+        "Participants underwent [18F]fluorodeoxyglucose positron emission tomography.",
+        "Participants underwent 3 Tmagnetic resonance imaging.",
+        "Participants underwent lumbar puncture to measure cerebrospinal fluid (CSF) biomarkers.",
+        "CSF biomarkers included the ratio between amyloid beta peptide 42 and 40, phosphorylated tau 181, and neurofilament light chain (NfL).",
+        "Voxel-wise analyses in SPM12 examined the effects of age on brain metabolism.",
+        "Voxel-wise analyses in SPM12 examined the effects of sex on brain metabolism.",
+        "Voxel-wise analyses in SPM12 examined the effects of intellectual disability on brain metabolism.",
+        "Voxel-wise analyses in SPM12 examined the effects of Alzheimer's clinical stage on brain metabolism.",
+        "Voxel-wise analyses in SPM12 examined the effects of CSF biomarkers on brain metabolism.",
+        "In HC, brain metabolism decreased with age primarily in the frontal lobe.",
+        "In DS, a more distributed pattern of metabolic loss was observed with age, predominating in temporoparietal regions.",
+        "Compared to asymptomatic DS participants, those at the prodromal stage exhibited medial parietal hypometabolism.",
+        "Hypometabolism later extended to other temporoparietal and frontal regions at the dementia stage in DS.",
+        "In asymptomatic individuals, a widespread hypometabolism was observed compared to HC, mainly in medial frontal and parietal regions.",
+        "All CSF biomarkers were closely associated with hypometabolism in regions affected by the disease.",
+        "The strongest association observed was for NfL in medial parietal structures.",
+        "The brain metabolic decline in DS with age reflects Alzheimer's pathological processes.",
+        "The brain metabolic decline in DS involves temporoparietal regions in a similar pattern to that found in other forms of AD.",
+        "Hypometabolism is more tightly related to CSF NfL levels than to core AD biomarkers.",
+        "The study was published in ANN NEUROL 2025."
+      ]
     }
   },
   {
