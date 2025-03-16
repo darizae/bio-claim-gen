@@ -9693,28 +9693,6 @@
     ]
   },
   {
-    "pmid": "40083374",
-    "title": "Editorial: Novel therapeutic target and drug discovery for neurological diseases, volume II.",
-    "abstract": "No abstract found",
-    "entities": [
-      {
-        "entity_group": "Lab_value",
-        "score": 0.9951105713844299,
-        "word": "no",
-        "start": 0,
-        "end": 2
-      },
-      {
-        "entity_group": "Detailed_description",
-        "score": 0.47499239444732666,
-        "word": "abstract found",
-        "start": 3,
-        "end": 17
-      }
-    ],
-    "relations": []
-  },
-  {
     "pmid": "40083218",
     "title": "Early signs of neuron autonomous and non-autonomous hyperexcitability in locus coeruleus noradrenergic neurons of a mouse model of tauopathy and Alzheimer's disease.",
     "abstract": "AIM: The locus coeruleus (LC) is one of the earliest brain regions affected by phosphorylated tau (p-tau) in Alzheimer's disease (AD). Using the P301S mouse model, we investigated the temporal progression of tau pathology and its functional consequences. METHODS: Immunohistochemistry was used to assess p-tau deposition in LC noradrenergic neurons at 2-3 and 5-6 months. Electrophysiological recordings evaluated neuronal hyperexcitability, measuring membrane potential, rheobase, and spontaneous action potential (AP) frequency in P301S and wild-type (WT) mice. Fast-scan cyclic voltammetry (FSCV) was used to measure norepinephrine (NE) release. GABA(A) receptor subunit expression was analyzed via immunoblotting. RESULTS: P-tau was detected in LC neurons as early as 2-3 months, with a rostral-to-caudal gradient, and by 5-6 months, nearly all LC neurons exhibited p-tau immunoreactivity. P301S neurons showed hyperexcitability, characterized by depolarized membrane potentials, a more negative rheobase, and increased spontaneous AP frequency. Synaptic blockade elicited a reduced increase in AP frequency, suggesting diminished inhibitory tone. GABA(A) alpha2 subunit expression significantly declined with age in P301S mice, whereas alpha3 remained unchanged. FSCV showed significantly elevated NE release in P301S mice at 3 and 6 months compared to WT. CONCLUSION: The findings highlight early LC dysfunction in tauopathies, characterized by increased excitability, reduced inhibitory tone, and exaggerated NE release. This hyperactivity may contribute to excitotoxicity and downstream dysfunction in LC-regulated brain regions. Targeting LC hyperactivity and restoring inhibitory signaling could be promising therapeutic strategies for mitigating AD progression.",
@@ -11986,28 +11964,6 @@
     ]
   },
   {
-    "pmid": "40082649",
-    "title": "Author Correction: Alzheimer's disease may develop from changes in the immune system, cell cycle, and protein processing following alterations in ribosome function.",
-    "abstract": "No abstract found",
-    "entities": [
-      {
-        "entity_group": "Lab_value",
-        "score": 0.9951105713844299,
-        "word": "no",
-        "start": 0,
-        "end": 2
-      },
-      {
-        "entity_group": "Detailed_description",
-        "score": 0.47499239444732666,
-        "word": "abstract found",
-        "start": 3,
-        "end": 17
-      }
-    ],
-    "relations": []
-  },
-  {
     "pmid": "40082619",
     "title": "Interleukin-12 signaling drives Alzheimer's disease pathology through disrupting neuronal and oligodendrocyte homeostasis.",
     "abstract": "Neuroinflammation including interleukin (IL)-12/IL-23-signaling is central to Alzheimer's disease (AD) pathology. Inhibition of p40, a subunit of IL-12/IL-23, attenuates pathology in AD-like mice; however, its signaling mechanism and expression pattern remained elusive. Here we show that IL-12 receptors are predominantly expressed in neurons and oligodendrocytes in AD-like APPPS1 mice and in patients with AD, whereas IL-23 receptor transcripts are barely detectable. Consistently, deletion of the IL-12 receptor in neuroectodermal cells ameliorated AD pathology in APPPS1 mice, whereas removal of IL-23 receptors had no effect. Genetic ablation of IL-12 signaling alone reverted the loss of mature oligodendrocytes, restored myelin homeostasis, rescued the amyloid-beta-dependent reduction of parvalbumin-positive interneurons and restored phagocytosis-related changes in microglia of APPPS1 mice. Furthermore, IL-12 protein expression was increased in human AD brains compared to healthy age-matched controls, and human oligodendrocyte-like cells responded profoundly to IL-12 stimulation. We conclude that oligodendroglial and neuronal IL-12 signaling, but not IL-23 signaling, are key in orchestrating AD-related neuroimmune crosstalk and that IL-12 represents an attractive therapeutic target in AD.",
@@ -13046,50 +13002,6 @@
         "confidence": 1.0
       }
     ]
-  },
-  {
-    "pmid": "40082182",
-    "title": "Corrigendum to \"Acori Tatarinowii Rhizoma regulates OCT3/OATP2 and P-gp/MRP1 to \"guide medicines upwards\" in Kai-Xin-San to treat Alzheimer's disease [J. Ethnopharmacol. 343 (2025) 119484].",
-    "abstract": "No abstract found",
-    "entities": [
-      {
-        "entity_group": "Lab_value",
-        "score": 0.9951105713844299,
-        "word": "no",
-        "start": 0,
-        "end": 2
-      },
-      {
-        "entity_group": "Detailed_description",
-        "score": 0.47499239444732666,
-        "word": "abstract found",
-        "start": 3,
-        "end": 17
-      }
-    ],
-    "relations": []
-  },
-  {
-    "pmid": "40082180",
-    "title": "Corrigendum to \"17th Clinical Trials on Alzheimer's Disease (CTAD) Madrid, Spain, October 29 - November 1, 2024: Symposia, Oral Communications\" [J Prev Alzheimers Dis 2025;12(1S):100043].",
-    "abstract": "No abstract found",
-    "entities": [
-      {
-        "entity_group": "Lab_value",
-        "score": 0.9951105713844299,
-        "word": "no",
-        "start": 0,
-        "end": 2
-      },
-      {
-        "entity_group": "Detailed_description",
-        "score": 0.47499239444732666,
-        "word": "abstract found",
-        "start": 3,
-        "end": 17
-      }
-    ],
-    "relations": []
   },
   {
     "pmid": "40082178",
@@ -25585,6 +25497,819 @@
         "relation": "measured physical quantity",
         "object": "rate of oscillation",
         "confidence": 0.8199999928474426
+      }
+    ]
+  },
+  {
+    "pmid": "40076831",
+    "title": "Progress in AAV-Mediated In Vivo Gene Therapy and Its Applications in Central Nervous System Diseases.",
+    "abstract": "As the blood-brain barrier (BBB) prevents molecules from accessing the central nervous system (CNS), the traditional systemic delivery of chemical drugs limits the development of neurological drugs. However, in recent years, innovative therapeutic strategies have tried to bypass the restriction of traditional drug delivery methods. In vivo gene therapy refers to emerging biopharma vectors that carry the specific genes and target and infect specific tissues; these infected cells and tissues then undergo fundamental changes at the genetic level and produce therapeutic proteins or substances, thus providing therapeutic benefits. Clinical and preclinical trials mainly utilize adeno-associated viruses (AAVs), lentiviruses (LVs), and other viruses as gene vectors for disease investigation. Although LVs have a higher gene-carrying capacity, the vector of choice for many neurological diseases is the AAV vector due to its safety and long-term transgene expression in neurons. Here, we review the basic biology of AAVs and summarize some key issues in recombinant AAV (rAAV) engineering in gene therapy research; then, we summarize recent clinical trials using rAAV treatment for neurological diseases and provide translational perspectives and future challenges on target selection.",
+    "entities": [
+      {
+        "entity_group": "Diagnostic_procedure",
+        "score": 0.5799896717071533,
+        "word": "system",
+        "start": 87,
+        "end": 93
+      },
+      {
+        "entity_group": "Diagnostic_procedure",
+        "score": 0.4556408226490021,
+        "word": "cn",
+        "start": 95,
+        "end": 97
+      },
+      {
+        "entity_group": "Detailed_description",
+        "score": 0.9606151580810547,
+        "word": "in vivo",
+        "start": 334,
+        "end": 341
+      },
+      {
+        "entity_group": "Coreference",
+        "score": 0.5781084895133972,
+        "word": "gene",
+        "start": 342,
+        "end": 346
+      },
+      {
+        "entity_group": "Detailed_description",
+        "score": 0.775269627571106,
+        "word": "vectors",
+        "start": 384,
+        "end": 391
+      },
+      {
+        "entity_group": "Detailed_description",
+        "score": 0.9387391209602356,
+        "word": "fundamental changes at the genetic level",
+        "start": 508,
+        "end": 548
+      },
+      {
+        "entity_group": "Diagnostic_procedure",
+        "score": 0.5942487120628357,
+        "word": "aden",
+        "start": 681,
+        "end": 685
+      },
+      {
+        "entity_group": "Detailed_description",
+        "score": 0.9894153475761414,
+        "word": "##o - associated viruses",
+        "start": 685,
+        "end": 705
+      },
+      {
+        "entity_group": "Detailed_description",
+        "score": 0.9115878343582153,
+        "word": "aa",
+        "start": 707,
+        "end": 709
+      },
+      {
+        "entity_group": "Diagnostic_procedure",
+        "score": 0.6480315327644348,
+        "word": "lent",
+        "start": 714,
+        "end": 718
+      },
+      {
+        "entity_group": "Detailed_description",
+        "score": 0.9929397702217102,
+        "word": "##iviruses",
+        "start": 718,
+        "end": 726
+      },
+      {
+        "entity_group": "Detailed_description",
+        "score": 0.6300358176231384,
+        "word": "l",
+        "start": 728,
+        "end": 729
+      },
+      {
+        "entity_group": "Detailed_description",
+        "score": 0.916480302810669,
+        "word": "other viruses",
+        "start": 738,
+        "end": 751
+      },
+      {
+        "entity_group": "Disease_disorder",
+        "score": 0.9497247338294983,
+        "word": "l",
+        "start": 804,
+        "end": 805
+      },
+      {
+        "entity_group": "Coreference",
+        "score": 0.3345056474208832,
+        "word": "##vs",
+        "start": 805,
+        "end": 807
+      },
+      {
+        "entity_group": "Disease_disorder",
+        "score": 0.9388030171394348,
+        "word": "neurological diseases",
+        "start": 876,
+        "end": 897
+      },
+      {
+        "entity_group": "Disease_disorder",
+        "score": 0.9490215182304382,
+        "word": "aa",
+        "start": 1018,
+        "end": 1020
+      },
+      {
+        "entity_group": "Coreference",
+        "score": 0.6862651705741882,
+        "word": "##vs",
+        "start": 1020,
+        "end": 1022
+      },
+      {
+        "entity_group": "Diagnostic_procedure",
+        "score": 0.7318353652954102,
+        "word": "aav",
+        "start": 1068,
+        "end": 1071
+      }
+    ],
+    "relations": [
+      {
+        "subject": "adeno-associated viruses",
+        "relation": "subclass of",
+        "object": "gene vectors",
+        "confidence": 0.8500000238418579
+      },
+      {
+        "subject": "adeno-associated viruses",
+        "relation": "subclass of",
+        "object": "gene vectors",
+        "confidence": 0.9700000286102295
+      },
+      {
+        "subject": "AAVs",
+        "relation": "subclass of",
+        "object": "gene",
+        "confidence": 0.9700000286102295
+      },
+      {
+        "subject": "AAVs",
+        "relation": "subclass of",
+        "object": "gene vectors",
+        "confidence": 0.9900000095367432
+      },
+      {
+        "subject": "AAVs",
+        "relation": "subclass of",
+        "object": "gene vectors",
+        "confidence": 1.0
+      },
+      {
+        "subject": "lentiviruses",
+        "relation": "subclass of",
+        "object": "gene",
+        "confidence": 1.0
+      },
+      {
+        "subject": "lentiviruses",
+        "relation": "subclass of",
+        "object": "gene vectors",
+        "confidence": 1.0
+      },
+      {
+        "subject": "LVs",
+        "relation": "genetic association",
+        "object": "adeno-associated viruses",
+        "confidence": 0.8100000023841858
+      },
+      {
+        "subject": "LVs",
+        "relation": "subclass of",
+        "object": "gene vectors",
+        "confidence": 0.9900000095367432
+      },
+      {
+        "subject": "transgene",
+        "relation": "has use",
+        "object": "gene therapy",
+        "confidence": 0.8700000047683716
+      },
+      {
+        "subject": "transgene",
+        "relation": "has use",
+        "object": "gene therapy",
+        "confidence": 0.9200000166893005
+      },
+      {
+        "subject": "recombinant AAV",
+        "relation": "has use",
+        "object": "gene therapy",
+        "confidence": 0.949999988079071
+      },
+      {
+        "subject": "translational",
+        "relation": "subclass of",
+        "object": "gene therapy",
+        "confidence": 0.8100000023841858
+      }
+    ]
+  },
+  {
+    "pmid": "40076772",
+    "title": "Shape Matters: The Utility and Analysis of Altered Yeast Mitochondrial Morphology in Health, Disease, and Biotechnology.",
+    "abstract": "Mitochondria are involved in a wide array of critical cellular processes from energy production to cell death. The morphology (size and shape) of mitochondrial compartments is highly responsive to both intracellular and extracellular conditions, making these organelles highly dynamic. Nutrient levels and stressors both inside and outside the cell inform the balance of mitochondrial fission and fusion and the recycling of mitochondrial components known as mitophagy. The study of mitochondrial morphology and its implications in human disease and microbial engineering have gained significant attention over the past decade. The yeast Saccharomyces cerevisiae offers a valuable model system for studying mitochondria due to its ability to survive without respiring, its genetic tractability, and the high degree of mitochondrial similarity across eukaryotic species. Here, we review how the interplay between mitochondrial fission, fusion, biogenesis, and mitophagy regulates the dynamic nature of mitochondrial networks in both yeast and mammalian systems with an emphasis on yeast as a model organism. Additionally, we examine the crucial role of inter-organelle interactions, particularly between mitochondria and the endoplasmic reticulum, in regulating mitochondrial dynamics. The dysregulation of any of these processes gives rise to abnormal mitochondrial morphologies, which serve as the distinguishing features of numerous diseases, including Parkinson's disease, Alzheimer's disease, and cancer. Notably, yeast models have contributed to revealing the underlying mechanisms driving these human disease states. In addition to furthering our understanding of pathologic processes, aberrant yeast mitochondrial morphologies are of increasing interest to the seemingly distant field of metabolic engineering, following the discovery that compartmentalization of certain biosynthetic pathways within mitochondria can significantly improve chemical production. In this review, we examine the utility of yeast as a model organism to study mitochondrial morphology in both healthy and pathologic states, explore the nascent field of mitochondrial morphology engineering, and discuss the methods available for the quantification and classification of these key mitochondrial morphologies.",
+    "entities": [
+      {
+        "entity_group": "Biological_structure",
+        "score": 0.5830407738685608,
+        "word": "mit",
+        "start": 0,
+        "end": 3
+      },
+      {
+        "entity_group": "Biological_structure",
+        "score": 0.9938172698020935,
+        "word": "mitochondrial",
+        "start": 146,
+        "end": 159
+      },
+      {
+        "entity_group": "Diagnostic_procedure",
+        "score": 0.7259919047355652,
+        "word": "nutrient",
+        "start": 286,
+        "end": 294
+      },
+      {
+        "entity_group": "Diagnostic_procedure",
+        "score": 0.6325854063034058,
+        "word": "yeast saccharomyces",
+        "start": 632,
+        "end": 651
+      },
+      {
+        "entity_group": "Diagnostic_procedure",
+        "score": 0.4605894982814789,
+        "word": "##vis",
+        "start": 656,
+        "end": 659
+      },
+      {
+        "entity_group": "Biological_structure",
+        "score": 0.7969013452529907,
+        "word": "yeast",
+        "start": 1032,
+        "end": 1037
+      },
+      {
+        "entity_group": "Diagnostic_procedure",
+        "score": 0.8896754384040833,
+        "word": "yeast",
+        "start": 1518,
+        "end": 1523
+      },
+      {
+        "entity_group": "Sign_symptom",
+        "score": 0.5839719176292419,
+        "word": "abe",
+        "start": 1692,
+        "end": 1695
+      },
+      {
+        "entity_group": "Sign_symptom",
+        "score": 0.9078463315963745,
+        "word": "##rran",
+        "start": 1695,
+        "end": 1699
+      },
+      {
+        "entity_group": "Coreference",
+        "score": 0.7867738604545593,
+        "word": "yeast",
+        "start": 2010,
+        "end": 2015
+      },
+      {
+        "entity_group": "Diagnostic_procedure",
+        "score": 0.9257303476333618,
+        "word": "mitochondrial morphology",
+        "start": 2045,
+        "end": 2069
+      }
+    ],
+    "relations": [
+      {
+        "subject": "cell death",
+        "relation": "has cause",
+        "object": "Mitochondria",
+        "confidence": 0.9200000166893005
+      },
+      {
+        "subject": "mitophagy",
+        "relation": "cell component",
+        "object": "the cell",
+        "confidence": 0.8799999952316284
+      },
+      {
+        "subject": "mitophagy",
+        "relation": "participant",
+        "object": "the cell",
+        "confidence": 1.0
+      },
+      {
+        "subject": "Saccharomyces cerevisiae",
+        "relation": "instance of",
+        "object": "model system",
+        "confidence": 0.9399999976158142
+      },
+      {
+        "subject": "Saccharomyces cerevisiae",
+        "relation": "subclass of",
+        "object": "eukaryotic",
+        "confidence": 0.7599999904632568
+      },
+      {
+        "subject": "its",
+        "relation": "develops from",
+        "object": "Saccharomyces cerevisiae",
+        "confidence": 1.0
+      },
+      {
+        "subject": "its",
+        "relation": "instance of",
+        "object": "model system",
+        "confidence": 0.7699999809265137
+      },
+      {
+        "subject": "its",
+        "relation": "develops from",
+        "object": "Saccharomyces cerevisiae",
+        "confidence": 1.0
+      },
+      {
+        "subject": "its",
+        "relation": "instance of",
+        "object": "model system",
+        "confidence": 0.8600000143051147
+      },
+      {
+        "subject": "yeast",
+        "relation": "subclass of",
+        "object": "eukaryotic",
+        "confidence": 1.0
+      },
+      {
+        "subject": "mammalian",
+        "relation": "instance of",
+        "object": "model system",
+        "confidence": 0.7799999713897705
+      },
+      {
+        "subject": "mammalian",
+        "relation": "instance of",
+        "object": "model organism",
+        "confidence": 1.0
+      },
+      {
+        "subject": "mammalian",
+        "relation": "subclass of",
+        "object": "eukaryotic",
+        "confidence": 1.0
+      },
+      {
+        "subject": "yeast",
+        "relation": "instance of",
+        "object": "model organism",
+        "confidence": 0.9599999785423279
+      },
+      {
+        "subject": "yeast",
+        "relation": "instance of",
+        "object": "model organism",
+        "confidence": 1.0
+      },
+      {
+        "subject": "yeast",
+        "relation": "develops from",
+        "object": "mitochondria",
+        "confidence": 0.9900000095367432
+      },
+      {
+        "subject": "mitochondria",
+        "relation": "instance of",
+        "object": "model organism",
+        "confidence": 0.8899999856948853
+      },
+      {
+        "subject": "yeast",
+        "relation": "instance of",
+        "object": "model organism",
+        "confidence": 1.0
+      },
+      {
+        "subject": "mitochondrial",
+        "relation": "instance of",
+        "object": "model organism",
+        "confidence": 0.9800000190734863
+      },
+      {
+        "subject": "mitochondrial morphology",
+        "relation": "cell component",
+        "object": "mitochondrial",
+        "confidence": 0.9599999785423279
+      }
+    ]
+  },
+  {
+    "pmid": "40076742",
+    "title": "Therapeutic Mechanisms of Medicine Food Homology Plants in Alzheimer's Disease: Insights from Network Pharmacology, Machine Learning, and Molecular Docking.",
+    "abstract": "Alzheimer's disease (AD) is a progressive neurodegenerative disorder characterized by a gradual decline in cognitive function. Currently, there are no effective treatments for this condition. Medicine food homology plants have gained increasing attention as potential natural treatments for AD because of their nutritional value and therapeutic benefits. In this work, we aimed to provide a deeper understanding of how medicine food homology plants may help alleviate or potentially treat AD by identifying key targets, pathways, and small molecule compounds from 10 medicine food homology plants that play an important role in this process. Using network pharmacology, we identified 623 common targets between AD and the compounds from the selected 10 plants, including crucial proteins such as STAT3, IL6, TNF, and IL1B. Additionally, the small molecules from the selected plants were grouped into four clusters using hierarchical clustering. The ConPlex algorithm was then applied to predict the binding capabilities of these small molecules to the key protein targets. Cluster 3 showed superior predicted binding capabilities to STAT3, TNF, and IL1B, which was further validated by molecular docking. Scaffold analysis of small molecules in Cluster 3 revealed that those with a steroid-like core-comprising three fused six-membered rings and one five-membered ring with a carbon-carbon double bond-exhibited better predicted binding affinities and were potential triple-target inhibitors. Among them, MOL005439, MOL000953, and MOL005438 were identified as the top-performing compounds. This study highlights the potential of medicine food homology plants as a source of active compounds that could be developed into new drugs for AD treatment. However, further pharmacokinetic studies are essential to assess their efficacy and minimize side effects.",
+    "entities": [
+      {
+        "entity_group": "Disease_disorder",
+        "score": 0.9986113905906677,
+        "word": "alzheimer ' s disease",
+        "start": 0,
+        "end": 19
+      },
+      {
+        "entity_group": "Disease_disorder",
+        "score": 0.9992973804473877,
+        "word": "ad",
+        "start": 21,
+        "end": 23
+      },
+      {
+        "entity_group": "Disease_disorder",
+        "score": 0.7312076091766357,
+        "word": "ne",
+        "start": 42,
+        "end": 44
+      },
+      {
+        "entity_group": "Disease_disorder",
+        "score": 0.8759996294975281,
+        "word": "##urodegenerative disorder",
+        "start": 44,
+        "end": 68
+      },
+      {
+        "entity_group": "Coreference",
+        "score": 0.6534988880157471,
+        "word": "food homo",
+        "start": 201,
+        "end": 210
+      },
+      {
+        "entity_group": "Disease_disorder",
+        "score": 0.9962977766990662,
+        "word": "ad",
+        "start": 291,
+        "end": 293
+      },
+      {
+        "entity_group": "Disease_disorder",
+        "score": 0.9971935153007507,
+        "word": "ad",
+        "start": 489,
+        "end": 491
+      },
+      {
+        "entity_group": "Disease_disorder",
+        "score": 0.995707631111145,
+        "word": "ad",
+        "start": 711,
+        "end": 713
+      },
+      {
+        "entity_group": "Detailed_description",
+        "score": 0.8355567455291748,
+        "word": "##plex algorithm",
+        "start": 952,
+        "end": 966
+      },
+      {
+        "entity_group": "Diagnostic_procedure",
+        "score": 0.6459653973579407,
+        "word": "analysis",
+        "start": 1214,
+        "end": 1222
+      },
+      {
+        "entity_group": "Detailed_description",
+        "score": 0.9772854447364807,
+        "word": "ste",
+        "start": 1282,
+        "end": 1285
+      },
+      {
+        "entity_group": "Detailed_description",
+        "score": 0.9977723956108093,
+        "word": "six - membered rings",
+        "start": 1323,
+        "end": 1341
+      },
+      {
+        "entity_group": "Detailed_description",
+        "score": 0.9867105484008789,
+        "word": "five - membered ring",
+        "start": 1350,
+        "end": 1368
+      },
+      {
+        "entity_group": "Detailed_description",
+        "score": 0.8551449775695801,
+        "word": "carbon double bond",
+        "start": 1383,
+        "end": 1401
+      },
+      {
+        "entity_group": "Diagnostic_procedure",
+        "score": 0.742215096950531,
+        "word": "ph",
+        "start": 1765,
+        "end": 1767
+      }
+    ],
+    "relations": [
+      {
+        "subject": "Alzheimer's disease",
+        "relation": "subclass of",
+        "object": "neurodegenerative disorder",
+        "confidence": 1.0
+      },
+      {
+        "subject": "plants",
+        "relation": "field of work",
+        "object": "AD",
+        "confidence": 0.7900000214576721
+      },
+      {
+        "subject": "their",
+        "relation": "medical condition",
+        "object": "AD",
+        "confidence": 1.0
+      },
+      {
+        "subject": "therapeutic",
+        "relation": "facet of",
+        "object": "AD",
+        "confidence": 0.7599999904632568
+      },
+      {
+        "subject": "network pharmacology",
+        "relation": "facet of",
+        "object": "AD",
+        "confidence": 0.8600000143051147
+      },
+      {
+        "subject": "network pharmacology",
+        "relation": "subclass of",
+        "object": "hierarchical clustering",
+        "confidence": 0.8899999856948853
+      },
+      {
+        "subject": "ConPlex",
+        "relation": "has use",
+        "object": "hierarchical clustering",
+        "confidence": 0.75
+      },
+      {
+        "subject": "ConPlex",
+        "relation": "subclass of",
+        "object": "hierarchical clustering",
+        "confidence": 0.9399999976158142
+      },
+      {
+        "subject": "MOL005439",
+        "relation": "has use",
+        "object": "AD",
+        "confidence": 1.0
+      },
+      {
+        "subject": "MOL000953",
+        "relation": "has use",
+        "object": "AD",
+        "confidence": 1.0
+      },
+      {
+        "subject": "MOL005438",
+        "relation": "has use",
+        "object": "AD",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "pmid": "40076728",
+    "title": "SLC1A4 and Serine Homeostasis: Implications for Neurodevelopmental and Neurodegenerative Disorders.",
+    "abstract": "The solute carrier family 1 member 4 (SLC1A4) gene encodes a neutral amino acid transporter, also referred to as alanine-serine-cysteine transporter 1, ASCT1, that helps maintain amino acid balance in the brain and periphery. In the brain, SLC1A4 plays an important role in transporting levo (L) and dopa (D) isomers of serine. L-serine is required for many cellular processes, including protein and sphingolipid synthesis, while D-serine is a co-agonist required for normal neurotransmission through N-methyl-D-aspartate receptors. Through its roles transporting L-serine across the blood-brain barrier and regulating synaptic D-serine levels, SLC1A4 helps establish and maintain brain health across the lifespan. This review examines the role of SLC1A4 in neurodevelopment and neurodegeneration and assesses the therapeutic potential of serine supplementation to treat neurodevelopmental symptoms associated with mutations in SLC1A4, as well as schizophrenia, depression, traumatic brain injury, and Alzheimer's and Parkinson's diseases.",
+    "entities": [
+      {
+        "entity_group": "Diagnostic_procedure",
+        "score": 0.9592938423156738,
+        "word": "solute carrier family 1 member",
+        "start": 4,
+        "end": 34
+      },
+      {
+        "entity_group": "Diagnostic_procedure",
+        "score": 0.9747879505157471,
+        "word": "sl",
+        "start": 38,
+        "end": 40
+      },
+      {
+        "entity_group": "Diagnostic_procedure",
+        "score": 0.6616435647010803,
+        "word": "amino acid transport",
+        "start": 69,
+        "end": 89
+      },
+      {
+        "entity_group": "Diagnostic_procedure",
+        "score": 0.9647507667541504,
+        "word": "sl",
+        "start": 240,
+        "end": 242
+      },
+      {
+        "entity_group": "Diagnostic_procedure",
+        "score": 0.4931237995624542,
+        "word": "lev",
+        "start": 287,
+        "end": 290
+      },
+      {
+        "entity_group": "Diagnostic_procedure",
+        "score": 0.9826756715774536,
+        "word": "l",
+        "start": 328,
+        "end": 329
+      },
+      {
+        "entity_group": "Diagnostic_procedure",
+        "score": 0.6079333424568176,
+        "word": "ser",
+        "start": 330,
+        "end": 333
+      },
+      {
+        "entity_group": "Diagnostic_procedure",
+        "score": 0.9249441623687744,
+        "word": "sp",
+        "start": 400,
+        "end": 402
+      },
+      {
+        "entity_group": "Diagnostic_procedure",
+        "score": 0.9965062141418457,
+        "word": "d",
+        "start": 430,
+        "end": 431
+      },
+      {
+        "entity_group": "Diagnostic_procedure",
+        "score": 0.9189419746398926,
+        "word": "ser",
+        "start": 432,
+        "end": 435
+      },
+      {
+        "entity_group": "Diagnostic_procedure",
+        "score": 0.5266144275665283,
+        "word": "methyl",
+        "start": 503,
+        "end": 509
+      },
+      {
+        "entity_group": "Detailed_description",
+        "score": 0.7806111574172974,
+        "word": "transporting",
+        "start": 551,
+        "end": 563
+      },
+      {
+        "entity_group": "Diagnostic_procedure",
+        "score": 0.9485604763031006,
+        "word": "l - serine",
+        "start": 564,
+        "end": 572
+      },
+      {
+        "entity_group": "Biological_structure",
+        "score": 0.9975529909133911,
+        "word": "blood - brain barrier",
+        "start": 584,
+        "end": 603
+      },
+      {
+        "entity_group": "Diagnostic_procedure",
+        "score": 0.7986242175102234,
+        "word": "ser",
+        "start": 630,
+        "end": 633
+      },
+      {
+        "entity_group": "Diagnostic_procedure",
+        "score": 0.9265643954277039,
+        "word": "sl",
+        "start": 645,
+        "end": 647
+      },
+      {
+        "entity_group": "Sign_symptom",
+        "score": 0.5250362753868103,
+        "word": "##eration",
+        "start": 789,
+        "end": 796
+      },
+      {
+        "entity_group": "Sign_symptom",
+        "score": 0.5774558186531067,
+        "word": "symptoms",
+        "start": 890,
+        "end": 898
+      }
+    ],
+    "relations": [
+      {
+        "subject": "L-serine",
+        "relation": "subject has role",
+        "object": "co-agonist",
+        "confidence": 0.9900000095367432
+      },
+      {
+        "subject": "sphingolipid",
+        "relation": "subclass of",
+        "object": "protein",
+        "confidence": 0.9800000190734863
+      },
+      {
+        "subject": "sphingolipid synthesis",
+        "relation": "subclass of",
+        "object": "protein",
+        "confidence": 0.9900000095367432
+      },
+      {
+        "subject": "D-serine",
+        "relation": "subject has role",
+        "object": "co-agonist",
+        "confidence": 0.949999988079071
+      },
+      {
+        "subject": "D-serine",
+        "relation": "subject has role",
+        "object": "co-agonist",
+        "confidence": 0.9900000095367432
+      },
+      {
+        "subject": "co-agonist",
+        "relation": "subclass of",
+        "object": "protein",
+        "confidence": 0.7300000190734863
+      },
+      {
+        "subject": "SLC1A4",
+        "relation": "genetic association",
+        "object": "Parkinson",
+        "confidence": 0.949999988079071
+      },
+      {
+        "subject": "serine",
+        "relation": "has use",
+        "object": "schizophrenia",
+        "confidence": 0.8999999761581421
+      },
+      {
+        "subject": "serine",
+        "relation": "has use",
+        "object": "Alzheimer",
+        "confidence": 0.9900000095367432
+      },
+      {
+        "subject": "serine",
+        "relation": "has use",
+        "object": "Alzheimer's",
+        "confidence": 0.9900000095367432
+      },
+      {
+        "subject": "serine",
+        "relation": "has use",
+        "object": "Parkinson",
+        "confidence": 1.0
+      },
+      {
+        "subject": "depression",
+        "relation": "genetic association",
+        "object": "Parkinson",
+        "confidence": 0.8399999737739563
       }
     ]
   }

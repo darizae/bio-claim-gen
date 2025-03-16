@@ -646,22 +646,6 @@
     "year": "2025"
   },
   {
-    "pmid": "40083374",
-    "title": "Editorial: Novel therapeutic target and drug discovery for neurological diseases, volume II.",
-    "abstract": "No abstract found",
-    "authors": [
-      "Zhao K",
-      "Li Z",
-      "Sun T",
-      "Liu Q",
-      "Cheng Y",
-      "Barreto G",
-      "Li Z",
-      "Liu R"
-    ],
-    "year": "2025"
-  },
-  {
     "pmid": "40083218",
     "title": "Early signs of neuron autonomous and non-autonomous hyperexcitability in locus coeruleus noradrenergic neurons of a mouse model of tauopathy and Alzheimer's disease.",
     "abstract": "AIM: The locus coeruleus (LC) is one of the earliest brain regions affected by phosphorylated tau (p-tau) in Alzheimer's disease (AD). Using the P301S mouse model, we investigated the temporal progression of tau pathology and its functional consequences. METHODS: Immunohistochemistry was used to assess p-tau deposition in LC noradrenergic neurons at 2-3 and 5-6 months. Electrophysiological recordings evaluated neuronal hyperexcitability, measuring membrane potential, rheobase, and spontaneous action potential (AP) frequency in P301S and wild-type (WT) mice. Fast-scan cyclic voltammetry (FSCV) was used to measure norepinephrine (NE) release. GABA(A) receptor subunit expression was analyzed via immunoblotting. RESULTS: P-tau was detected in LC neurons as early as 2-3 months, with a rostral-to-caudal gradient, and by 5-6 months, nearly all LC neurons exhibited p-tau immunoreactivity. P301S neurons showed hyperexcitability, characterized by depolarized membrane potentials, a more negative rheobase, and increased spontaneous AP frequency. Synaptic blockade elicited a reduced increase in AP frequency, suggesting diminished inhibitory tone. GABA(A) alpha2 subunit expression significantly declined with age in P301S mice, whereas alpha3 remained unchanged. FSCV showed significantly elevated NE release in P301S mice at 3 and 6 months compared to WT. CONCLUSION: The findings highlight early LC dysfunction in tauopathies, characterized by increased excitability, reduced inhibitory tone, and exaggerated NE release. This hyperactivity may contribute to excitotoxicity and downstream dysfunction in LC-regulated brain regions. Targeting LC hyperactivity and restoring inhibitory signaling could be promising therapeutic strategies for mitigating AD progression.",
@@ -731,20 +715,6 @@
       "Dickson DW",
       "Murray ME",
       "Rossoll W"
-    ],
-    "year": "2025 Mar 13"
-  },
-  {
-    "pmid": "40082649",
-    "title": "Author Correction: Alzheimer's disease may develop from changes in the immune system, cell cycle, and protein processing following alterations in ribosome function.",
-    "abstract": "No abstract found",
-    "authors": [
-      "Yamakawa A",
-      "Suganuma M",
-      "Mitsumori R",
-      "Niida S",
-      "Ozaki K",
-      "Shigemizu D"
     ],
     "year": "2025 Mar 13"
   },
@@ -852,32 +822,6 @@
       "Yu-Hua C"
     ],
     "year": "2025 Feb"
-  },
-  {
-    "pmid": "40082182",
-    "title": "Corrigendum to \"Acori Tatarinowii Rhizoma regulates OCT3/OATP2 and P-gp/MRP1 to \"guide medicines upwards\" in Kai-Xin-San to treat Alzheimer's disease [J. Ethnopharmacol. 343 (2025) 119484].",
-    "abstract": "No abstract found",
-    "authors": [
-      "Li J",
-      "Shan X",
-      "Gao Y",
-      "Zhu H",
-      "Cheng H",
-      "Xing C",
-      "Zhou L",
-      "Tao W",
-      "Li Y",
-      "Yin B",
-      "Zhang C"
-    ],
-    "year": "2025 Mar 12"
-  },
-  {
-    "pmid": "40082180",
-    "title": "Corrigendum to \"17th Clinical Trials on Alzheimer's Disease (CTAD) Madrid, Spain, October 29 - November 1, 2024: Symposia, Oral Communications\" [J Prev Alzheimers Dis 2025;12(1S):100043].",
-    "abstract": "No abstract found",
-    "authors": [],
-    "year": "2025 Mar 12"
   },
   {
     "pmid": "40082178",
@@ -1614,5 +1558,49 @@
       "Seo H"
     ],
     "year": "2025 Mar 4"
+  },
+  {
+    "pmid": "40076831",
+    "title": "Progress in AAV-Mediated In Vivo Gene Therapy and Its Applications in Central Nervous System Diseases.",
+    "abstract": "As the blood-brain barrier (BBB) prevents molecules from accessing the central nervous system (CNS), the traditional systemic delivery of chemical drugs limits the development of neurological drugs. However, in recent years, innovative therapeutic strategies have tried to bypass the restriction of traditional drug delivery methods. In vivo gene therapy refers to emerging biopharma vectors that carry the specific genes and target and infect specific tissues; these infected cells and tissues then undergo fundamental changes at the genetic level and produce therapeutic proteins or substances, thus providing therapeutic benefits. Clinical and preclinical trials mainly utilize adeno-associated viruses (AAVs), lentiviruses (LVs), and other viruses as gene vectors for disease investigation. Although LVs have a higher gene-carrying capacity, the vector of choice for many neurological diseases is the AAV vector due to its safety and long-term transgene expression in neurons. Here, we review the basic biology of AAVs and summarize some key issues in recombinant AAV (rAAV) engineering in gene therapy research; then, we summarize recent clinical trials using rAAV treatment for neurological diseases and provide translational perspectives and future challenges on target selection.",
+    "authors": [
+      "Wang S",
+      "Xiao L"
+    ],
+    "year": "2025 Feb 28"
+  },
+  {
+    "pmid": "40076772",
+    "title": "Shape Matters: The Utility and Analysis of Altered Yeast Mitochondrial Morphology in Health, Disease, and Biotechnology.",
+    "abstract": "Mitochondria are involved in a wide array of critical cellular processes from energy production to cell death. The morphology (size and shape) of mitochondrial compartments is highly responsive to both intracellular and extracellular conditions, making these organelles highly dynamic. Nutrient levels and stressors both inside and outside the cell inform the balance of mitochondrial fission and fusion and the recycling of mitochondrial components known as mitophagy. The study of mitochondrial morphology and its implications in human disease and microbial engineering have gained significant attention over the past decade. The yeast Saccharomyces cerevisiae offers a valuable model system for studying mitochondria due to its ability to survive without respiring, its genetic tractability, and the high degree of mitochondrial similarity across eukaryotic species. Here, we review how the interplay between mitochondrial fission, fusion, biogenesis, and mitophagy regulates the dynamic nature of mitochondrial networks in both yeast and mammalian systems with an emphasis on yeast as a model organism. Additionally, we examine the crucial role of inter-organelle interactions, particularly between mitochondria and the endoplasmic reticulum, in regulating mitochondrial dynamics. The dysregulation of any of these processes gives rise to abnormal mitochondrial morphologies, which serve as the distinguishing features of numerous diseases, including Parkinson's disease, Alzheimer's disease, and cancer. Notably, yeast models have contributed to revealing the underlying mechanisms driving these human disease states. In addition to furthering our understanding of pathologic processes, aberrant yeast mitochondrial morphologies are of increasing interest to the seemingly distant field of metabolic engineering, following the discovery that compartmentalization of certain biosynthetic pathways within mitochondria can significantly improve chemical production. In this review, we examine the utility of yeast as a model organism to study mitochondrial morphology in both healthy and pathologic states, explore the nascent field of mitochondrial morphology engineering, and discuss the methods available for the quantification and classification of these key mitochondrial morphologies.",
+    "authors": [
+      "Kichuk T",
+      "Avalos JL"
+    ],
+    "year": "2025 Feb 27"
+  },
+  {
+    "pmid": "40076742",
+    "title": "Therapeutic Mechanisms of Medicine Food Homology Plants in Alzheimer's Disease: Insights from Network Pharmacology, Machine Learning, and Molecular Docking.",
+    "abstract": "Alzheimer's disease (AD) is a progressive neurodegenerative disorder characterized by a gradual decline in cognitive function. Currently, there are no effective treatments for this condition. Medicine food homology plants have gained increasing attention as potential natural treatments for AD because of their nutritional value and therapeutic benefits. In this work, we aimed to provide a deeper understanding of how medicine food homology plants may help alleviate or potentially treat AD by identifying key targets, pathways, and small molecule compounds from 10 medicine food homology plants that play an important role in this process. Using network pharmacology, we identified 623 common targets between AD and the compounds from the selected 10 plants, including crucial proteins such as STAT3, IL6, TNF, and IL1B. Additionally, the small molecules from the selected plants were grouped into four clusters using hierarchical clustering. The ConPlex algorithm was then applied to predict the binding capabilities of these small molecules to the key protein targets. Cluster 3 showed superior predicted binding capabilities to STAT3, TNF, and IL1B, which was further validated by molecular docking. Scaffold analysis of small molecules in Cluster 3 revealed that those with a steroid-like core-comprising three fused six-membered rings and one five-membered ring with a carbon-carbon double bond-exhibited better predicted binding affinities and were potential triple-target inhibitors. Among them, MOL005439, MOL000953, and MOL005438 were identified as the top-performing compounds. This study highlights the potential of medicine food homology plants as a source of active compounds that could be developed into new drugs for AD treatment. However, further pharmacokinetic studies are essential to assess their efficacy and minimize side effects.",
+    "authors": [
+      "Wen S",
+      "Han Y",
+      "Li Y",
+      "Zhan D"
+    ],
+    "year": "2025 Feb 27"
+  },
+  {
+    "pmid": "40076728",
+    "title": "SLC1A4 and Serine Homeostasis: Implications for Neurodevelopmental and Neurodegenerative Disorders.",
+    "abstract": "The solute carrier family 1 member 4 (SLC1A4) gene encodes a neutral amino acid transporter, also referred to as alanine-serine-cysteine transporter 1, ASCT1, that helps maintain amino acid balance in the brain and periphery. In the brain, SLC1A4 plays an important role in transporting levo (L) and dopa (D) isomers of serine. L-serine is required for many cellular processes, including protein and sphingolipid synthesis, while D-serine is a co-agonist required for normal neurotransmission through N-methyl-D-aspartate receptors. Through its roles transporting L-serine across the blood-brain barrier and regulating synaptic D-serine levels, SLC1A4 helps establish and maintain brain health across the lifespan. This review examines the role of SLC1A4 in neurodevelopment and neurodegeneration and assesses the therapeutic potential of serine supplementation to treat neurodevelopmental symptoms associated with mutations in SLC1A4, as well as schizophrenia, depression, traumatic brain injury, and Alzheimer's and Parkinson's diseases.",
+    "authors": [
+      "Elazar D",
+      "Alvarez N",
+      "Drobeck S",
+      "Gunn TM"
+    ],
+    "year": "2025 Feb 27"
   }
 ]
