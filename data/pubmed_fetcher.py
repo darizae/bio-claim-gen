@@ -26,47 +26,59 @@ class PubMedFetcher:
 
     def fetch_pubmed_ids(self):
         """Searches PubMed and returns a list of article IDs."""
-        handle = Entrez.esearch(db="pubmed", term=self.search_term, retmax=self.max_results)
+        handle = Entrez.esearch(db="pubmed", term=self.search_term, retmax=self.max_results * 2)  # Fetch extra IDs
         record = Entrez.read(handle)
         handle.close()
         return record.get("IdList", [])
 
     def fetch_abstracts(self, id_list):
-        """Fetches abstracts for the given PubMed article IDs."""
-        if not id_list:
-            return []
+        """
+        Fetches abstracts for the given PubMed article IDs.
+        Filters out articles with "No abstract found" and keeps fetching more if needed.
+        """
+        valid_abstracts = []
+        batch_size = 50  # Fetch in batches to avoid API overload
+        processed_ids = set()
 
-        fetch_handle = Entrez.efetch(db="pubmed", id=id_list, rettype="medline", retmode="text")
-        records = Medline.parse(fetch_handle)
-        records = list(records)
-        fetch_handle.close()
+        for i in range(0, len(id_list), batch_size):
+            batch_ids = id_list[i:i + batch_size]
+            fetch_handle = Entrez.efetch(db="pubmed", id=batch_ids, rettype="medline", retmode="text")
+            records = Medline.parse(fetch_handle)
+            fetch_handle.close()
 
-        abstracts_data = []
-        for rec in records:
-            abstracts_data.append({
-                "pmid": rec.get("PMID", ""),
-                "title": rec.get("TI", "No title found"),
-                "abstract": rec.get("AB", "No abstract found"),
-                "authors": rec.get("AU", []),
-                "year": rec.get("DP", "No date found")
-            })
+            for rec in records:
+                pmid = rec.get("PMID", "")
+                abstract = rec.get("AB", "No abstract found").strip()
 
-        return abstracts_data
+                if abstract.lower() != "no abstract found" and pmid not in processed_ids:
+                    processed_ids.add(pmid)
+                    valid_abstracts.append({
+                        "pmid": pmid,
+                        "title": rec.get("TI", "No title found"),
+                        "abstract": abstract,
+                        "authors": rec.get("AU", []),
+                        "year": rec.get("DP", "No date found")
+                    })
+
+                if len(valid_abstracts) >= self.max_results:
+                    return valid_abstracts  # Stop when we reach the required number
+
+        return valid_abstracts
 
     def save_to_json(self, data, filename="pubmed_abstracts.json"):
         """Saves fetched abstracts to a JSON file."""
         with open(filename, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2)
-        print(f"Saved {len(data)} abstracts to {filename}")
+        print(f"Saved {len(data)} valid abstracts to {filename}")
 
     def run(self):
         """Main function to fetch and save PubMed abstracts."""
         print(f"Searching PubMed for: {self.search_term} (max {self.max_results} results)")
         id_list = self.fetch_pubmed_ids()
-        print(f"Found {len(id_list)} articles.")
+        print(f"Found {len(id_list)} article IDs.")
 
         abstracts = self.fetch_abstracts(id_list)
-        print(f"Retrieved {len(abstracts)} abstracts.")
+        print(f"Retrieved {len(abstracts)} valid abstracts (after filtering out missing abstracts).")
 
         if abstracts:
             self.save_to_json(abstracts)
@@ -75,7 +87,6 @@ class PubMedFetcher:
 
 
 if __name__ == "__main__":
-
     # Load configuration
     config = Config()
 
