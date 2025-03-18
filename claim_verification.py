@@ -21,6 +21,7 @@ INPUT_JSON = "data/pubmed_abstracts_with_claims.json"
 # Where to save the final data with verification results
 OUTPUT_JSON = "data/pubmed_abstracts_with_claims_verified.json"
 
+
 #################################
 #   LOADING & SAVING UTILITIES  #
 #################################
@@ -32,10 +33,12 @@ def load_abstracts_with_claims(json_path: str) -> List[Dict[str, Any]]:
         data = json.load(f)
     return data
 
+
 def save_abstracts_with_claims(abstracts: List[Dict[str, Any]], json_path: str):
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(abstracts, f, indent=2, ensure_ascii=False)
     print(f"Saved verified data to {json_path}")
+
 
 ####################################
 #   NLI-BASED VERIFICATION LOGIC   #
@@ -60,6 +63,7 @@ def init_nli_pipeline(model_name: str = NLI_MODEL_NAME, device: str = None):
     )
     return nli_pipe
 
+
 def verify_claim_nli(nli_pipeline, abstract_text: str, claim_text: str) -> Dict[str, Any]:
     """
     Use the NLI pipeline to see if `claim_text` is entailed by `abstract_text`.
@@ -73,6 +77,7 @@ def verify_claim_nli(nli_pipeline, abstract_text: str, claim_text: str) -> Dict[
         "label": best_label_dict["label"],
         "score": best_label_dict["score"]
     }
+
 
 ###################################
 #   QA-BASED VERIFICATION LOGIC   #
@@ -95,6 +100,7 @@ def init_qa_pipeline(model_name: str = QA_MODEL_NAME, device: str = None):
     )
     return qa_pipe
 
+
 def verify_claim_qa(qa_pipeline, abstract_text: str, claim_text: str) -> Dict[str, Any]:
     """
     For QA-based verification, we reframe the claim as a question:
@@ -113,6 +119,7 @@ def verify_claim_qa(qa_pipeline, abstract_text: str, claim_text: str) -> Dict[st
     except Exception as e:
         return {"answer": "error", "score": 0.0, "error": str(e)}
 
+
 #################################
 #   METRIC / LABEL DECISIONS    #
 #################################
@@ -125,6 +132,7 @@ def interpret_nli_label(label: str) -> bool:
     """
     return "entail" in label.lower()
 
+
 def interpret_qa_answer(answer: str, score: float) -> bool:
     """
     Naively interpret the QA output:
@@ -133,6 +141,7 @@ def interpret_qa_answer(answer: str, score: float) -> bool:
     if not answer or answer in ["[CLS]", "empty", "unknown"]:
         return False
     return score > 0.2
+
 
 #################################
 #         MAIN LOGIC            #
@@ -199,6 +208,7 @@ def main():
     save_abstracts_with_claims(data, OUTPUT_JSON)
     print(f"Total claims processed: {total_claims}")
     print(f"Claims verified (entailed or QA-supported): {verified_count}")
+
 
 if __name__ == "__main__":
     main()

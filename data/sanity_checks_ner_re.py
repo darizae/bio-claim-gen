@@ -4,7 +4,7 @@ import torch
 
 
 class RelationExtractionSanityChecker:
-    """Runs sanity checks on extracted NER and relation data."""
+    """Runs sanity checks on extracted NER and relation data and prints summary statistics."""
 
     def __init__(self, filename="pubmed_abstracts_with_ner_re.json"):
         if not os.path.exists(filename):
@@ -109,6 +109,56 @@ class RelationExtractionSanityChecker:
         else:
             return "Running on CPU"
 
+    def print_data_statistics(self):
+        """Prints additional statistics for presentation."""
+        total_entries = len(self.data)
+        total_entities = 0
+        total_relations = 0
+        min_entities = float('inf')
+        max_entities = 0
+        min_relations = float('inf')
+        max_relations = 0
+        all_entity_scores = []
+        all_relation_confidences = []
+
+        for entry in self.data:
+            entities = entry.get("entities", [])
+            relations = entry.get("relations", [])
+            num_entities = len(entities)
+            num_relations = len(relations)
+
+            total_entities += num_entities
+            total_relations += num_relations
+
+            min_entities = min(min_entities, num_entities)
+            max_entities = max(max_entities, num_entities)
+
+            min_relations = min(min_relations, num_relations)
+            max_relations = max(max_relations, num_relations)
+
+            # Gather scores for NER entities
+            for entity in entities:
+                if isinstance(entity, dict) and "score" in entity:
+                    all_entity_scores.append(entity["score"])
+            # Gather confidence scores for relations
+            for relation in relations:
+                if isinstance(relation, dict) and "confidence" in relation:
+                    all_relation_confidences.append(relation["confidence"])
+
+        avg_entities = total_entities / total_entries if total_entries else 0
+        avg_relations = total_relations / total_entries if total_entries else 0
+        avg_entity_score = sum(all_entity_scores) / len(all_entity_scores) if all_entity_scores else 0
+        avg_relation_confidence = sum(all_relation_confidences) / len(all_relation_confidences) if all_relation_confidences else 0
+
+        print("\nData Statistics Report:")
+        print(f"  - Total abstracts: {total_entries}")
+        print(f"  - Total entities: {total_entities}")
+        print(f"  - Total relations: {total_relations}")
+        print(f"  - Average entities per abstract: {avg_entities:.2f} (min: {min_entities}, max: {max_entities})")
+        print(f"  - Average relations per abstract: {avg_relations:.2f} (min: {min_relations}, max: {max_relations})")
+        print(f"  - Average NER entity score: {avg_entity_score:.2f}")
+        print(f"  - Average relation confidence: {avg_relation_confidence:.2f}")
+
     def run_checks(self):
         """Runs all sanity checks and prints a report."""
         print(f"\nRunning sanity checks on {len(self.data)} abstracts from '{self.filename}'...\n")
@@ -143,6 +193,9 @@ class RelationExtractionSanityChecker:
 
         device_status = self.check_torch_device()
         print(f"\nTorch Device Check: {device_status}")
+
+        # Print additional data statistics for presentation
+        self.print_data_statistics()
 
         print("\nSanity check complete.")
 
