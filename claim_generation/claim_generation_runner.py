@@ -187,22 +187,32 @@ def main():
 
     # Define which strategies to enable. (Set to True for strategies you wish to run.)
     strategies = {
-        "default_prompt": True,
+        "default_prompt": False,
         "entities_aware": False,
-        "relations_aware": False,
+        "relations_aware": True,
         "kg_based": False,
         # "kg_based_entities": False,
         # "kg_based_relations": False,
     }
 
+    flagged_path = Path(FLAGGED_JSON)
     flagged_entries = []
+
+    # Load existing flagged entries if the file exists
+    if flagged_path.exists():
+        with flagged_path.open("r", encoding="utf-8") as f:
+            try:
+                flagged_entries = json.load(f)
+                print(f"Loaded {len(flagged_entries)} existing flagged entries.")
+            except json.JSONDecodeError:
+                print("Existing flagged file is empty or corrupted. Starting fresh.")
+                flagged_entries = []
 
     print("Loading entries...")
     entries = load_entries(INPUT_JSON)
     print(f"Loaded {len(entries)} records from {INPUT_JSON}.")
 
     output_path = Path(OUTPUT_JSON)
-    flagged_path = Path(FLAGGED_JSON)
 
     # Load existing entries if output file exists
     existing_entries_dict = {}
@@ -238,8 +248,7 @@ def main():
 
         # Append any flagged errors for diagnostic
         if flagged:
-            for flag in flagged:
-                flagged_entries.append(flag)
+            flagged_entries.extend(flagged)
 
         processed_count += 1
 
@@ -247,7 +256,7 @@ def main():
             # Save progress for enriched entries
             with output_path.open("w", encoding="utf-8") as f:
                 json.dump(list(existing_entries_dict.values()), f, indent=2, ensure_ascii=False)
-            # Save flagged entries for diagnostic purposes
+            # Save flagged entries for diagnostic purposes (appending to the existing file)
             with flagged_path.open("w", encoding="utf-8") as f:
                 json.dump(flagged_entries, f, indent=2, ensure_ascii=False)
             print(f"Dumped progress after processing {processed_count} entries.")

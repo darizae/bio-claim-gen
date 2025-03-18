@@ -49,6 +49,22 @@
         "Genetic testing revealed a high proportion of valine homozygous specimens.",
         "The study suggests a high prevalence of infection with abnormal PrP in the population.",
         "The findings have implications for the management of blood and blood products."
+      ],
+      "relations_aware": [
+        "A survey of archived appendix samples was conducted to understand the prevalence of subclinical infection with prions after the bovine spongiform encephalopathy epizootic.",
+        "The survey aimed to see if a broader birth cohort was affected by the infection.",
+        "The survey also aimed to understand the implications for the management of blood and blood products and for the handling of surgical instruments.",
+        "The survey was irreversibly unlinked and anonymised.",
+        "The survey used archived appendix samples from 41 UK hospitals participating in an earlier survey, as well as additional hospitals in regions with lower participation levels.",
+        "There were 32,441 archived appendix samples fixed in formalin and embedded in paraffin.",
+        "The samples were tested for the presence of abnormal prion protein (PrP).",
+        "Of the 32,441 samples, 16 were positive for abnormal PrP, indicating an overall prevalence of 493 per million population.",
+        "The prevalence in those born in 1941-60 was 733 per million, which did not significantly differ from those born between 1961 and 1985 (412 per million).",
+        "The prevalence was similar in both sexes and across the three broad geographical areas sampled.",
+        "Genetic testing of the positive specimens for the genotype at PRNP codon 129 revealed a high proportion that were valine homozygous compared with the frequency in the normal population.",
+        "In contrast with confirmed clinical cases of vCJD, all positive specimens were methionine homozygous at PRNP codon 129.",
+        "The study corroborates previous studies and suggests a high prevalence of infection with abnormal PrP, indicating vCJD carrier status in the population.",
+        "The findings have important implications for the management of blood and blood products and for the handling of surgical instruments."
       ]
     },
     "entities": [
@@ -446,6 +462,19 @@
         "Over 800 KLF4 target genes were identified, including many that regulate pro-inflammatory responses of SMCs.",
         "Findings indicate that the contribution of SMCs to atherosclerotic plaques has been greatly underestimated.",
         "KLF4-dependent transitions in SMC phenotype are critical in lesion pathogenesis."
+      ],
+      "relations_aware": [
+        "Previous studies investigated the role of smooth muscle cells (SMCs) and macrophages in atherosclerosis pathogenesis.",
+        "Controversial results were obtained due to unreliable methods for identifying SMCs and macrophages.",
+        "Myh11-CreERT2 ROSA floxed STOP eYFP Apoe−/− mice were used for SMC lineage tracing.",
+        "Traditional methods for detecting SMCs based on immunostaining for SMC markers failed to identify >80% of SMC-derived cells in advanced atherosclerotic lesions.",
+        "Unidentified SMC-derived cells exhibited phenotypes of other cell lineages, including macrophages and mesenchymal stem cells (MSCs).",
+        "SMC-specific conditional knockout of Krüppel-like factor 4 (Klf4) reduced numbers of SMC-derived MSC- and macrophage-like cells.",
+        "A marked reduction in lesion size and increases in plaque stability indices were observed in the knockout mice compared to wild-type controls.",
+        "In vivo KLF4 chromatin immunoprecipitation–sequencing (ChIP-seq) analyses identified >800 KLF4 target genes.",
+        "Many of the identified genes regulate pro-inflammatory responses of SMCs.",
+        "The contribution of SMCs to atherosclerotic plaques has been greatly underestimated.",
+        "KLF4-dependent transitions in SMC phenotype are critical in lesion pathogenesis."
       ]
     },
     "entities": [
@@ -770,6 +799,24 @@
         "Parameters associated with increased disease activity in SLE include activated basophils expressing HLA-DR.",
         "Basophils are present in the lymph nodes of subjects with SLE.",
         "Basophils are present in the spleen of subjects with SLE.",
+        "Basophils and IgE autoantibodies amplify autoantibody production in Lyn(-/-) mice.",
+        "Autoantibody production in Lyn(-/-) mice leads to lupus nephritis.",
+        "IgE autoantibodies and activated basophils are factors associated with disease activity in individuals with SLE.",
+        "IgE autoantibodies and activated basophils are factors associated with nephritis in individuals with SLE."
+      ],
+      "relations_aware": [
+        "Self-reactive antibodies can target the kidney in systemic lupus erythematosus (SLE), leading to functional failure and possible mortality.",
+        "Activation of basophils by autoreactive IgE causes their homing to lymph nodes.",
+        "Homing to lymph nodes promotes T helper type 2 (T(H)2) cell differentiation.",
+        "Homing to lymph nodes enhances the production of self-reactive antibodies.",
+        "Self-reactive antibodies cause lupus-like nephritis in Lyn(-/-) mice.",
+        "Individuals with SLE have elevated serum IgE.",
+        "Individuals with SLE have self-reactive IgEs.",
+        "Activated basophils in individuals with SLE express CD62 ligand (CD62L).",
+        "Activated basophils in individuals with SLE express the major histocompatibility complex (MHC) class II molecule human leukocyte antigen-DR (HLA-DR).",
+        "Elevated serum IgE and self-reactive IgEs are associated with increased disease activity in individuals with SLE.",
+        "Elevated serum IgE and self-reactive IgEs are associated with active lupus nephritis in individuals with SLE.",
+        "Basophils are present in the lymph nodes and spleen of subjects with SLE.",
         "Basophils and IgE autoantibodies amplify autoantibody production in Lyn(-/-) mice.",
         "Autoantibody production in Lyn(-/-) mice leads to lupus nephritis.",
         "IgE autoantibodies and activated basophils are factors associated with disease activity in individuals with SLE.",
@@ -1150,6 +1197,25 @@
         "Compared to extensive metabolizers, heterozygous extensive/intermediate metabolizers and poor metabolizers had a significantly increased risk of recurrence.",
         "Women with decreased CYP2D6 activity had worse event-free survival and disease-free survival compared to extensive metabolizers.",
         "The presence of 2 functional CYP2D6 alleles was associated with better clinical outcomes in women with breast cancer treated with tamoxifen."
+      ],
+      "relations_aware": [
+        "Tamoxifen is used for the treatment of hormone receptor-positive breast cancer.",
+        "The growth inhibitory effect of tamoxifen is mediated by its metabolites, 4-hydroxytamoxifen and endoxifen.",
+        "Active metabolites of tamoxifen are formed by the polymorphic cytochrome P450 2D6 (CYP2D6) enzyme.",
+        "CYP2D6 variation is associated with clinical outcomes in women receiving adjuvant tamoxifen.",
+        "A retrospective analysis was conducted on German and US cohorts of patients treated with adjuvant tamoxifen for early stage breast cancer.",
+        "The patients had diagnoses between 1986 and 2005 of stage I through III breast cancer.",
+        "Last follow-up was in December 2008.",
+        "Inclusion criteria were hormone receptor positivity, no metastatic disease at diagnosis, adjuvant tamoxifen therapy, and no chemotherapy.",
+        "DNA from tumor tissue or blood was genotyped for CYP2D6 variants associated with reduced (*10, *41) or absent (*3, *4, *5) enzyme activity.",
+        "Women were classified as having an extensive, heterozygous extensive/intermediate, or poor CYP2D6 metabolism.",
+        "At 9 years of follow-up, the recurrence rates were 14.9% for extensive metabolizers, 20.9% for heterozygous extensive/intermediate metabolizers, and 29.0% for poor metabolizers.",
+        "All-cause mortality rates were 16.7%, 18.0%, and 22.8% for extensive, heterozygous, and poor metabolizers respectively.",
+        "Compared with extensive metabolizers, there was a significantly increased risk of recurrence for heterozygous extensive/intermediate metabolizers.",
+        "Compared with extensive metabolizers, there was a significantly increased risk of recurrence for poor metabolizers.",
+        "Those with decreased CYP2D6 activity had worse event-free survival and disease-free survival compared to extensive metabolizers.",
+        "There was no significant difference in overall survival based on CYP2D6 activity.",
+        "Among women with breast cancer treated with tamoxifen, there was an association between CYP2D6 variation and clinical outcomes."
       ]
     },
     "entities": [
@@ -2029,6 +2095,19 @@
         "Children homozygous for alpha(+)-thalassaemia require a greater reduction in erythrocyte count for Hb concentration to fall to 50 g/l.",
         "The haematological profile in children homozygous for alpha(+)-thalassaemia reduces the risk of severe malarial anaemia.",
         "Increased erythrocyte count and microcytosis in children homozygous for alpha(+)-thalassaemia contribute to their protection against severe malarial anaemia."
+      ],
+      "relations_aware": [
+        "Alpha(+)-thalassaemia is caused by reduced synthesis of alpha-globin chains.",
+        "Individuals homozygous for alpha(+)-thalassaemia have microcytosis and increased erythrocyte count.",
+        "Alpha(+)-thalassaemia homozygosity provides protection against severe malaria.",
+        "Alpha(+)-thalassaemia homozygosity does not influence parasite count.",
+        "Children homozygous for alpha(+)-thalassaemia lose less Hb during acute malaria.",
+        "Children homozygous for alpha(+)-thalassaemia require a greater reduction in erythrocyte count for Hb concentration to fall to 50 g/l.",
+        "The haematological profile in children homozygous for alpha(+)-thalassaemia reduces the risk of severe malarial anaemia.",
+        "Increased erythrocyte count and microcytosis in children homozygous for alpha(+)-thalassaemia contribute to protection against severe malarial anaemia.",
+        "A lower concentration of Hb per erythrocyte and a larger population of erythrocytes may be advantageous against the reduction in erythrocyte count during acute infection with Plasmodium falciparum.",
+        "The haematological profile in children homozygous for alpha(+)-thalassaemia may reduce the risk of anaemia by Plasmodium species and other causes of anaemia.",
+        "Host polymorphisms inducing increased erythrocyte count and microcytosis may confer a similar advantage."
       ]
     },
     "entities": [
@@ -2801,6 +2880,16 @@
         "The in utero and neonatal role of two key regulators of pancreatic insulin secretion was assessed.",
         "Birthweight and the incidence of neonatal hypoglycaemia were studied in patients with heterozygous mutations in the maturity-onset diabetes of the young (MODY) genes HNF4A and HNF1A/TCF1.",
         "The effect of pancreatic deletion of Hnf4a on foetal and neonatal insulin secretion was studied in mice."
+      ],
+      "relations_aware": [
+        "Macrosomia is associated with considerable neonatal and maternal morbidity.",
+        "Factors that predict macrosomia are poorly understood.",
+        "The increased rate of macrosomia in the offspring of pregnant women with diabetes is mediated by increased foetal insulin secretion.",
+        "The increased rate of macrosomia in the offspring of pregnant women with congenital hyperinsulinaemia is mediated by increased foetal insulin secretion.",
+        "Increased foetal insulin secretion mediates the increased rate of macrosomia.",
+        "The in utero and neonatal role of two key regulators of pancreatic insulin secretion was assessed.",
+        "Birthweight and the incidence of neonatal hypoglycaemia were studied in patients with heterozygous mutations in the MODY genes HNF4A and HNF1A/TCF1.",
+        "The effect of pancreatic deletion of Hnf4a on foetal and neonatal insulin secretion was studied in mice."
       ]
     },
     "entities": [
@@ -3174,6 +3263,14 @@
         "In breast carcinomas, high ALDH activity identifies the tumorigenic cell fraction, capable of self-renewal and of generating tumors that recapitulate the heterogeneity of the parental tumor.",
         "In a series of 577 breast carcinomas, expression of ALDH1 detected by immunostaining correlated with poor prognosis.",
         "These findings offer an important new tool for the study of normal and malignant breast stem cells and facilitate the clinical application of stem cell concepts."
+      ],
+      "relations_aware": [
+        "Application of stem cell biology to breast cancer research has been limited by the lack of simple methods for identification and isolation of normal and malignant stem cells.",
+        "In vitro and in vivo experimental systems were utilized to show that normal and cancer human mammary epithelial cells with increased ALDH activity have stem/progenitor properties.",
+        "Cells with increased ALDH activity contain the subpopulation of normal breast epithelium with the broadest lineage differentiation potential and greatest growth capacity in a xenotransplant model.",
+        "High ALDH activity in breast carcinomas identifies the tumorigenic cell fraction capable of self-renewal and generating tumors that recapitulate the heterogeneity of the parental tumor.",
+        "In a series of 577 breast carcinomas, expression of ALDH1 detected by immunostaining correlated with poor prognosis.",
+        "These findings offer an important new tool for the study of normal and malignant breast stem cells and facilitate the clinical application of stem cell concepts."
       ]
     },
     "entities": [
@@ -3411,6 +3508,19 @@
         "Neurons lacking APOE behaved similarly to those expressing ApoE3.",
         "Introduction of ApoE4 expression recapitulated the pathological phenotypes.",
         "Treatment of ApoE4-expressing neurons with a small-molecule structure corrector ameliorated the detrimental effects."
+      ],
+      "relations_aware": [
+        "Efforts to develop drugs for Alzheimer's disease have shown promise in animal studies.",
+        "Drugs for Alzheimer's disease have failed in human trials.",
+        "There is a pressing need to study Alzheimer's disease in human model systems.",
+        "Human neurons derived from induced pluripotent stem cells expressed apolipoprotein E4 (ApoE4).",
+        "ApoE4-expressing neurons had higher levels of tau phosphorylation.",
+        "ApoE4-expressing neurons displayed GABAergic neuron degeneration.",
+        "ApoE4 increased Aβ production in human neurons.",
+        "Converting ApoE4 to ApoE3 by gene editing rescued the phenotypes.",
+        "Neurons lacking APOE behaved similarly to those expressing ApoE3.",
+        "Introduction of ApoE4 expression recapitulated the pathological phenotypes.",
+        "Treatment of ApoE4-expressing neurons with a small-molecule structure corrector ameliorated the detrimental effects."
       ]
     },
     "entities": [
@@ -3579,6 +3689,19 @@
         "Age-related phenotypes include hair graying, alopecia, kyphosis, osteoporosis, thymic involution, fibrosis, and other abnormalities.",
         "ATR deletion causes acute cellular loss in tissues.",
         "Continuous cell proliferation is required for maintenance in tissues.",
+        "Thymic involution, alopecia, and hair graying in ATR knockout mice are associated with reductions in tissue-specific stem and progenitor cells.",
+        "Thymic involution, alopecia, and hair graying in ATR knockout mice are associated with exhaustion of tissue renewal and homeostatic capacity.",
+        "Reduced regenerative capacity in adults via deletion of a developmentally essential DDR gene causes the premature appearance of age-related phenotypes."
+      ],
+      "relations_aware": [
+        "Developmental abnormalities have been linked to defects in the DNA damage response (DDR).",
+        "Cancer has been linked to defects in the DNA damage response (DDR).",
+        "Premature aging has been linked to defects in the DNA damage response (DDR).",
+        "Mutations in the ATR checkpoint regulator cause developmental defects in mice (pregastrulation lethality) and humans (Seckel syndrome).",
+        "Eliminating ATR in adult mice leads to defects in tissue homeostasis.",
+        "Eliminating ATR in adult mice leads to the rapid appearance of age-related phenotypes.",
+        "Age-related phenotypes include hair graying, alopecia, kyphosis, osteoporosis, thymic involution, fibrosis, and other abnormalities.",
+        "ATR deletion causes acute cellular loss in tissues requiring continuous cell proliferation for maintenance.",
         "Thymic involution, alopecia, and hair graying in ATR knockout mice are associated with reductions in tissue-specific stem and progenitor cells.",
         "Thymic involution, alopecia, and hair graying in ATR knockout mice are associated with exhaustion of tissue renewal and homeostatic capacity.",
         "Reduced regenerative capacity in adults via deletion of a developmentally essential DDR gene causes the premature appearance of age-related phenotypes."
@@ -3876,6 +3999,23 @@
         "Predominantly aromatic or aliphatic side chains line the entire channel and define two consecutive constriction sites in the middle of the channel.",
         "Mutation of Trp 153 in the cytoplasmic constriction site to Ala or Phe decreases the selectivity for urea in comparison with thiourea, suggesting that solute interaction with Trp 153 contributes specificity.",
         "The hexameric channel structure of HpUreI provides a new model for the permeation of urea and other small amide solutes in prokaryotes and archaea."
+      ],
+      "relations_aware": [
+        "Half the world's population is chronically infected with Helicobacter pylori.",
+        "Helicobacter pylori causes gastritis, gastric ulcers, and an increased incidence of gastric adenocarcinoma.",
+        "HpUreI is essential for survival in the acidic environment of the stomach.",
+        "HpUreI is a proton-gated inner-membrane urea channel.",
+        "The channel HpUreI is closed at neutral pH and opens at acidic pH.",
+        "HpUreI allows rapid access of urea to cytoplasmic urease.",
+        "Urease produces NH(3) and CO(2).",
+        "NH(3) and CO(2) neutralize entering protons and buffer the periplasm to a pH of roughly 6.1 even in gastric juice at a pH below 2.0.",
+        "The structure of HpUreI reveals six protomers assembled in a hexameric ring surrounding a central bilayer plug of ordered lipids.",
+        "Each protomer encloses a channel formed by a twisted bundle of six transmembrane helices.",
+        "The bundle defines a previously unobserved fold comprising a two-helix hairpin motif repeated three times around the central axis of the channel.",
+        "The channel and the protomer interface contain residues conserved in the AmiS/UreI superfamily.",
+        "Aromatic or aliphatic side chains line the entire channel and define two consecutive constriction sites in the middle of the channel.",
+        "Mutation of Trp 153 in the cytoplasmic constriction site to Ala or Phe decreases the selectivity for urea in comparison with thiourea.",
+        "The hexameric channel structure provides a new model for the permeation of urea and other small amide solutes in prokaryotes and archaea."
       ]
     },
     "entities": [
@@ -4163,6 +4303,18 @@
         "Ly49Q mediates rapid neutrophil polarization and tissue infiltration in an ITIM-domain-dependent manner in the presence of inflammatory stimuli.",
         "Ly49Q regulates membrane raft functions affecting neutrophil polarization and migration.",
         "Ly49Q is pivotal in switching neutrophils to their polarized morphology and rapid migration upon inflammation through its regulation of membrane rafts and raft-associated signaling molecules."
+      ],
+      "relations_aware": [
+        "Neutrophils rapidly undergo polarization and directional movement to infiltrate the sites of infection and inflammation.",
+        "Ly49Q was crucial for the swift polarization of and tissue infiltration by neutrophils.",
+        "Ly49Q inhibited neutrophil adhesion during the steady state.",
+        "Ly49Q prevented focal-complex formation by inhibiting Src and PI3 kinases.",
+        "Ly49Q mediated rapid neutrophil polarization and tissue infiltration in the presence of inflammatory stimuli.",
+        "Ly49Q functions in an ITIM-domain-dependent manner.",
+        "Ly49Q's opposite functions were mediated by distinct use of effector phosphatase SHP-1 and SHP-2.",
+        "Ly49Q regulation of membrane raft functions affected Ly49Q-dependent polarization and migration.",
+        "Ly49Q is pivotal in switching neutrophils to their polarized morphology and rapid migration upon inflammation.",
+        "Ly49Q regulates membrane rafts and raft-associated signaling molecules spatiotemporally."
       ]
     },
     "entities": [
@@ -4332,6 +4484,21 @@
         "A double transgenic mouse model has been generated to modulate the amount of the lysosomal receptor for CMA.",
         "Preventing the age-dependent decrease in receptor abundance in aged rodents maintains CMA activity until advanced ages.",
         "Preservation of autophagic activity is associated with lower intracellular accumulation of damaged proteins, better ability to handle protein damage, and improved organ function."
+      ],
+      "relations_aware": [
+        "Chaperone-mediated autophagy is a selective mechanism for degradation of cytosolic proteins in lysosomes.",
+        "CMA contributes to the removal of altered proteins as part of cellular quality-control systems.",
+        "CMA activity declines in aged organisms.",
+        "Failure in cellular clearance could contribute to the accumulation of altered proteins.",
+        "Failure in cellular clearance could lead to abnormal cellular homeostasis.",
+        "Failure in cellular clearance could result in functional loss characteristic of aged organisms.",
+        "Efficient autophagic activity can prevent negative features of aging.",
+        "CMA defect in aged rodents has been corrected in this work.",
+        "A double transgenic mouse model has been generated to modulate the amount of the lysosomal receptor for CMA.",
+        "Preventing the age-dependent decrease in receptor abundance maintains CMA activity until advanced ages.",
+        "Preservation of autophagic activity is associated with lower intracellular accumulation of damaged proteins.",
+        "Preservation of autophagic activity leads to a better ability to handle protein damage.",
+        "Preservation of autophagic activity results in improved organ function."
       ]
     },
     "entities": [
@@ -4504,6 +4671,34 @@
         "Alirocumab decreased LDL-C by decreasing LDL-apoB PR.",
         "Increases in LDL receptors available to clear IDL and LDL from blood occur during PCSK9 inhibition.",
         "The increase in apo(a) FCR during alirocumab treatment suggests that increased LDL receptors may play a role in the reduction of plasma Lp(a)."
+      ],
+      "relations_aware": [
+        "Alirocumab is a monoclonal antibody to PCSK9.",
+        "Alirocumab lowers plasma LDL cholesterol.",
+        "Alirocumab lowers plasma apoB100.",
+        "Increased hepatic LDL receptors are the basis for LDL lowering by PCSK9 inhibitors.",
+        "There have been no human studies characterizing the effects of PCSK9 inhibitors on lipoprotein metabolism.",
+        "Inhibition of PCSK9 results in reductions of plasma Lp(a) levels.",
+        "The regulation of plasma Lp(a) levels is poorly defined.",
+        "No mechanistic studies of the Lp(a) lowering by alirocumab in humans have been published.",
+        "Eighteen participants completed a placebo-controlled, 2-period study.",
+        "Participants received 2 doses of placebo followed by 5 doses of 150 mg of alirocumab.",
+        "Alirocumab reduced ultracentrifugally isolated LDL-C by 55.1%.",
+        "Alirocumab reduced LDL-apoB by 56.3%.",
+        "Alirocumab reduced plasma Lp(a) by 18.7%.",
+        "The fall in LDL-apoB was caused by an 80.4% increase in LDL-apoB FCR.",
+        "The fall in LDL-apoB was caused by a 23.9% reduction in LDL-apoB PR.",
+        "The reduction in LDL-apoB PR was due to a 46.1% increase in IDL-apoB FCR.",
+        "The reduction in LDL-apoB PR was due to a 27.2% decrease in conversion of IDL to LDL.",
+        "The FCR of apo(a) tended to increase by 24.6%.",
+        "Alirocumab had no effects on FCRs or PRs of very low-density lipoproteins-apoB.",
+        "Alirocumab had no effects on FCRs or PRs of very low-density lipoproteins triglycerides.",
+        "Alirocumab had no effects on postprandial plasma triglycerides.",
+        "Alirocumab had no effects on postprandial apoB48 concentrations.",
+        "Alirocumab decreased LDL-C and LDL-apoB by increasing IDL- and LDL-apoB FCRs.",
+        "Alirocumab decreased LDL-C and LDL-apoB by decreasing LDL-apoB PR.",
+        "The results are consistent with increases in LDL receptors available to clear IDL and LDL from blood during PCSK9 inhibition.",
+        "The increase in apo(a) FCR during alirocumab treatment suggests that increased LDL receptors may also play a role in the reduction of plasma Lp(a)."
       ]
     },
     "entities": [
@@ -5207,6 +5402,21 @@
         "Replication termination does not rely on cis-acting sequences or replication fork pausing.",
         "The replication profile is determined by the kinetics of origin firing.",
         "Chromosome-wide timing profiles can be reconstructed from an asynchronous culture."
+      ],
+      "relations_aware": [
+        "Many fundamental aspects of DNA replication are poorly understood.",
+        "Exact locations where DNA synthesis is initiated and terminated are unclear.",
+        "Origins are used with unknown frequency.",
+        "Fork progression is influenced by transcription.",
+        "Deep sequencing of Okazaki fragments was used.",
+        "Replication fork directionality was documented throughout the S. cerevisiae genome.",
+        "Systematic analysis of initiation, origin efficiency, fork progression, and termination was conducted.",
+        "Leading-strand initiation occurs within a nucleosome-free region at replication origins.",
+        "Late origins can be induced to fire early in a specific strain.",
+        "Replication termination is a largely passive phenomenon.",
+        "Replication termination does not rely on cis-acting sequences or replication fork pausing.",
+        "Replication profile is determined by the kinetics of origin firing.",
+        "Chromosome-wide timing profiles were reconstructed from an asynchronous culture."
       ]
     },
     "entities": [
@@ -5319,6 +5529,23 @@
         "Patients receiving standard-dose CNIs had a mean difference in eGFR levels.",
         "MSC-treated groups had a decreased risk of opportunistic infections compared to the control group.",
         "The use of autologous MSCs resulted in lower incidence of acute rejection, decreased risk of opportunistic infection, and better estimated renal function at 1 year."
+      ],
+      "relations_aware": [
+        "Antibody-based induction therapy plus calcineurin inhibitors reduce acute rejection rates in kidney recipients.",
+        "Opportunistic infections and toxic CNI effects remain challenging for kidney recipients.",
+        "Mesenchymal stem cells have successfully treated graft-vs-host disease.",
+        "Autologous MSCs were assessed as a replacement for antibody induction in patients with end-stage renal disease undergoing ABO-compatible, cross-match-negative kidney transplants from living-related donors.",
+        "One hundred fifty-nine patients were enrolled in a single-site, prospective, open-label, randomized study from February 2008 to May 2009.",
+        "Patients were inoculated with marrow-derived autologous MSC at kidney reperfusion and two weeks later.",
+        "Fifty-three patients received standard-dose CNIs, 52 patients received low-dose CNIs, and 51 patients in the control group received anti-IL-2 receptor antibody plus standard-dose CNIs.",
+        "The primary measure was the 1-year incidence of acute rejection and renal function (estimated glomerular filtration rate [eGFR]); the secondary measure was patient and graft survival and incidence of adverse events.",
+        "Patient and graft survival at 13 to 30 months was similar in all groups.",
+        "After 6 months, patients in the autologous MSC groups had lower rates of biopsy-confirmed acute rejection compared to the control group.",
+        "Patients in the autologous MSC groups did not experience glucocorticoid-resistant rejection.",
+        "Renal function recovered faster in the autologous MSC groups compared to the control group.",
+        "Patients receiving standard-dose CNI and low-dose CNI showed increased eGFR levels during the first month after surgery.",
+        "During the 1-year follow-up, MSC-treated groups had a decreased risk of opportunistic infections compared to the control group.",
+        "The use of autologous MSCs resulted in a lower incidence of acute rejection, decreased risk of opportunistic infection, and better estimated renal function at 1 year compared to anti-IL-2 receptor antibody induction therapy."
       ]
     },
     "entities": [
@@ -5848,6 +6075,20 @@
         "BCL-2 is formally validated as a rational target for cancer therapy.",
         "Loss of BCL-2 results in cell death, despite the presence of other oncogenic events.",
         "Aberrations inherent to cancer generate tonic death signals that would otherwise kill the cell if not opposed by a requisite apoptotic defect(s)."
+      ],
+      "relations_aware": [
+        "Resistance to apoptosis is often achieved by the overexpression of antiapoptotic proteins.",
+        "Resistance to apoptosis is common in the genesis of cancer.",
+        "Resistance to apoptosis may be required in the genesis of cancer.",
+        "It remains uncertain whether apoptotic defects are essential for tumor maintenance.",
+        "Mice expressing a conditional BCL-2 gene and constitutive c-myc develop lymphoblastic leukemia.",
+        "Eliminating BCL-2 resulted in rapid loss of leukemic cells.",
+        "Eliminating BCL-2 significantly prolonged survival.",
+        "Eliminating BCL-2 formally validated BCL-2 as a rational target for cancer therapy.",
+        "Loss of BCL-2 resulted in cell death.",
+        "Loss of BCL-2 resulted in cell death despite the presence of other oncogenic events.",
+        "A generalizable model suggests that aberrations inherent to cancer generate tonic death signals.",
+        "Tonic death signals would otherwise kill the cell if not opposed by a requisite apoptotic defect(s)."
       ]
     },
     "entities": [
@@ -5967,6 +6208,31 @@
         "Effect estimates for mortality found no protective association with bariatric surgery overall.",
         "Bariatric surgery in the UK healthcare system is associated with dramatic weight loss sustained at least 4 years after surgery.",
         "The weight loss is accompanied by substantial improvements in pre-existing T2DM and hypertension.",
+        "Widening the availability of bariatric surgery could lead to substantial health benefits for many people who are morbidly obese."
+      ],
+      "relations_aware": [
+        "Bariatric surgery is becoming a more widespread treatment for obesity.",
+        "Comprehensive evidence of the long-term effects of contemporary surgery on a broad range of clinical outcomes in large populations treated in routine clinical practice is lacking.",
+        "The objective of this study was to measure the association between bariatric surgery, weight, body mass index, and obesity-related co-morbidities.",
+        "This was an observational retrospective cohort study using data from the United Kingdom Clinical Practice Research Datalink.",
+        "All 3,882 patients registered in the database and with bariatric surgery on or before 31 December 2014 were included and matched by propensity score to 3,882 obese patients without surgery.",
+        "The main outcome measures were change in weight and body mass index over 4 y.",
+        "Weight measures were available for 3,847 patients between 1 and 4 mo, 2,884 patients between 5 and 12 mo, and 2,258 patients between 13 and 48 mo post-procedure.",
+        "Bariatric surgery patients exhibited rapid weight loss for the first four postoperative months, at a rate of 4.98 kg/mo.",
+        "Slower weight loss was sustained to the end of 4 y.",
+        "Gastric bypass (6.56 kg/mo) and sleeve gastrectomy (6.29 kg/mo) were associated with greater initial weight reduction than gastric banding (2.77 kg/mo).",
+        "Protective hazard ratios (HRs) were detected for bariatric surgery for incident T2DM, 0.68.",
+        "Protective hazard ratios (HRs) were detected for bariatric surgery for hypertension, 0.35.",
+        "Protective hazard ratios (HRs) were detected for bariatric surgery for angina, 0.59.",
+        "Protective hazard ratios (HRs) were detected for bariatric surgery for MI, 0.28.",
+        "Protective hazard ratios (HRs) were detected for bariatric surgery for obstructive sleep apnoea, 0.55.",
+        "Strong associations were found between bariatric surgery and the resolution of T2DM, with a HR of 9.29.",
+        "Strong associations were found between bariatric surgery and the resolution of hypertension, with a HR of 5.64.",
+        "No association was detected between bariatric surgery and fractures, cancer, or stroke.",
+        "Effect estimates for mortality found no protective association with bariatric surgery overall, with a HR of 0.97.",
+        "The data used were recorded for the management of patients in primary care and may be subject to inaccuracy, which would tend to lead to underestimates of true relative effect sizes.",
+        "Bariatric surgery as delivered in the UK healthcare system is associated with dramatic weight loss, sustained at least 4 y after surgery.",
+        "This weight loss is accompanied by substantial improvements in pre-existing T2DM and hypertension, as well as a reduced risk of incident T2DM, hypertension, angina, MI, and obstructive sleep apnoea.",
         "Widening the availability of bariatric surgery could lead to substantial health benefits for many people who are morbidly obese."
       ]
     },
@@ -6535,6 +6801,21 @@
         "Bariatric surgery is consistently associated with postoperative decreases in the prevalence of depression.",
         "Bariatric surgery is consistently associated with postoperative decreases in the severity of depressive symptoms.",
         "Moderate-quality evidence supports an association between bariatric surgery and lower rates of depression postoperatively."
+      ],
+      "relations_aware": [
+        "Bariatric surgery is associated with sustained weight loss and improved physical health status for severely obese individuals.",
+        "Mental health conditions may be common among patients seeking bariatric surgery.",
+        "The prevalence of mental health conditions among bariatric surgery candidates and recipients remains unknown.",
+        "Preoperative mental health conditions may be associated with postoperative outcomes.",
+        "Surgery may affect the clinical course of mental health conditions.",
+        "The most common mental health conditions among patients seeking and undergoing bariatric surgery are depression and binge eating disorder.",
+        "Depression prevalence among bariatric surgery patients is estimated at 19%.",
+        "Binge eating disorder prevalence among bariatric surgery patients is estimated at 17%.",
+        "There is conflicting evidence regarding the association between preoperative mental health conditions and postoperative weight loss.",
+        "Neither depression nor binge eating disorder consistently affects weight outcomes postoperatively.",
+        "Bariatric surgery is consistently associated with postoperative decreases in the prevalence of depression.",
+        "Bariatric surgery is consistently associated with postoperative decreases in the severity of depressive symptoms.",
+        "Moderate-quality evidence supports an association between bariatric surgery and lower rates of depression postoperatively."
       ]
     },
     "entities": [
@@ -6829,6 +7110,19 @@
         "Soluble CCR7 ligands did not induce surface adhesion.",
         "Adhesive random migration and directional steering cooperate to produce dynamic but spatially restricted locomotion patterns in DCs.",
         "The cellular dynamics observed in secondary lymphoid organs closely resemble the locomotion patterns induced by chemokines."
+      ],
+      "relations_aware": [
+        "Chemokines orchestrate immune cell trafficking by eliciting either directed or random migration.",
+        "Chemokines activate integrins to induce cell adhesion.",
+        "Distinct cellular responses in dendritic cell migration depend on the mode of chemokine presentation within tissues.",
+        "Surface-immobilized CCL21 causes random movement of DCs confined to the chemokine-presenting surface.",
+        "Surface-immobilized CCL21 triggers integrin-mediated adhesion in DCs.",
+        "Direct contact with CCL21 causes DCs to truncate anchoring residues, releasing it from the solid phase.",
+        "Soluble CCL21 functionally resembles CCL19, the second CCR7 ligand.",
+        "CCL19 lacks anchoring residues and forms soluble gradients.",
+        "Both soluble CCR7 ligands trigger chemotactic movement.",
+        "Soluble CCR7 ligands do not induce surface adhesion.",
+        "Adhesive random migration and directional steering cooperate to produce dynamic but spatially restricted locomotion patterns in immune cells."
       ]
     },
     "entities": [
@@ -6919,6 +7213,21 @@
         "CD28 costimulation augments exhaustion induced by persistent CAR signaling.",
         "4-1BB costimulation reduces exhaustion induced by persistent CAR signaling.",
         "CD19 CAR T cells incorporating the 4-1BB costimulatory domain are more persistent than those incorporating CD28 in clinical trials."
+      ],
+      "relations_aware": [
+        "Chimeric antigen receptors (CARs) target CD19.",
+        "CARs have mediated dramatic antitumor responses in hematologic malignancies.",
+        "Tumor regression rarely occurs using CARs targeting other antigens.",
+        "It remains unknown whether the effects of CD19 CARs relate to greater susceptibility of hematologic malignancies to CAR therapies.",
+        "It remains unknown whether the effects of CD19 CARs relate to superior functionality of the CD19 CAR itself.",
+        "Tonic CAR CD3-ζ phosphorylation can induce early exhaustion of CAR T cells.",
+        "Tonic CAR CD3-ζ phosphorylation is triggered by antigen-independent clustering of CAR single-chain variable fragments.",
+        "Early exhaustion of CAR T cells limits antitumor efficacy.",
+        "Activation is present to varying degrees in all CARs studied, except the highly effective CD19 CAR.",
+        "CD28 costimulation augments exhaustion induced by persistent CAR signaling.",
+        "4-1BB costimulation reduces exhaustion induced by persistent CAR signaling.",
+        "Results provide biological explanations for the antitumor effects of CD19 CARs.",
+        "Results provide biological explanations for the observations that CD19 CAR T cells incorporating the 4-1BB costimulatory domain are more persistent than those incorporating CD28 in clinical trials."
       ]
     },
     "entities": [
@@ -7198,6 +7507,17 @@
         "Beige fat dynamically expends glucose through enhanced glycolysis, tricarboxylic acid metabolism, and pyruvate dehydrogenase activity for ATP-dependent thermogenesis.",
         "Beige fat functions as a 'glucose sink' and improves glucose tolerance independently of body weight loss.",
         "The study uncovers a noncanonical thermogenic mechanism through which beige fat controls whole-body energy homeostasis via Ca2+ cycling."
+      ],
+      "relations_aware": [
+        "UCP1 plays a central role in nonshivering thermogenesis in brown fat.",
+        "UCP1's role in beige fat remains unclear.",
+        "A robust UCP1-independent thermogenic mechanism exists in beige fat.",
+        "The mechanism involves enhanced ATP-dependent Ca2+ cycling by SERCA2b and RyR2.",
+        "Inhibition of SERCA2b impairs UCP1-independent beige fat thermogenesis.",
+        "Enhanced Ca2+ cycling stimulates UCP1-independent thermogenesis in beige adipocytes.",
+        "Beige fat expends glucose through enhanced glycolysis in the absence of UCP1.",
+        "Beige fat functions as a 'glucose sink' and improves glucose tolerance independently of body weight loss.",
+        "Beige fat controls whole-body energy homeostasis via Ca2+ cycling."
       ]
     },
     "entities": [
@@ -7698,6 +8018,22 @@
         "MDSCs reciprocally increase TIC frequency through activating Notch in tumor cells.",
         "mTOR signaling plays a non-canonical oncogenic role in recruiting pro-tumorigenic MDSCs.",
         "Defined cancer subsets may evolve to promote and depend on a distinct immune microenvironment."
+      ],
+      "relations_aware": [
+        "Myeloid-derived suppressor cells play critical roles in primary and metastatic cancer progression.",
+        "MDSC regulation is widely variable among patients with the same type of malignancy.",
+        "The mechanisms governing the heterogeneity of MDSC regulation are largely unknown.",
+        "mTOR signaling in cancer cells dictates a mammary tumor's ability to stimulate MDSC accumulation.",
+        "G-CSF is regulated by mTOR signaling in cancer cells.",
+        "Inhibiting the mTOR signaling pathway or its activators impairs tumor progression.",
+        "FGFR is an activator of the mTOR signaling pathway.",
+        "Restoring MDSCs or G-CSF partially rescues impaired tumor progression.",
+        "Tumor-initiating cells exhibit elevated G-CSF levels.",
+        "MDSCs increase tumor-initiating cell frequency through activating Notch in tumor cells.",
+        "There is a feedforward loop between MDSCs and tumor-initiating cells.",
+        "Analyses of primary breast cancers and patient-derived xenografts support the mechanisms demonstrated in the study.",
+        "mTOR signaling plays a non-canonical oncogenic role in recruiting pro-tumorigenic MDSCs.",
+        "Defined cancer subsets may evolve to promote and depend on a distinct immune microenvironment."
       ]
     },
     "entities": [
@@ -7900,6 +8236,20 @@
         "Re-education of stromal cells may be an effective strategy for treating cancer.",
         "The TME plays paradoxical roles during specific stages of cancer progression and metastasis.",
         "Therapeutic attempts have been made to re-educate stromal cells within the TME to have anti-tumorigenic effects."
+      ],
+      "relations_aware": [
+        "Cancers develop in complex tissue environments.",
+        "Cancers depend on tissue environments for sustained growth, invasion, and metastasis.",
+        "Tumor cells are genetically unstable.",
+        "Stromal cell types within the tumor microenvironment (TME) are genetically stable.",
+        "Stromal cell types within the TME represent an attractive therapeutic target.",
+        "Targeting stromal cells within the TME reduces the risk of resistance and tumor recurrence.",
+        "Disrupting the pro-tumorigenic TME is a challenging undertaking.",
+        "The TME has diverse capacities to induce both beneficial and adverse consequences for tumorigenesis.",
+        "The microenvironment is capable of normalizing tumor cells.",
+        "Re-education of stromal cells within the TME may be an effective strategy for treating cancer.",
+        "The TME plays paradoxical roles during specific stages of cancer progression and metastasis.",
+        "Recent therapeutic attempts aim to re-educate stromal cells within the TME to have anti-tumorigenic effects."
       ]
     },
     "entities": [
@@ -8020,6 +8370,18 @@
       "entities_aware": [
         "Embryos in the mammalian model of sex determination are considered sexually indifferent until the transient action of a sex-determining gene initiates gonadal differentiation.",
         "The model of sex determination is thought to apply to all vertebrates.",
+        "Three lateral gynandromorph chickens were examined to investigate the sex-determining mechanism in birds.",
+        "Gynandromorph birds are genuine male:female chimaeras.",
+        "Male and female avian somatic cells may have an inherent sex identity.",
+        "Presumptive mesoderm was transplanted between embryos of reciprocal sexes to generate embryos containing male:female chimaeric gonads.",
+        "In chicken mixed-sex chimaeras, donor cells were excluded from the functional structures of the host gonad.",
+        "Female tissue transplanted into a male host retained a female identity and expressed a marker of female function.",
+        "Avian somatic cells possess an inherent sex identity.",
+        "In birds, sexual differentiation is substantively cell autonomous."
+      ],
+      "relations_aware": [
+        "Embryos in the mammalian model of sex determination are sexually indifferent until the action of a sex-determining gene initiates gonadal differentiation.",
+        "The model is thought to apply to all vertebrates.",
         "Three lateral gynandromorph chickens were examined to investigate the sex-determining mechanism in birds.",
         "Gynandromorph birds are genuine male:female chimaeras.",
         "Male and female avian somatic cells may have an inherent sex identity.",
@@ -8182,6 +8544,20 @@
         "Treatment with CDCA or specific TGR5 agonists increased mitochondrial uncoupling and D2 expression in primary human brown adipocytes.",
         "The effect of CDCA treatment was absent in human primary white adipocytes.",
         "Bile acids have been identified as a target to activate BAT in humans."
+      ],
+      "relations_aware": [
+        "The interest in brown adipose tissue (BAT) as a target to combat metabolic disease has been renewed.",
+        "Functional BAT has been discovered in humans.",
+        "BAT can be activated by bile acids in rodents.",
+        "Bile acids activate type 2 iodothyronine deiodinase (D2) in BAT.",
+        "Activation of D2 in BAT occurs via the G-coupled protein receptor TGR5.",
+        "Activation of D2 in BAT results in increased oxygen consumption and energy expenditure.",
+        "Oral supplementation of chenodeoxycholic acid (CDCA) increased human BAT activity.",
+        "Treatment with CDCA for 2 days resulted in increased BAT activity in 12 healthy female subjects.",
+        "Whole-body energy expenditure was increased upon CDCA treatment.",
+        "In vitro treatment with CDCA or specific TGR5 agonists increased mitochondrial uncoupling and D2 expression in primary human brown adipocytes.",
+        "The effect of CDCA treatment on mitochondrial uncoupling and D2 expression was absent in human primary white adipocytes.",
+        "Bile acids are identified as a target to activate BAT in humans."
       ]
     },
     "entities": [
@@ -8579,6 +8955,22 @@
         "At 52 weeks, 30.9% of the combination therapy group achieved prolonged smoking abstinence.",
         "Participants receiving combination therapy reported more anxiety and depressive symptoms.",
         "Further research is required to determine the role of combination therapy in smoking cessation."
+      ],
+      "relations_aware": [
+        "Combining pharmacotherapies for tobacco-dependence treatment may increase smoking abstinence.",
+        "Varenicline and bupropion sustained-release (SR) combination therapy was compared with varenicline monotherapy in cigarette smokers.",
+        "A randomized, blinded, placebo-controlled multicenter clinical trial was conducted between October 2009 and April 2013.",
+        "Five hundred six adult cigarette smokers were randomly assigned, and 315 completed the study.",
+        "Interventions included twelve weeks of varenicline and bupropion SR or varenicline and placebo.",
+        "Primary outcome measures included abstinence rates at week 12, defined as prolonged and 7-day point-prevalence abstinence.",
+        "Secondary outcomes were prolonged and point-prevalence smoking abstinence rates at weeks 26 and 52.",
+        "Outcomes were biochemically confirmed.",
+        "At 12 weeks, the combination therapy group had higher abstinence rates compared to varenicline monotherapy.",
+        "At 26 weeks, the combination therapy group continued to show higher abstinence rates compared to varenicline monotherapy.",
+        "At 52 weeks, the combination therapy group maintained higher abstinence rates compared to varenicline monotherapy.",
+        "Participants receiving combination therapy reported more anxiety and depressive symptoms.",
+        "Among cigarette smokers, combined use of varenicline and bupropion increased prolonged abstinence but not 7-day point prevalence at 12 and 26 weeks.",
+        "Further research is required to determine the role of combination therapy in smoking cessation."
       ]
     },
     "entities": [
@@ -8957,6 +9349,24 @@
         "The CoYMV genome is interrupted by site-specific discontinuities.",
         "A region on the CoYMV transcript can anneal with the 3'-end of cytosolic initiator methionine tRNA.",
         "A construct containing 1.3 CoYMV genomes is infective when introduced into Commelina diffusa."
+      ],
+      "relations_aware": [
+        "Non-enveloped bacilliform viruses are the second group of plant viruses known to possess a genome consisting of circular double-stranded DNA.",
+        "The viral transcript of Commelina mellow mottle virus (CoYMV) has been characterized.",
+        "The complete sequence of the CoYMV genome has been determined.",
+        "The virus encodes a single terminally-redundant genome-length plus 120 nucleotide transcript.",
+        "A fraction of the CoYMV transcripts is polyadenylated.",
+        "The majority of the CoYMV transcript is not polyadenylated.",
+        "The CoYMV genome is 7489 bp in size.",
+        "The transcribed strand of the CoYMV genome contains three open reading frames capable of encoding proteins of 23, 15, and 216 kd.",
+        "The function of the 25 and 15 kd proteins encoded by CoYMV is unknown.",
+        "Similarities exist between the 216 kd polypeptide of CoYMV and the cauliflower mosaic virus coat protein and protease/reverse transcriptase polyprotein.",
+        "The 216 kd polypeptide of CoYMV is a polyprotein that is proteolytically processed to yield the virion coat protein, a protease, and replicase (reverse transcriptase and ribonuclease H).",
+        "Each strand of the CoYMV genome is interrupted by site-specific discontinuities.",
+        "The locations of the 5'-ends of the discontinuities in the CoYMV genome suggest replication by reverse transcription.",
+        "A region on the CoYMV transcript is capable of annealing with the 3'-end of cytosolic initiator methionine tRNA.",
+        "A construct containing 1.3 CoYMV genomes is infective when introduced into Commelina diffusa, the host for CoYMV.",
+        "Agrobacterium-mediated infection is used to introduce the infective construct into Commelina diffusa."
       ]
     },
     "entities": [
@@ -9234,6 +9644,23 @@
         "Reduced DUSP4 expression in primary tumors after neoadjuvant chemotherapy was associated with treatment-refractory high Ki-67 scores.",
         "Reduced DUSP4 expression in primary tumors after neoadjuvant chemotherapy was associated with shorter recurrence-free survival.",
         "Inhibition of mitogen-activated protein kinase kinase synergized with docetaxel treatment in basal-like breast cancer xenografts.",
+        "DUSP4 downregulation activates the Ras-ERK pathway in basal-like breast cancer.",
+        "DUSP4 downregulation results in an attenuated response to anti-cancer chemotherapy."
+      ],
+      "relations_aware": [
+        "Neoadjuvant chemotherapy induces a pathological complete response in approximately 30% of breast cancer patients.",
+        "Many patients have residual cancer after chemotherapy.",
+        "Residual cancer after chemotherapy correlates with a higher risk of metastatic recurrence and poorer outcome.",
+        "Molecular profiling of tumors after neoadjuvant chemotherapy can identify genes associated with drug resistance.",
+        "Low concentrations of dual specificity protein phosphatase 4 (DUSP4) correlate with high post-neoadjuvant chemotherapy tumor cell proliferation.",
+        "Low concentrations of DUSP4 correlate with basal-like breast cancer (BLBC) status.",
+        "Basal-like breast cancer has higher DUSP4 promoter methylation.",
+        "Basal-like breast cancer has gene expression patterns of Ras-ERK pathway activation.",
+        "DUSP4 overexpression increases chemotherapy-induced apoptosis.",
+        "DUSP4 depletion dampens the response to chemotherapy.",
+        "Reduced DUSP4 expression in primary tumors after neoadjuvant chemotherapy is associated with treatment-refractory high Ki-67 scores.",
+        "Reduced DUSP4 expression in primary tumors after neoadjuvant chemotherapy is associated with shorter recurrence-free survival.",
+        "Inhibition of mitogen-activated protein kinase kinase (MEK) synergizes with docetaxel treatment in basal-like breast cancer xenografts.",
         "DUSP4 downregulation activates the Ras-ERK pathway in basal-like breast cancer.",
         "DUSP4 downregulation results in an attenuated response to anti-cancer chemotherapy."
       ]
@@ -9601,6 +10028,24 @@
         "Sequences from Clostridium difficile, Campylobacter jejuni, Campylobacter concisus, and Salmonella enterica were recovered in phase 3.",
         "Metagenomics shows potential as a culture-independent approach for the identification of bacterial pathogens during an outbreak of diarrheal disease.",
         "Challenges include improving diagnostic sensitivity, speeding up and simplifying workflows, and reducing costs."
+      ],
+      "relations_aware": [
+        "Identification of the bacterium responsible for an outbreak can aid in disease management.",
+        "Traditional culture-based diagnosis can be difficult if no specific diagnostic test is available for an outbreak strain.",
+        "Metagenomics is the direct sequencing of DNA extracted from microbiologically complex samples.",
+        "Metagenomics is an open-ended clinical discovery platform capable of identifying and characterizing bacterial strains from an outbreak without laboratory culture.",
+        "45 samples were selected from fecal specimens obtained from patients with diarrhea during the 2011 outbreak of Shiga-toxigenic Escherichia coli (STEC) O104:H4 in Germany.",
+        "Samples were subjected to high-throughput sequencing in August-September 2012, followed by a 3-phase analysis from November 2012 to February 2013.",
+        "A de novo assembly approach was developed in phase 1 to obtain a draft genome of the outbreak strain.",
+        "The depth of coverage of the outbreak strain genome was determined in each sample during phase 2.",
+        "Sequences from each sample were compared with sequences from known bacteria to identify pathogens other than the outbreak strain in phase 3.",
+        "The recovery of genome sequence data was for the purposes of identification and characterization of the outbreak strain and other pathogens from fecal samples.",
+        "A draft genome of the STEC outbreak strain was obtained during phase 1.",
+        "The outbreak strain genome was recovered from 10 samples at greater than 10-fold coverage and from 26 samples at greater than 1-fold coverage during phase 2.",
+        "Sequences from the Shiga-toxin genes were detected in 27 of 40 STEC-positive samples (67%).",
+        "Sequences from Clostridium difficile, Campylobacter jejuni, Campylobacter concisus, and Salmonella enterica were recovered in phase 3.",
+        "Metagenomics has the potential as a culture-independent approach for the identification of bacterial pathogens during an outbreak of diarrheal disease.",
+        "Challenges include improving diagnostic sensitivity, speeding up and simplifying workflows, and reducing costs."
       ]
     },
     "entities": [
@@ -9893,6 +10338,22 @@
         "The higher risk in rural areas was largely explained by lack of piped water supply.",
         "Human population densities falling within the critical range were more prone to dengue outbreaks.",
         "Improving water supply and vector control in areas with critical human population density for dengue transmission could increase control efficiency."
+      ],
+      "relations_aware": [
+        "Aedes aegypti is the major vector of dengue viruses.",
+        "Aedes aegypti often breeds in water storage containers used by households without tap water supply.",
+        "Aedes aegypti occurs in high numbers even in dense urban areas.",
+        "Human population density and lack of tap water are causes of dengue fever outbreaks.",
+        "Geographic areas with high human population density and lack of tap water are at highest risk for dengue fever outbreaks.",
+        "An individual-level cohort study was conducted in a population of 75,000 geo-referenced households in Vietnam.",
+        "The study was based on dengue hospital admissions (n = 3,013).",
+        "Space-time scan statistics and mathematical models were applied to confirm the findings.",
+        "A narrow range of critical human population densities between around 3,000 to 7,000 people/km² are prone to dengue outbreaks.",
+        "Areas with high population density or adequate water supply did not experience severe outbreaks.",
+        "The risk of dengue was higher in rural areas than in urban areas.",
+        "The higher risk in rural areas was largely explained by lack of piped water supply.",
+        "Human population densities falling within the critical range were more often associated with dengue outbreaks.",
+        "Improving water supply and vector control in areas with critical human population density for dengue transmission could increase control efficiency."
       ]
     },
     "entities": [
@@ -10175,6 +10636,19 @@
         "Recently evolved enhancers can be associated with genes under positive selection.",
         "This approach is powerful for annotating regulatory adaptations in genomic sequences.",
         "These results provide important insight into the functional genetics underpinning mammalian regulatory evolution."
+      ],
+      "relations_aware": [
+        "The mammalian radiation has corresponded with rapid changes in noncoding regions of the genome.",
+        "We lack a comprehensive understanding of regulatory evolution in mammals.",
+        "Promoters and enhancers active in liver were tracked across 20 mammalian species from six diverse orders.",
+        "Genomic enrichment of H3K27 acetylation and H3K4 trimethylation was profiled.",
+        "Rapid evolution of enhancers is a universal feature of mammalian genomes.",
+        "Most recently evolved enhancers arise from ancestral DNA exaptation.",
+        "Lineage-specific expansions of repeat elements do not account for most recently evolved enhancers.",
+        "Almost all liver promoters are partially or fully conserved across these species.",
+        "Recently evolved enhancers can be associated with genes under positive selection.",
+        "This approach is powerful for annotating regulatory adaptations in genomic sequences.",
+        "These results provide important insight into the functional genetics underpinning mammalian regulatory evolution."
       ]
     },
     "entities": [
@@ -10315,6 +10789,20 @@
         "SOCS1 and SOCS3 are inhibitors of STAT1 and STAT3.",
         "Egr2 and Egr3 blocked the function of Batf, an AP-1 inhibitor, in B and T cells.",
         "Egr2 and Egr3 regulate B and T cell function in adaptive immune responses and homeostasis."
+      ],
+      "relations_aware": [
+        "Lymphocytes provide optimal responses against pathogens with minimal inflammatory pathology.",
+        "The intrinsic mechanisms regulating these responses are unknown.",
+        "Deletion of both transcription factors Egr2 and Egr3 in lymphocytes resulted in a lethal autoimmune syndrome.",
+        "The lethal autoimmune syndrome had excessive serum proinflammatory cytokines.",
+        "Deletion of Egr2 and Egr3 impaired antigen receptor-induced proliferation of B and T cells.",
+        "Egr2- and Egr3-defective B and T cells had hyperactive STAT1 and STAT3.",
+        "Antigen receptor-induced activation of AP-1 was severely impaired in Egr2- and Egr3-defective cells.",
+        "Egr2 and Egr3 directly induced expression of SOCS1 and SOCS3.",
+        "SOCS1 and SOCS3 are inhibitors of STAT1 and STAT3.",
+        "Egr2 and Egr3 blocked the function of Batf, an AP-1 inhibitor, in B and T cells.",
+        "Egr2 and Egr3 regulate B and T cell function in adaptive immune responses and homeostasis.",
+        "Egr2 and Egr3 promote antigen receptor signaling and control inflammation."
       ]
     },
     "entities": [
@@ -10624,6 +11112,25 @@
         "EILV/CHIKV provided complete protection in mouse models.",
         "EILV/CHIKV elicited rapid and robust immunity in nonhuman primates.",
         "EILV platform is the first application of an insect-specific virus in preclinical vaccine development."
+      ],
+      "relations_aware": [
+        "Vaccine development involves tradeoffs between immunogenicity and safety.",
+        "Live-attenuated vaccines offer rapid and durable immunity.",
+        "Live-attenuated vaccines have reduced safety compared to inactivated vaccines.",
+        "Inactivated vaccines have enhanced safety but reduced immunogenicity.",
+        "Inactivated vaccines often require multiple doses and boosters.",
+        "Eilat virus (EILV) was developed as a vaccine platform.",
+        "EILV is an insect-specific alphavirus.",
+        "EILV cDNA clone was used to design a chimeric virus containing CHIKV structural proteins.",
+        "Recombinant EILV/CHIKV is structurally identical to wild-type CHIKV.",
+        "Recombinant EILV/CHIKV mimicked early stages of CHIKV replication in vertebrate cells.",
+        "Recombinant EILV/CHIKV is completely defective for productive replication.",
+        "A single dose of EILV/CHIKV produced rapid and long-lasting neutralizing antibodies.",
+        "Neutralizing antibodies from EILV/CHIKV provided complete protection in mouse models.",
+        "EILV/CHIKV elicited rapid and robust immunity in nonhuman primates.",
+        "EILV/CHIKV protected against viremia and fever in nonhuman primates.",
+        "EILV platform is the first application of an insect-specific virus in preclinical vaccine development.",
+        "Insect-specific viruses have potential applications in vaccinology."
       ]
     },
     "entities": [
@@ -10886,6 +11393,18 @@
         "Memory CD4+ T cell-induced inflammatory cytokines and chemokines are independent of interferon-γ (IFN-γ) and tumor necrosis factor-α (TNF-α) production.",
         "Memory CD4+ T cell-induced inflammatory cytokines and chemokines do not require activation of conserved pathogen recognition pathways.",
         "Memory CD4+ T cells induce an early innate response that enhances immune protection against pathogens."
+      ],
+      "relations_aware": [
+        "Inflammation is induced by recognition of pathogen-associated molecular patterns.",
+        "Recognition of pathogen-associated molecular patterns markedly affects subsequent adaptive responses.",
+        "The adaptive immune system can affect the character and magnitude of innate inflammatory responses.",
+        "Memory CD4+ T cells enhance production of multiple innate inflammatory cytokines and chemokines in the lung.",
+        "Memory CD4+ T cells lead to early control of virus during influenza infection.",
+        "Memory CD4+ T cell-induced innate inflammatory cytokines and chemokines require cognate antigen recognition.",
+        "Memory CD4+ T cell-induced viral control is optimal when memory cells are either TH1 or TH17 polarized.",
+        "Memory CD4+ T cell-induced viral control is independent of IFN-γ and TNF-α production.",
+        "Memory CD4+ T cell-induced viral control does not require activation of conserved pathogen recognition pathways.",
+        "Memory CD4+ T cells induce an early innate response that enhances immune protection against pathogens."
       ]
     },
     "entities": [
@@ -11079,6 +11598,21 @@
         "Phenotypic and metabolomic analysis of laboratory-evolved ethanol-tolerant strains was conducted.",
         "Naturally accessible pathways of ethanol tolerance were investigated through analysis of laboratory-evolved strains.",
         "Laboratory-evolved strains follow adaptive paths similar to those inferred from the fitness landscape search."
+      ],
+      "relations_aware": [
+        "Understanding the genetic basis of adaptation is a central problem in biology.",
+        "Revealing the underlying molecular mechanisms has been challenging.",
+        "Changes in fitness may result from perturbations to many pathways.",
+        "Perturbations to pathways may contribute relatively little to fitness changes.",
+        "A combined experimental/computational framework was developed to address the genetic basis of ethanol tolerance in Escherichia coli.",
+        "Fitness profiling was used to measure the consequences of single-locus perturbations in the context of ethanol exposure.",
+        "A module-level computational analysis revealed the organization of contributing loci into cellular processes and regulatory pathways.",
+        "Osmoregulation significantly affects ethanol tolerance.",
+        "Cell-wall biogenesis significantly affects ethanol tolerance.",
+        "A dominant component of adaptation involves metabolic rewiring that boosts intracellular ethanol degradation and assimilation.",
+        "Phenotypic and metabolomic analysis of laboratory-evolved ethanol-tolerant strains was conducted.",
+        "Naturally accessible pathways of ethanol tolerance were investigated.",
+        "Laboratory-evolved strains follow the same adaptive paths as inferred from the fitness landscape."
       ]
     },
     "entities": [
@@ -11229,6 +11763,23 @@
         "In APOE epsilon4 carriers, the adjusted rate ratio for over 39 reproductive years compared to under 34 reproductive years was 4.20 for dementia and 3.42 for AD.",
         "No clear association with dementia or AD was observed in noncarriers of APOE epsilon4.",
         "The findings do not support the hypothesis that a longer reproductive period reduces the risk of dementia in women with natural menopause."
+      ],
+      "relations_aware": [
+        "Exogenous estrogen use may lower the risk of dementia in postmenopausal women.",
+        "A relationship between long-term exposure to endogenous estrogens and incident dementia has been hypothesized but not studied.",
+        "The Rotterdam Study is a population-based prospective cohort study conducted in the Netherlands.",
+        "3601 women aged 55 years or older, who did not have dementia at baseline, participated in the Rotterdam Study.",
+        "Participants were continuously monitored for the development of dementia.",
+        "Incidence of dementia and Alzheimer disease (AD) was compared by quartiles of reproductive period among women with natural menopause.",
+        "After adjusting for age, dementia was not clearly associated with the length of the reproductive period.",
+        "Women with natural menopause and more reproductive years had an increased risk of dementia.",
+        "The adjusted rate ratio for women with >39 reproductive years compared with <34 reproductive years was 1.78.",
+        "The adjusted rate ratio per year of increase was 1.04.",
+        "For the risk of AD, the adjusted rate ratios were 1.51 and 1.03, respectively.",
+        "Risk of dementia associated with a longer reproductive period was most pronounced in APOE epsilon4 carriers.",
+        "In APOE epsilon4 carriers, the adjusted rate ratio for >39 reproductive years compared with <34 reproductive years was 4.20 for dementia and 3.42 for AD.",
+        "In noncarriers, no clear association with dementia or AD was observed.",
+        "The findings do not support the hypothesis that a longer reproductive period reduces the risk of dementia in women who have natural menopause."
       ]
     },
     "entities": [
@@ -11561,6 +12112,30 @@
         "Replenishment of FGF21 suppresses the hepatic expression of the transcription factor sterol regulatory element-binding protein-2.",
         "Suppression of sterol regulatory element-binding protein-2 leads to reduced cholesterol synthesis and attenuation of hypercholesterolemia.",
         "Chronic treatment with adiponectin partially reverses atherosclerosis in FGF21-deficient apolipoprotein E(-/-) mice.",
+        "The cholesterol-lowering effects of FGF21 are abrogated by hepatic expression of sterol regulatory element-binding protein-2.",
+        "FGF21 protects against atherosclerosis via fine tuning the multiorgan crosstalk among liver, adipose tissue, and blood vessels."
+      ],
+      "relations_aware": [
+        "Fibroblast growth factor 21 (FGF21) is a metabolic hormone with pleiotropic effects on glucose and lipid metabolism and insulin sensitivity.",
+        "FGF21 acts as a key downstream target of both peroxisome proliferator-activated receptor α and γ.",
+        "The agonists of peroxisome proliferator-activated receptor α and γ have been used for lipid lowering and insulin sensitization.",
+        "The role of FGF21 in the cardiovascular system remains elusive.",
+        "FGF21 deficiency causes a marked exacerbation of atherosclerotic plaque formation and premature death in apolipoprotein E(-/-) mice.",
+        "Apolipoprotein E(-/-) mice are afflicted with atherosclerosis.",
+        "Apolipoprotein E(-/-) mice experience premature death due to atherosclerotic plaque formation.",
+        "Apolipoprotein E(-/-) mice have severe hypercholesterolemia.",
+        "Apolipoprotein E(-/-) mice have hypoadiponectinemia.",
+        "Replenishment of FGF21 protects against atherosclerosis in apolipoprotein E(-/-) mice.",
+        "FGF21 replenishment induces the adipocyte production of adiponectin.",
+        "Adiponectin afflicts atherosclerosis.",
+        "Adiponectin acts on blood vessels to inhibit neointima formation and macrophage inflammation.",
+        "Adiponectin is produced by adipocytes.",
+        "FGF21 replenishment suppresses the hepatic expression of the transcription factor sterol regulatory element-binding protein-2.",
+        "Sterol regulatory element-binding protein-2 is expressed in the liver.",
+        "Suppression of sterol regulatory element-binding protein-2 leads to reduced cholesterol synthesis.",
+        "Reduced cholesterol synthesis leads to attenuation of hypercholesterolemia.",
+        "Chronic treatment with adiponectin partially reverses atherosclerosis in FGF21-deficient apolipoprotein E(-/-) mice.",
+        "Chronic treatment with adiponectin has no obvious effects on hypercholesterolemia in FGF21-deficient apolipoprotein E(-/-) mice.",
         "The cholesterol-lowering effects of FGF21 are abrogated by hepatic expression of sterol regulatory element-binding protein-2.",
         "FGF21 protects against atherosclerosis via fine tuning the multiorgan crosstalk among liver, adipose tissue, and blood vessels."
       ]
@@ -12047,6 +12622,21 @@
         "Gata3 mutant hematopoietic progenitor cells fail to be recruited into an increased cycling state after 5-fluorouracil-induced myelosuppression.",
         "GATA-3 is required for the maintenance of a normal number of LT-HSCs.",
         "GATA-3 is required for the entry of LT-HSCs into the cell cycle."
+      ],
+      "relations_aware": [
+        "Maintaining HSC quiescence is critical for the generation of blood cells.",
+        "Approximately 75% of cells in the LT-HSC pool are quiescent.",
+        "A small percentage of LT-HSCs are in cycle.",
+        "GATA-3 is vital for T cell development in the thymus.",
+        "GATA-3 is vital for Th2 differentiation in peripheral organs.",
+        "GATA-3 is expressed in HSCs.",
+        "GATA-3 plays a role in prethymic progenitor cells.",
+        "Gata3-null mutant mice generate fewer LT-HSCs.",
+        "Fewer Gata3-null LT-HSCs are in cycle.",
+        "Gata3 mutant hematopoietic progenitor cells fail to be recruited into an increased cycling state.",
+        "5-fluorouracil induces myelosuppression.",
+        "GATA-3 is required for maintaining a normal number of LT-HSCs.",
+        "GATA-3 is required for LT-HSCs to enter the cell cycle."
       ]
     },
     "entities": [
@@ -12247,6 +12837,17 @@
         "More patients in the specific exercise group reported a successful outcome in the patients' global assessment of change because of treatment.",
         "A lower proportion of patients in the specific exercise group chose to undergo surgery compared to the control exercise group.",
         "The specific exercise strategy is effective in reducing pain and improving shoulder function in patients with persistent subacromial impingement syndrome."
+      ],
+      "relations_aware": [
+        "A specific exercise strategy targeting the rotator cuff and scapula stabilisers improves shoulder function and pain more than unspecific exercises in patients with subacromial impingement syndrome.",
+        "The specific exercise strategy consists of strengthening eccentric exercises for the rotator cuff and concentric/eccentric exercises for the scapula stabilisers in combination with manual mobilisation.",
+        "The control exercise programme consists of unspecific movement exercises for the neck and shoulder.",
+        "Most participants completed the 12-week study.",
+        "There was a significantly greater improvement in the Constant-Murley score in the specific exercise group compared to the control exercise group.",
+        "Significantly more patients in the specific exercise group reported successful outcomes in the patients' global assessment of change because of treatment.",
+        "A significantly lower proportion of patients in the specific exercise group subsequently chose to undergo surgery.",
+        "The specific exercise strategy is effective in reducing pain and improving shoulder function in patients with persistent subacromial impingement syndrome.",
+        "The exercise strategy reduces the need for arthroscopic subacromial decompression within the three-month timeframe used in the study."
       ]
     },
     "entities": [
@@ -12599,6 +13200,20 @@
         "Absence of IgA in F11r(+/+)Igha(-/-) mice did not affect disease.",
         "F11r(-/-)Igha(-/-) mice displayed increased susceptibility to acute injury-induced colitis.",
         "These data establish a role for adaptive immune-mediated protection from acute colitis."
+      ],
+      "relations_aware": [
+        "Mice lacking JAM-A exhibit enhanced intestinal epithelial permeability.",
+        "Mice lacking JAM-A exhibit bacterial translocation.",
+        "Mice lacking JAM-A exhibit elevated colonic lymphocyte numbers.",
+        "Mice lacking JAM-A do not develop colitis.",
+        "F11r(-/-)Rag1(-/-) mice are susceptible to acute colitis.",
+        "F11r(-/-)Rag1(-/-) mice exhibit increased microflora-dependent colitis.",
+        "TGF-β-producing CD4(+) T cells have a protective role in F11r(-/-) mice.",
+        "Loss of JAM-A results in elevated mucosal and serum IgA.",
+        "Elevated IgA in F11r(-/-) mice is dependent upon CD4(+) T cells and TGF-β.",
+        "Absence of IgA in F11r(+/+)Igha(-/-) mice does not affect disease.",
+        "F11r(-/-)Igha(-/-) mice display increased susceptibility to acute injury-induced colitis.",
+        "Adaptive immune-mediated protection plays a role in preventing acute colitis under compromised intestinal epithelial barrier conditions."
       ]
     },
     "entities": [
@@ -12952,6 +13567,20 @@
         "Neurotrophin-dependent regulated intramembrane proteolysis of p75 neurotrophin receptor is required for glioma invasion.",
         "Proteolytic processing of p75 neurotrophin receptor was observed in patient tumor specimens and brain tumor initiating cells.",
         "Gamma-secretase inhibitors may have direct clinical application for the treatment of malignant glioma."
+      ],
+      "relations_aware": [
+        "The multifunctional signaling protein p75 neurotrophin receptor is a central regulator of malignant gliomas.",
+        "p75 neurotrophin receptor is a major contributor to the highly invasive nature of malignant gliomas.",
+        "Neurotrophin-dependent regulated intramembrane proteolysis of p75 neurotrophin receptor is required for glioma invasion.",
+        "RIP of p75 neurotrophin receptor is necessary for p75 neurotrophin receptor-mediated glioma invasion.",
+        "A previously unnamed process for targeted glioma therapy was identified.",
+        "Expression of cleavage-resistant chimeras of p75 neurotrophin receptor resulted in decreased glioma invasion.",
+        "Treatment of animals with clinically applicable gamma-secretase inhibitors decreased glioma invasion.",
+        "Treatment with gamma-secretase inhibitors prolonged survival in animals with p75 neurotrophin receptor-positive intracranial tumors.",
+        "Proteolytic processing of p75 neurotrophin receptor was observed in patient tumor specimens.",
+        "Proteolytic processing of p75 neurotrophin receptor was observed in brain tumor initiating cells.",
+        "p75 neurotrophin receptor is highlighted as a therapeutic target.",
+        "Gamma-secretase inhibitors may have direct clinical application for the treatment of malignant glioma."
       ]
     },
     "entities": [
@@ -13216,6 +13845,18 @@
         "The Tyr 99 residue of histone H3 is critical for the efficient ubiquitylation and degradation of this histone.",
         "The ubiquitin conjugating enzymes Ubc4 and Ubc5, as well as the ubiquitin ligase Tom1, are involved in the ubiquitylation of excess histones.",
         "Regulated histone proteolysis has major implications for the maintenance of epigenetic marks on chromatin, genomic stability, and the packaging of sperm DNA."
+      ],
+      "relations_aware": [
+        "Histone levels are tightly regulated to prevent harmful effects such as genomic instability and hypersensitivity to DNA-damaging agents.",
+        "Accumulation of excess histones occurs when DNA replication slows down or stops.",
+        "Excess (non-chromatin bound) histones are rapidly degraded in a Rad53 kinase-dependent manner in Saccharomyces cerevisiae.",
+        "Excess histones associate with Rad53 in vivo.",
+        "Excess histones undergo modifications such as tyrosine phosphorylation and polyubiquitylation.",
+        "Proteolysis of excess histones is carried out by the proteasome.",
+        "The Tyr 99 residue of histone H3 is critical for the efficient ubiquitylation and degradation of this histone.",
+        "The ubiquitin conjugating enzymes Ubc4 and Ubc5 are involved in the ubiquitylation of excess histones.",
+        "The ubiquitin ligase Tom1 is involved in the ubiquitylation of excess histones.",
+        "Regulated histone proteolysis has major implications for the maintenance of epigenetic marks on chromatin, genomic stability, and the packaging of sperm DNA."
       ]
     },
     "entities": [
@@ -13445,6 +14086,16 @@
         "A stable partnership is associated with a slower rate of progression to AIDS or death in HIV infected patients receiving highly active antiretroviral therapy (HAART).",
         "2985 participants reported a stable partnership during follow up.",
         "52% of participants reported a stable partnership when starting HAART."
+      ],
+      "relations_aware": [
+        "A stable partnership is associated with a slower rate of progression to AIDS or death in HIV infected patients receiving HAART.",
+        "2985 participants reported a stable partnership during follow up.",
+        "52% of participants reported a stable partnership when starting HAART.",
+        "After five years of follow up, 46% of participants reported a stable partnership.",
+        "The adjusted hazard ratio for progression to AIDS or death was 0.79 for participants with a stable partnership compared to those without.",
+        "The adjusted hazard ratio for progression to death was 0.59 for participants with a stable partnership compared to those without.",
+        "The adjusted hazard ratio for an increase in CD4 cells of 100 counts/microl or more was 1.15 for participants with a stable partnership compared to those without.",
+        "The adjusted hazard ratio for optimal viral suppression was 1.06 for participants with a stable partnership compared to those without."
       ]
     },
     "entities": [
@@ -13945,6 +14596,21 @@
         "Chronic dietary L-carnitine supplementation in mice altered cecal microbial composition and increased atherosclerosis.",
         "Dietary supplementation with TMAO, carnitine, or choline reduced in vivo reverse cholesterol transport.",
         "Intestinal microbiota may contribute to the link between high red meat consumption and CVD risk."
+      ],
+      "relations_aware": [
+        "Intestinal microbiota metabolism of choline and phosphatidylcholine produces trimethylamine (TMA).",
+        "TMA is further metabolized to a proatherogenic species, trimethylamine-N-oxide (TMAO).",
+        "Metabolism by intestinal microbiota of dietary L-carnitine produces TMAO.",
+        "Metabolism of L-carnitine accelerates atherosclerosis in mice.",
+        "Omnivorous human subjects produced more TMAO than vegans or vegetarians following ingestion of L-carnitine.",
+        "TMAO production is microbiota-dependent.",
+        "Specific bacterial taxa in human feces are associated with plasma TMAO concentration and dietary status.",
+        "Plasma L-carnitine levels predict increased risks for prevalent cardiovascular disease and incident major adverse cardiac events.",
+        "High TMAO levels are associated with increased risks for cardiovascular disease.",
+        "Chronic dietary L-carnitine supplementation in mice enhances synthesis of TMA and TMAO.",
+        "Increased atherosclerosis is observed with chronic dietary L-carnitine supplementation in mice.",
+        "Dietary supplementation with TMAO, carnitine, or choline reduces in vivo reverse cholesterol transport in mice.",
+        "Intestinal microbiota may contribute to the link between high red meat consumption and cardiovascular disease risk."
       ]
     },
     "entities": [
@@ -14357,6 +15023,21 @@
         "Activation of ORX-synthesizing neurons is necessary for developing a panic-prone state in the rat panic model.",
         "Silencing of the hypothalamic gene encoding ORX (Hcrt) with RNAi blocks panic responses in the rat panic model.",
         "Systemic ORX-1 receptor antagonists block panic responses in the rat panic model.",
+        "Human subjects with panic anxiety have elevated levels of ORX in the cerebrospinal fluid compared to subjects without panic anxiety.",
+        "Results suggest that the ORX system may be involved in the pathophysiology of panic anxiety.",
+        "ORX antagonists constitute a potential new treatment strategy for panic disorder."
+      ],
+      "relations_aware": [
+        "Panic disorder is a severe anxiety disorder with recurrent, debilitating panic attacks.",
+        "Individuals with panic disorder show evidence of decreased central gamma-aminobutyric acid (GABA) activity.",
+        "Individuals with panic disorder exhibit marked increases in autonomic and respiratory responses after intravenous infusions of hypertonic sodium lactate.",
+        "Chronic inhibition of GABA synthesis in the dorsomedial-perifornical hypothalamus of rats produces anxiety-like states in a rat model of panic disorder.",
+        "Chronic inhibition of GABA synthesis in the dorsomedial-perifornical hypothalamus of rats leads to a similar vulnerability to sodium lactate-induced cardioexcitatory responses in a rat model of panic disorder.",
+        "The dorsomedial-perifornical hypothalamus is enriched in neurons containing orexin (ORX, also known as hypocretin).",
+        "Neurons containing orexin (ORX) in the dorsomedial-perifornical hypothalamus have a crucial role in arousal, vigilance, and central autonomic mobilization.",
+        "Activation of ORX-synthesizing neurons is necessary for developing a panic-prone state in the rat panic model.",
+        "Silencing of the hypothalamic gene encoding ORX (Hcrt) with RNAi blocks the panic responses in the rat panic model.",
+        "Systemic ORX-1 receptor antagonists block the panic responses in the rat panic model.",
         "Human subjects with panic anxiety have elevated levels of ORX in the cerebrospinal fluid compared to subjects without panic anxiety.",
         "Results suggest that the ORX system may be involved in the pathophysiology of panic anxiety.",
         "ORX antagonists constitute a potential new treatment strategy for panic disorder."
@@ -14813,6 +15494,19 @@
         "Microbial products upregulate PD-1 levels.",
         "Microbial products induce IL-10 production by monocytes.",
         "Binding of PD-1 by PD-L1 leads to reversible CD4+ T cell dysfunction."
+      ],
+      "relations_aware": [
+        "Viral replication and microbial translocation from the gut to the blood lead to hyperimmune activation during HIV infection.",
+        "Hyperimmune activation contributes to the decline in CD4+ T cell numbers during HIV infection.",
+        "Programmed death-1 (PD-1) is upregulated during HIV infection.",
+        "Interleukin-10 (IL-10) is upregulated during HIV infection.",
+        "Blocking interactions between PD-1 and programmed death ligand-1 (PD-L1) results in viral clearance.",
+        "Blocking interactions between IL-10 and IL-10 receptor (IL-10R) improves T cell function in animal models of chronic viral infections.",
+        "High amounts of microbial products and inflammatory cytokines in the plasma of HIV-infected subjects lead to upregulation of PD-1 expression on monocytes.",
+        "Upregulation of PD-1 expression on monocytes correlates with high plasma concentrations of IL-10 in HIV-infected subjects.",
+        "Triggering of PD-1 expressed on monocytes by PD-L1 induces IL-10 production.",
+        "Triggering of PD-1 by PD-L1 leads to reversible CD4+ T cell dysfunction.",
+        "Microbial products inhibit T cell expansion and function by upregulating PD-1 levels and IL-10 production by monocytes after binding of PD-1 by PD-L1."
       ]
     },
     "entities": [
@@ -15211,6 +15905,20 @@
         "Individuals with chronic granulomatous disease lack NADPH oxidase activity but still develop autoimmunity and type I IFN signatures.",
         "Mitochondrial ROS inhibition in vivo reduces disease severity and type I IFN responses in a mouse model of lupus.",
         "Mitochondria play a role in the generation of NETs and pro-inflammatory oxidized mitochondrial DNA in autoimmune diseases."
+      ],
+      "relations_aware": [
+        "Neutrophil extracellular traps (NETs) are implicated in autoimmunity.",
+        "The generation of NETs and their roles in sterile inflammation remain unclear.",
+        "Ribonucleoprotein immune complexes (RNP ICs) are inducers of NETosis.",
+        "RNP ICs require mitochondrial reactive oxygen species (ROS) for maximal NET stimulation.",
+        "Mitochondria become hypopolarized and translocate to the cell surface after RNP IC stimulation of neutrophils.",
+        "Extracellular release of oxidized mitochondrial DNA is proinflammatory in vitro.",
+        "Oxidized mitochondrial DNA injected into mice stimulates type I interferon (IFN) signaling.",
+        "The DNA sensor STING is involved in the pathway dependent on the injected DNA.",
+        "Mitochondrial ROS are necessary for spontaneous NETosis of low-density granulocytes from individuals with systemic lupus erythematosus.",
+        "Individuals with chronic granulomatous disease lack NADPH oxidase activity but still develop autoimmunity and type I IFN signatures.",
+        "Mitochondrial ROS inhibition in vivo reduces disease severity and type I IFN responses in a mouse model of lupus.",
+        "Mitochondria play a role in the generation of NETs and pro-inflammatory oxidized mitochondrial DNA in autoimmune diseases."
       ]
     },
     "entities": [
@@ -15478,6 +16186,18 @@
         "Systemic pro- and anti-inflammatory signals are crucial to TB disease outcome.",
         "Pro- and anti-inflammatory signals are physically segregated within each granuloma.",
         "The pathologic response to TB is shaped by the precise anatomical localization of inflammatory pathways during granuloma development."
+      ],
+      "relations_aware": [
+        "Granulomas are the pathological hallmark of tuberculosis (TB).",
+        "The function and mechanisms of formation of granulomas remain poorly understood.",
+        "Granulomas play a role in tuberculosis (TB).",
+        "The proteomes of granulomas from subjects with tuberculosis were analyzed in an unbiased manner.",
+        "Detailed molecular maps of human granulomas were generated using laser-capture microdissection, mass spectrometry, and confocal microscopy.",
+        "The centers of granulomas have a pro-inflammatory environment characterized by the presence of antimicrobial peptides, reactive oxygen species, and pro-inflammatory eicosanoids.",
+        "The tissue surrounding the caseum has a comparatively anti-inflammatory signature.",
+        "The balance between systemic pro- and anti-inflammatory signals is crucial to TB disease outcome.",
+        "Pro- and anti-inflammatory signals are physically segregated within each granuloma.",
+        "The pathologic response to TB is shaped by the precise anatomical localization of inflammatory pathways during the development of the granuloma."
       ]
     },
     "entities": [
@@ -15608,6 +16328,19 @@
         "Industrial yeasts originate from only a few ancestors.",
         "Complex patterns of domestication and local divergence are involved in the origin of industrial yeasts.",
         "Industry-specific selection for stress tolerance, sugar utilization, and flavor production is strong.",
+        "The sexual cycle and other survival-related phenotypes show decay in beer yeasts.",
+        "Results shed light on the origins, evolutionary history, and phenotypic diversity of industrial yeasts.",
+        "The study provides a resource for further selection of superior strains."
+      ],
+      "relations_aware": [
+        "Domestication of livestock, pets, and crops is well documented.",
+        "It is still unclear to what extent microbes associated with food production have undergone human selection.",
+        "The plethora of industrial strains' origins are unknown.",
+        "157 industrial Saccharomyces cerevisiae yeasts' genomes and phenomes are presented.",
+        "Today's industrial yeasts can be divided into five sublineages.",
+        "Industrial yeasts are genetically and phenotypically separated from wild strains.",
+        "Industrial yeasts originate from only a few ancestors through complex patterns of domestication and local divergence.",
+        "There is strong industry-specific selection for stress tolerance, sugar utilization, and flavor production in industrial yeasts.",
         "The sexual cycle and other survival-related phenotypes show decay in beer yeasts.",
         "Results shed light on the origins, evolutionary history, and phenotypic diversity of industrial yeasts.",
         "The study provides a resource for further selection of superior strains."
@@ -15825,6 +16558,33 @@
         "In-hospital mortality using clinical criteria declined.",
         "Mortality using claims declined significantly.",
         "Clinical criteria were more sensitive in identifying sepsis than claims.",
+        "EHR-based clinical data provide more objective estimates than claims-based data for sepsis surveillance."
+      ],
+      "relations_aware": [
+        "Claims-based analyses suggest the incidence of sepsis is increasing.",
+        "Mortality rates from sepsis are decreasing.",
+        "Estimates from claims data may lack clinical fidelity.",
+        "Estimates from claims data can be affected by changing diagnosis and coding practices over time.",
+        "The US national incidence of sepsis was estimated using detailed clinical data from EHR systems.",
+        "The study involved adult patients admitted to 409 academic, community, and federal hospitals from 2009-2014.",
+        "Sepsis was identified using clinical indicators of presumed infection and concurrent acute organ dysfunction.",
+        "Third International Consensus Definitions for Sepsis and Septic Shock criteria were adapted for EHR-based surveillance.",
+        "Sepsis incidence, outcomes, and trends from 2009-2014 were calculated using regression models.",
+        "Claims-based estimates were compared with EHR-based estimates.",
+        "Case-finding criteria were validated against Sepsis-3 criteria.",
+        "A total of 173,690 sepsis cases were identified in 2014.",
+        "26,061 sepsis patients died in the hospital.",
+        "10,731 sepsis patients were discharged to hospice.",
+        "Sepsis incidence using clinical criteria was stable from 2009-2014.",
+        "Sepsis incidence per claims increased from 2009-2014.",
+        "In-hospital mortality using clinical criteria declined.",
+        "There was no significant change in the combined outcome of death or discharge to hospice using clinical criteria.",
+        "Mortality using claims declined significantly.",
+        "Death or discharge to hospice using claims declined significantly.",
+        "Clinical criteria were more sensitive in identifying sepsis than claims.",
+        "Clinical criteria had a comparable positive predictive value to claims.",
+        "In clinical data from 409 hospitals, sepsis was present in 6% of adult hospitalizations.",
+        "Neither the incidence of sepsis nor the combined outcome of death or discharge to hospice changed significantly from 2009-2014.",
         "EHR-based clinical data provide more objective estimates than claims-based data for sepsis surveillance."
       ]
     },
@@ -16277,6 +17037,18 @@
         "The pharmacist made 366 recommendations related to drug ordering, of which 362 were accepted by physicians.",
         "The presence of a pharmacist on rounds in a medical ICU was associated with a substantially lower rate of ADEs caused by prescribing errors.",
         "Nearly all the changes recommended by the pharmacist were readily accepted by physicians."
+      ],
+      "relations_aware": [
+        "Pharmacist review of medication orders in the ICU prevents errors.",
+        "Pharmacist consultation reduces drug costs.",
+        "Pharmacist participation in the ICU during drug prescribing reduces adverse events.",
+        "Pharmacist participation in medical rounds in the ICU reduces preventable ADEs caused by ordering errors.",
+        "A senior pharmacist made rounds with the ICU team and remained in the ICU for consultation in the morning.",
+        "The senior pharmacist was available on call throughout the day.",
+        "The rate of preventable ordering ADEs decreased by 66% after the pharmacist intervention.",
+        "The pharmacist made 366 recommendations related to drug ordering.",
+        "99% of the pharmacist's recommendations were accepted by physicians.",
+        "The presence of a pharmacist on rounds in the ICU led to a substantially lower rate of ADEs caused by prescribing errors."
       ]
     },
     "entities": [
@@ -16452,6 +17224,23 @@
         "Knockdown of the deacetylases HDAC6 and Sirt2 rescues axonal transport and locomotor behavior.",
         "The study reveals a pathogenic mechanism for Parkinson's disease.",
         "The study suggests a potential intervention for Parkinson's disease."
+      ],
+      "relations_aware": [
+        "LRRK2 mutations are the most common genetic cause of Parkinson's disease.",
+        "LRRK2 is a multifunctional protein affecting many cellular processes.",
+        "LRRK2 has been described to bind microtubules.",
+        "Defective microtubule-based axonal transport is hypothesized to contribute to Parkinson's disease.",
+        "LRRK2 mutations affect the process to mediate pathogenesis.",
+        "LRRK2 containing pathogenic Roc-COR domain mutations preferentially associates with deacetylated microtubules.",
+        "Mutant LRRK2 inhibits axonal transport in primary neurons and in Drosophila.",
+        "Mutant LRRK2 causes locomotor deficits in vivo.",
+        "Increasing microtubule acetylation using deacetylase inhibitors prevents association of mutant LRRK2 with microtubules.",
+        "The tubulin acetylase αTAT1 prevents association of mutant LRRK2 with microtubules.",
+        "The deacetylase inhibitor trichostatin A (TSA) restores axonal transport.",
+        "Knockdown of the deacetylases HDAC6 and Sirt2 rescues axonal transport and locomotor behavior.",
+        "Administration of TSA rescues both axonal transport and locomotor behavior.",
+        "This study reveals a pathogenic mechanism for Parkinson's disease.",
+        "This study reveals a potential intervention for Parkinson's disease."
       ]
     },
     "entities": [
@@ -16694,6 +17483,16 @@
         "A multiprotein complex is required for the assembly of proteins in the outer membrane (OM) of Escherichia coli.",
         "Genetic interactions exist between genes encoding components of the protein assembly complex and imp, which is involved in the assembly of lipopolysaccharides (LPS) in the outer membrane (OM).",
         "YfgL, one of the lipoprotein components of the protein assembly complex, plays a role in a homeostatic control mechanism that coordinates the overall outer membrane (OM) assembly process."
+      ],
+      "relations_aware": [
+        "Gram-negative bacteria have an outer membrane (OM) that functions as a barrier to protect the cell from toxic compounds such as antibiotics and detergents.",
+        "The outer membrane (OM) of Gram-negative bacteria is a highly asymmetric bilayer composed of phospholipids, glycolipids, and proteins.",
+        "Assembly of the outer membrane (OM) of Gram-negative bacteria occurs outside the cytoplasm.",
+        "The environment where the assembly of the outer membrane (OM) occurs lacks obvious energy sources such as ATP.",
+        "The mechanisms involved in the assembly of the outer membrane (OM) of Gram-negative bacteria are poorly understood.",
+        "A multiprotein complex is required for the assembly of proteins in the outer membrane (OM) of Escherichia coli.",
+        "Genetic interactions exist between genes encoding components of the protein assembly complex and imp, which is involved in the assembly of lipopolysaccharides (LPS) in the outer membrane (OM).",
+        "YfgL, one of the lipoprotein components of the protein assembly complex, plays a role in a homeostatic control mechanism that coordinates the overall outer membrane (OM) assembly process."
       ]
     },
     "entities": [
@@ -16922,6 +17721,25 @@
         "Word list delayed recall and Clinical Dementia Rating sum of boxes improved modestly.",
         "Word list total immediate recall, digit symbol coding, verbal fluency, Beck depression score, and Medical Outcomes 36-Item Short-Form physical and mental component summaries did not change significantly.",
         "In this study of adults with subjective memory impairment, a 6-month program of physical activity provided a modest improvement in cognition over an 18-month follow-up period."
+      ],
+      "relations_aware": [
+        "Many observational studies have shown that physical activity reduces the risk of cognitive decline.",
+        "Evidence from randomized trials is lacking regarding the effect of physical activity on cognitive decline.",
+        "A 24-week physical activity intervention was conducted in metropolitan Perth, Western Australia.",
+        "Assessors of cognitive function were blinded to group membership during the trial.",
+        "Three hundred eleven individuals aged 50 years or older were screened for eligibility.",
+        "A total of 170 participants were randomized for the physical activity intervention.",
+        "138 participants completed the 18-month assessment.",
+        "Participants were randomly allocated to an education and usual care group or to a home-based physical activity program.",
+        "The main outcome measure was the change in Alzheimer Disease Assessment Scale-Cognitive Subscale (ADAS-Cog) scores over 18 months.",
+        "In an intent-to-treat analysis, participants in the intervention group improved 0.26 points on the ADAS-Cog.",
+        "Participants in the usual care group deteriorated 1.04 points on the ADAS-Cog.",
+        "The absolute difference in ADAS-Cog scores between the intervention and control groups was -1.3 points.",
+        "At 18 months, participants in the intervention group improved 0.73 points on the ADAS-Cog.",
+        "Participants in the usual care group improved 0.04 points on the ADAS-Cog.",
+        "Word list delayed recall and Clinical Dementia Rating sum of boxes improved modestly.",
+        "Word list total immediate recall, digit symbol coding, verbal fluency, Beck depression score, and Medical Outcomes 36-Item Short-Form physical and mental component summaries did not change significantly.",
+        "A 6-month program of physical activity provided a modest improvement in cognition over an 18-month follow-up period for adults with subjective memory impairment."
       ]
     },
     "entities": [
@@ -17306,6 +18124,21 @@
         "Blockade of αvβ3 integrin reduces podocyte motility in vitro.",
         "Blockade of αvβ3 integrin lowers proteinuria in mice.",
         "uPAR signaling plays a physiological role in the regulation of kidney permeability."
+      ],
+      "relations_aware": [
+        "Podocyte dysfunction is represented by foot process effacement and proteinuria.",
+        "Foot process effacement is often the starting point for progressive kidney disease.",
+        "Therapies aimed at the cellular level of the disease are not currently available.",
+        "Induction of urokinase receptor (uPAR) signaling in podocytes leads to foot process effacement and urinary protein loss.",
+        "The mechanism includes lipid-dependent activation of αvβ3 integrin.",
+        "Mice lacking uPAR (Plaur−/−) are protected from lipopolysaccharide (LPS)-mediated proteinuria.",
+        "Mice lacking uPAR (Plaur−/−) develop disease after expression of a constitutively active β3 integrin.",
+        "Gene transfer studies reveal a prerequisite for uPAR expression in podocytes for the development of LPS-mediated proteinuria.",
+        "uPAR is required to activate αvβ3 integrin in podocytes.",
+        "Activation of αvβ3 integrin promotes cell motility and activation of the small GTPases Cdc42 and Rac1.",
+        "Blockade of αvβ3 integrin reduces podocyte motility in vitro.",
+        "Blockade of αvβ3 integrin lowers proteinuria in mice.",
+        "Our findings show a physiological role for uPAR signaling in the regulation of kidney permeability."
       ]
     },
     "entities": [
@@ -17529,6 +18362,18 @@
         "Mothers with a history of abuse and poor social integration were more likely to have children with persistent mental health problems.",
         "Homeless families have complex needs that cannot be met by conventional health services and arrangements.",
         "Local strategies for rapid rehousing, effective social support, health care for parents and children, and protection from violence and intimidation should be developed and implemented."
+      ],
+      "relations_aware": [
+        "The study aimed to establish the mental health needs of homeless children and families before and after rehousing.",
+        "The study had a cross-sectional, longitudinal design.",
+        "The study was conducted in the City of Birmingham.",
+        "There were 58 rehoused families with 103 children aged 2-16 years and 21 comparison families of low socioeconomic status in stable housing, with 54 children as subjects.",
+        "The main outcome measures included children's mental health problems and level of communication; mothers' mental health problems and social support one year after rehousing.",
+        "Mental health problems remained significantly higher in rehoused mothers and their children compared to the comparison group (mothers 26% v 5%, P = 0.04; children 39% v 11%, P = 0.0003).",
+        "Homeless mothers continued to have significantly less social support at follow-up.",
+        "Mothers with a history of abuse and poor social integration were more likely to have children with persistent mental health problems.",
+        "Homeless families have a high level of complex needs that cannot be met by conventional health services and arrangements.",
+        "Local strategies for rapid rehousing into permanent accommodation, effective social support and health care for parents and children, and protection from violence and intimidation should be developed and implemented."
       ]
     },
     "entities": [
@@ -17790,6 +18635,23 @@
         "Inhibitory histone methyltransferases prevent other classes of regulated transcription factors from binding to target gene promoters.",
         "Specific histone demethylases, including LSD1, permit ligand- and signal-dependent activation of regulated gene expression.",
         "An inhibitory methylation component of the histone code is linked to a strategy that prevents constitutive gene induction by regulated transcription factors."
+      ],
+      "relations_aware": [
+        "Nuclear receptors undergo ligand-dependent conformational changes.",
+        "Corepressor-coactivator exchange is required for nuclear receptors.",
+        "Specific epigenetic landmarks are required for gene activation.",
+        "There is a requirement for specific cohorts of inhibitory histone methyltransferases.",
+        "Inhibitory histone methyltransferases impose gene-specific gatekeeper functions.",
+        "Inhibitory histone code is based on specific cohorts of inhibitory histone methyltransferases.",
+        "Specific cohorts of inhibitory histone methyltransferases prevent unliganded nuclear receptors from binding to target gene promoters.",
+        "Specific cohorts of inhibitory histone methyltransferases prevent other classes of regulated transcription factors from binding to target gene promoters.",
+        "Constitutive gene activation is prevented by inhibitory histone methyltransferases.",
+        "An HMT-dependent inhibitory histone code is part of the strategy.",
+        "Specific histone demethylases are required for gene activation.",
+        "LSD1 is a specific histone demethylase.",
+        "Ligand- and signal-dependent activation of regulated gene expression is permitted by specific histone demethylases.",
+        "Inhibitory methylation component of the histone code is linked to a strategy that circumvents pathological constitutive gene induction.",
+        "Physiologically regulated transcription factors are involved in circumventing pathological constitutive gene induction."
       ]
     },
     "entities": [
@@ -17928,6 +18790,24 @@
         "LC3/Atg8 is involved in autophagy membrane trafficking and substrate delivery.",
         "LC3/Atg8 directly interacts with the nuclear lamina protein lamin B1.",
         "LC3/Atg8 binds to lamin-associated domains on chromatin.",
+        "LC3-lamin B1 interaction mediates lamin B1 degradation upon oncogenic insults.",
+        "Lamin B1 degradation is achieved by nucleus-to-cytoplasm transport.",
+        "Nucleus-to-cytoplasm transport delivers lamin B1 to the lysosome.",
+        "Inhibiting autophagy prevents activated RAS-induced lamin B1 loss.",
+        "Inhibiting the LC3-lamin B1 interaction prevents activated RAS-induced lamin B1 loss.",
+        "Inhibiting autophagy attenuates oncogene-induced senescence in primary human cells.",
+        "Autophagy acts as a guarding mechanism protecting cells from tumorigenesis."
+      ],
+      "relations_aware": [
+        "Macroautophagy is a catabolic membrane trafficking process.",
+        "Autophagy degrades a variety of cellular constituents.",
+        "Autophagy is associated with human diseases.",
+        "Autophagy mediates degradation of nuclear lamina components in mammals.",
+        "LC3/Atg8 is involved in autophagy membrane trafficking and substrate delivery.",
+        "LC3/Atg8 is present in the nucleus.",
+        "LC3/Atg8 directly interacts with lamin B1.",
+        "LC3/Atg8 binds to lamin-associated domains on chromatin.",
+        "LC3-lamin B1 interaction does not downregulate lamin B1 during starvation.",
         "LC3-lamin B1 interaction mediates lamin B1 degradation upon oncogenic insults.",
         "Lamin B1 degradation is achieved by nucleus-to-cytoplasm transport.",
         "Nucleus-to-cytoplasm transport delivers lamin B1 to the lysosome.",
@@ -18192,6 +19072,27 @@
         "Failure of PIN polarization alters asymmetric auxin distribution during embryogenesis.",
         "Ectopic expression of auxin pathway-associated root-forming master regulators occurs.",
         "Endocytosis plays an essential role in the generation of PIN polar localization."
+      ],
+      "relations_aware": [
+        "Dynamically polarized membrane proteins define different cell boundaries.",
+        "Membrane proteins have an important role in intercellular communication.",
+        "Efflux carriers for auxin from the PIN family are landmarks of cell polarity in plants.",
+        "Efflux carriers have a crucial involvement in auxin distribution-dependent development.",
+        "Efflux carriers are involved in embryo patterning, organogenesis, and tropisms.",
+        "Polar PIN localization determines the direction of intercellular auxin flow.",
+        "Mechanisms generating PIN polarity remain unclear.",
+        "An endocytosis-dependent mechanism of PIN polarity generation was identified.",
+        "Endocytosis has developmental implications.",
+        "Real-time PIN tracking showed that PINs are initially delivered to the plasma membrane in a non-polar manner.",
+        "PIN polarity is established by subsequent endocytic recycling.",
+        "Interference with PIN endocytosis prevents PIN polarization.",
+        "Failure of PIN polarization alters asymmetric auxin distribution during embryogenesis.",
+        "Failure of PIN polarization increases the local auxin response in apical embryo regions.",
+        "Ectopic expression of auxin pathway-associated root-forming master regulators occurs in embryonic leaves.",
+        "Ectopic expression promotes homeotic transformation of leaves to roots.",
+        "Results indicate a two-step mechanism for the generation of PIN polar localization.",
+        "Endocytosis plays an essential role in the process of PIN polar localization.",
+        "Endocytosis-dependent polarity of individual cells is linked to auxin distribution-dependent cell fate establishment."
       ]
     },
     "entities": [
@@ -18462,6 +19363,22 @@
         "Fewer infants in the n-3 LCPUFA group were sensitized to egg.",
         "n-3 LCPUFA supplementation in pregnancy did not reduce the overall incidence of immunoglobulin E associated allergies in the first year of life.",
         "Longer term follow-up is needed to determine the effects of supplementation on respiratory allergic diseases and aeroallergen sensitization in childhood."
+      ],
+      "relations_aware": [
+        "Dietary n-3 long chain polyunsaturated fatty acid (LCPUFA) supplementation was given to pregnant women with a fetus at high risk of allergic disease.",
+        "The supplementation aimed to reduce immunoglobulin E associated eczema or food allergy at 1 year of age.",
+        "The follow-up was conducted on infants at high hereditary risk of allergic disease in the DOMInO trial.",
+        "The study took place in Adelaide, South Australia.",
+        "706 infants at high hereditary risk of developing allergic disease were involved in the study.",
+        "The intervention group received fish oil capsules providing 900 mg of n-3 LCPUFA daily.",
+        "The control group received matched vegetable oil capsules without n-3 LCPUFA.",
+        "No differences were observed in the overall percentage of infants with immunoglobulin E associated allergic disease between the n-3 LCPUFA and control groups.",
+        "The percentage of infants diagnosed with atopic eczema was lower in the n-3 LCPUFA group.",
+        "Fewer infants were sensitised to egg in the n-3 LCPUFA group.",
+        "No difference between groups in immunoglobulin E associated food allergy was seen.",
+        "n-3 LCPUFA supplementation in pregnancy did not reduce the overall incidence of immunoglobulin E associated allergies in the first year of life.",
+        "Atopic eczema and egg sensitisation were lower in the n-3 LCPUFA group.",
+        "Longer term follow-up is needed to determine if supplementation has an effect on respiratory allergic diseases and aeroallergen sensitisation in childhood."
       ]
     },
     "entities": [
@@ -18934,6 +19851,17 @@
         "The threshold for target repression release is insensitive to the effective levels of the miRNA.",
         "In response to extreme metabolic liver disease models, global target site abundance of hepatocytes did not change sufficiently to affect miRNA-mediated repression.",
         "Modulation of miRNA target abundance is unlikely to cause significant effects on gene expression and metabolism through a ceRNA effect."
+      ],
+      "relations_aware": [
+        "Recent studies have reported that competitive endogenous RNAs (ceRNAs) can act as sponges for a microRNA (miRNA) through their binding sites.",
+        "Changes in ceRNA abundances from individual genes can modulate the activity of miRNAs.",
+        "Consideration of this hypothesis would benefit from knowing the quantitative relationship between a miRNA and its endogenous target sites.",
+        "Intracellular target site abundance was altered through expression of an miR-122 target in hepatocytes and livers.",
+        "The effects on miR-122 target genes were analyzed.",
+        "Target repression was released in a threshold-like manner at high target site abundance (≥1.5 × 10(5) added target sites per cell).",
+        "The threshold for target repression was insensitive to the effective levels of the miRNA.",
+        "In response to extreme metabolic liver disease models, global target site abundance of hepatocytes did not change sufficiently to affect miRNA-mediated repression.",
+        "Modulation of miRNA target abundance is unlikely to cause significant effects on gene expression and metabolism through a ceRNA effect."
       ]
     },
     "entities": [
@@ -19043,6 +19971,19 @@
         "Phosphorylation of MafA by GSK-3 induces its ubiquitination and degradation.",
         "Phosphorylation of MafA by GSK-3 increases MafA-transcriptional activity.",
         "The recruitment of the coactivator P/CAF increases MafA-transcriptional activity.",
+        "P/CAF protects MafA from ubiquitination and degradation.",
+        "Upon the release of the coactivator complex, MafA becomes polyubiquitinated and degraded."
+      ],
+      "relations_aware": [
+        "Maf oncoproteins are b-Zip transcription factors of the AP-1 superfamily.",
+        "Maf proteins are overexpressed in about 50% of human multiple myelomas.",
+        "Maf-transforming activity is controlled by GSK-3-dependent phosphorylation.",
+        "Phosphorylation by GSK-3 can increase the oncogenic activity of a protein.",
+        "GSK-3 triggers MafA sequential phosphorylation on residues S61, T57, T53, and S49.",
+        "GSK-3-mediated Maf phosphorylation is involved in extracellular matrix remodeling.",
+        "GSK-3-mediated Maf phosphorylation is relevant to cancer progression.",
+        "MafA sequential phosphorylation induces ubiquitination and degradation.",
+        "Phosphorylation increases MafA-transcriptional activity through the recruitment of the coactivator P/CAF.",
         "P/CAF protects MafA from ubiquitination and degradation.",
         "Upon the release of the coactivator complex, MafA becomes polyubiquitinated and degraded."
       ]
@@ -19268,6 +20209,24 @@
         "Orlistat has specific adverse effects.",
         "Sibutramine has specific adverse effects.",
         "Rimonabant has specific adverse effects."
+      ],
+      "relations_aware": [
+        "The long term efficacy of anti-obesity drugs in reducing weight and improving health status was summarised.",
+        "An updated meta-analysis of randomised trials was conducted.",
+        "Data was sourced from Medline, Embase, the Cochrane controlled trials register, the Current Science meta-register of controlled trials, and reference lists of identified articles.",
+        "30 trials of one to four years' duration were reviewed.",
+        "Orlistat reduced weight by 2.9 kg compared to placebo.",
+        "Sibutramine reduced weight by 4.2 kg compared to placebo.",
+        "Rimonabant reduced weight by 4.7 kg compared to placebo.",
+        "Patients receiving active drug treatment were more likely to achieve 5% and 10% weight loss thresholds.",
+        "Orlistat reduced the incidence of diabetes and improved concentrations of total cholesterol and low density lipoprotein cholesterol.",
+        "Orlistat improved blood pressure and glycaemic control in patients with diabetes.",
+        "Orlistat increased rates of gastrointestinal side effects and slightly lowered concentrations of high density lipoprotein.",
+        "Sibutramine improved concentrations of high density lipoprotein cholesterol and triglycerides.",
+        "Rimonabant improved concentrations of high density lipoprotein cholesterol and triglycerides, blood pressure, and glycaemic control in patients with diabetes.",
+        "Rimonabant increased the risk of mood disorders.",
+        "Orlistat, sibutramine, and rimonabant modestly reduce weight.",
+        "The drugs have differing effects on cardiovascular risk profiles and specific adverse effects."
       ]
     },
     "entities": [
@@ -19884,6 +20843,18 @@
         "Pol mu, pol lambda, and TdT have distinct catalytic specificities.",
         "Pol lambda maintains a large heavy chain junctional heterogeneity.",
         "Pol mu ensures a restricted light chain junctional variability."
+      ],
+      "relations_aware": [
+        "DNA polymerases mu, lambda, and terminal deoxynucleotidyltransferase are enzymes of the pol X family.",
+        "DNA polymerases mu, lambda, and terminal deoxynucleotidyltransferase share homology in sequence and functional domain organization.",
+        "Pol mu participates in light chain gene rearrangement.",
+        "Pol mu does not participate in heavy chain gene rearrangement.",
+        "Immunoglobulin heavy chain junctions from pol lambda-deficient animals have shorter length with normal N-additions.",
+        "Pol lambda is recruited during heavy chain rearrangement.",
+        "The recruitment of pol lambda precedes the action of TdT.",
+        "There are no overlapping or compensatory activities for V(D)J recombination between pol mu, pol lambda, and TdT.",
+        "Pol lambda maintains a large heavy chain junctional heterogeneity.",
+        "Pol mu ensures a restricted light chain junctional variability."
       ]
     },
     "entities": [
@@ -20114,6 +21085,14 @@
         "Mitochondrial dysfunction has pleiotropic effects in multicellular organisms.",
         "Much about the basic biology of mitochondria remains to be understood.",
         "The dynamics (fusion and fission) of mitochondria organelles is important in development and disease."
+      ],
+      "relations_aware": [
+        "Mitochondria are the primary energy-generating system in most eukaryotic cells.",
+        "Mitochondria participate in intermediary metabolism, calcium signaling, and apoptosis.",
+        "Mitochondrial dysfunction would give rise to a simple and predictable set of defects in all tissues.",
+        "Mitochondrial dysfunction has pleiotropic effects in multicellular organisms.",
+        "Much about the basic biology of mitochondria remains to be understood.",
+        "The dynamics (fusion and fission) of mitochondria organelles is important in development and disease."
       ]
     },
     "entities": [
@@ -20241,6 +21220,22 @@
         "N348I decreased zidovudine susceptibility 2- to 4-fold in the context of wildtype HIV-1 or when combined with TAMs.",
         "N348I decreased susceptibility to nevirapine (7.4-fold) and efavirenz (2.5-fold) and significantly potentiated resistance to these drugs when combined with K103N.",
         "Biochemical analyses of recombinant RT containing N348I provide supporting evidence for the role of this mutation in zidovudine and NNRTI resistance."
+      ],
+      "relations_aware": [
+        "The catalytically active 66-kDa subunit of HIV-1 RT consists of DNA polymerase, connection, and RNase H domains.",
+        "RT inhibitor resistance mutations map to the polymerase domain of the enzyme.",
+        "The connection and RNase H domains are not routinely analyzed in clinical samples.",
+        "Genotyping assays do not sequence the entire RT coding region.",
+        "The British Columbia Centre for Excellence in HIV/AIDS genotypes clinical isolates up to codon 400 in RT.",
+        "The Centre's database identified an N348I mutation in the RT connection domain in treatment-experienced individuals.",
+        "The study aimed to establish the in vivo relevance of the N348I mutation and its role in drug resistance.",
+        "N348I prevalence increased from below 1% in treatment-naive individuals to 12.1% in treatment-experienced patients.",
+        "N348I emerged early in therapy and was associated with TAMs M41L and T215Y/F, lamivudine resistance mutations M184V/I, and NNRTI resistance mutations K103N and Y181C/I.",
+        "N348I selection was observed in patients treated with regimens including zidovudine and nevirapine.",
+        "The appearance of N348I led to a significant increase in viral load.",
+        "N348I decreased zidovudine susceptibility 2- to 4-fold and nevirapine susceptibility 7.4-fold.",
+        "N348I potentiated resistance to nevirapine when combined with K103N.",
+        "Recombinant RT containing N348I provided evidence for its role in zidovudine and NNRTI resistance."
       ]
     },
     "entities": [
@@ -20732,6 +21727,24 @@
         "Lrh-1 is necessary for promotion of decidualization.",
         "Lrh-1 is necessary for formation of the placenta.",
         "Lrh-1 has multiple indispensible roles in establishing and sustaining pregnancy."
+      ],
+      "relations_aware": [
+        "Liver receptor homolog-1 (Lrh-1) regulates metabolism and hormone synthesis.",
+        "Lrh-1 is strongly expressed in granulosa cells of ovarian follicles.",
+        "Lrh-1 is strongly expressed in the corpus luteum of rodents and humans.",
+        "Germline ablation of Nr5a2 (Lrh-1) in mice is embryonically lethal at gastrulation.",
+        "Depletion of Lrh-1 in the ovarian follicle regulates genes required for steroid synthesis and ovulation.",
+        "Genetic disruption of Lrh-1 expression in the corpus luteum results in luteal insufficiency.",
+        "Hormone replacement permits embryo implantation but leads to gestational failure with impaired endometrial decidualization.",
+        "Gestational failure with impaired endometrial decidualization is caused by depletion of Lrh-1 in the corpus luteum.",
+        "Gestational failure with impaired endometrial decidualization compromises placental formation.",
+        "Gestational failure with impaired endometrial decidualization results in fetal growth retardation and fetal death.",
+        "Lrh-1 is expressed in the mouse and human endometrium.",
+        "Reduction of NR5A2 transcript abundance by RNA interference abrogates decidualization in human endometrial stromal cells.",
+        "Lrh-1 is necessary for maintenance of the corpus luteum.",
+        "Lrh-1 is necessary for promotion of decidualization.",
+        "Lrh-1 is necessary for formation of the placenta.",
+        "Lrh-1 has multiple, indispensible roles in establishing and sustaining pregnancy."
       ]
     },
     "entities": [
@@ -20952,6 +21965,20 @@
         "Genetic and epidemiological evidence suggests an inverse association between B-type natriuretic peptide (BNP) levels in blood and risk of type 2 diabetes (T2D).",
         "The association between levels of the N-terminal fragment of pro-BNP (NT-pro-BNP) in blood and risk of incident T2D was analyzed in a prospective case-cohort study.",
         "The variant rs198389 within the BNP locus was genotyped in three T2D case-control studies."
+      ],
+      "relations_aware": [
+        "Genetic and epidemiological evidence suggests an inverse association between B-type natriuretic peptide (BNP) levels in blood and risk of type 2 diabetes (T2D).",
+        "The prospective association of BNP with T2D is uncertain.",
+        "It is unclear whether the association between BNP levels and T2D is confounded.",
+        "The association between levels of the N-terminal fragment of pro-BNP (NT-pro-BNP) in blood and risk of incident T2D was analyzed in a prospective case-cohort study.",
+        "The variant rs198389 within the BNP locus was genotyped in three T2D case-control studies.",
+        "Results were combined with existing data in a meta-analysis of 11 case-control studies.",
+        "A Mendelian randomization approach was used to compare the observed association between rs198389 and T2D to that expected from the NT-pro-BNP level to T2D association and the NT-pro-BNP difference per C allele of rs198389.",
+        "In participants of the case-cohort study who were free of T2D and cardiovascular disease at baseline, a 21% decreased risk of incident T2D per one standard deviation higher log-transformed NT-pro-BNP levels was observed.",
+        "The association between rs198389 and T2D observed in case-control studies was similar to that expected based on the pooled estimate for the log-NT-pro-BNP level to T2D association derived from a meta-analysis of the study and published data.",
+        "No significant associations were observed between the rs198389 genotype and potential confounders.",
+        "Results provide evidence for a potential causal role of the BNP system in the aetiology of T2D.",
+        "Further studies are needed to investigate the mechanisms underlying the association between BNP and T2D and possibilities for preventive interventions."
       ]
     },
     "entities": [
@@ -21242,6 +22269,17 @@
         "TLX1 and TLX3 are placed at the top of an oncogenic transcriptional network controlling leukemia development.",
         "Network analyses can identify key elements in the regulatory circuits governing human cancer.",
         "RUNX1 is identified as a tumor-suppressor gene in T-ALL."
+      ],
+      "relations_aware": [
+        "TLX1 and TLX3 transcription factor oncogenes have a key role in the pathogenesis of T-ALL.",
+        "Reverse engineering of global transcriptional networks was used to decipher the oncogenic regulatory circuit controlled by TLX1 and TLX3.",
+        "Systems biology analysis defined TLX1 and TLX3 as master regulators of an oncogenic transcriptional circuit governing T-ALL.",
+        "Network structure analysis identified RUNX1 as a key mediator of T-ALL induced by TLX1 and TLX3.",
+        "A tumor-suppressor role for RUNX1 in T cell transformation was predicted.",
+        "Recurrent somatic loss-of-function mutations in RUNX1 were identified in human T-ALL.",
+        "TLX1 and TLX3 are at the top of an oncogenic transcriptional network controlling leukemia development.",
+        "Network analyses can identify key elements in the regulatory circuits governing human cancer.",
+        "RUNX1 is a tumor-suppressor gene in T-ALL."
       ]
     },
     "entities": [
@@ -21498,6 +22536,31 @@
         "The Prospective Studies Collaboration investigated associations between baseline BMI and mortality.",
         "The analyses were adjusted for age, sex, smoking status, and study.",
         "Each 5 kg/m(2) higher BMI was associated with about 30% higher overall mortality."
+      ],
+      "relations_aware": [
+        "Body-mass index (BMI) is associated with overall and cause-specific mortality.",
+        "The Prospective Studies Collaboration aimed to investigate associations between BMI and mortality.",
+        "Collaborative analyses were undertaken of baseline BMI versus mortality in 57 prospective studies.",
+        "The analyses were adjusted for age, sex, smoking status, and study.",
+        "The first 5 years of follow-up were excluded to limit reverse causality.",
+        "There were 66,552 deaths of known cause during a mean of 8 further years of follow-up.",
+        "Mortality was lowest at about 22.5-25 kg/m(2) in both sexes.",
+        "Above the range of 22.5-25 kg/m(2), positive associations were recorded for several specific causes.",
+        "Each 5 kg/m(2) higher BMI was associated with about 30% higher overall mortality.",
+        "Higher BMI and smoking had roughly additive absolute excess risks.",
+        "Higher BMI was associated with 40% higher vascular mortality.",
+        "Higher BMI was associated with 60-120% higher diabetic, renal, and hepatic mortality.",
+        "Higher BMI was associated with 10% higher neoplastic mortality.",
+        "Higher BMI was associated with 20% higher respiratory and all other mortality.",
+        "Below the range of 22.5-25 kg/m(2), BMI was inversely associated with overall mortality.",
+        "BMI was strongly inversely associated with respiratory disease and lung cancer.",
+        "Inverse associations with respiratory disease and lung cancer were stronger for smokers than non-smokers.",
+        "Cigarette consumption per smoker varied little with BMI.",
+        "BMI is a strong predictor of overall mortality both above and below the range of 22.5-25 kg/m(2).",
+        "Excess mortality above the range is mainly due to vascular disease and is probably largely causal.",
+        "At 30-35 kg/m(2), median survival is reduced by 2-4 years.",
+        "At 40-45 kg/m(2), median survival is reduced by 8-10 years, comparable to the effects of smoking.",
+        "Excess mortality below 22.5 kg/m(2) is mainly due to smoking-related diseases."
       ]
     },
     "entities": [
@@ -21873,6 +22936,20 @@
         "SNS-PKG-I(-/-) mice show defects in activity-induced nociceptive hypersensitivity.",
         "Presynaptic mechanisms involving an increase in release probability from nociceptors are operational in the expression of synaptic LTP.",
         "PKG-I in presynaptic nociceptor terminals plays an essential role in regulating pain sensitivity."
+      ],
+      "relations_aware": [
+        "Synaptic long-term potentiation (LTP) at spinal neurons communicates pain-specific inputs from the periphery to the brain.",
+        "LTP has been proposed to trigger pain hypersensitivity in pathological states.",
+        "Previous studies have implicated the NMDA receptor-NO pathway and cGMP in these processes.",
+        "cGMP can influence diverse ion-channels, kinases, and phosphodiesterases.",
+        "The precise identity of cGMP targets mediating spinal LTP is unclear.",
+        "Protein Kinase G1 (PKG-I) localized presynaptically in nociceptor terminals plays a role in spinal LTP.",
+        "Nociceptor-specific knockout mice lacking PKG-I in presynaptic terminals showed abolished LTP.",
+        "Activity-induced LTP at synapses between nociceptors and spinal neurons projecting to the periaqueductal grey (PAG) was abolished in knockout mice.",
+        "Presynaptic PKG-I regulates the probability of neurotransmitter release.",
+        "Inositol 1,4,5-triphosphate receptor 1 and myosin light chain kinase are phosphorylation targets of presynaptic PKG-I.",
+        "SNS-PKG-I(-/-) mice showed defects in activity-induced nociceptive hypersensitivity.",
+        "Pharmacological studies identified a contribution of PKG-I in spinal terminals of nociceptors to pain sensitivity regulation."
       ]
     },
     "entities": [
@@ -22334,6 +23411,18 @@
         "MDSCs induce nitration of TCR-CD8 through hyperproduction of reactive oxygen species and peroxynitrite during direct cell-cell contact.",
         "Molecular modeling suggests specific sites of nitration that affect the conformational flexibility of TCR-CD8 and its interaction with pMHC.",
         "The identified mechanism of T-cell tolerance in cancer is also pertinent to many pathological conditions associated with accumulation of MDSCs."
+      ],
+      "relations_aware": [
+        "Antigen-specific CD8+ T-cell tolerance is induced by myeloid-derived suppressor cells (MDSCs).",
+        "CD8+ T-cell tolerance is one of the main mechanisms of tumor escape.",
+        "MDSCs directly disrupt the binding of specific peptide–major histocompatibility complex (pMHC) dimers to CD8-expressing T cells.",
+        "Nitration of tyrosines in a T-cell receptor (TCR)-CD8 complex is involved in the disruption of binding.",
+        "CD8-expressing T cells become unable to bind pMHC and respond to the specific peptide due to nitration.",
+        "CD8-expressing T cells retain their ability to respond to nonspecific stimulation.",
+        "Nitration of TCR-CD8 is induced by MDSCs through hyperproduction of reactive oxygen species and peroxynitrite during direct cell-cell contact.",
+        "Molecular modeling suggests specific sites of nitration that affect the conformational flexibility of TCR-CD8 and its interaction with pMHC.",
+        "The data identify a previously unknown mechanism of T-cell tolerance in cancer.",
+        "The mechanism is pertinent to many pathological conditions associated with accumulation of MDSCs."
       ]
     },
     "entities": [
@@ -22533,6 +23622,15 @@
         "Specific molecular pathways have been identified in which tumors stimulate platelet production and activation.",
         "Activated platelets can promote tumor growth and metastasis.",
         "Findings provide potential targets for therapeutic intervention."
+      ],
+      "relations_aware": [
+        "Paraneoplastic thrombocytosis is associated with many solid tumors.",
+        "Paraneoplastic thrombocytosis often correlates with reduced survival.",
+        "Recent studies suggest a pathogenic feedback loop may be operative between platelets and tumor cells.",
+        "Reciprocal interactions exist between tumor growth/metastasis and thrombocytosis/platelet activation.",
+        "Specific molecular pathways have been identified in which tumors can stimulate platelet production and activation.",
+        "Activated platelets can promote tumor growth and metastasis.",
+        "Findings provide potential targets for therapeutic intervention."
       ]
     },
     "entities": [
@@ -22655,6 +23753,19 @@
         "PDS enhances the replication defect intrinsic to HR deficiency.",
         "PDS toxicity extends to HR-defective cells that have acquired olaparib resistance through loss of 53BP1 or REV7.",
         "These results highlight the therapeutic potential of G4-stabilizing drugs to selectively eliminate HR-compromised cells and tumors, including those resistant to PARP inhibition."
+      ],
+      "relations_aware": [
+        "G-quadruplex (G4)-forming genomic sequences, including telomeres, represent natural replication fork barriers.",
+        "Stalled replication forks can be stabilized and restarted by homologous recombination (HR).",
+        "HR repairs DNA double-strand breaks (DSBs) arising at collapsed forks.",
+        "HR facilitates telomere replication.",
+        "The replication efficiency of guanine-rich (G-rich) telomeric repeats is decreased significantly in cells lacking HR.",
+        "Treatment with the G4-stabilizing compound pyridostatin (PDS) increases telomere fragility in BRCA2-deficient cells.",
+        "G4 formation drives telomere instability.",
+        "PDS reduces proliferation of HR-defective cells by inducing DSB accumulation, checkpoint activation, and deregulated G2/M progression.",
+        "PDS enhances the replication defect intrinsic to HR deficiency.",
+        "PDS toxicity extends to HR-defective cells that have acquired olaparib resistance through loss of 53BP1 or REV7.",
+        "G4-stabilizing drugs have therapeutic potential to selectively eliminate HR-compromised cells and tumors, including those resistant to PARP inhibition."
       ]
     },
     "entities": [
@@ -22822,6 +23933,19 @@
         "Rapamycin alters both autophagy and translation in increasing longevity.",
         "Rapamycin increases life span of weak insulin/Igf signaling (IIS) pathway mutants.",
         "Rapamycin increases life span of flies with life span maximized by dietary restriction."
+      ],
+      "relations_aware": [
+        "The target of rapamycin (TOR) pathway is a major nutrient-sensing pathway.",
+        "Genetically downregulating TOR pathway increases life span in diverse organisms including mammals.",
+        "TOR kinase is the central component of the TOR pathway.",
+        "TOR kinase is the target of the inhibitory drug rapamycin.",
+        "Rapamycin is a highly specific and well-described drug approved for human use.",
+        "Feeding rapamycin to adult Drosophila produces life span extension seen in some TOR mutants.",
+        "Increase in life span by rapamycin is associated with increased resistance to starvation and paraquat.",
+        "Rapamycin increases longevity specifically through the TORC1 branch of the TOR pathway.",
+        "Rapamycin alters both autophagy and translation to increase longevity.",
+        "Rapamycin increases life span of weak insulin/Igf signaling (IIS) pathway mutants.",
+        "Rapamycin increases life span of flies with life span maximized by dietary restriction."
       ]
     },
     "entities": [
@@ -22978,6 +24102,18 @@
         "KDM4E plays a more crucial role in in vitro fertilized (IVF) and somatic cell nuclear transfer (SCNT) embryonic development.",
         "Overexpression of KDM4E can restore the global transcriptome, improve blastocyst formation, and increase the cloning efficiency of SCNT embryos.",
         "KDM4E functions as a crucial epigenetic regulator of embryonic genome activation (EGA) and as an internal defective factor responsible for persistent H3K9me3/2 barriers to SCNT-mediated reprogramming.",
+        "Interactions between RNA and KDM4E are essential for H3K9 demethylation during embryonic genome activation (EGA).",
+        "These observations advance the understanding of incomplete nuclear reprogramming and are of great importance for transgenic cattle procreation."
+      ],
+      "relations_aware": [
+        "Aberrant epigenetic reprogramming often results in developmental defects in somatic cell nuclear transfer (SCNT) embryos during embryonic genome activation (EGA).",
+        "Bovine eight-cell SCNT embryos exhibit global hypermethylation of histone H3 lysine 9 tri- and di-methylation (H3K9me3/2).",
+        "The intrinsic reason for global hypermethylation of histone H3 lysine 9 tri- and di-methylation (H3K9me3/2) in bovine eight-cell SCNT embryos remains elusive.",
+        "Two H3K9 demethylase genes, lysine-specific demethylase 4D (KDM4D) and 4E (KDM4E), are related to active H3K9me3/2 demethylation in in vitro fertilized (IVF) embryos.",
+        "KDM4D and KDM4E are deficiently expressed in cloned embryos at the time of EGA.",
+        "KDM4E plays a more crucial role in in vitro fertilized (IVF) and somatic cell nuclear transfer (SCNT) embryonic development.",
+        "Overexpression of KDM4E can restore the global transcriptome, improve blastocyst formation, and increase the cloning efficiency of SCNT embryos.",
+        "KDM4E can function as a crucial epigenetic regulator of embryonic genome activation (EGA) and as an internal defective factor responsible for persistent H3K9me3/2 barriers to SCNT-mediated reprogramming.",
         "Interactions between RNA and KDM4E are essential for H3K9 demethylation during embryonic genome activation (EGA).",
         "These observations advance the understanding of incomplete nuclear reprogramming and are of great importance for transgenic cattle procreation."
       ]
@@ -23450,6 +24586,26 @@
         "The ratio of inapparent to symptomatic infections was nearly 1:1 among child enrollees during primarily DENV-4 transmission seasons.",
         "Active school-based dengue case detection could contain recent virus introductions and reduce the risk of virus spread within rural areas.",
         "Cluster methodology could serve as a useful research tool for investigation of other temporally and spatially clustered infectious diseases."
+      ],
+      "relations_aware": [
+        "Dengue viruses (DENV) are the leading cause of arboviral disease worldwide.",
+        "Transmission of DENV is known to vary through time and space.",
+        "Variation in transmission patterns is fundamental for disease prevention strategies.",
+        "Improved understanding of transmission patterns is essential for surveillance.",
+        "DENV transmission is spatially and temporally focal.",
+        "Geographic and temporal characteristics were compared within Thai villages for DENV transmission.",
+        "Cluster investigations were conducted within 100 m of homes with febrile index children.",
+        "Data on human infection and mosquito infection/density were examined.",
+        "All 27 DENV infections occurred in positive clusters.",
+        "DENV infections were aggregated centrally near homes of index cases.",
+        "Dengue infections were observed subsequent to cluster investigation.",
+        "All dengue-infected mosquitoes came from houses in positive clusters.",
+        "Positive clusters had a greater number of Ae. aegypti pupae per person.",
+        "The ratio of inapparent to symptomatic infections was nearly 1:1 among child enrollees.",
+        "DENV transmission is remarkably focal within a hyperendemic rural area of Thailand.",
+        "Active school-based dengue case detection could contain recent virus introductions.",
+        "Local spraying could reduce the longitudinal risk of virus spread within rural areas.",
+        "Cluster methodology could serve as a useful research tool for investigating infectious diseases."
       ]
     },
     "entities": [
@@ -23834,6 +24990,23 @@
         "Antidepressant treatment was associated with various adverse outcomes in older people with depression.",
         "Selective serotonin reuptake inhibitors were associated with the highest adjusted hazard ratios for falls and hyponatraemia.",
         "Other antidepressants were associated with the highest adjusted hazard ratios for all cause mortality, attempted suicide/self harm, stroke/transient ischaemic attack, fracture, and epilepsy/seizures."
+      ],
+      "relations_aware": [
+        "Antidepressant treatment was associated with several potential adverse outcomes in older people with depression.",
+        "The risks were examined by class of antidepressant, duration of use, and dose.",
+        "The study was conducted in 570 general practices in the United Kingdom.",
+        "The data was supplied to the QResearch primary care database.",
+        "60,746 patients were diagnosed with a new episode of depression between the ages of 65 and 100 years.",
+        "The patients were followed up until 31 December 2008.",
+        "54,038 patients received at least one prescription for an antidepressant during follow-up.",
+        "Selective serotonin reuptake inhibitors were associated with the highest adjusted hazard ratios for falls and hyponatraemia.",
+        "Other antidepressants were associated with the highest adjusted hazard ratios for all cause mortality, attempted suicide/self harm, stroke/transient ischaemic attack, fracture, and epilepsy/seizures.",
+        "Tricyclic antidepressants did not have the highest hazard ratio for any of the outcomes.",
+        "Significantly different associations existed between the individual drugs for the same seven outcomes.",
+        "Trazodone, mirtazapine, and venlafaxine were associated with the highest rates for some outcomes.",
+        "Absolute risks over 1 year for all cause mortality were 7.04% for patients not taking antidepressants, 8.12% for those taking tricyclic antidepressants, 10.61% for selective serotonin reuptake inhibitors, and 11.43% for other antidepressants.",
+        "Selective serotonin reuptake inhibitors and drugs in the group of other antidepressants were associated with an increased risk of several adverse outcomes compared with tricyclic antidepressants.",
+        "Further research is needed to confirm these findings."
       ]
     },
     "entities": [
@@ -24188,6 +25361,28 @@
         "The tumorigenic potential of GSCs was decreased with A20 targeting.",
         "A20 overexpression and amplification is inversely correlated with survival in glioma patients.",
         "A20 contributes to glioma maintenance through effects on the glioma stem cell subpopulation.",
+        "A20 may function as a tumor enhancer in glioma through promotion of GSC survival.",
+        "A20 anticancer therapies should be viewed with caution as effects will likely differ depending on the tumor type."
+      ],
+      "relations_aware": [
+        "Glioblastomas are deadly cancers.",
+        "Glioblastomas display a functional cellular hierarchy.",
+        "The cellular hierarchy is maintained by self-renewing glioblastoma stem cells (GSCs).",
+        "GSCs are regulated by molecular pathways distinct from the bulk tumor.",
+        "Molecular pathways may be useful therapeutic targets.",
+        "A20 (TNFAIP3) is a regulator of cell survival and the NF-kappaB pathway.",
+        "A20 is overexpressed in GSCs relative to non-stem glioblastoma cells at both the mRNA and protein levels.",
+        "A20 targeting with lentiviral-mediated delivery of shRNA decreased GSC growth and survival.",
+        "Inhibiting A20 expression decreased GSC growth and survival through mechanisms associated with decreased cell-cycle progression and decreased phosphorylation of p65/RelA.",
+        "Elevated levels of A20 in GSCs contributed to apoptotic resistance.",
+        "GSCs were less susceptible to TNFalpha-induced cell death than matched non-stem glioma cells.",
+        "A20 knockdown sensitized GSCs to TNFalpha-mediated apoptosis.",
+        "The decreased survival of GSCs upon A20 knockdown contributed to the reduced ability of these cells to self-renew.",
+        "The tumorigenic potential of GSCs was decreased with A20 targeting.",
+        "A20 overexpression and amplification is inversely correlated with survival in a glioma patient genomic database.",
+        "A20 contributes to glioma maintenance through effects on the glioma stem cell subpopulation.",
+        "Inactivating mutations in A20 in lymphoma suggest A20 can act as a tumor suppressor.",
+        "Similar point mutations have not been identified through glioma genomic sequencing.",
         "A20 may function as a tumor enhancer in glioma through promotion of GSC survival.",
         "A20 anticancer therapies should be viewed with caution as effects will likely differ depending on the tumor type."
       ]
@@ -24682,6 +25877,29 @@
         "In a large, long-term trial of male physicians, neither vitamin E nor C supplementation reduced the risk of prostate cancer.",
         "In a large, long-term trial of male physicians, neither vitamin E nor C supplementation reduced the risk of total cancer.",
         "The data from this trial do not support the use of vitamin E or C supplements for cancer prevention in middle-aged and older men."
+      ],
+      "relations_aware": [
+        "Many individuals take vitamins in the hopes of preventing chronic diseases such as cancer.",
+        "Vitamins E and C are among the most common individual supplements.",
+        "A large-scale randomized trial suggested that vitamin E may reduce the risk of prostate cancer.",
+        "Few trials have been powered to address the relationship between vitamin E and prostate cancer.",
+        "No previous trial in men at usual risk has examined vitamin C alone in the prevention of cancer.",
+        "The Physicians' Health Study II is a randomized, double-blind, placebo-controlled factorial trial of vitamins E and C.",
+        "The study began in 1997 and continued until August 31, 2007.",
+        "A total of 14,641 male physicians in the United States initially aged 50 years or older were enrolled.",
+        "The intervention involved individual supplements of 400 IU of vitamin E every other day and 500 mg of vitamin C daily.",
+        "The main outcome measures were prostate and total cancer.",
+        "During a mean follow-up of 8.0 years, there were 1008 confirmed incident cases of prostate cancer and 1943 total cancers.",
+        "Vitamin E had no effect on the incidence of prostate cancer compared to placebo.",
+        "Vitamin E also had no effect on the incidence of total cancer compared to placebo.",
+        "Vitamin C had no significant effect on total cancer compared to placebo.",
+        "Vitamin C had no significant effect on prostate cancer compared to placebo.",
+        "Neither vitamin E nor vitamin C had a significant effect on colorectal, lung, or other site-specific cancers.",
+        "Adjustment for adherence and exclusion of the first 4 or 6 years of follow-up did not alter the results.",
+        "Stratification by various cancer risk factors showed no significant modification of the effect of vitamin E on prostate cancer risk or either agent on total cancer risk.",
+        "In this large, long-term trial of male physicians, neither vitamin E nor C supplementation reduced the risk of prostate or total cancer.",
+        "The data provide no support for the use of these supplements for the prevention of cancer in middle-aged and older men.",
+        "The trial was registered on clinicaltrials.gov with the identifier NCT00270647."
       ]
     },
     "entities": [
@@ -25136,6 +26354,19 @@
         "CLEC-2 activation triggers cell spreading via downregulation of RhoA activity and myosin light-chain phosphorylation.",
         "CLEC-2 activation triggers F-actin-rich protrusions via Vav signaling and Rac1 activation.",
         "Activation of CLEC-2 by PDPN rearranges the actin cytoskeleton in DCs."
+      ],
+      "relations_aware": [
+        "DCs move from parenchymal tissues to lymphoid organs by migrating along stromal scaffolds.",
+        "Stromal scaffolds display the glycoprotein podoplanin (PDPN).",
+        "PDPN is expressed by lymphatic endothelial and fibroblastic reticular cells.",
+        "PDPN promotes blood-lymph separation during development.",
+        "PDPN activates the C-type lectin receptor, CLEC-2, on platelets.",
+        "CLEC-2 plays a role in the morphodynamic behavior and motility of DCs.",
+        "CLEC-2 deficiency in DCs impairs their entry into lymphatics and trafficking to and within lymph nodes.",
+        "CLEC-2 engagement of PDPN is necessary for DCs to spread and migrate along stromal surfaces.",
+        "CLEC-2 activation triggers cell spreading via downregulation of RhoA activity and myosin light-chain phosphorylation.",
+        "CLEC-2 activation triggers F-actin-rich protrusions via Vav signaling and Rac1 activation.",
+        "Activation of CLEC-2 by PDPN rearranges the actin cytoskeleton in DCs to promote efficient motility along stromal surfaces."
       ]
     },
     "entities": [
@@ -25409,6 +26640,22 @@
         "The single program for people with newly diagnosed type 2 diabetes mellitus showed no difference in biomedical or lifestyle outcomes at three years.",
         "Sustained improvements in some illness beliefs were observed.",
         "The trial was registered with Current Controlled Trials under the identifier ISRCTN17844016."
+      ],
+      "relations_aware": [
+        "The study measured the benefits of a single education and self-management structured program for people with newly diagnosed type 2 diabetes mellitus at three years.",
+        "The study was a three-year follow-up of a multicenter cluster randomized controlled trial in primary care.",
+        "The study took place in 207 general practices in 13 primary care sites in the United Kingdom.",
+        "731 out of 824 participants from the original trial were eligible for follow-up.",
+        "Biomedical data were collected on 604 participants, and questionnaire data were collected on 513 participants.",
+        "The intervention involved a structured group education program for six hours delivered in the community by two trained healthcare professional educators compared with usual care.",
+        "The primary outcome measured was glycated hemoglobin (HbA(1c)) levels.",
+        "The secondary outcomes included blood pressure, weight, blood lipid levels, smoking status, physical activity, quality of life, beliefs about illness, depression, emotional impact of diabetes, and drug use at three years.",
+        "HbA(1c) levels decreased in both groups at three years, with no significant difference between the groups after adjusting for baseline and cluster.",
+        "The groups did not differ in other biomedical and lifestyle outcomes and drug use.",
+        "The significant benefits in the intervention group across four out of five health beliefs seen at 12 months were sustained at three years.",
+        "Depression scores and quality of life did not differ at three years.",
+        "The single program for people with newly diagnosed type 2 diabetes mellitus showed no difference in biomedical or lifestyle outcomes at three years, although there were sustained improvements in some illness beliefs.",
+        "The trial was registered with Current Controlled Trials under the registration number ISRCTN17844016."
       ]
     },
     "entities": [
@@ -25634,6 +26881,21 @@
         "RLR regulation occurs at various levels including autoregulation and posttranslational modifications.",
         "Aberrant RLR signaling is implicated in autoimmune diseases.",
         "Understanding RLR signaling and response will guide RLR-targeted therapeutics for antiviral and immune-modifying applications."
+      ],
+      "relations_aware": [
+        "RIG-I-like receptors (RLRs) play a major role in pathogen sensing of RNA virus infection.",
+        "RLRs initiate and modulate antiviral immunity.",
+        "RLRs detect viral RNA ligands or processed self RNA in the cytoplasm.",
+        "RLRs trigger innate immunity and inflammation.",
+        "RLRs impart gene expression to control infection.",
+        "RLRs cooperate in signaling crosstalk networks with Toll-like receptors and other factors.",
+        "RLRs modulate the adaptive immune response.",
+        "RLR regulation occurs at various levels including autoregulation.",
+        "RLR regulation involves ligand and cofactor interactions.",
+        "RLR regulation involves posttranslational modifications.",
+        "Aberrant RLR signaling is implicated in the development of autoimmune diseases.",
+        "Dysregulation of RLR expression is implicated in the development of autoimmune diseases.",
+        "Understanding RLR signaling and response will guide RLR-targeted therapeutics for antiviral and immune-modifying applications."
       ]
     },
     "entities": [
@@ -25786,6 +27048,22 @@
         "The minor (G) allele of the polymorphism is associated with a milder course of rheumatoid arthritis.",
         "The minor (G) allele of the polymorphism is associated with increased risk of severe malaria.",
         "Minor allele carriage limits inflammatory responses in monocytes.",
+        "The FOXO3-driven pathway reduces production of proinflammatory cytokines.",
+        "The FOXO3-driven pathway increases production of anti-inflammatory cytokines.",
+        "A shared genetic contribution to prognosis in distinct diseases is uncovered.",
+        "The shared genetic contribution operates via a FOXO3-driven pathway modulating inflammatory responses."
+      ],
+      "relations_aware": [
+        "The clinical course and prognosis of complex diseases vary between affected individuals.",
+        "Variability in prognosis determines the impact of a disease on a patient's life.",
+        "The impact of disease prognosis is poorly understood.",
+        "Genome-wide association study data is used to gain insight into the role of genetics in prognosis.",
+        "A noncoding polymorphism in FOXO3A (rs12212067: T > G) is identified.",
+        "The minor (G) allele of the noncoding polymorphism is associated with a milder course of Crohn's disease.",
+        "The minor (G) allele of the noncoding polymorphism is associated with a milder course of rheumatoid arthritis.",
+        "The minor (G) allele of the noncoding polymorphism is associated with increased risk of severe malaria.",
+        "Minor allele carriage limits inflammatory responses in monocytes.",
+        "The FOXO3-driven pathway limits inflammatory responses in monocytes.",
         "The FOXO3-driven pathway reduces production of proinflammatory cytokines.",
         "The FOXO3-driven pathway increases production of anti-inflammatory cytokines.",
         "A shared genetic contribution to prognosis in distinct diseases is uncovered.",
@@ -25985,6 +27263,20 @@
         "Enhanced learning was assessed by Barnes maze navigation, object-location memory, and contextual and tone fear conditioning.",
         "Mice allografted with murine GPCs showed no enhancement of either LTP or learning.",
         "Human glia differentially enhance activity-dependent plasticity and learning in mice."
+      ],
+      "relations_aware": [
+        "Human astrocytes are larger and more complex than those of infraprimate mammals.",
+        "The role of human astrocytes in neural processing has expanded with evolution.",
+        "Human glial progenitor cells were engrafted into neonatal immunodeficient mice.",
+        "The recipient brains exhibited large numbers and high proportions of human glial progenitors and astrocytes.",
+        "The engrafted human glia were gap-junction-coupled to host astroglia.",
+        "The engrafted human glia retained the size and pleomorphism of hominid astroglia.",
+        "The engrafted human glia propagated Ca2+ signals 3-fold faster than their hosts.",
+        "Long-term potentiation (LTP) was sharply enhanced in the human glial chimeric mice.",
+        "Learning was enhanced in the human glial chimeric mice.",
+        "Enhancement of both activity-dependent plasticity and learning was observed in the human glial chimeric mice.",
+        "Mice allografted with murine GPCs showed no enhancement of either LTP or learning.",
+        "Human glia differentially enhance both activity-dependent plasticity and learning in mice."
       ]
     },
     "entities": [
@@ -26132,6 +27424,18 @@
         "Ultrasound imaging can reduce the risk of failed lumbar punctures or epidural catheterisations.",
         "Ultrasound imaging can reduce traumatic procedures, insertion attempts, and needle redirections.",
         "A total of 1334 patients were included in the 14 studies."
+      ],
+      "relations_aware": [
+        "Ultrasound imaging can reduce the risk of failed lumbar punctures.",
+        "Ultrasound imaging can reduce the risk of failed epidural catheterisations.",
+        "Ultrasound imaging can reduce traumatic procedures.",
+        "Ultrasound imaging can reduce insertion attempts.",
+        "Ultrasound imaging can reduce needle redirections.",
+        "Ultrasound imaging is a useful adjunct for lumbar punctures and epidural catheterisations.",
+        "Ultrasound imaging is effective in reducing the risk of failed procedures.",
+        "Ultrasound imaging significantly reduces the risk of traumatic procedures.",
+        "Ultrasound imaging decreases the number of insertion attempts.",
+        "Ultrasound imaging lowers the number of needle redirections."
       ]
     },
     "entities": [
@@ -26475,6 +27779,18 @@
       "entities_aware": [
         "Vitamin D insufficiency is associated with an increased risk of gestational diabetes, pre-eclampsia, and small for gestational age infants.",
         "Pregnant women with low serum 25-OHD levels had an increased risk of bacterial vaginosis and low birthweight infants but not delivery by caesarean section."
+      ],
+      "relations_aware": [
+        "The effect of 25-hydroxyvitamin D (25-OHD) levels on pregnancy outcomes and birth variables was assessed.",
+        "The assessment was conducted through a systematic review and meta-analysis.",
+        "Medline, PubMed, Embase, CINAHL, the Cochrane database of systematic reviews, and the Cochrane database of registered clinical trials were used as data sources.",
+        "Studies reporting on the association between serum 25-OHD levels during pregnancy and various outcomes were selected.",
+        "Data extraction was independently performed by two authors from original research articles.",
+        "The most adjusted odds ratios and weighted mean differences were pooled for analysis.",
+        "Insufficient serum levels of 25-OHD were associated with gestational diabetes, pre-eclampsia, and small for gestational age infants.",
+        "Pregnant women with low serum 25-OHD levels had an increased risk of bacterial vaginosis and low birthweight infants.",
+        "Vitamin D insufficiency is associated with an increased risk of gestational diabetes, pre-eclampsia, and small for gestational age infants.",
+        "Pregnant women with low 25-OHD levels had an increased risk of bacterial vaginosis and lower birth weight infants."
       ]
     },
     "entities": [
@@ -26959,6 +28275,20 @@
         "Expression of p16(LUC) was activated by early neoplastic events in 14 tested tumor models.",
         "Activation of p16(INK4a) was noted in the emerging neoplasm and surrounding stromal cells.",
         "p16(LUC) allele is a sensitive, unbiased reporter of neoplastic transformation."
+      ],
+      "relations_aware": [
+        "Monitoring cancer and aging in vivo remains experimentally challenging.",
+        "A luciferase knockin mouse (p16(LUC)) reports expression of p16(INK4a).",
+        "p16(INK4a) is a tumor suppressor and aging biomarker.",
+        "Lifelong assessment of luminescence in p16(+/LUC) mice revealed an exponential increase with aging.",
+        "The increase in luminescence with aging was highly variable in a cohort of contemporaneously housed, syngeneic mice.",
+        "Expression of p16(INK4a) with aging does not predict cancer development.",
+        "The accumulation of senescent cells is not a principal determinant of cancer-related death.",
+        "Expression of p16(LUC) was activated by early neoplastic events in 14 of 14 tested tumor models.",
+        "p16(LUC) enables visualization of tumors with sensitivity exceeding other imaging modalities.",
+        "Activation of p16(INK4a) was noted in the emerging neoplasm and surrounding stromal cells.",
+        "p16(INK4a) activation is a characteristic of all emerging cancers.",
+        "The p16(LUC) allele is a sensitive, unbiased reporter of neoplastic transformation."
       ]
     },
     "entities": [
@@ -27111,6 +28441,22 @@
         "CX3CR1 signaling promoted T(H)2 survival in the inflamed lungs.",
         "Injection of B cell leukemia/lymphoma-2 protein (BCl-2)-transduced CX3CR1-deficient T(H)2 cells into CX3CR1-deficient mice restored asthma.",
         "CX3CR1-induced survival was also observed for T(H)1 cells upon airway inflammation but not under homeostatic conditions or upon peripheral inflammation.",
+        "CX3CR1 and CX3CL1 may represent attractive therapeutic targets in asthma."
+      ],
+      "relations_aware": [
+        "Allergic asthma is a T helper type 2 (T(H)2)-dominated disease of the lung.",
+        "A fraction of CD4(+) T cells express the CX3CL1 receptor.",
+        "CX3CR1 is expressed in people with asthma.",
+        "CX3CL1 expression is increased in airway smooth muscle upon allergen challenge.",
+        "CX3CL1 expression is increased in lung endothelium upon allergen challenge.",
+        "CX3CL1 expression is increased in lung epithelium upon allergen challenge.",
+        "Untreated CX3CR1-deficient mice show reduced lung disease upon allergen sensitization and challenge.",
+        "WT mice treated with CX3CR1-blocking reagents show reduced lung disease upon allergen sensitization and challenge.",
+        "Transfer of WT CD4(+) T cells into CX3CR1-deficient mice restored the cardinal features of asthma.",
+        "CX3CR1-blocking reagents prevented airway inflammation in CX3CR1-deficient recipients injected with WT T(H)2 cells.",
+        "CX3CR1 signaling promoted T(H)2 survival in the inflamed lungs.",
+        "Injection of B cell leukemia/lymphoma-2 protein (BCl-2)-transduced CX3CR1-deficient T(H)2 cells into CX3CR1-deficient mice restored asthma.",
+        "CX3CR1-induced survival was observed for T(H)1 cells upon airway inflammation.",
         "CX3CR1 and CX3CL1 may represent attractive therapeutic targets in asthma."
       ]
     },
@@ -27500,6 +28846,18 @@
         "Deficiencies in T cell diversities improve for the CD4(+) but not the CD8(+) T cell compartment after 12 months.",
         "This method provides unprecedented views of T cell repertoire recovery after allo-HSCT.",
         "The method may identify patients at high risk of infection or relapse after allo-HSCT."
+      ],
+      "relations_aware": [
+        "Delayed T cell recovery after allo-HSCT is associated with increased risks of infection and cancer relapse.",
+        "Restricted TCR diversity after allo-HSCT is associated with increased risks of infection and cancer relapse.",
+        "Technical challenges have limited faithful measurement of TCR diversity after allo-HSCT.",
+        "5' rapid amplification of complementary DNA ends PCR combined with deep sequencing was used to quantify TCR diversity in 28 recipients of allo-HSCT.",
+        "Analysis of duplicate blood samples confirmed the accurate determination of the frequency of individual TCRs.",
+        "Cord blood-graft recipients approximated the TCR diversity of healthy individuals after 6 months.",
+        "Recipients of T cell-depleted peripheral-blood stem cell grafts had significantly lower CD4(+) and CD8(+) T cell diversities after 6 months.",
+        "After 12 months, deficiencies in CD4(+) T cell diversity had improved for recipients of T cell-depleted peripheral-blood stem cell grafts.",
+        "This method provides unprecedented views of T cell repertoire recovery after allo-HSCT.",
+        "This method may identify patients at high risk of infection or relapse after allo-HSCT."
       ]
     },
     "entities": [
