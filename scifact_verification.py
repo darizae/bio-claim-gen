@@ -9,8 +9,7 @@ from transformers import pipeline
 #   CONFIG / PATHS
 ##############################
 
-CACHE_DIR = "scifact_experiments/cache"
-PREPROCESSED_CLAIMS_PATH = os.path.join(CACHE_DIR, "preprocessed_claims_all.json")
+PREPROCESSED_CLAIMS_PATH = os.path.join("data/scifact/preprocessed_scifact.json")
 
 NLI_MODEL_NAME = "roberta-large-mnli"
 MODEL_TO_SFACT = {
