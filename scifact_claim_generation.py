@@ -64,7 +64,7 @@ def generate_strategy_claims(
     Re-uses your "prompt-building" logic to produce claims from a text.
     """
     # 1) Configure the LLM model for each strategy
-    if strategy in ["default_prompt", "biomed_specialized", "entities_aware", "relations_aware"]:
+    if strategy in ["default_prompt", "entities_aware", "relations_aware"]:
         config = ModelConfig(
             model_type=ModelType.OPENAI,
             model_name_or_path=MODEL_NAME,
@@ -81,11 +81,6 @@ def generate_strategy_claims(
     # 2) Build the prompt and call your generator
     if strategy == "default_prompt":
         prompt = get_default_prompt(text)
-        generator = create_generator(config, PromptTemplate.DEFAULT)
-        claims = generator.generate_claims([prompt])[0]
-
-    elif strategy == "biomed_specialized":
-        prompt = get_biomedical_prompt(text)
         generator = create_generator(config, PromptTemplate.DEFAULT)
         claims = generator.generate_claims([prompt])[0]
 
@@ -141,7 +136,6 @@ def main():
     # --- Decide which strategies to run ---
     strategies = {
         "default_prompt": True,
-        "biomed_specialized": False,
         "entities_aware": False,
         "relations_aware": False,
         "kg_based": False,
@@ -204,6 +198,14 @@ def main():
         # Attach back to entry
         entry["generated_claims"] = generated_claims
         output_data.append(entry)
+
+        # Save intermediate results every 5 documents processed
+        if processed_count % 5 == 0:
+            out_path = Path(OUTPUT_JSON)
+            out_path.parent.mkdir(parents=True, exist_ok=True)
+            with open(out_path, "w", encoding="utf-8") as f:
+                json.dump(output_data, f, indent=2)
+            print(f"Intermediate save: processed {processed_count} documents. Output at {OUTPUT_JSON}")
 
         processed_count += 1
         if MAX_DOCS is not None and processed_count >= MAX_DOCS:
