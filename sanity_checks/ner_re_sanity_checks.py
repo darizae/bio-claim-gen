@@ -3,10 +3,10 @@ import os
 import torch
 
 
-class RelationExtractionSanityChecker:
-    """Runs sanity checks on extracted NER and relation data and prints summary statistics."""
+class SciFactAnnotationSanityChecker:
+    """Runs sanity checks on the annotated SciFact JSON data and prints summary statistics."""
 
-    def __init__(self, filename="pubmed_abstracts_with_ner_re.json"):
+    def __init__(self, filename="../data/scifact/scifact_annotated.json"):
         if not os.path.exists(filename):
             raise FileNotFoundError(f"File '{filename}' not found.")
 
@@ -14,24 +14,33 @@ class RelationExtractionSanityChecker:
         self.data = self.load_data()
 
         # Print total number of entries
-        print(f"Total number of entries found: {len(self.data)}")
+        print(f"Total number of SciFact entries found: {len(self.data)}")
 
     def load_data(self):
-        """Loads the JSON file containing extracted relations and entities."""
+        """Loads the annotated SciFact JSON file."""
         with open(self.filename, "r", encoding="utf-8") as f:
             return json.load(f)
 
     def check_missing_fields(self):
-        """Checks for missing essential fields in the annotated abstracts."""
-        missing_fields = {"pmid": 0, "title": 0, "abstract": 0, "entities": 0, "relations": 0}
+        """Checks for missing essential fields in the annotated SciFact entries."""
+        missing_fields = {
+            "doc_id": 0,
+            "abstract_sents": 0,
+            "abstract_raw": 0,
+            "claims": 0,
+            "entities": 0,
+            "relations": 0,
+        }
 
         for entry in self.data:
-            if not entry.get("pmid"):
-                missing_fields["pmid"] += 1
-            if not entry.get("title"):
-                missing_fields["title"] += 1
-            if not entry.get("abstract"):
-                missing_fields["abstract"] += 1
+            if not entry.get("doc_id"):
+                missing_fields["doc_id"] += 1
+            if not entry.get("abstract_sents"):
+                missing_fields["abstract_sents"] += 1
+            if not entry.get("abstract_raw"):
+                missing_fields["abstract_raw"] += 1
+            if not entry.get("claims"):
+                missing_fields["claims"] += 1
             if "entities" not in entry or not isinstance(entry["entities"], list):
                 missing_fields["entities"] += 1
             if "relations" not in entry or not isinstance(entry["relations"], list):
@@ -44,6 +53,7 @@ class RelationExtractionSanityChecker:
         invalid_ner_entries = 0
         low_confidence_entities = 0
 
+        # Expected keys for each entity: 'word', 'entity_group', 'score'
         for entry in self.data:
             entities = entry.get("entities", [])
             for entity in entities:
@@ -52,13 +62,17 @@ class RelationExtractionSanityChecker:
                 elif entity["score"] < min_score:
                     low_confidence_entities += 1
 
-        return {"invalid_ner_entries": invalid_ner_entries, "low_confidence_entities": low_confidence_entities}
+        return {
+            "invalid_ner_entries": invalid_ner_entries,
+            "low_confidence_entities": low_confidence_entities,
+        }
 
     def check_relation_validity(self, min_confidence=0.7):
-        """Ensures that extracted relations have valid structure and meet confidence threshold."""
+        """Ensures that extracted relations have valid structure and meet the confidence threshold."""
         invalid_relation_entries = 0
         low_confidence_relations = 0
 
+        # Expected keys for each relation: 'subject', 'relation', 'object', 'confidence'
         for entry in self.data:
             relations = entry.get("relations", [])
             for relation in relations:
@@ -67,50 +81,53 @@ class RelationExtractionSanityChecker:
                 elif relation["confidence"] < min_confidence:
                     low_confidence_relations += 1
 
-        return {"invalid_relation_entries": invalid_relation_entries, "low_confidence_relations": low_confidence_relations}
+        return {
+            "invalid_relation_entries": invalid_relation_entries,
+            "low_confidence_relations": low_confidence_relations,
+        }
 
     def check_duplicates(self):
-        """Checks for duplicate abstracts based on PMID."""
-        seen_pmids = set()
+        """Checks for duplicate entries based on doc_id."""
+        seen_ids = set()
         duplicates = 0
 
         for entry in self.data:
-            pmid = entry.get("pmid")
-            if pmid in seen_pmids:
+            doc_id = entry.get("doc_id")
+            if doc_id in seen_ids:
                 duplicates += 1
             else:
-                seen_pmids.add(pmid)
+                seen_ids.add(doc_id)
 
         return duplicates
 
     def check_empty_results(self):
-        """Checks if any abstracts have empty NER or relation extractions."""
+        """Checks if any entries have empty NER or relation extractions."""
         empty_entities = sum(1 for entry in self.data if not entry.get("entities"))
         empty_relations = sum(1 for entry in self.data if not entry.get("relations"))
 
-        # List abstracts with empty relations
-        abstracts_with_empty_relations = [
-            {"pmid": entry["pmid"], "title": entry["title"]}
+        # Optionally, list some entries with empty relations (using doc_id and a snippet of abstract)
+        entries_with_empty_relations = [
+            {"doc_id": entry["doc_id"], "abstract_raw": entry["abstract_raw"][:50] + "..."}
             for entry in self.data if not entry.get("relations")
         ]
 
         return {
             "empty_entities": empty_entities,
             "empty_relations": empty_relations,
-            "abstracts_with_empty_relations": abstracts_with_empty_relations,
+            "entries_with_empty_relations": entries_with_empty_relations,
         }
 
     def check_torch_device(self):
-        """Ensures that PyTorch detects the correct device (MPS, CUDA, or CPU)."""
+        """Ensures that PyTorch detects the correct device (CUDA, MPS, or CPU)."""
         if torch.cuda.is_available():
             return "CUDA available"
-        elif torch.backends.mps.is_available():
+        elif getattr(torch.backends, "mps", None) and torch.backends.mps.is_available():
             return "MPS (Apple Silicon) available"
         else:
             return "Running on CPU"
 
     def print_data_statistics(self):
-        """Prints additional statistics for presentation."""
+        """Prints additional statistics regarding the annotations."""
         total_entries = len(self.data)
         total_entities = 0
         total_relations = 0
@@ -132,15 +149,12 @@ class RelationExtractionSanityChecker:
 
             min_entities = min(min_entities, num_entities)
             max_entities = max(max_entities, num_entities)
-
             min_relations = min(min_relations, num_relations)
             max_relations = max(max_relations, num_relations)
 
-            # Gather scores for NER entities
             for entity in entities:
                 if isinstance(entity, dict) and "score" in entity:
                     all_entity_scores.append(entity["score"])
-            # Gather confidence scores for relations
             for relation in relations:
                 if isinstance(relation, dict) and "confidence" in relation:
                     all_relation_confidences.append(relation["confidence"])
@@ -151,17 +165,17 @@ class RelationExtractionSanityChecker:
         avg_relation_confidence = sum(all_relation_confidences) / len(all_relation_confidences) if all_relation_confidences else 0
 
         print("\nData Statistics Report:")
-        print(f"  - Total abstracts: {total_entries}")
+        print(f"  - Total entries: {total_entries}")
         print(f"  - Total entities: {total_entities}")
         print(f"  - Total relations: {total_relations}")
-        print(f"  - Average entities per abstract: {avg_entities:.2f} (min: {min_entities}, max: {max_entities})")
-        print(f"  - Average relations per abstract: {avg_relations:.2f} (min: {min_relations}, max: {max_relations})")
+        print(f"  - Average entities per entry: {avg_entities:.2f} (min: {min_entities}, max: {max_entities})")
+        print(f"  - Average relations per entry: {avg_relations:.2f} (min: {min_relations}, max: {max_relations})")
         print(f"  - Average NER entity score: {avg_entity_score:.2f}")
         print(f"  - Average relation confidence: {avg_relation_confidence:.2f}")
 
     def run_checks(self):
-        """Runs all sanity checks and prints a report."""
-        print(f"\nRunning sanity checks on {len(self.data)} abstracts from '{self.filename}'...\n")
+        """Runs all sanity checks and prints a comprehensive report."""
+        print(f"\nRunning sanity checks on {len(self.data)} SciFact entries from '{self.filename}'...\n")
 
         missing = self.check_missing_fields()
         print("Missing Fields Report:")
@@ -179,7 +193,7 @@ class RelationExtractionSanityChecker:
             print(f"  - {field}: {count}")
 
         duplicates = self.check_duplicates()
-        print(f"\nDuplicate Entries: {duplicates}")
+        print(f"\nDuplicate Entries (by doc_id): {duplicates}")
 
         empty_results = self.check_empty_results()
         print(f"\nEmpty Extraction Results:")
@@ -187,20 +201,19 @@ class RelationExtractionSanityChecker:
         print(f"  - Empty Relations: {empty_results['empty_relations']}")
 
         if empty_results["empty_relations"] > 0:
-            print("\nAbstracts with Empty Relations:")
-            for item in empty_results["abstracts_with_empty_relations"]:
-                print(f"  - PMID: {item['pmid']}, Title: {item['title']}")
+            print("\nEntries with Empty Relations:")
+            for item in empty_results["entries_with_empty_relations"]:
+                print(f"  - doc_id: {item['doc_id']}, Abstract snippet: {item['abstract_raw']}")
 
         device_status = self.check_torch_device()
         print(f"\nTorch Device Check: {device_status}")
 
-        # Print additional data statistics for presentation
         self.print_data_statistics()
 
         print("\nSanity check complete.")
 
 
 if __name__ == "__main__":
-    # Run sanity checks on the extracted data
-    checker = RelationExtractionSanityChecker("pubmed_abstracts_with_ner_re.json")
+    # Run sanity checks on the annotated SciFact JSON data
+    checker = SciFactAnnotationSanityChecker("../data/scifact/scifact_annotated.json")
     checker.run_checks()
