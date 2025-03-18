@@ -189,8 +189,8 @@ def main():
     strategies = {
         "default_prompt": False,
         "entities_aware": False,
-        "relations_aware": True,
-        "kg_based": False,
+        "relations_aware": False,
+        "kg_based": True,
         # "kg_based_entities": False,
         # "kg_based_relations": False,
     }
