@@ -16,14 +16,13 @@ class NLIModel:
     Wraps a HuggingFace NLI model for SciFact.
     Uses MilosKosRad/DeBERTa-v3-large-SciFact by default.
     """
-
     def __init__(self, model_name: str = "roberta-large-mnli", device: str = None):
         self.model_name = model_name
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
         self.model = AutoModelForSequenceClassification.from_pretrained(model_name)
 
         if device is None:
-            self.device = "cuda" if torch.cuda.is_available() else "cpu"
+            self.device = "cuda" if torch.cuda.is_available() else "mps"
         else:
             self.device = device
 
@@ -56,7 +55,7 @@ class NLIModel:
             logits = outputs.logits  # shape (1, 3)
             probs = F.softmax(logits, dim=1).squeeze()  # shape (3,)
 
-        # probs is a 3-length tensor with [P(contradict), P(neutral), P(entailment)]
+        # probs = [P(contradiction), P(neutral), P(entailment)]
         return probs.cpu().tolist()
 
 
@@ -65,34 +64,35 @@ class SciFactNliPipeline:
     Orchestrates reading SciFact data, caching NLI predictions,
     aggregating sentence-level scores, computing metrics, etc.
     """
-
     def __init__(
-            self,
-            data_path: str = "preprocessed_scifact.json",
-            cache_path: str = "nli_cache.json",
-            results_path: str = "nli_verification_results.json",
-            skip_no_evidence: bool = False
+        self,
+        data_path: str = "selected_scifact_subset.json",  # <-- NOTE: Now points to your subset
+        cache_path: str = "nli_cache_subset.json",
+        results_path: str = "nli_verification_results_subset.json",
+        skip_no_evidence: bool = False,
+        cache_save_interval: int = 200
     ):
         """
         Args:
-            data_path: path to the preprocessed SciFact JSON.
-            cache_path: path to the cache JSON for NLI inference.
+            data_path: path to the selected SciFact JSON subset (default: "selected_scifact_subset.json").
+            cache_path: path to the cache JSON for NLI inference (default: "nli_cache_subset.json").
             results_path: final results (predictions+metrics).
-            skip_no_evidence: if True, exclude claims with no evidence for doc_id
-                              from the final results & metrics.
+            skip_no_evidence: if True, exclude claims with no evidence for doc_id from final results & metrics.
+            cache_save_interval: how many (sentence, claim) inferences before saving the cache.
         """
         self.data_path = data_path
         self.cache_path = cache_path
         self.results_path = results_path
         self.skip_no_evidence = skip_no_evidence
+        self.cache_save_interval = cache_save_interval
 
         self.nli_model = NLIModel()
 
-        # 1) Load SciFact data
+        # 1) Load SciFact data (from the subset file)
         with open(self.data_path, "r", encoding="utf-8") as f:
             self.scifact_data = json.load(f)  # list of doc entries
 
-        # 2) If a cache file exists, load it; otherwise start fresh
+        # 2) Load or initialize the cache
         if os.path.exists(self.cache_path):
             with open(self.cache_path, "r", encoding="utf-8") as cf:
                 self.cache = json.load(cf)
@@ -107,10 +107,12 @@ class SciFactNliPipeline:
         compute NLI probabilities for all (abstract_sentence, claim) pairs if not cached.
         Then aggregate across sentences to derive a final predicted label.
         """
+        # Count how many (sentence, claim) inferences we've processed since last save
+        inference_counter = 0
+
         # Prepare a progress bar over the total # of (doc->claim->sentence) combos
         total_pairs = sum(len(doc["abstract_sents"]) * len(doc.get("claims", []))
                           for doc in self.scifact_data)
-
         with tqdm(total=total_pairs, desc="NLI Inference") as pbar:
             for doc in self.scifact_data:
                 doc_id = str(doc["doc_id"])
@@ -121,19 +123,17 @@ class SciFactNliPipeline:
                     claim_id = str(claim_data["id"])
                     claim_text = claim_data["claim"]
 
-                    # Derive the gold label from the "evidence" structure (SUPPORT -> entailment, etc.)
+                    # Derive the gold label from the "evidence" structure
                     gold_label, has_evidence = self._get_gold_label_for_doc(claim_data, doc_id)
 
                     # Optionally skip claims that have no evidence
                     if self.skip_no_evidence and (not has_evidence):
-                        # Don't process or store them at all => skip
-                        # Just update pbar accordingly for the sentences we "would have processed"
+                        # Don't process or store them => skip
+                        # Just update pbar to reflect those sentences
                         pbar.update(len(abstract_sents))
                         continue
 
-                    # We'll gather probabilities from each abstract sentence
                     sentence_probs = []
-
                     for sent_idx, sent_text in enumerate(abstract_sents):
                         cache_key = f"{doc_id}||{sent_idx}||{claim_id}"
                         if cache_key in self.cache:
@@ -142,7 +142,13 @@ class SciFactNliPipeline:
                             probs = self.nli_model.predict(sent_text, claim_text)
                             self.cache[cache_key] = probs
                         sentence_probs.append(probs)
+
                         pbar.update(1)
+                        inference_counter += 1
+
+                        # Save cache every N=cache_save_interval inferences
+                        if inference_counter % self.cache_save_interval == 0:
+                            self._save_cache()
 
                     # Aggregate scores
                     pred_label, max_scores = self.aggregate_scores(sentence_probs)
@@ -159,8 +165,8 @@ class SciFactNliPipeline:
                         "max_neutral_score": max_scores["neutral"]
                     })
 
-                # After finishing this doc, save cache so we don't lose progress
-                self._save_cache()
+        # After finishing *all* docs, do a final cache save
+        self._save_cache()
 
     def _get_gold_label_for_doc(self, claim_data: Dict[str, Any], doc_id: str):
         """
@@ -172,12 +178,10 @@ class SciFactNliPipeline:
               ]
             }
 
-        We want the label for *this particular doc_id* (if any).
         We'll map:
            SUPPORT => "entailment"
            CONTRADICT => "contradiction"
-        If there's no evidence at all for doc_id, or if 'evidence' is empty,
-           *by default* we treat it as "neutral" (like 'no info').
+        If there's no evidence at all for doc_id => "neutral".
 
         Returns:
           (gold_label, has_evidence)
@@ -185,18 +189,12 @@ class SciFactNliPipeline:
             has_evidence (bool): True if doc_id had some evidence annotation
         """
         ev = claim_data.get("evidence", {})
-
-        # If doc_id not in ev or ev[doc_id] is empty => no evidence
         if doc_id not in ev or not ev[doc_id]:
-            # Return "neutral" as the gold label in that scenario
             return "neutral", False
 
-        # Otherwise, we do have an evidence entry for doc_id
         ev_list = ev[doc_id]
         labels_found = {item["label"].upper() for item in ev_list if "label" in item}
-        # If any is SUPPORT => "entailment"
-        # If any is CONTRADICT => "contradiction"
-        # If neither is found => "neutral"
+
         if "SUPPORT" in labels_found:
             return "entailment", True
         elif "CONTRADICT" in labels_found:
@@ -212,11 +210,10 @@ class SciFactNliPipeline:
         We'll define a simple aggregator that looks at the maximum
         contradiction, neutral, and entailment across all sentences.
 
-        Then pick whichever category has the highest maximum probability
-        as the final label.
+        Then pick whichever category has the highest max prob as final label.
 
         Returns:
-           pred_label (str): one of "contradiction"/"neutral"/"entailment"
+           pred_label (str): "contradiction"/"neutral"/"entailment"
            max_scores (dict): e.g. {"contradiction": 0.9, "neutral": 0.5, "entailment": 0.2}
         """
         max_contradiction = 0.0
@@ -224,7 +221,7 @@ class SciFactNliPipeline:
         max_entailment = 0.0
 
         for probs in sentence_probs:
-            c, n, e = probs  # contradiction, neutral, entailment
+            c, n, e = probs
             if c > max_contradiction:
                 max_contradiction = c
             if n > max_neutral:
@@ -246,8 +243,7 @@ class SciFactNliPipeline:
         After run_inference, compute overall accuracy, precision, recall, F1
         for the predicted vs. gold labels in results.
 
-        We'll do a 3-class classification on:
-          "contradiction", "neutral", "entailment"
+        We'll do a 3-class classification on: "contradiction", "neutral", "entailment"
         """
         gold_labels = [r["gold_label"] for r in self.results]
         pred_labels = [r["pred_label"] for r in self.results]
@@ -259,7 +255,7 @@ class SciFactNliPipeline:
 
         acc = accuracy_score(gold_int, pred_int)
         precision, recall, f1, _ = precision_recall_fscore_support(
-            gold_int, pred_int, average="macro", labels=[0, 1, 2]
+            gold_int, pred_int, average="macro", labels=[0,1,2]
         )
 
         metrics = {
@@ -289,29 +285,30 @@ class SciFactNliPipeline:
         """
         with open(self.cache_path, "w", encoding="utf-8") as cf:
             json.dump(self.cache, cf, indent=2)
-        # You could comment out the print if you find it too verbose
         print(f"Cache updated => {self.cache_path}")
 
 
 def main():
     # Example usage:
-    #   - skip_no_evidence=False => treat no evidence as "neutral"
-    #   - skip_no_evidence=True  => exclude no-evidence claims from final eval
+    # data_path => your newly selected subset of ~100 abstracts
+    # skip_no_evidence => whether to exclude claims with no evidence from the final results
+
     pipeline = SciFactNliPipeline(
-        data_path="preprocessed_scifact.json",
-        cache_path="nli_cache.json",
-        results_path="nli_verification_results.json",
-        skip_no_evidence=False
+        data_path="selected_scifact_subset.json",     # <--- Our subset file
+        cache_path="nli_cache_subset.json",           # <--- Separate cache for the subset
+        results_path="nli_verification_results_subset.json",
+        skip_no_evidence=False,
+        cache_save_interval=200                       # <--- Save cache every 200 inferences
     )
 
-    # 1) Run the NLI inference (with caching + progress bar)
+    # 1) Run the NLI inference
     pipeline.run_inference()
 
     # 2) Compute metrics
     metrics = pipeline.calculate_metrics()
     print("Metrics:", metrics)
 
-    # 3) Save everything (predictions + metrics)
+    # 3) Save results
     pipeline.save_results(metrics)
 
 

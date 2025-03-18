@@ -10,7 +10,6 @@ from claim_generator import (
     PromptTemplate,
     create_generator
 )
-
 from claim_generator.generator import KGToClaimsGenerator
 
 # Import your local prompt-building functions
@@ -27,12 +26,13 @@ from claim_generation_prompts import (
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 MODEL_NAME = "gpt-3.5-turbo"
 
-# File paths
-INPUT_JSON = "../data/pubmed_abstracts_with_ner_re.json"
-OUTPUT_JSON = "../data/pubmed_abstracts_with_claims.json"
+# File paths for the new JSON file structure and output files
+INPUT_JSON = "../data/scifact/selected_scifact_subset.json"
+OUTPUT_JSON = "../data/selected_scifact_subset_with_claims.json"
+FLAGGED_JSON = "../data/flagged_claim_generation_entries.json"
 
 
-def load_annotated_abstracts(json_path: str) -> List[Dict[str, Any]]:
+def load_entries(json_path: str) -> List[Dict[str, Any]]:
     if not os.path.exists(json_path):
         raise FileNotFoundError(f"File not found: {json_path}")
     with open(json_path, "r", encoding="utf-8") as f:
@@ -71,7 +71,8 @@ def generate_strategy_claims(
     """
     Orchestrates which config/prompt to use for a given strategy.
     """
-    if strategy in ["default_prompt", "biomed_specialized", "entities_aware", "relations_aware"]:
+    # Set up config based on strategy
+    if strategy in ["default_prompt", "entities_aware", "relations_aware"]:
         config = ModelConfig(
             model_type=ModelType.OPENAI,
             model_name_or_path=MODEL_NAME,
@@ -86,11 +87,6 @@ def generate_strategy_claims(
 
     if strategy == "default_prompt":
         prompt = get_default_prompt(text)
-        generator = create_generator(config, PromptTemplate.DEFAULT)
-        claims = generator.generate_claims([prompt])[0]
-
-    elif strategy == "biomed_specialized":
-        prompt = get_biomedical_prompt(text)
         generator = create_generator(config, PromptTemplate.DEFAULT)
         claims = generator.generate_claims([prompt])[0]
 
@@ -132,111 +128,140 @@ def generate_strategy_claims(
     return claims
 
 
-def generate_claims_for_abstract(
+def generate_claims_for_entry(
         entry: Dict[str, Any],
         strategies: Dict[str, bool],
         override_existing: bool
-) -> Dict[str, List[str]]:
+) -> (Dict[str, List[str]], List[Dict[str, Any]]):
     """
-    Given one abstract, run each strategy to generate claims.
+    Given one entry, run each enabled strategy to generate claims.
+    Returns a tuple: (claims dictionary, list of flagged errors [if any]).
     """
-    text = entry.get("abstract", "").strip()
+    # Use abstract_raw if available; otherwise fallback to joining abstract_sents
+    text = entry.get("abstract_raw", "").strip()
+    if not text and "abstract_sents" in entry:
+        text = " ".join(entry.get("abstract_sents", [])).strip()
     if not text:
-        return {}
+        return {}, []
 
     entities = entry.get("entities", [])
     relations = entry.get("relations", [])
+
+    # Ensure that claims is a dict, not a list
     existing_claims = entry.get("claims", {})
+    if not isinstance(existing_claims, dict):
+        print(f"Warning: claims for doc_id {entry.get('doc_id')} are not a dict. Resetting to empty dict.")
+        existing_claims = {}
+
+    flagged = []
 
     for strategy, enabled in strategies.items():
         if not enabled:
             continue
 
         if (not override_existing) and (strategy in existing_claims and existing_claims[strategy]):
-            print(f"Skipping strategy '{strategy}' for PMID={entry.get('pmid')} (already exists).")
+            print(f"Skipping strategy '{strategy}' for doc_id={entry.get('doc_id')} (already exists).")
             continue
 
-        print(f"Generating claims for strategy '{strategy}' for PMID={entry.get('pmid')}.")
+        print(f"Generating claims for strategy '{strategy}' for doc_id={entry.get('doc_id')}.")
         try:
             new_claims = generate_strategy_claims(strategy, text, entities, relations)
             existing_claims[strategy] = new_claims
         except Exception as e:
-            raise ValueError(
-                f"Error generating claims for strategy '{strategy}' for PMID={entry.get('pmid')}: {e}"
-            )
+            error_detail = {
+                "doc_id": entry.get("doc_id"),
+                "strategy": strategy,
+                "error": str(e)
+            }
+            flagged.append(error_detail)
+            print(f"Error in strategy '{strategy}' for doc_id={entry.get('doc_id')}: {e}")
 
-    return existing_claims
+    return existing_claims, flagged
 
 
 def main():
-    NUM_ABSTRACTS_TO_PROCESS = 100
+    # Configuration parameters
+    NUM_ENTRIES_TO_PROCESS = None
     DUMP_FREQUENCY = 10
     OVERRIDE_EXISTING = False
 
+    # Define which strategies to enable. (Set to True for strategies you wish to run.)
     strategies = {
-        "default_prompt": False,
-        "biomed_specialized": False,
+        "default_prompt": True,
         "entities_aware": False,
         "relations_aware": False,
         "kg_based": False,
-        "kg_based_entities": False,
-        "kg_based_relations": False,
+        # "kg_based_entities": False,
+        # "kg_based_relations": False,
     }
 
-    process_entry_ids = []
+    flagged_entries = []
 
-    print("Loading annotated abstracts...")
-    abstracts = load_annotated_abstracts(INPUT_JSON)
-    print(f"Loaded {len(abstracts)} records from {INPUT_JSON}.")
-
-    # If process_entry_ids is non-empty, filter abstracts accordingly.
-    if process_entry_ids:
-        abstracts = [entry for entry in abstracts if entry.get("pmid") in process_entry_ids]
-        print(f"Processing only {len(abstracts)} entries specified in process_entry_ids.")
+    print("Loading entries...")
+    entries = load_entries(INPUT_JSON)
+    print(f"Loaded {len(entries)} records from {INPUT_JSON}.")
 
     output_path = Path(OUTPUT_JSON)
+    flagged_path = Path(FLAGGED_JSON)
+
+    # Load existing entries if output file exists
     existing_entries_dict = {}
     if output_path.exists():
         with output_path.open("r", encoding="utf-8") as f:
             existing_entries = json.load(f)
         for entry in existing_entries:
-            pmid = entry.get("pmid")
-            if pmid:
-                existing_entries_dict[pmid] = entry
+            doc_id = entry.get("doc_id")
+            if doc_id:
+                existing_entries_dict[doc_id] = entry
         print(f"Found {len(existing_entries_dict)} existing entries.")
 
     processed_count = 0
-    for entry in abstracts:
-        pmid = entry.get("pmid")
-        if not pmid:
+    for entry in entries:
+        doc_id = entry.get("doc_id")
+        if not doc_id:
             continue
 
-        existing_entry = existing_entries_dict.get(pmid, {})
+        existing_entry = existing_entries_dict.get(doc_id, {})
         current_claims = existing_entry.get("claims", {})
 
-        new_claims = generate_claims_for_abstract(entry, strategies, OVERRIDE_EXISTING)
+        # Ensure current_claims is a dictionary; if not, reset it.
+        if not isinstance(current_claims, dict):
+            print(f"Warning: claims for doc_id {doc_id} are not a dict. Resetting to empty dict.")
+            current_claims = {}
 
-        if not any(strategy in new_claims for strategy in strategies if strategies[strategy]):
-            print(f"No new strategies to process for PMID={pmid}. Skipping.")
-            continue
+        new_claims, flagged = generate_claims_for_entry(entry, strategies, OVERRIDE_EXISTING)
 
+        # Merge new claims with existing ones
         updated_claims = {**current_claims, **new_claims}
         entry["claims"] = updated_claims
-        existing_entries_dict[pmid] = entry
+        existing_entries_dict[doc_id] = entry
+
+        # Append any flagged errors for diagnostic
+        if flagged:
+            for flag in flagged:
+                flagged_entries.append(flag)
 
         processed_count += 1
 
         if processed_count % DUMP_FREQUENCY == 0:
+            # Save progress for enriched entries
             with output_path.open("w", encoding="utf-8") as f:
                 json.dump(list(existing_entries_dict.values()), f, indent=2, ensure_ascii=False)
-            print(f"Dumped progress after {processed_count} processed abstracts.")
+            # Save flagged entries for diagnostic purposes
+            with flagged_path.open("w", encoding="utf-8") as f:
+                json.dump(flagged_entries, f, indent=2, ensure_ascii=False)
+            print(f"Dumped progress after processing {processed_count} entries.")
 
-        if NUM_ABSTRACTS_TO_PROCESS is not None and processed_count >= NUM_ABSTRACTS_TO_PROCESS:
+        if NUM_ENTRIES_TO_PROCESS is not None and processed_count >= NUM_ENTRIES_TO_PROCESS:
             break
 
+    # Final dump of enriched entries and flagged errors
     with output_path.open("w", encoding="utf-8") as f:
         json.dump(list(existing_entries_dict.values()), f, indent=2, ensure_ascii=False)
+    with flagged_path.open("w", encoding="utf-8") as f:
+        json.dump(flagged_entries, f, indent=2, ensure_ascii=False)
     print(f"Done! Wrote enriched data with claims to {output_path}")
+    print(f"Flagged entries written to {flagged_path}")
 
 
 if __name__ == "__main__":

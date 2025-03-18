@@ -1,0 +1,7 @@
+[
+  {
+    "doc_id": "18231807",
+    "strategy": "default_prompt",
+    "error": "catching classes that do not inherit from BaseException is not allowed"
+  }
+]

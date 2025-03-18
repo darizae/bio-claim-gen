@@ -1,0 +1,3360 @@
+{
+  "results": [
+    {
+      "doc_id": "13734012",
+      "claim_id": "2",
+      "claim_text": "1 in 5 million in UK have abnormal PrP positivity.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.12491554021835327,
+      "max_contradiction_score": 0.10614556819200516,
+      "max_neutral_score": 0.9913622736930847
+    },
+    {
+      "doc_id": "13734012",
+      "claim_id": "5",
+      "claim_text": "1/2000 in UK have abnormal PrP positivity.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.04900122061371803,
+      "max_contradiction_score": 0.50581955909729,
+      "max_neutral_score": 0.9664146900177002
+    },
+    {
+      "doc_id": "13734012",
+      "claim_id": "48",
+      "claim_text": "A total of 1,000 people in the UK are asymptomatic carriers of vCJD infection.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.01348343025892973,
+      "max_contradiction_score": 0.7265167832374573,
+      "max_neutral_score": 0.968403697013855
+    },
+    {
+      "doc_id": "22080671",
+      "claim_id": "15",
+      "claim_text": "50% of patients exposed to radiation have activated markers of mesenchymal stem cells.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.01609610579907894,
+      "max_contradiction_score": 0.1888371706008911,
+      "max_neutral_score": 0.9922598004341125
+    },
+    {
+      "doc_id": "22080671",
+      "claim_id": "139",
+      "claim_text": "At least 85% of patients exposed to radiation have activated markers of myofibroblasts.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.07805490493774414,
+      "max_contradiction_score": 0.28677117824554443,
+      "max_neutral_score": 0.9322882890701294
+    },
+    {
+      "doc_id": "22080671",
+      "claim_id": "258",
+      "claim_text": "Cholesterol loading induces KLF4 expression in VSMCs, resulting in the expression of pro-inflammatory cytokines.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.26912909746170044,
+      "max_contradiction_score": 0.5484219789505005,
+      "max_neutral_score": 0.986874520778656
+    },
+    {
+      "doc_id": "22080671",
+      "claim_id": "663",
+      "claim_text": "KLF4 is necessary for VSMCs to gain genetic characteristics of other cell types within atherosclerotic lesions.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.3227699398994446,
+      "max_contradiction_score": 0.12554971873760223,
+      "max_neutral_score": 0.9656179547309875
+    },
+    {
+      "doc_id": "22080671",
+      "claim_id": "689",
+      "claim_text": "Less than 10% of patients exposed to radiation have activated markers of mesenchymal stem cells.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.036411356180906296,
+      "max_contradiction_score": 0.3241358697414398,
+      "max_neutral_score": 0.9951325058937073
+    },
+    {
+      "doc_id": "12670680",
+      "claim_id": "28",
+      "claim_text": "A T helper 2 cell (Th2) environment impedes disease development in patients with systemic lupus erythematosus (SLE).",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.06379672139883041,
+      "max_contradiction_score": 0.932904064655304,
+      "max_neutral_score": 0.40475353598594666
+    },
+    {
+      "doc_id": "12670680",
+      "claim_id": "172",
+      "claim_text": "Basophils promote disease development in patients with systemic lupus erythematosus (SLE).",
+      "pred_label": "entailment",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.8825947046279907,
+      "max_contradiction_score": 0.2527483403682709,
+      "max_neutral_score": 0.881673276424408
+    },
+    {
+      "doc_id": "12670680",
+      "claim_id": "171",
+      "claim_text": "Basophils counteract disease development in patients with systemic lupus erythematosus (SLE).",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.03154397010803223,
+      "max_contradiction_score": 0.9965923428535461,
+      "max_neutral_score": 0.9593116641044617
+    },
+    {
+      "doc_id": "24341590",
+      "claim_id": "30",
+      "claim_text": "A breast cancer patient's capacity to metabolize tamoxifen influences treatment outcome.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.6955363154411316,
+      "max_contradiction_score": 0.017249228432774544,
+      "max_neutral_score": 0.9867788553237915
+    },
+    {
+      "doc_id": "24341590",
+      "claim_id": "1260",
+      "claim_text": "The relationship between a breast cancer patient's capacity to metabolize tamoxifen and treatment outcome is independent of the patient's genetic make-up.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.07941558957099915,
+      "max_contradiction_score": 0.9242965579032898,
+      "max_neutral_score": 0.9194656610488892
+    },
+    {
+      "doc_id": "24341590",
+      "claim_id": "1259",
+      "claim_text": "The relationship between a breast cancer patient's capacity to metabolize tamoxifen and treatment outcome is dependent on the patient's genetic make-up.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.20609815418720245,
+      "max_contradiction_score": 0.12432514876127243,
+      "max_neutral_score": 0.9757512807846069
+    },
+    {
+      "doc_id": "13497630",
+      "claim_id": "39",
+      "claim_text": "A diminished ovarian reserve does not solely indicate infertility in an a priori non-infertile population.",
+      "pred_label": "entailment",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.9069392681121826,
+      "max_contradiction_score": 0.06621566414833069,
+      "max_neutral_score": 0.8619390726089478
+    },
+    {
+      "doc_id": "13497630",
+      "claim_id": "40",
+      "claim_text": "A diminished ovarian reserve is a very strong indicator of infertility, even in an a priori non-infertile population.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.021184632554650307,
+      "max_contradiction_score": 0.9784947633743286,
+      "max_neutral_score": 0.9275417923927307
+    },
+    {
+      "doc_id": "13497630",
+      "claim_id": "349",
+      "claim_text": "Diminished ovarian reserve is a reliable indicator of infertility in a non-infertile population.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.1045827567577362,
+      "max_contradiction_score": 0.9541696310043335,
+      "max_neutral_score": 0.8140188455581665
+    },
+    {
+      "doc_id": "18174210",
+      "claim_id": "41",
+      "claim_text": "A high microerythrocyte count protects against severe anemia in homozygous alpha (+)- thalassemia trait subjects.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.9186919331550598,
+      "max_contradiction_score": 0.9735401272773743,
+      "max_neutral_score": 0.9813298583030701
+    },
+    {
+      "doc_id": "18174210",
+      "claim_id": "928",
+      "claim_text": "Patients with microcytosis and higher erythrocyte count are more vulnerable to severe malarial anaemia when infected with Plasmodium falciparum.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.04555391147732735,
+      "max_contradiction_score": 0.9912661910057068,
+      "max_neutral_score": 0.9798464179039001
+    },
+    {
+      "doc_id": "18174210",
+      "claim_id": "929",
+      "claim_text": "Patients with microcytosis and higher erythrocyte count were more resistant to severe malarial anaemia when infected with Plasmodium falciparum.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.2788226008415222,
+      "max_contradiction_score": 0.6560582518577576,
+      "max_neutral_score": 0.9940491914749146
+    },
+    {
+      "doc_id": "18174210",
+      "claim_id": "42",
+      "claim_text": "A high microerythrocyte count raises vulnerability to severe anemia in homozygous alpha (+)- thalassemia trait subjects.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.21329858899116516,
+      "max_contradiction_score": 0.9950280785560608,
+      "max_neutral_score": 0.975666880607605
+    },
+    {
+      "doc_id": "56893404",
+      "claim_id": "44",
+      "claim_text": "A mutation in HNF4A leads to an increased risk of developing diabetes by the age of 14 years.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.024704299867153168,
+      "max_contradiction_score": 0.07904697954654694,
+      "max_neutral_score": 0.9869586825370789
+    },
+    {
+      "doc_id": "56893404",
+      "claim_id": "45",
+      "claim_text": "A mutation in HNF4A leads to an increased risk of diabetes by the age of 14 years.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.013659416697919369,
+      "max_contradiction_score": 0.0880337581038475,
+      "max_neutral_score": 0.9870213866233826
+    },
+    {
+      "doc_id": "56893404",
+      "claim_id": "229",
+      "claim_text": "Carriers of HNF4A mutations are at reduced risk for diabetes.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.01615959219634533,
+      "max_contradiction_score": 0.4006859064102173,
+      "max_neutral_score": 0.8380821347236633
+    },
+    {
+      "doc_id": "56893404",
+      "claim_id": "490",
+      "claim_text": "HNF4A mutations are associated with macrosomia in infancy.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.4886857867240906,
+      "max_contradiction_score": 0.20735585689544678,
+      "max_neutral_score": 0.993595540523529
+    },
+    {
+      "doc_id": "56893404",
+      "claim_id": "1291",
+      "claim_text": "There is no association between HNF4A mutations and diabetes risks.",
+      "pred_label": "contradiction",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.00249604694545269,
+      "max_contradiction_score": 0.9980983138084412,
+      "max_neutral_score": 0.15208761394023895
+    },
+    {
+      "doc_id": "56893404",
+      "claim_id": "491",
+      "claim_text": "HNF4A mutations can cause diabetes in mutant carriers by the age of 14 years",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.01564192585647106,
+      "max_contradiction_score": 0.05473649874329567,
+      "max_neutral_score": 0.9904040098190308
+    },
+    {
+      "doc_id": "56893404",
+      "claim_id": "1292",
+      "claim_text": "There is no association between HNF4A mutations and diabetes risks.",
+      "pred_label": "contradiction",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.00249604694545269,
+      "max_contradiction_score": 0.9980983138084412,
+      "max_neutral_score": 0.15208761394023895
+    },
+    {
+      "doc_id": "45638119",
+      "claim_id": "52",
+      "claim_text": "ALDH1 expression is associated with poorer prognosis for breast cancer primary tumors.",
+      "pred_label": "entailment",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.9255561828613281,
+      "max_contradiction_score": 0.7478479743003845,
+      "max_neutral_score": 0.836068332195282
+    },
+    {
+      "doc_id": "45638119",
+      "claim_id": "51",
+      "claim_text": "ALDH1 expression is associated with better breast cancer outcomes.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.12299935519695282,
+      "max_contradiction_score": 0.9989823698997498,
+      "max_neutral_score": 0.919635534286499
+    },
+    {
+      "doc_id": "45638119",
+      "claim_id": "53",
+      "claim_text": "ALDH1 expression is associated with poorer prognosis in breast cancer.",
+      "pred_label": "entailment",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.9918476343154907,
+      "max_contradiction_score": 0.8058649301528931,
+      "max_neutral_score": 0.8322191834449768
+    },
+    {
+      "doc_id": "4709641",
+      "claim_id": "58",
+      "claim_text": "APOE4 expression in iPSC-derived neurons results in decreased tau phosphorylation.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.0433974489569664,
+      "max_contradiction_score": 0.9979932308197021,
+      "max_neutral_score": 0.9714880585670471
+    },
+    {
+      "doc_id": "4709641",
+      "claim_id": "286",
+      "claim_text": "Converting apoE4 to apoE3 by gene editing prevents the pathology associated with apoE4 in human iPSCderived neurons.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.042766179889440536,
+      "max_contradiction_score": 0.6508965492248535,
+      "max_neutral_score": 0.9603795409202576
+    },
+    {
+      "doc_id": "4709641",
+      "claim_id": "287",
+      "claim_text": "Converting apoE4 to apoE3 by gene editing worsens the pathology associated with apoE4 in human iPSCderived neurons.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.2101653516292572,
+      "max_contradiction_score": 0.9960232973098755,
+      "max_neutral_score": 0.9472648501396179
+    },
+    {
+      "doc_id": "4709641",
+      "claim_id": "56",
+      "claim_text": "APOE4 expression in iPSC-derived neurons increases AlphaBeta production and tau phosphorylation causing GABA neuron degeneration.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.5890260934829712,
+      "max_contradiction_score": 0.33904749155044556,
+      "max_neutral_score": 0.9906508922576904
+    },
+    {
+      "doc_id": "4709641",
+      "claim_id": "57",
+      "claim_text": "APOE4 expression in iPSC-derived neurons increases AlphaBeta production and tau phosphorylation, delaying GABA neuron degeneration.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.03024899773299694,
+      "max_contradiction_score": 0.9913023710250854,
+      "max_neutral_score": 0.9831489324569702
+    },
+    {
+      "doc_id": "40349336",
+      "claim_id": "63",
+      "claim_text": "ATM and Rad3 related protein are critical for sensing DNA damage.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.07700759917497635,
+      "max_contradiction_score": 0.32102999091148376,
+      "max_neutral_score": 0.9003058671951294
+    },
+    {
+      "doc_id": "40349336",
+      "claim_id": "64",
+      "claim_text": "ATM and Rad3 related protein have no role in sensing DNA damage.",
+      "pred_label": "contradiction",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.006285944487899542,
+      "max_contradiction_score": 0.9432374835014343,
+      "max_neutral_score": 0.33793067932128906
+    },
+    {
+      "doc_id": "40349336",
+      "claim_id": "325",
+      "claim_text": "Deletion of ATM and Rad3 related protein is not predictive of acute tissue loss.",
+      "pred_label": "contradiction",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.004816283006221056,
+      "max_contradiction_score": 0.9520266056060791,
+      "max_neutral_score": 0.3698001801967621
+    },
+    {
+      "doc_id": "40349336",
+      "claim_id": "326",
+      "claim_text": "Deletion of ATM and Rad3 related protein leads to acute tissue loss.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.27542057633399963,
+      "max_contradiction_score": 0.0972597599029541,
+      "max_neutral_score": 0.9839940071105957
+    },
+    {
+      "doc_id": "4387784",
+      "claim_id": "74",
+      "claim_text": "Active H. pylori urease has a polymeric structure consisting of five distinct subunits.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.387095183134079,
+      "max_contradiction_score": 0.41354188323020935,
+      "max_neutral_score": 0.9476882815361023
+    },
+    {
+      "doc_id": "4387784",
+      "claim_id": "75",
+      "claim_text": "Active H. pylori urease has a polymeric structure that compromises two subunits, UreA and UreB.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.07491875439882278,
+      "max_contradiction_score": 0.6436147093772888,
+      "max_neutral_score": 0.9127753376960754
+    },
+    {
+      "doc_id": "4387784",
+      "claim_id": "1280",
+      "claim_text": "The ureABIEFGH gene cluster encodes urease maturation proteins : UreD/UreH, UreE, UreF, and UreG.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.34014949202537537,
+      "max_contradiction_score": 0.6355969905853271,
+      "max_neutral_score": 0.8735676407814026
+    },
+    {
+      "doc_id": "4387784",
+      "claim_id": "1281",
+      "claim_text": "The ureABIEFGH gene cluster is induced by nickel (II) ion.",
+      "pred_label": "contradiction",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.04730210453271866,
+      "max_contradiction_score": 0.8853626251220703,
+      "max_neutral_score": 0.6406302452087402
+    },
+    {
+      "doc_id": "5531479",
+      "claim_id": "76",
+      "claim_text": "Active Ly49Q induces neutrophil polarization.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.915841817855835,
+      "max_contradiction_score": 0.9636586308479309,
+      "max_neutral_score": 0.9658073782920837
+    },
+    {
+      "doc_id": "5531479",
+      "claim_id": "77",
+      "claim_text": "Active Ly49Q prevents neutrophil polarization.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.4557953476905823,
+      "max_contradiction_score": 0.9971404075622559,
+      "max_neutral_score": 0.5577626824378967
+    },
+    {
+      "doc_id": "5531479",
+      "claim_id": "724",
+      "claim_text": "Ly49Q directs the organization of neutrophil polarization by regulating membrane raft functions.",
+      "pred_label": "entailment",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.9760082960128784,
+      "max_contradiction_score": 0.35626113414764404,
+      "max_neutral_score": 0.9696988463401794
+    },
+    {
+      "doc_id": "5531479",
+      "claim_id": "723",
+      "claim_text": "Ly49Q directs the organization of neutrophil migration to inflammation sites by regulating membrane raft functions.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.9677366018295288,
+      "max_contradiction_score": 0.9752379655838013,
+      "max_neutral_score": 0.9877617359161377
+    },
+    {
+      "doc_id": "1084345",
+      "claim_id": "91",
+      "claim_text": "Aged patients are less susceptible to ischaemia/reperfusion injury.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.03893684595823288,
+      "max_contradiction_score": 0.3563048839569092,
+      "max_neutral_score": 0.957941472530365
+    },
+    {
+      "doc_id": "1084345",
+      "claim_id": "92",
+      "claim_text": "Aged patients are more susceptible to ischaemia/reperfusion injury.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.03502731770277023,
+      "max_contradiction_score": 0.4303383529186249,
+      "max_neutral_score": 0.9827969074249268
+    },
+    {
+      "doc_id": "1084345",
+      "claim_id": "148",
+      "claim_text": "Autophagy declines in aged organisms.",
+      "pred_label": "contradiction",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.42973756790161133,
+      "max_contradiction_score": 0.9926432967185974,
+      "max_neutral_score": 0.9562782049179077
+    },
+    {
+      "doc_id": "6540064",
+      "claim_id": "98",
+      "claim_text": "Alirocumab treatment reduces apo(a) fractional clearance rate.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.49280640482902527,
+      "max_contradiction_score": 0.9850244522094727,
+      "max_neutral_score": 0.9864892959594727
+    },
+    {
+      "doc_id": "6540064",
+      "claim_id": "603",
+      "claim_text": "Increased LDL receptors plays a role in the reduction of plasma Lp(a).",
+      "pred_label": "entailment",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.9728990197181702,
+      "max_contradiction_score": 0.6181633472442627,
+      "max_neutral_score": 0.9596529006958008
+    },
+    {
+      "doc_id": "6540064",
+      "claim_id": "901",
+      "claim_text": "PCSK9 inhibitors decrease plasma Lp(a) levels.",
+      "pred_label": "entailment",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.986760139465332,
+      "max_contradiction_score": 0.6008381843566895,
+      "max_neutral_score": 0.9287319779396057
+    },
+    {
+      "doc_id": "36606083",
+      "claim_id": "105",
+      "claim_text": "Alteration of origin firing causes changes in termination zones of Okazaki fragments.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.11752899736166,
+      "max_contradiction_score": 0.09927792102098465,
+      "max_neutral_score": 0.9620712399482727
+    },
+    {
+      "doc_id": "36606083",
+      "claim_id": "807",
+      "claim_text": "Most termination events in Okazaki fragments are dictated by initiation patterns.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.007236704230308533,
+      "max_contradiction_score": 0.844989538192749,
+      "max_neutral_score": 0.9960976839065552
+    },
+    {
+      "doc_id": "36606083",
+      "claim_id": "808",
+      "claim_text": "Most termination events in Okazaki fragments are sequence specific.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.009629838168621063,
+      "max_contradiction_score": 0.951102077960968,
+      "max_neutral_score": 0.9953287839889526
+    },
+    {
+      "doc_id": "10582939",
+      "claim_id": "144",
+      "claim_text": "Autologous transplantation of mesenchymal stem cells has better graft function than induction therapy with anti-interleukin-2 receptor antibodies.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.6147042512893677,
+      "max_contradiction_score": 0.32848209142684937,
+      "max_neutral_score": 0.9964442849159241
+    },
+    {
+      "doc_id": "10582939",
+      "claim_id": "142",
+      "claim_text": "Autologous transplantation of mesenchymal stem cells causes a higher rate of opportunistic infections than induction therapy with anti-interleukin-2 receptor antibodies.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.1292743980884552,
+      "max_contradiction_score": 0.9971681237220764,
+      "max_neutral_score": 0.9343118667602539
+    },
+    {
+      "doc_id": "10582939",
+      "claim_id": "143",
+      "claim_text": "Autologous transplantation of mesenchymal stem cells causes fewer opportunistic infections than induction therapy with anti-interleukin-2 receptor antibodies.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.8158211708068848,
+      "max_contradiction_score": 0.21805930137634277,
+      "max_neutral_score": 0.9918943047523499
+    },
+    {
+      "doc_id": "10582939",
+      "claim_id": "146",
+      "claim_text": "Autologous transplantation of mesenchymal stem cells has lower rates of rejection than induction therapy with anti-interleukin-2 receptor antibodies.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.7656655311584473,
+      "max_contradiction_score": 0.7116931080818176,
+      "max_neutral_score": 0.996309220790863
+    },
+    {
+      "doc_id": "37549932",
+      "claim_id": "155",
+      "claim_text": "BCL-2 activation antagonizes the apoptotic effects of c-Myc.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.036188092082738876,
+      "max_contradiction_score": 0.5006875991821289,
+      "max_neutral_score": 0.9242650270462036
+    },
+    {
+      "doc_id": "37549932",
+      "claim_id": "156",
+      "claim_text": "BCL-2 promotes the apoptotic effects of c-Myc.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.03604733571410179,
+      "max_contradiction_score": 0.8068562150001526,
+      "max_neutral_score": 0.9812204837799072
+    },
+    {
+      "doc_id": "37549932",
+      "claim_id": "1088",
+      "claim_text": "Silencing of Bcl2 is important for the maintenance and progression of tumors.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.08228334784507751,
+      "max_contradiction_score": 0.9701324105262756,
+      "max_neutral_score": 0.7011772990226746
+    },
+    {
+      "doc_id": "5824985",
+      "claim_id": "164",
+      "claim_text": "Bariatric surgery increases rates of colorectal cancer.",
+      "pred_label": "contradiction",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.021224642172455788,
+      "max_contradiction_score": 0.9940295219421387,
+      "max_neutral_score": 0.94411700963974
+    },
+    {
+      "doc_id": "5824985",
+      "claim_id": "165",
+      "claim_text": "Bariatric surgery increases rates of postmenopausal breast cancer.",
+      "pred_label": "contradiction",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.026498030871152878,
+      "max_contradiction_score": 0.9897769689559937,
+      "max_neutral_score": 0.9318466186523438
+    },
+    {
+      "doc_id": "5824985",
+      "claim_id": "168",
+      "claim_text": "Bariatric surgery reduces colorectal cancer.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.10643556714057922,
+      "max_contradiction_score": 0.49564024806022644,
+      "max_neutral_score": 0.9912059903144836
+    },
+    {
+      "doc_id": "5824985",
+      "claim_id": "169",
+      "claim_text": "Bariatric surgery reduces postmenopausal breast cancer.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.14340543746948242,
+      "max_contradiction_score": 0.30007338523864746,
+      "max_neutral_score": 0.9845770001411438
+    },
+    {
+      "doc_id": "18872233",
+      "claim_id": "166",
+      "claim_text": "Bariatric surgery leads to negative outcomes in mental health.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.7941542267799377,
+      "max_contradiction_score": 0.9976335763931274,
+      "max_neutral_score": 0.9631924629211426
+    },
+    {
+      "doc_id": "18872233",
+      "claim_id": "167",
+      "claim_text": "Bariatric surgery leads to positive outcomes in mental health.",
+      "pred_label": "contradiction",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.8323993682861328,
+      "max_contradiction_score": 0.8958379030227661,
+      "max_neutral_score": 0.8837746977806091
+    },
+    {
+      "doc_id": "18872233",
+      "claim_id": "163",
+      "claim_text": "Bariatric surgery has a positive impact on mental health.",
+      "pred_label": "contradiction",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.6838517189025879,
+      "max_contradiction_score": 0.9578135013580322,
+      "max_neutral_score": 0.8422043323516846
+    },
+    {
+      "doc_id": "2177022",
+      "claim_id": "197",
+      "claim_text": "CCL19 is a ligand for CCR7.",
+      "pred_label": "entailment",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.9777892231941223,
+      "max_contradiction_score": 0.9755182266235352,
+      "max_neutral_score": 0.6977629065513611
+    },
+    {
+      "doc_id": "2177022",
+      "claim_id": "199",
+      "claim_text": "CCL19 is predominantly present within dLNs.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.0947728380560875,
+      "max_contradiction_score": 0.5525321960449219,
+      "max_neutral_score": 0.9784753322601318
+    },
+    {
+      "doc_id": "2177022",
+      "claim_id": "198",
+      "claim_text": "CCL19 is absent within dLNs.",
+      "pred_label": "contradiction",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.02452731691300869,
+      "max_contradiction_score": 0.8839274048805237,
+      "max_neutral_score": 0.7803428173065186
+    },
+    {
+      "doc_id": "18231807",
+      "claim_id": "200",
+      "claim_text": "CD28 initiates tonic signaling in conventional T cells, which causes an exhaustion phenotype and limited efficiency.",
+      "pred_label": "contradiction",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.1251017451286316,
+      "max_contradiction_score": 0.8972625136375427,
+      "max_neutral_score": 0.8970744013786316
+    },
+    {
+      "doc_id": "18231807",
+      "claim_id": "1307",
+      "claim_text": "Tonic signaling from the scFv induces constitutive stimulation.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.11503268033266068,
+      "max_contradiction_score": 0.8675398230552673,
+      "max_neutral_score": 0.9855000376701355
+    },
+    {
+      "doc_id": "18231807",
+      "claim_id": "1308",
+      "claim_text": "Tonic signaling from the scFv is amplified by MyD88/CD40.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.05363721400499344,
+      "max_contradiction_score": 0.5466035008430481,
+      "max_neutral_score": 0.9051331877708435
+    },
+    {
+      "doc_id": "18231807",
+      "claim_id": "1309",
+      "claim_text": "Tonic signaling from the scFv prevents constitutive stimulation.",
+      "pred_label": "contradiction",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.03753777965903282,
+      "max_contradiction_score": 0.7849587798118591,
+      "max_neutral_score": 0.3936096429824829
+    },
+    {
+      "doc_id": "19205437",
+      "claim_id": "220",
+      "claim_text": "Ca2+ cycling controls whole-body energy homeostasis in beige fat.",
+      "pred_label": "entailment",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.992078959941864,
+      "max_contradiction_score": 0.6580770611763,
+      "max_neutral_score": 0.690468966960907
+    },
+    {
+      "doc_id": "19205437",
+      "claim_id": "221",
+      "claim_text": "Ca2+ cycling is a UCP1-dependent thermogenic mechanism.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.15102723240852356,
+      "max_contradiction_score": 0.9909424185752869,
+      "max_neutral_score": 0.814971387386322
+    },
+    {
+      "doc_id": "19205437",
+      "claim_id": "222",
+      "claim_text": "Ca2+ cycling is a UCP1-independent thermogenic mechanism.",
+      "pred_label": "entailment",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.9791614413261414,
+      "max_contradiction_score": 0.6569637060165405,
+      "max_neutral_score": 0.741084098815918
+    },
+    {
+      "doc_id": "2014909",
+      "claim_id": "223",
+      "claim_text": "Cancer cells can stimulate the accumulation of intra-tumoural myeloid-derived suppressor cells by promoting granulocyte colony stimulating factor production.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.6301142573356628,
+      "max_contradiction_score": 0.6353702545166016,
+      "max_neutral_score": 0.8665019273757935
+    },
+    {
+      "doc_id": "2014909",
+      "claim_id": "323",
+      "claim_text": "Deleting Raptor increases G-CSF levels.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.06729841977357864,
+      "max_contradiction_score": 0.4783948063850403,
+      "max_neutral_score": 0.7564054131507874
+    },
+    {
+      "doc_id": "2014909",
+      "claim_id": "441",
+      "claim_text": "G-CSF increases the expansion and infiltration of MDSCs into tumors.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.5470232963562012,
+      "max_contradiction_score": 0.19595834612846375,
+      "max_neutral_score": 0.9706326127052307
+    },
+    {
+      "doc_id": "2014909",
+      "claim_id": "324",
+      "claim_text": "Deleting Raptor reduces G-CSF levels.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.0903913602232933,
+      "max_contradiction_score": 0.36762404441833496,
+      "max_neutral_score": 0.8588707447052002
+    },
+    {
+      "doc_id": "6944800",
+      "claim_id": "224",
+      "claim_text": "Cancer-associated fibroblasts (CAFs) are constituents of tumor microenvironments",
+      "pred_label": "contradiction",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.3324737846851349,
+      "max_contradiction_score": 0.7447453141212463,
+      "max_neutral_score": 0.6746492981910706
+    },
+    {
+      "doc_id": "6944800",
+      "claim_id": "225",
+      "claim_text": "Cancer-associated fibroblasts (CAFs) have no known interaction with cancer cells in the formation and activation of CAFs.",
+      "pred_label": "contradiction",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.017527934163808823,
+      "max_contradiction_score": 0.9777650237083435,
+      "max_neutral_score": 0.3500050902366638
+    },
+    {
+      "doc_id": "6944800",
+      "claim_id": "226",
+      "claim_text": "Cancer-associated fibroblasts (CAFs) interact with cancer cells to mediate formation and activation of CAFs.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.29933854937553406,
+      "max_contradiction_score": 0.6538968682289124,
+      "max_neutral_score": 0.936316967010498
+    },
+    {
+      "doc_id": "4388470",
+      "claim_id": "235",
+      "claim_text": "Cell autonomous sex determination in somatic cells occurs in Galliformes.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.19393858313560486,
+      "max_contradiction_score": 0.44505661725997925,
+      "max_neutral_score": 0.9463989734649658
+    },
+    {
+      "doc_id": "4388470",
+      "claim_id": "233",
+      "claim_text": "Cell autonomous sex determination in somatic cells does not occur in Galliformes.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.39848920702934265,
+      "max_contradiction_score": 0.7853294610977173,
+      "max_neutral_score": 0.8600602746009827
+    },
+    {
+      "doc_id": "4388470",
+      "claim_id": "236",
+      "claim_text": "Cell autonomous sex determination in somatic cells occurs in Passeriformes.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.12246321141719818,
+      "max_contradiction_score": 0.46718502044677734,
+      "max_neutral_score": 0.975028932094574
+    },
+    {
+      "doc_id": "4388470",
+      "claim_id": "303",
+      "claim_text": "DMRT1 is a sex-determining gene that is epigenetically regulated by the MHM region.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.0263717882335186,
+      "max_contradiction_score": 0.20653095841407776,
+      "max_neutral_score": 0.9928580522537231
+    },
+    {
+      "doc_id": "1568684",
+      "claim_id": "250",
+      "claim_text": "Chenodeoxycholic acid treatment decreases brown adipose tissue activity.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.03687681630253792,
+      "max_contradiction_score": 0.9940018057823181,
+      "max_neutral_score": 0.5707007646560669
+    },
+    {
+      "doc_id": "1568684",
+      "claim_id": "251",
+      "claim_text": "Chenodeoxycholic acid treatment increases brown adipose tissue activity.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.7292991280555725,
+      "max_contradiction_score": 0.44489797949790955,
+      "max_neutral_score": 0.9889784455299377
+    },
+    {
+      "doc_id": "1568684",
+      "claim_id": "248",
+      "claim_text": "Chenodeosycholic acid treatment increases whole-body energy expenditure.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.7224019765853882,
+      "max_contradiction_score": 0.16219061613082886,
+      "max_neutral_score": 0.9755310416221619
+    },
+    {
+      "doc_id": "1568684",
+      "claim_id": "249",
+      "claim_text": "Chenodeosycholic acid treatment reduces whole-body energy expenditure.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.12394620478153229,
+      "max_contradiction_score": 0.9966933727264404,
+      "max_neutral_score": 0.9764066338539124
+    },
+    {
+      "doc_id": "11614737",
+      "claim_id": "272",
+      "claim_text": "Combination nicotine replacement therapies with varenicline or bupropion are more effective after 12 weeks of reatment compared to varenicline monotherapy.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.8120898008346558,
+      "max_contradiction_score": 0.3443215787410736,
+      "max_neutral_score": 0.9969403743743896
+    },
+    {
+      "doc_id": "11614737",
+      "claim_id": "1360",
+      "claim_text": "Varenicline monotherapy is more effective after 26 weeks of treatment compared to combination nicotine replacement therapies with varenicline or bupropion.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.46892616152763367,
+      "max_contradiction_score": 0.718254029750824,
+      "max_neutral_score": 0.9913358688354492
+    },
+    {
+      "doc_id": "11614737",
+      "claim_id": "274",
+      "claim_text": "Combination nicotine replacement therapies with varenicline or bupropion lead to significantly higher long-term abstinence rates at 52 weeks than varenicline monotherapy.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.25185713171958923,
+      "max_contradiction_score": 0.7039623260498047,
+      "max_neutral_score": 0.9973115921020508
+    },
+    {
+      "doc_id": "11614737",
+      "claim_id": "1359",
+      "claim_text": "Varenicline monotherapy is more effective after 12 weeks of treatment compared to combination nicotine replacement therapies with varenicline or bupropion.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.2918589115142822,
+      "max_contradiction_score": 0.5575750470161438,
+      "max_neutral_score": 0.9926503300666809
+    },
+    {
+      "doc_id": "14376683",
+      "claim_id": "277",
+      "claim_text": "Commelina yellow mottle virus (ComYMV) has three typical badnavirus ORFs, capable of encoding proteins 23, 15, and 216 kD.",
+      "pred_label": "contradiction",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.27651742100715637,
+      "max_contradiction_score": 0.9228498339653015,
+      "max_neutral_score": 0.9094414710998535
+    },
+    {
+      "doc_id": "14376683",
+      "claim_id": "278",
+      "claim_text": "Commelina yellow mottle virus' (ComYMV) genome consists of 2140 baise pairs.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.15383756160736084,
+      "max_contradiction_score": 0.8635664582252502,
+      "max_neutral_score": 0.9532161355018616
+    },
+    {
+      "doc_id": "14376683",
+      "claim_id": "279",
+      "claim_text": "Commelina yellow mottle virus' (ComYMV) genome consists of 7489 baise pairs.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.16917948424816132,
+      "max_contradiction_score": 0.8664243817329407,
+      "max_neutral_score": 0.945642352104187
+    },
+    {
+      "doc_id": "7821634",
+      "claim_id": "306",
+      "claim_text": "DUSP4 decreases apoptosis.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.10898064821958542,
+      "max_contradiction_score": 0.8718480467796326,
+      "max_neutral_score": 0.8810954093933105
+    },
+    {
+      "doc_id": "7821634",
+      "claim_id": "308",
+      "claim_text": "DUSP4 downregulation deactivates the Ras-ERK pathway",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.03045983798801899,
+      "max_contradiction_score": 0.9989466071128845,
+      "max_neutral_score": 0.9563905000686646
+    },
+    {
+      "doc_id": "7821634",
+      "claim_id": "309",
+      "claim_text": "DUSP4 increases apoptosis.",
+      "pred_label": "contradiction",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.9727588295936584,
+      "max_contradiction_score": 0.9840223789215088,
+      "max_neutral_score": 0.824698269367218
+    },
+    {
+      "doc_id": "6173523",
+      "claim_id": "310",
+      "claim_text": "De novo assembly of sequence data has fewer specific contigs than unassembled sequence data.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.23899343609809875,
+      "max_contradiction_score": 0.19999372959136963,
+      "max_neutral_score": 0.9508645534515381
+    },
+    {
+      "doc_id": "6173523",
+      "claim_id": "313",
+      "claim_text": "De novo assembly of sequence data has shorter contigs than unassembled sequence data.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.3046959936618805,
+      "max_contradiction_score": 0.1365130990743637,
+      "max_neutral_score": 0.979861855506897
+    },
+    {
+      "doc_id": "6173523",
+      "claim_id": "312",
+      "claim_text": "De novo assembly of sequence data has more specific contigs than unassembled sequence data.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.33371874690055847,
+      "max_contradiction_score": 0.11714078485965729,
+      "max_neutral_score": 0.9677176475524902
+    },
+    {
+      "doc_id": "2097256",
+      "claim_id": "336",
+      "claim_text": "Destination container port throughput(CPT) is negatively related to dengue virus (DENV-1) diffusion in air traffic shipments.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.29494068026542664,
+      "max_contradiction_score": 0.19567403197288513,
+      "max_neutral_score": 0.899124264717102
+    },
+    {
+      "doc_id": "2097256",
+      "claim_id": "337",
+      "claim_text": "Destination container port throughput(CPT) is positively related to dengue virus (DENV-1) diffusion in air traffic shipments.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.22611872851848602,
+      "max_contradiction_score": 0.4802362322807312,
+      "max_neutral_score": 0.8090781569480896
+    },
+    {
+      "doc_id": "2097256",
+      "claim_id": "890",
+      "claim_text": "Origin gross domestic product(GDP) is negatively related to dengue virus (DENV-1) diffusion in air traffic shipments.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.14790470898151398,
+      "max_contradiction_score": 0.25507286190986633,
+      "max_neutral_score": 0.8906437158584595
+    },
+    {
+      "doc_id": "2097256",
+      "claim_id": "891",
+      "claim_text": "Origin gross domestic product(GDP) is positively related to dengue virus (DENV-1) diffusion in air traffic shipments.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.10069862753152847,
+      "max_contradiction_score": 0.4976779818534851,
+      "max_neutral_score": 0.7588720321655273
+    },
+    {
+      "doc_id": "14658685",
+      "claim_id": "351",
+      "claim_text": "Distant CREs are important for transcriptional regulation.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.19605958461761475,
+      "max_contradiction_score": 0.0613388828933239,
+      "max_neutral_score": 0.9445256590843201
+    },
+    {
+      "doc_id": "14658685",
+      "claim_id": "352",
+      "claim_text": "Distant CREs are less conserved among species.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.4107966125011444,
+      "max_contradiction_score": 0.24045011401176453,
+      "max_neutral_score": 0.9005852937698364
+    },
+    {
+      "doc_id": "14658685",
+      "claim_id": "704",
+      "claim_text": "Long - range chromatin interactions regulate transcription.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.42841094732284546,
+      "max_contradiction_score": 0.15205858647823334,
+      "max_neutral_score": 0.9137411713600159
+    },
+    {
+      "doc_id": "14658685",
+      "claim_id": "1074",
+      "claim_text": "Sequence conservation in gene regulatory regions between species is a high-accuracy predictor of conserved functionality.",
+      "pred_label": "contradiction",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.10382242500782013,
+      "max_contradiction_score": 0.9554476737976074,
+      "max_neutral_score": 0.9471820592880249
+    },
+    {
+      "doc_id": "14658685",
+      "claim_id": "1075",
+      "claim_text": "Sequence conservation in gene regulatory regions between species is a poor predictor of conserved functionality.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.18519845604896545,
+      "max_contradiction_score": 0.805907666683197,
+      "max_neutral_score": 0.8408369421958923
+    },
+    {
+      "doc_id": "1550937",
+      "claim_id": "364",
+      "claim_text": "EGR2 is important to myelination of the peripheral nervous system.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.24693438410758972,
+      "max_contradiction_score": 0.09748633205890656,
+      "max_neutral_score": 0.9670546054840088
+    },
+    {
+      "doc_id": "1550937",
+      "claim_id": "370",
+      "claim_text": "Egr2 regulates the homeostasis of B and T cells.",
+      "pred_label": "entailment",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.9810299873352051,
+      "max_contradiction_score": 0.9167453050613403,
+      "max_neutral_score": 0.8649970293045044
+    },
+    {
+      "doc_id": "1550937",
+      "claim_id": "371",
+      "claim_text": "Egr3 regulates the homeostasis of B and T cells.",
+      "pred_label": "entailment",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.987322986125946,
+      "max_contradiction_score": 0.8399271965026855,
+      "max_neutral_score": 0.9100992679595947
+    },
+    {
+      "doc_id": "24922825",
+      "claim_id": "372",
+      "claim_text": "Eilat virus (EILV) produced in mosquitos elicits rapid and long-lasting neutralizing antibodies in nonhuman primates.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.7638030648231506,
+      "max_contradiction_score": 0.78194659948349,
+      "max_neutral_score": 0.993553638458252
+    },
+    {
+      "doc_id": "24922825",
+      "claim_id": "772",
+      "claim_text": "Mice are incapable of producing neutralizing antibodies in reponse to the Chikungunya virus (CHIKV) produced in mosquitos.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.01577547751367092,
+      "max_contradiction_score": 0.9900642037391663,
+      "max_neutral_score": 0.5211300253868103
+    },
+    {
+      "doc_id": "24922825",
+      "claim_id": "853",
+      "claim_text": "Nonhuman primates are incapable of producing neutralizing antibodies in reponse to the Eilat virus (EILV) produced in mosquitos.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.020575927570462227,
+      "max_contradiction_score": 0.993610680103302,
+      "max_neutral_score": 0.29512447118759155
+    },
+    {
+      "doc_id": "19005293",
+      "claim_id": "379",
+      "claim_text": "Enhanced early production of inflammatory chemokines damages viral control in the lung.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.008018065243959427,
+      "max_contradiction_score": 0.9975276589393616,
+      "max_neutral_score": 0.995928943157196
+    },
+    {
+      "doc_id": "19005293",
+      "claim_id": "1347",
+      "claim_text": "Upon viral challenge, influenza-specific memory CD4+ T cells greatly diminish the early production of inflammatory chemokines in the lung.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.0032163304276764393,
+      "max_contradiction_score": 0.999180018901825,
+      "max_neutral_score": 0.9873437881469727
+    },
+    {
+      "doc_id": "19005293",
+      "claim_id": "1348",
+      "claim_text": "Upon viral challenge, influenza-specific memory CD4+ T cells greatly enhance the early production of inflammatory chemokines in the lung.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.9734594821929932,
+      "max_contradiction_score": 0.20450851321220398,
+      "max_neutral_score": 0.9963794350624084
+    },
+    {
+      "doc_id": "19005293",
+      "claim_id": "380",
+      "claim_text": "Enhanced early production of inflammatory chemokines improves viral control in the lung.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.9679551124572754,
+      "max_contradiction_score": 0.41888704895973206,
+      "max_neutral_score": 0.9907160997390747
+    },
+    {
+      "doc_id": "1148122",
+      "claim_id": "389",
+      "claim_text": "Ethanol stress increases the expression of IBP in bacteria.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.10168829560279846,
+      "max_contradiction_score": 0.5101257562637329,
+      "max_neutral_score": 0.943494975566864
+    },
+    {
+      "doc_id": "1148122",
+      "claim_id": "390",
+      "claim_text": "Ethanol stress increases the expression of PSP in bacteria.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.07375437766313553,
+      "max_contradiction_score": 0.5732815861701965,
+      "max_neutral_score": 0.9519690871238708
+    },
+    {
+      "doc_id": "1148122",
+      "claim_id": "391",
+      "claim_text": "Ethanol stress increases the expression of SRL in bacteria.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.06290855258703232,
+      "max_contradiction_score": 0.758583128452301,
+      "max_neutral_score": 0.9047533273696899
+    },
+    {
+      "doc_id": "1148122",
+      "claim_id": "392",
+      "claim_text": "Ethanol stress lowers the expression of PSP in bacteria.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.09405816346406937,
+      "max_contradiction_score": 0.3135360777378082,
+      "max_neutral_score": 0.9518744945526123
+    },
+    {
+      "doc_id": "1148122",
+      "claim_id": "393",
+      "claim_text": "Ethanol stress reduces the expression of SRL in bacteria.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.10716072469949722,
+      "max_contradiction_score": 0.40468740463256836,
+      "max_neutral_score": 0.90884929895401
+    },
+    {
+      "doc_id": "1148122",
+      "claim_id": "388",
+      "claim_text": "Ethanol stress decreases the expression of IBP in bacteria.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.11512763798236847,
+      "max_contradiction_score": 0.26333728432655334,
+      "max_neutral_score": 0.9578123688697815
+    },
+    {
+      "doc_id": "6309659",
+      "claim_id": "413",
+      "claim_text": "Female carriers of the Apolipoprotein E4 (APOE4) allele have decreased risk for dementia.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.40544575452804565,
+      "max_contradiction_score": 0.5498411655426025,
+      "max_neutral_score": 0.963033139705658
+    },
+    {
+      "doc_id": "6309659",
+      "claim_id": "414",
+      "claim_text": "Female carriers of the Apolipoprotein E4 (APOE4) allele have increased risk for Alzheimer's disease.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.5065609216690063,
+      "max_contradiction_score": 0.7529298067092896,
+      "max_neutral_score": 0.983141303062439
+    },
+    {
+      "doc_id": "6309659",
+      "claim_id": "416",
+      "claim_text": "Female carriers of the Apolipoprotein E4 (APOE4) allele have longer lifetime exposure to estrogen due to an increased reproductive period.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.3067507743835449,
+      "max_contradiction_score": 0.211608424782753,
+      "max_neutral_score": 0.9961073994636536
+    },
+    {
+      "doc_id": "6309659",
+      "claim_id": "417",
+      "claim_text": "Female carriers of the Apolipoprotein E4 (APOE4) allele have shorter lifetime exposure to estrogen due to a decreased reproductive period.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.28723764419555664,
+      "max_contradiction_score": 0.9838733077049255,
+      "max_neutral_score": 0.9912790656089783
+    },
+    {
+      "doc_id": "6309659",
+      "claim_id": "415",
+      "claim_text": "Female carriers of the Apolipoprotein E4 (APOE4) allele have increased risk for dementia.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.606975793838501,
+      "max_contradiction_score": 0.753829300403595,
+      "max_neutral_score": 0.9925984144210815
+    },
+    {
+      "doc_id": "9315213",
+      "claim_id": "420",
+      "claim_text": "Fibroblast growth factor 21 protects against atherosclerosis by modulating adiponectin and SREBP2 levels.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.7623434662818909,
+      "max_contradiction_score": 0.93317711353302,
+      "max_neutral_score": 0.9640224575996399
+    },
+    {
+      "doc_id": "9315213",
+      "claim_id": "680",
+      "claim_text": "Lack of FGF21 in mice increases life expectancy.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.010553387925028801,
+      "max_contradiction_score": 0.9911483526229858,
+      "max_neutral_score": 0.7043926119804382
+    },
+    {
+      "doc_id": "9315213",
+      "claim_id": "681",
+      "claim_text": "Lack of FGF21 in mice leads to atherosclerotic plaque formation.",
+      "pred_label": "entailment",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.9931188821792603,
+      "max_contradiction_score": 0.22885575890541077,
+      "max_neutral_score": 0.9595523476600647
+    },
+    {
+      "doc_id": "9315213",
+      "claim_id": "682",
+      "claim_text": "Lack of FGF21 in mice leads to reduced lifespan.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.7653422951698303,
+      "max_contradiction_score": 0.06869358569383621,
+      "max_neutral_score": 0.9961624145507812
+    },
+    {
+      "doc_id": "9315213",
+      "claim_id": "683",
+      "claim_text": "Lack of FGF21 in mice slows the rate of atherosclerotic plaque formation.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.34236377477645874,
+      "max_contradiction_score": 0.9979825019836426,
+      "max_neutral_score": 0.7932287454605103
+    },
+    {
+      "doc_id": "10165258",
+      "claim_id": "444",
+      "claim_text": "GATA3 regulates cell cycle progression in bone marrow hematopoietic stem cells.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.3866780400276184,
+      "max_contradiction_score": 0.5786404013633728,
+      "max_neutral_score": 0.9501147866249084
+    },
+    {
+      "doc_id": "10165258",
+      "claim_id": "445",
+      "claim_text": "GATA3 regulates self-renewal capacity in bone marrow hematopoietic stem cells.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.29535597562789917,
+      "max_contradiction_score": 0.3693830072879791,
+      "max_neutral_score": 0.9678459167480469
+    },
+    {
+      "doc_id": "10165258",
+      "claim_id": "443",
+      "claim_text": "GATA-3 is important for hematopoietic stem cell (HSC) function.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.7256962656974792,
+      "max_contradiction_score": 0.2938639521598816,
+      "max_neutral_score": 0.9400085210800171
+    },
+    {
+      "doc_id": "4200695",
+      "claim_id": "453",
+      "claim_text": "General exercise therapy is more effective than rotator cuff exercises in reducing pain and improving function of the shoulder.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.13577011227607727,
+      "max_contradiction_score": 0.9656786322593689,
+      "max_neutral_score": 0.9964794516563416
+    },
+    {
+      "doc_id": "4200695",
+      "claim_id": "454",
+      "claim_text": "General exercise therapy is more effective than scapular stabilizer exercises in reducing pain and improving function of the shoulder.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.22013084590435028,
+      "max_contradiction_score": 0.9698336124420166,
+      "max_neutral_score": 0.9976840019226074
+    },
+    {
+      "doc_id": "4200695",
+      "claim_id": "1056",
+      "claim_text": "Rotator cuff exercises are more effective than general exercise therapy in reducing pain and improving function of the shoulder.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.2736530900001526,
+      "max_contradiction_score": 0.3467095196247101,
+      "max_neutral_score": 0.9976669549942017
+    },
+    {
+      "doc_id": "4200695",
+      "claim_id": "1069",
+      "claim_text": "Scapular stabilizer exercises are more effective than general exercise therapy in reducing pain and improving function of the shoulder.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.35559195280075073,
+      "max_contradiction_score": 0.4305383563041687,
+      "max_neutral_score": 0.9976626634597778
+    },
+    {
+      "doc_id": "40096222",
+      "claim_id": "461",
+      "claim_text": "Genetic deletion of JAM-A increases gut permeability.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.7996523976325989,
+      "max_contradiction_score": 0.8178067207336426,
+      "max_neutral_score": 0.8929647207260132
+    },
+    {
+      "doc_id": "40096222",
+      "claim_id": "609",
+      "claim_text": "Increased flux of microbial products provokes immune responses.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.657720148563385,
+      "max_contradiction_score": 0.27382463216781616,
+      "max_neutral_score": 0.889436662197113
+    },
+    {
+      "doc_id": "40096222",
+      "claim_id": "610",
+      "claim_text": "Increased flux of microbial products suppresses immune responses.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.32558202743530273,
+      "max_contradiction_score": 0.7860273718833923,
+      "max_neutral_score": 0.8813291192054749
+    },
+    {
+      "doc_id": "40096222",
+      "claim_id": "560",
+      "claim_text": "Immune responses result in the development of inflammatory Th17 cells and anti-inflammatory iTregs.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.11952567845582962,
+      "max_contradiction_score": 0.9216371774673462,
+      "max_neutral_score": 0.9949005246162415
+    },
+    {
+      "doc_id": "14706752",
+      "claim_id": "481",
+      "claim_text": "Guanine nucleotide dissociation inhibitor (Rho-GDI) interacts with the p75 NTR death domain",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.08827898651361465,
+      "max_contradiction_score": 0.3016824722290039,
+      "max_neutral_score": 0.8846771717071533
+    },
+    {
+      "doc_id": "14706752",
+      "claim_id": "1047",
+      "claim_text": "Ribosome-inactivating protein-2 (RIP-2) interacts with the p75 NTR death domain",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.08632444590330124,
+      "max_contradiction_score": 0.2542850971221924,
+      "max_neutral_score": 0.9514947533607483
+    },
+    {
+      "doc_id": "14706752",
+      "claim_id": "1400",
+      "claim_text": "p75 NTR - associated cell death executor (NADE) interacts with the p75 NTR death domain",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.1587526500225067,
+      "max_contradiction_score": 0.41852253675460815,
+      "max_neutral_score": 0.5629764199256897
+    },
+    {
+      "doc_id": "14637235",
+      "claim_id": "484",
+      "claim_text": "H4 G94P proteins induce chromatin assembly, which increases free histones.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.03891323134303093,
+      "max_contradiction_score": 0.7195772528648376,
+      "max_neutral_score": 0.8836496472358704
+    },
+    {
+      "doc_id": "14637235",
+      "claim_id": "485",
+      "claim_text": "H4 G94P proteins induce degradation of free histones via Rad53-dependent mechanisms.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.0828913077712059,
+      "max_contradiction_score": 0.8341654539108276,
+      "max_neutral_score": 0.9388952255249023
+    },
+    {
+      "doc_id": "14637235",
+      "claim_id": "486",
+      "claim_text": "H4 G94P proteins inhibit chromatin assembly, which decreases free histones.",
+      "pred_label": "contradiction",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.02596678026020527,
+      "max_contradiction_score": 0.8908711671829224,
+      "max_neutral_score": 0.8304597735404968
+    },
+    {
+      "doc_id": "14637235",
+      "claim_id": "487",
+      "claim_text": "H4 G94P proteins suppress degradation of free histones via Rad53-dependent mechanisms.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.08126941323280334,
+      "max_contradiction_score": 0.8517501354217529,
+      "max_neutral_score": 0.9766801595687866
+    },
+    {
+      "doc_id": "14637235",
+      "claim_id": "436",
+      "claim_text": "Free histones are degraded by a Rad53-dependent mechanism once DNA has been replicated.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.026189038529992104,
+      "max_contradiction_score": 0.7715756893157959,
+      "max_neutral_score": 0.9600057601928711
+    },
+    {
+      "doc_id": "17077004",
+      "claim_id": "495",
+      "claim_text": "Having a main partner improves HIV outcomes.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.9307267069816589,
+      "max_contradiction_score": 0.07912582904100418,
+      "max_neutral_score": 0.9959778189659119
+    },
+    {
+      "doc_id": "17077004",
+      "claim_id": "498",
+      "claim_text": "Having a main partner worsens HIV outcomes.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.15902379155158997,
+      "max_contradiction_score": 0.9985364675521851,
+      "max_neutral_score": 0.9748890995979309
+    },
+    {
+      "doc_id": "17077004",
+      "claim_id": "923",
+      "claim_text": "Patients in stable partnerships have a slower progression from HIV to AIDS.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.9921393990516663,
+      "max_contradiction_score": 0.049216631799936295,
+      "max_neutral_score": 0.9965046644210815
+    },
+    {
+      "doc_id": "17077004",
+      "claim_id": "925",
+      "claim_text": "Patients in stable partnerships progress from HIV to death at the same rate as patients not in partnerships.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.013539810664951801,
+      "max_contradiction_score": 0.9534059166908264,
+      "max_neutral_score": 0.9612273573875427
+    },
+    {
+      "doc_id": "17077004",
+      "claim_id": "922",
+      "claim_text": "Patients in stable partnerships have a faster progression from HIV to AIDS.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.0243376474827528,
+      "max_contradiction_score": 0.9983443021774292,
+      "max_neutral_score": 0.9911631345748901
+    },
+    {
+      "doc_id": "14803797",
+      "claim_id": "523",
+      "claim_text": "Higher plasma levels of I-carnitine, when associated with trimethylamine N-oxide, are negatively correlated with cardiovascular events in humans.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.2670673727989197,
+      "max_contradiction_score": 0.5441023707389832,
+      "max_neutral_score": 0.9887945652008057
+    },
+    {
+      "doc_id": "14803797",
+      "claim_id": "524",
+      "claim_text": "Higher plasma levels of I-carnitine, when associated with trimethylamine N-oxide, are positively correlated with cardiovascular events in humans.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.19774186611175537,
+      "max_contradiction_score": 0.7337532639503479,
+      "max_neutral_score": 0.9857670068740845
+    },
+    {
+      "doc_id": "14803797",
+      "claim_id": "881",
+      "claim_text": "Omnivores produce less trimethylamine N-oxide from dietary I-carnitine than vegans.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.08625680953264236,
+      "max_contradiction_score": 0.9856365919113159,
+      "max_neutral_score": 0.9666918516159058
+    },
+    {
+      "doc_id": "14803797",
+      "claim_id": "883",
+      "claim_text": "Omnivores produce more trimethylamine N-oxide from dietary I-carnitine than vegans.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.7266881465911865,
+      "max_contradiction_score": 0.18539036810398102,
+      "max_neutral_score": 0.9910916686058044
+    },
+    {
+      "doc_id": "14803797",
+      "claim_id": "884",
+      "claim_text": "Omnivores produce more trimethylamine N-oxide from dietary I-carnitine than vegetarians.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.7452043294906616,
+      "max_contradiction_score": 0.17208918929100037,
+      "max_neutral_score": 0.9937204122543335
+    },
+    {
+      "doc_id": "14803797",
+      "claim_id": "882",
+      "claim_text": "Omnivores produce less trimethylamine N-oxide from dietary I-carnitine than vegetarians.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.06155003607273102,
+      "max_contradiction_score": 0.9841341376304626,
+      "max_neutral_score": 0.9820318222045898
+    },
+    {
+      "doc_id": "16056514",
+      "claim_id": "537",
+      "claim_text": "Hypocretin neurones suppress panicprone state in rats.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.2491113245487213,
+      "max_contradiction_score": 0.8904580473899841,
+      "max_neutral_score": 0.6624168157577515
+    },
+    {
+      "doc_id": "16056514",
+      "claim_id": "930",
+      "claim_text": "Patients with panic anxiety show decreased CSF levels of hypocretin.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.04760124906897545,
+      "max_contradiction_score": 0.7720040082931519,
+      "max_neutral_score": 0.9634244441986084
+    },
+    {
+      "doc_id": "16056514",
+      "claim_id": "536",
+      "claim_text": "Hypocretin neurones induce panicprone state in rats.",
+      "pred_label": "contradiction",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.2027493566274643,
+      "max_contradiction_score": 0.9507237076759338,
+      "max_neutral_score": 0.9459829926490784
+    },
+    {
+      "doc_id": "10648422",
+      "claim_id": "547",
+      "claim_text": "IL-10 production by monocytes inhibits CD4 + T cell response.",
+      "pred_label": "entailment",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.9817517399787903,
+      "max_contradiction_score": 0.9246776103973389,
+      "max_neutral_score": 0.9672013521194458
+    },
+    {
+      "doc_id": "10648422",
+      "claim_id": "902",
+      "claim_text": "PD-1 triggering on monocytes enhances IL-10 production by monocytes.",
+      "pred_label": "entailment",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.9796648025512695,
+      "max_contradiction_score": 0.929585337638855,
+      "max_neutral_score": 0.9496432542800903
+    },
+    {
+      "doc_id": "10648422",
+      "claim_id": "903",
+      "claim_text": "PD-1 triggering on monocytes reduces IL-10 production by monocytes.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.09457219392061234,
+      "max_contradiction_score": 0.9967058300971985,
+      "max_neutral_score": 0.4928523898124695
+    },
+    {
+      "doc_id": "1049501",
+      "claim_id": "555",
+      "claim_text": "Immune complex triggered cell death leads to extracellular release of nuclear DNA.",
+      "pred_label": "contradiction",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.45276445150375366,
+      "max_contradiction_score": 0.8465594053268433,
+      "max_neutral_score": 0.7883269786834717
+    },
+    {
+      "doc_id": "1049501",
+      "claim_id": "557",
+      "claim_text": "Immune complex triggered cell death leads to sequestration of oxidized mitochondrial DNA.",
+      "pred_label": "contradiction",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.5606045722961426,
+      "max_contradiction_score": 0.9696820378303528,
+      "max_neutral_score": 0.7975171804428101
+    },
+    {
+      "doc_id": "1049501",
+      "claim_id": "554",
+      "claim_text": "Immune complex triggered cell death leads to extracellular release of neutrophil protein HMGB1.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.3165344297885895,
+      "max_contradiction_score": 0.674702525138855,
+      "max_neutral_score": 0.8707417249679565
+    },
+    {
+      "doc_id": "3475317",
+      "claim_id": "559",
+      "claim_text": "Immune responses in immune cells are geographically segregated.",
+      "pred_label": "entailment",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.8427351713180542,
+      "max_contradiction_score": 0.40014564990997314,
+      "max_neutral_score": 0.5029140114784241
+    },
+    {
+      "doc_id": "3475317",
+      "claim_id": "1276",
+      "claim_text": "The tissue surrounding the granuloma in an immune cell induces an anti-inflammatory immune response.",
+      "pred_label": "contradiction",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.5399412512779236,
+      "max_contradiction_score": 0.9958239793777466,
+      "max_neutral_score": 0.9787909984588623
+    },
+    {
+      "doc_id": "3475317",
+      "claim_id": "1328",
+      "claim_text": "Tuberculosis-induced granulomas express different immune system protein signatures than the surrounding tissue.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.30609947443008423,
+      "max_contradiction_score": 0.019886404275894165,
+      "max_neutral_score": 0.9948847889900208
+    },
+    {
+      "doc_id": "3475317",
+      "claim_id": "1202",
+      "claim_text": "The center of the granuloma in an immune cell induces a pro-inflammatory immune response.",
+      "pred_label": "contradiction",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.31632810831069946,
+      "max_contradiction_score": 0.9963598847389221,
+      "max_neutral_score": 0.9848418235778809
+    },
+    {
+      "doc_id": "10300888",
+      "claim_id": "573",
+      "claim_text": "In domesticated populations of Saccharomyces cerevisiae, segmental aneuploidy is very common.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.22656410932540894,
+      "max_contradiction_score": 0.11499468237161636,
+      "max_neutral_score": 0.9835761189460754
+    },
+    {
+      "doc_id": "10300888",
+      "claim_id": "574",
+      "claim_text": "In domesticated populations of Saccharomyces cerevisiae, segmental aneuploidy occurs infrequently.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.36661967635154724,
+      "max_contradiction_score": 0.13528227806091309,
+      "max_neutral_score": 0.9830924868583679
+    },
+    {
+      "doc_id": "10300888",
+      "claim_id": "575",
+      "claim_text": "In domesticated populations of Saccharomyces cerevisiae, whole chromosome aneuploidy is very uncommon.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.2276592254638672,
+      "max_contradiction_score": 0.18746505677700043,
+      "max_neutral_score": 0.9771389365196228
+    },
+    {
+      "doc_id": "4824840",
+      "claim_id": "595",
+      "claim_text": "Incidence of sepsis has fallen substantially from 2009 to 2014.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.1294720470905304,
+      "max_contradiction_score": 0.9961898326873779,
+      "max_neutral_score": 0.9965671300888062
+    },
+    {
+      "doc_id": "4824840",
+      "claim_id": "1072",
+      "claim_text": "Sepsis related mortality has remained stable between 2009-2014.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.9416912198066711,
+      "max_contradiction_score": 0.6184632778167725,
+      "max_neutral_score": 0.9449645280838013
+    },
+    {
+      "doc_id": "4824840",
+      "claim_id": "1073",
+      "claim_text": "Sepsis related mortality has risen from 2009 to 2014.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.3483090102672577,
+      "max_contradiction_score": 0.9873703718185425,
+      "max_neutral_score": 0.9971686005592346
+    },
+    {
+      "doc_id": "12258338",
+      "claim_id": "600",
+      "claim_text": "Including pharmacists in rounding teams does not alter the incidence of adverse drug events (ADEs).",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.048585325479507446,
+      "max_contradiction_score": 0.9982059001922607,
+      "max_neutral_score": 0.9140959978103638
+    },
+    {
+      "doc_id": "12258338",
+      "claim_id": "601",
+      "claim_text": "Including pharmacists in rounding teams reduces the incidence of adverse drug events (ADEs).",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.9835622906684875,
+      "max_contradiction_score": 0.12668214738368988,
+      "max_neutral_score": 0.9963364601135254
+    },
+    {
+      "doc_id": "12258338",
+      "claim_id": "940",
+      "claim_text": "Pharmacist attendance at ward rounds increases adverse events in wards.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.06340403109788895,
+      "max_contradiction_score": 0.9990940093994141,
+      "max_neutral_score": 0.9683272242546082
+    },
+    {
+      "doc_id": "12258338",
+      "claim_id": "941",
+      "claim_text": "Pharmacist attendance at ward rounds reduces adverse events in wards.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.9127775430679321,
+      "max_contradiction_score": 0.41498610377311707,
+      "max_neutral_score": 0.9949546456336975
+    },
+    {
+      "doc_id": "9638032",
+      "claim_id": "612",
+      "claim_text": "Increased microtubule acetylation exacerbates LRRK2 Roc-COR domain mutation induced locomotor deficits.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.03714364022016525,
+      "max_contradiction_score": 0.9980382323265076,
+      "max_neutral_score": 0.985491156578064
+    },
+    {
+      "doc_id": "9638032",
+      "claim_id": "614",
+      "claim_text": "Increased microtubule acetylation repairs interference of axonal transport caused by LRRK2 Roc-COR domain mutations.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.48621684312820435,
+      "max_contradiction_score": 0.665617823600769,
+      "max_neutral_score": 0.9813045263290405
+    },
+    {
+      "doc_id": "9638032",
+      "claim_id": "615",
+      "claim_text": "Increased microtubule acetylation worsens interference of axonal transport caused by LRRK2 Roc-COR domain mutations.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.0602140799164772,
+      "max_contradiction_score": 0.9980838298797607,
+      "max_neutral_score": 0.988171398639679
+    },
+    {
+      "doc_id": "9638032",
+      "claim_id": "613",
+      "claim_text": "Increased microtubule acetylation repairs LRRK2 Roc-COR domain mutation induced locomotor deficits.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.23460467159748077,
+      "max_contradiction_score": 0.6542079448699951,
+      "max_neutral_score": 0.9787802696228027
+    },
+    {
+      "doc_id": "6836086",
+      "claim_id": "618",
+      "claim_text": "Increased purity of cytoplasmic membranes isolated from overexpressors is indicated by stronger spots for OmpF in 2D BN-PAGE gels.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.1917472779750824,
+      "max_contradiction_score": 0.13673518598079681,
+      "max_neutral_score": 0.9935765862464905
+    },
+    {
+      "doc_id": "6836086",
+      "claim_id": "1032",
+      "claim_text": "Reduction of purity of cytoplasmic membranes isolated from overexpressors is indicated by stronger spots for OmpA in 2D BN-PAGE gels.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.10314351320266724,
+      "max_contradiction_score": 0.26639866828918457,
+      "max_neutral_score": 0.9632750153541565
+    },
+    {
+      "doc_id": "6836086",
+      "claim_id": "1033",
+      "claim_text": "Reduction of purity of cytoplasmic membranes isolated from overexpressors is indicated by stronger spots for OmpF in 2D BN-PAGE gels.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.13806414604187012,
+      "max_contradiction_score": 0.24876420199871063,
+      "max_neutral_score": 0.9623201489448547
+    },
+    {
+      "doc_id": "1642727",
+      "claim_id": "621",
+      "claim_text": "Individuals with Alzheimers who participate in six months of physical activity improve cognitive function for up to 18 months.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.27778857946395874,
+      "max_contradiction_score": 0.12092304974794388,
+      "max_neutral_score": 0.9975814819335938
+    },
+    {
+      "doc_id": "1642727",
+      "claim_id": "944",
+      "claim_text": "Physical activity does not improve cognitive function in individuals with Alzheimers.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.053974609822034836,
+      "max_contradiction_score": 0.9099311828613281,
+      "max_neutral_score": 0.7368365526199341
+    },
+    {
+      "doc_id": "1642727",
+      "claim_id": "921",
+      "claim_text": "Participating in six months of physical activity improves cognitive functioning.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.9767056107521057,
+      "max_contradiction_score": 0.03436093404889107,
+      "max_neutral_score": 0.9978310465812683
+    },
+    {
+      "doc_id": "16355392",
+      "claim_id": "626",
+      "claim_text": "Induction of urokinase receptor signaling in podocytes causes foot process effacement and proteinuria.",
+      "pred_label": "contradiction",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.9060361385345459,
+      "max_contradiction_score": 0.9951087832450867,
+      "max_neutral_score": 0.9791883826255798
+    },
+    {
+      "doc_id": "16355392",
+      "claim_id": "696",
+      "claim_text": "Lipopolysaccharides have an inflammation independent effect on kidney barrier function.",
+      "pred_label": "contradiction",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.1530194729566574,
+      "max_contradiction_score": 0.8732595443725586,
+      "max_neutral_score": 0.5581287145614624
+    },
+    {
+      "doc_id": "16355392",
+      "claim_id": "1215",
+      "claim_text": "The effect of Lipopolysaccharides on kidney barrier function is dependent on inflammation levels.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.14676514267921448,
+      "max_contradiction_score": 0.3162999749183655,
+      "max_neutral_score": 0.9360348582267761
+    },
+    {
+      "doc_id": "25649714",
+      "claim_id": "638",
+      "claim_text": "Input from  mental and physical health care professionals is not effective at decreasing homelessness.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.13526901602745056,
+      "max_contradiction_score": 0.9099161624908447,
+      "max_neutral_score": 0.9201469421386719
+    },
+    {
+      "doc_id": "25649714",
+      "claim_id": "1070",
+      "claim_text": "Self-advocacy training is effective at decreasing homelessness.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.12401147931814194,
+      "max_contradiction_score": 0.6018366813659668,
+      "max_neutral_score": 0.9617592096328735
+    },
+    {
+      "doc_id": "25649714",
+      "claim_id": "637",
+      "claim_text": "Input from  mental and physical health care professionals is effective at decreasing homelessness.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.09977903962135315,
+      "max_contradiction_score": 0.7410389184951782,
+      "max_neutral_score": 0.9958674907684326
+    },
+    {
+      "doc_id": "25649714",
+      "claim_id": "1196",
+      "claim_text": "The availability of safe places to study is effective at decreasing homelessness.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.062660813331604,
+      "max_contradiction_score": 0.4608007073402405,
+      "max_neutral_score": 0.9731374382972717
+    },
+    {
+      "doc_id": "25649714",
+      "claim_id": "1197",
+      "claim_text": "The availability of safe places to study is not effective at decreasing homelessness.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.04887903481721878,
+      "max_contradiction_score": 0.7634822130203247,
+      "max_neutral_score": 0.9781719446182251
+    },
+    {
+      "doc_id": "13639330",
+      "claim_id": "679",
+      "claim_text": "LSD1-positive promoters are associated with RNA polymerase II",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.08445503562688828,
+      "max_contradiction_score": 0.23437851667404175,
+      "max_neutral_score": 0.9238676428794861
+    },
+    {
+      "doc_id": "13639330",
+      "claim_id": "1002",
+      "claim_text": "RA activation of DIF2 and NB4 cells induces hallmarks of transcriptionally active promoters.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.015181024558842182,
+      "max_contradiction_score": 0.9312465190887451,
+      "max_neutral_score": 0.9319303631782532
+    },
+    {
+      "doc_id": "13639330",
+      "claim_id": "525",
+      "claim_text": "Histone demethylase recruitment and a transient decrease in histone methylation is necessary for ligand-dependent induction of transcription by nuclear receptors.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.26539164781570435,
+      "max_contradiction_score": 0.5633271932601929,
+      "max_neutral_score": 0.9637233018875122
+    },
+    {
+      "doc_id": "4452659",
+      "claim_id": "685",
+      "claim_text": "Lamins are associated with nuclear membrane structure maintenance.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.4390310049057007,
+      "max_contradiction_score": 0.7081976532936096,
+      "max_neutral_score": 0.8521683216094971
+    },
+    {
+      "doc_id": "4452659",
+      "claim_id": "686",
+      "claim_text": "Lamins are found within the inner layer of the mitochondrial membrane of all cells.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.059184376150369644,
+      "max_contradiction_score": 0.3787989616394043,
+      "max_neutral_score": 0.8732645511627197
+    },
+    {
+      "doc_id": "4452659",
+      "claim_id": "687",
+      "claim_text": "Lamins are found within the inner layer of the nuclear membrane of all cells.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.03943360969424248,
+      "max_contradiction_score": 0.344281405210495,
+      "max_neutral_score": 0.951189398765564
+    },
+    {
+      "doc_id": "4452659",
+      "claim_id": "688",
+      "claim_text": "Lamins have no effect on nuclear membrane structure maintenance.",
+      "pred_label": "contradiction",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.003964452538639307,
+      "max_contradiction_score": 0.9961207509040833,
+      "max_neutral_score": 0.3782378137111664
+    },
+    {
+      "doc_id": "4350400",
+      "claim_id": "703",
+      "claim_text": "Localization of PIN1 in the roots of Arabidopsis requires VPS9a",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.033011022955179214,
+      "max_contradiction_score": 0.09598492830991745,
+      "max_neutral_score": 0.9764741063117981
+    },
+    {
+      "doc_id": "4350400",
+      "claim_id": "700",
+      "claim_text": "Localization of PIN1 in the Arabidopsis embryo does not require VPS9a",
+      "pred_label": "contradiction",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.011340806260704994,
+      "max_contradiction_score": 0.8943957090377808,
+      "max_neutral_score": 0.8529530167579651
+    },
+    {
+      "doc_id": "4350400",
+      "claim_id": "702",
+      "claim_text": "Localization of PIN1 in the roots of Arabidopsis does not require VPS9a",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.012976434081792831,
+      "max_contradiction_score": 0.8593443632125854,
+      "max_neutral_score": 0.8705083131790161
+    },
+    {
+      "doc_id": "22442133",
+      "claim_id": "705",
+      "claim_text": "Long chain polyunsaturated fatty acids supplementation has no significant effects on wheezing or asthma at 3 and 6 years.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.09492440521717072,
+      "max_contradiction_score": 0.7428231239318848,
+      "max_neutral_score": 0.7556754350662231
+    },
+    {
+      "doc_id": "22442133",
+      "claim_id": "709",
+      "claim_text": "Long chain polyunsaturated fatty acids supplementation is associated with lower rates of atopic eczema at 1 year.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.7634596228599548,
+      "max_contradiction_score": 0.13819965720176697,
+      "max_neutral_score": 0.9623677134513855
+    },
+    {
+      "doc_id": "22442133",
+      "claim_id": "710",
+      "claim_text": "Long chain polyunsaturated fatty acids supplementation reduces wheezing and asthma.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.26265624165534973,
+      "max_contradiction_score": 0.5164362192153931,
+      "max_neutral_score": 0.9557802677154541
+    },
+    {
+      "doc_id": "18421962",
+      "claim_id": "713",
+      "claim_text": "Low expression of miR7a does not repress target genes or exert a biological function in ovaries.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.03025048039853573,
+      "max_contradiction_score": 0.6600415706634521,
+      "max_neutral_score": 0.9527832865715027
+    },
+    {
+      "doc_id": "18421962",
+      "claim_id": "714",
+      "claim_text": "Low expression of miR7a does not repress target genes or exert a biological function in testis.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.05333399400115013,
+      "max_contradiction_score": 0.6944843530654907,
+      "max_neutral_score": 0.9202457666397095
+    },
+    {
+      "doc_id": "18421962",
+      "claim_id": "715",
+      "claim_text": "Low expression of miR7a does represses target genes and exerts a biological function in ovaries.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.020184893161058426,
+      "max_contradiction_score": 0.48359882831573486,
+      "max_neutral_score": 0.9925865530967712
+    },
+    {
+      "doc_id": "18421962",
+      "claim_id": "716",
+      "claim_text": "Low expression of miR7a exerts a biological function in testis.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.2725737690925598,
+      "max_contradiction_score": 0.3120653033256531,
+      "max_neutral_score": 0.9772342443466187
+    },
+    {
+      "doc_id": "11291348",
+      "claim_id": "745",
+      "claim_text": "MafA phosphorylation decreases its ubiquitination.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.15344777703285217,
+      "max_contradiction_score": 0.9966523051261902,
+      "max_neutral_score": 0.9562608599662781
+    },
+    {
+      "doc_id": "11291348",
+      "claim_id": "746",
+      "claim_text": "MafA phosphorylation enhances its ubiquitination.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.954937219619751,
+      "max_contradiction_score": 0.9766235947608948,
+      "max_neutral_score": 0.9816927909851074
+    },
+    {
+      "doc_id": "11291348",
+      "claim_id": "747",
+      "claim_text": "MafA ubiquitination decreases the recruitment of coavtivator P/CAF by MafA.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.12408383935689926,
+      "max_contradiction_score": 0.9836156964302063,
+      "max_neutral_score": 0.9922788143157959
+    },
+    {
+      "doc_id": "11291348",
+      "claim_id": "748",
+      "claim_text": "MafA ubiquitination increases the recruitment of coavtivator P/CAF by MafA.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.7056537866592407,
+      "max_contradiction_score": 0.9575730562210083,
+      "max_neutral_score": 0.9952799081802368
+    },
+    {
+      "doc_id": "7552215",
+      "claim_id": "764",
+      "claim_text": "Medications to treat obesity are highly effective.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.2865918278694153,
+      "max_contradiction_score": 0.7579744458198547,
+      "max_neutral_score": 0.8678826093673706
+    },
+    {
+      "doc_id": "7552215",
+      "claim_id": "765",
+      "claim_text": "Medications to treat obesity do not have side effects.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.004773924592882395,
+      "max_contradiction_score": 0.9961142539978027,
+      "max_neutral_score": 0.23969735205173492
+    },
+    {
+      "doc_id": "7552215",
+      "claim_id": "766",
+      "claim_text": "Medications to treat obesity have unwanted side effects.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.8751204609870911,
+      "max_contradiction_score": 0.01723829284310341,
+      "max_neutral_score": 0.9362833499908447
+    },
+    {
+      "doc_id": "32275758",
+      "claim_id": "774",
+      "claim_text": "Mice defective for deoxyribonucleic acid (DNA) polymerase I (polI) fail to reveal increased sensitivity to ionizing radiation (IR).",
+      "pred_label": "contradiction",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.04507813602685928,
+      "max_contradiction_score": 0.6395828127861023,
+      "max_neutral_score": 0.4861812889575958
+    },
+    {
+      "doc_id": "32275758",
+      "claim_id": "776",
+      "claim_text": "Mice defective for deoxyribonucleic acid (DNA) polymerase m (polm) fail to reveal increased sensitivity to ionizing radiation (IR).",
+      "pred_label": "contradiction",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.035308968275785446,
+      "max_contradiction_score": 0.6288939714431763,
+      "max_neutral_score": 0.5392119884490967
+    },
+    {
+      "doc_id": "32275758",
+      "claim_id": "777",
+      "claim_text": "Mice defective for deoxyribonucleic acid (DNA) polymerase m (polm) reveal increased sensitivity to ionizing radiation (IR).",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.05252528935670853,
+      "max_contradiction_score": 0.37460795044898987,
+      "max_neutral_score": 0.9087871313095093
+    },
+    {
+      "doc_id": "32275758",
+      "claim_id": "775",
+      "claim_text": "Mice defective for deoxyribonucleic acid (DNA) polymerase I (polI) reveal increased sensitivity to ionizing radiation (IR).",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.08331681787967682,
+      "max_contradiction_score": 0.3380706310272217,
+      "max_neutral_score": 0.8640374541282654
+    },
+    {
+      "doc_id": "8551160",
+      "claim_id": "795",
+      "claim_text": "Mitochondria play a major role in apoptosis.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.7934166789054871,
+      "max_contradiction_score": 0.9214814901351929,
+      "max_neutral_score": 0.9895420074462891
+    },
+    {
+      "doc_id": "8551160",
+      "claim_id": "797",
+      "claim_text": "Mitochondria play a major role in energy production.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.9752520322799683,
+      "max_contradiction_score": 0.13013097643852234,
+      "max_neutral_score": 0.9947769641876221
+    },
+    {
+      "doc_id": "8551160",
+      "claim_id": "798",
+      "claim_text": "Mitochondria play a trivial role in calcium homeostasis.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.008443542756140232,
+      "max_contradiction_score": 0.8961154818534851,
+      "max_neutral_score": 0.9387791752815247
+    },
+    {
+      "doc_id": "8551160",
+      "claim_id": "793",
+      "claim_text": "Mitochondria are uninvolved in apoptosis.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.010212969966232777,
+      "max_contradiction_score": 0.9992491602897644,
+      "max_neutral_score": 0.7533722519874573
+    },
+    {
+      "doc_id": "15319019",
+      "claim_id": "822",
+      "claim_text": "N348I mutations cause resistance to nevirapine.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.7195831537246704,
+      "max_contradiction_score": 0.8978271484375,
+      "max_neutral_score": 0.9934778213500977
+    },
+    {
+      "doc_id": "15319019",
+      "claim_id": "825",
+      "claim_text": "N348I mutations reduce resistance to nevirapine.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.4543916881084442,
+      "max_contradiction_score": 0.8995200991630554,
+      "max_neutral_score": 0.9935482144355774
+    },
+    {
+      "doc_id": "15319019",
+      "claim_id": "823",
+      "claim_text": "N348I mutations cause resistance to zidovudine (AZT).",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.6057358384132385,
+      "max_contradiction_score": 0.5768917798995972,
+      "max_neutral_score": 0.9903163313865662
+    },
+    {
+      "doc_id": "15928989",
+      "claim_id": "835",
+      "claim_text": "NR5A2 does not play a role in development of endometrial tissues.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.02380954660475254,
+      "max_contradiction_score": 0.9946945309638977,
+      "max_neutral_score": 0.8617531657218933
+    },
+    {
+      "doc_id": "15928989",
+      "claim_id": "838",
+      "claim_text": "NR5A2 is important in reverse cholesterol transport in humans.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.23907218873500824,
+      "max_contradiction_score": 0.5856965184211731,
+      "max_neutral_score": 0.975732684135437
+    },
+    {
+      "doc_id": "15928989",
+      "claim_id": "837",
+      "claim_text": "NR5A2 is important in development of endometrial tissues.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.28741905093193054,
+      "max_contradiction_score": 0.5169750452041626,
+      "max_neutral_score": 0.9600040912628174
+    },
+    {
+      "doc_id": "15663829",
+      "claim_id": "840",
+      "claim_text": "Natriuretic peptides increase susceptibility to diabetes.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.30361461639404297,
+      "max_contradiction_score": 0.9310591220855713,
+      "max_neutral_score": 0.8766494989395142
+    },
+    {
+      "doc_id": "15663829",
+      "claim_id": "841",
+      "claim_text": "Natriuretic peptides protect against diabetes.",
+      "pred_label": "contradiction",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.275769978761673,
+      "max_contradiction_score": 0.9020747542381287,
+      "max_neutral_score": 0.7750532031059265
+    },
+    {
+      "doc_id": "15663829",
+      "claim_id": "517",
+      "claim_text": "High levels of copeptin decrease risk of diabetes.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.35180428624153137,
+      "max_contradiction_score": 0.6996396780014038,
+      "max_neutral_score": 0.8938664793968201
+    },
+    {
+      "doc_id": "1982286",
+      "claim_id": "858",
+      "claim_text": "Normal expression of RUNX1 causes tumorsupressing effects.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.05855617672204971,
+      "max_contradiction_score": 0.916114330291748,
+      "max_neutral_score": 0.9261943697929382
+    },
+    {
+      "doc_id": "1982286",
+      "claim_id": "1009",
+      "claim_text": "RUNX1 is downregulated or mutated in TLX1 T-ALL.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.8978657722473145,
+      "max_contradiction_score": 0.8968004584312439,
+      "max_neutral_score": 0.9323976039886475
+    },
+    {
+      "doc_id": "1982286",
+      "claim_id": "859",
+      "claim_text": "Normal expression of RUNX1 has tumor-promoting effects.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.6131081581115723,
+      "max_contradiction_score": 0.9961889386177063,
+      "max_neutral_score": 0.5530036687850952
+    },
+    {
+      "doc_id": "195689316",
+      "claim_id": "871",
+      "claim_text": "Obesity decreases life quality.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.5351971387863159,
+      "max_contradiction_score": 0.11691104620695114,
+      "max_neutral_score": 0.9704082608222961
+    },
+    {
+      "doc_id": "195689316",
+      "claim_id": "876",
+      "claim_text": "Obesity raises life quality.",
+      "pred_label": "contradiction",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.07083733379840851,
+      "max_contradiction_score": 0.995376706123352,
+      "max_neutral_score": 0.5344648957252502
+    },
+    {
+      "doc_id": "195689316",
+      "claim_id": "870",
+      "claim_text": "Obesity decreases life quality.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.5351971387863159,
+      "max_contradiction_score": 0.11691104620695114,
+      "max_neutral_score": 0.9704082608222961
+    },
+    {
+      "doc_id": "11254556",
+      "claim_id": "909",
+      "claim_text": "PKG-la does not have a large impact on expression of pain hypersensitivity in PGK-la knockout mice.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.13470570743083954,
+      "max_contradiction_score": 0.4704947769641876,
+      "max_neutral_score": 0.8132827877998352
+    },
+    {
+      "doc_id": "11254556",
+      "claim_id": "910",
+      "claim_text": "PKG-la does not have a large impact on expression of spinal long term potentiation in PGK-la knockout mice.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.21837028861045837,
+      "max_contradiction_score": 0.40799325704574585,
+      "max_neutral_score": 0.7976914644241333
+    },
+    {
+      "doc_id": "11254556",
+      "claim_id": "912",
+      "claim_text": "PKG-la plays an essential role in expression of spinal long term potentiation in PGK-la knockout mice.",
+      "pred_label": "contradiction",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.03547539934515953,
+      "max_contradiction_score": 0.8824371099472046,
+      "max_neutral_score": 0.8057650327682495
+    },
+    {
+      "doc_id": "11254556",
+      "claim_id": "911",
+      "claim_text": "PKG-la plays an essential role in expression of pain hypersensitivity in PGK-la knockout mice.",
+      "pred_label": "contradiction",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.033718742430210114,
+      "max_contradiction_score": 0.9001080989837646,
+      "max_neutral_score": 0.6902251243591309
+    },
+    {
+      "doc_id": "5483793",
+      "claim_id": "935",
+      "claim_text": "Peroxynitrite is required for induction of T cell tolerance.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.08857261389493942,
+      "max_contradiction_score": 0.6013862490653992,
+      "max_neutral_score": 0.9337722063064575
+    },
+    {
+      "doc_id": "5483793",
+      "claim_id": "834",
+      "claim_text": "NOX2-independent pathways can generate peroxynitrite by reacting with nitrogen intermediates.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.22979336977005005,
+      "max_contradiction_score": 0.3674582242965698,
+      "max_neutral_score": 0.7782757878303528
+    },
+    {
+      "doc_id": "5483793",
+      "claim_id": "936",
+      "claim_text": "Peroxynitrite is required for nitration of TCR/CD8.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.59615159034729,
+      "max_contradiction_score": 0.3530087471008301,
+      "max_neutral_score": 0.9526529312133789
+    },
+    {
+      "doc_id": "14075252",
+      "claim_id": "978",
+      "claim_text": "Pro-inflammatory cytokines are up repressed during tumor development.",
+      "pred_label": "contradiction",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.04341433569788933,
+      "max_contradiction_score": 0.8653908967971802,
+      "max_neutral_score": 0.6617488861083984
+    },
+    {
+      "doc_id": "14075252",
+      "claim_id": "1330",
+      "claim_text": "Tumor development occurs in conjunction with suppression of pro-inflammatory cytokines.",
+      "pred_label": "contradiction",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.3979750871658325,
+      "max_contradiction_score": 0.8133163452148438,
+      "max_neutral_score": 0.6816325783729553
+    },
+    {
+      "doc_id": "14075252",
+      "claim_id": "1331",
+      "claim_text": "Tumor development occurs in conjunction with upregulation of pro-inflammatory cytokines.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.6174610257148743,
+      "max_contradiction_score": 0.1461358517408371,
+      "max_neutral_score": 0.8979091048240662
+    },
+    {
+      "doc_id": "16472469",
+      "claim_id": "990",
+      "claim_text": "Pyridostatin decreases telomere fragility in BRCA2-deficient cells.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.07750497758388519,
+      "max_contradiction_score": 0.997670590877533,
+      "max_neutral_score": 0.9264945983886719
+    },
+    {
+      "doc_id": "16472469",
+      "claim_id": "992",
+      "claim_text": "Pyridostatin deregulates G2/M progression.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.20818550884723663,
+      "max_contradiction_score": 0.7166685461997986,
+      "max_neutral_score": 0.7971185445785522
+    },
+    {
+      "doc_id": "16472469",
+      "claim_id": "994",
+      "claim_text": "Pyridostatin encourages proliferation of homologous recombination - defective cells.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.07745996117591858,
+      "max_contradiction_score": 0.9570281505584717,
+      "max_neutral_score": 0.4148663580417633
+    },
+    {
+      "doc_id": "16472469",
+      "claim_id": "996",
+      "claim_text": "Pyridostatin induces checkpoint activation.",
+      "pred_label": "contradiction",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.19267062842845917,
+      "max_contradiction_score": 0.799343466758728,
+      "max_neutral_score": 0.7890517711639404
+    },
+    {
+      "doc_id": "16472469",
+      "claim_id": "997",
+      "claim_text": "Pyridostatin induces double-strand breaks accumulation.",
+      "pred_label": "contradiction",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.12240279465913773,
+      "max_contradiction_score": 0.8010560870170593,
+      "max_neutral_score": 0.5104215145111084
+    },
+    {
+      "doc_id": "16472469",
+      "claim_id": "998",
+      "claim_text": "Pyridostatin prevents double-strand breaks accumulation.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.07929643988609314,
+      "max_contradiction_score": 0.7361912727355957,
+      "max_neutral_score": 0.8553038239479065
+    },
+    {
+      "doc_id": "16472469",
+      "claim_id": "999",
+      "claim_text": "Pyridostatin reduces proliferation of homologous recombination - defective cells.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.14018651843070984,
+      "max_contradiction_score": 0.7822891473770142,
+      "max_neutral_score": 0.9545104503631592
+    },
+    {
+      "doc_id": "16472469",
+      "claim_id": "1000",
+      "claim_text": "Pyridostatin stabilizes the G - quadruplex in the telomeric region.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.5509507060050964,
+      "max_contradiction_score": 0.850630521774292,
+      "max_neutral_score": 0.9955877065658569
+    },
+    {
+      "doc_id": "16472469",
+      "claim_id": "993",
+      "claim_text": "Pyridostatin destabilizes the G - quadruplex in the telomeric region.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.15347369015216827,
+      "max_contradiction_score": 0.9890121221542358,
+      "max_neutral_score": 0.7098442316055298
+    },
+    {
+      "doc_id": "6277638",
+      "claim_id": "1015",
+      "claim_text": "Rapamycin delays aging in fruit flies.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.4413195550441742,
+      "max_contradiction_score": 0.6146175265312195,
+      "max_neutral_score": 0.9860257506370544
+    },
+    {
+      "doc_id": "6277638",
+      "claim_id": "1016",
+      "claim_text": "Rapamycin increases the concentration of triacylglycerols in fruit flies.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.12744148075580597,
+      "max_contradiction_score": 0.2581785321235657,
+      "max_neutral_score": 0.9397841095924377
+    },
+    {
+      "doc_id": "6277638",
+      "claim_id": "1014",
+      "claim_text": "Rapamycin decreases the concentration of triacylglycerols in fruit flies.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.10000231862068176,
+      "max_contradiction_score": 0.3066164553165436,
+      "max_neutral_score": 0.9893102645874023
+    },
+    {
+      "doc_id": "4547102",
+      "claim_id": "1034",
+      "claim_text": "Removal of H3K9me3 by ectopic expression of other H3K9 demethylases decreases reprogramming efficiency in SCNT experiments.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.02037154696881771,
+      "max_contradiction_score": 0.4028771221637726,
+      "max_neutral_score": 0.9562078714370728
+    },
+    {
+      "doc_id": "4547102",
+      "claim_id": "1035",
+      "claim_text": "Removal of H3K9me3 by ectopic expression of other H3K9 demethylases improves reprogramming efficiency in SCNT experiments.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.07381848245859146,
+      "max_contradiction_score": 0.05237070098519325,
+      "max_neutral_score": 0.9857922196388245
+    },
+    {
+      "doc_id": "4547102",
+      "claim_id": "1036",
+      "claim_text": "Removal of H3K9me3 improves reprogramming efficiency in human somatic cell nuclear transfer experiments.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.019036779180169106,
+      "max_contradiction_score": 0.0735546201467514,
+      "max_neutral_score": 0.9867644309997559
+    },
+    {
+      "doc_id": "18816720",
+      "claim_id": "1052",
+      "claim_text": "Rising temperatures caused by global warming increases risk of dengue fever transmission.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.3481428921222687,
+      "max_contradiction_score": 0.07597772777080536,
+      "max_neutral_score": 0.9974952936172485
+    },
+    {
+      "doc_id": "18816720",
+      "claim_id": "1053",
+      "claim_text": "Rising temperatures caused by global warming lowers the risk of dengue fever transmission.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.07937745749950409,
+      "max_contradiction_score": 0.6169484853744507,
+      "max_neutral_score": 0.9468480348587036
+    },
+    {
+      "doc_id": "18816720",
+      "claim_id": "1353",
+      "claim_text": "Urbanization is an important risk factor related to the transmission of dengue fever.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.32625919580459595,
+      "max_contradiction_score": 0.9333959817886353,
+      "max_neutral_score": 0.9961084723472595
+    },
+    {
+      "doc_id": "5691302",
+      "claim_id": "1081",
+      "claim_text": "Side effects associated with antidepressants do not represent a mortality risk to postmenopausal women.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.13641828298568726,
+      "max_contradiction_score": 0.95103520154953,
+      "max_neutral_score": 0.8582332730293274
+    },
+    {
+      "doc_id": "5691302",
+      "claim_id": "1084",
+      "claim_text": "Side effects associated with antidepressants increases risk of stroke.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.5607793927192688,
+      "max_contradiction_score": 0.22000718116760254,
+      "max_neutral_score": 0.9977317452430725
+    },
+    {
+      "doc_id": "5691302",
+      "claim_id": "1085",
+      "claim_text": "Side effects associated with antidepressants lower risk of myocardial infarction.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.08791319280862808,
+      "max_contradiction_score": 0.8507726192474365,
+      "max_neutral_score": 0.9721587300300598
+    },
+    {
+      "doc_id": "33370",
+      "claim_id": "1134",
+      "claim_text": "TNFAIP3 is a glioblastoma tumor enhancer.",
+      "pred_label": "contradiction",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.04906915873289108,
+      "max_contradiction_score": 0.998872697353363,
+      "max_neutral_score": 0.7433081269264221
+    },
+    {
+      "doc_id": "33370",
+      "claim_id": "1135",
+      "claim_text": "TNFAIP3 is a glioblastoma tumor suppressor.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.16593985259532928,
+      "max_contradiction_score": 0.8784448504447937,
+      "max_neutral_score": 0.8911987543106079
+    },
+    {
+      "doc_id": "33370",
+      "claim_id": "1136",
+      "claim_text": "TNFAIP3 is a tumor enhancer in glioblastoma.",
+      "pred_label": "contradiction",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.06158386915922165,
+      "max_contradiction_score": 0.9989489912986755,
+      "max_neutral_score": 0.844767153263092
+    },
+    {
+      "doc_id": "33370",
+      "claim_id": "1137",
+      "claim_text": "TNFAIP3 is a tumor suppressor in glioblastoma.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.12340810149908066,
+      "max_contradiction_score": 0.8976527452468872,
+      "max_neutral_score": 0.9571351408958435
+    },
+    {
+      "doc_id": "12009265",
+      "claim_id": "1139",
+      "claim_text": "Taking 400mg of \u03b1-tocopheryl acetate does not prevent prostate cancer.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.3207851052284241,
+      "max_contradiction_score": 0.8578731417655945,
+      "max_neutral_score": 0.9871771335601807
+    },
+    {
+      "doc_id": "12009265",
+      "claim_id": "1141",
+      "claim_text": "Taking 400mg of \u03b1-tocopheryl acetate in combination with vitamin C reduces the risk of prostate cancer.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.12281075865030289,
+      "max_contradiction_score": 0.9085488319396973,
+      "max_neutral_score": 0.9970135688781738
+    },
+    {
+      "doc_id": "12009265",
+      "claim_id": "1140",
+      "claim_text": "Taking 400mg of \u03b1-tocopheryl acetate helps to prevent prostate cancer.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.1012730747461319,
+      "max_contradiction_score": 0.6517764329910278,
+      "max_neutral_score": 0.9946721196174622
+    },
+    {
+      "doc_id": "7370282",
+      "claim_id": "1153",
+      "claim_text": "The C-type lectin receptor (CLEC-2) rearranges the actin cytoskeleton in dendritic cells to promote efficient motility along stromal surfaces.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.46754738688468933,
+      "max_contradiction_score": 0.7179535627365112,
+      "max_neutral_score": 0.9712805151939392
+    },
+    {
+      "doc_id": "7370282",
+      "claim_id": "1173",
+      "claim_text": "The PDPN gene deactivates the C-type lectin receptor (CLEC-2).",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.05013388395309448,
+      "max_contradiction_score": 0.9893333315849304,
+      "max_neutral_score": 0.9419530630111694
+    },
+    {
+      "doc_id": "7370282",
+      "claim_id": "904",
+      "claim_text": "PDPN promotes efficient motility along stromal surfaces by activating the C-type lectin receptor to rearrange the actin cytoskeleton in dendritic cells.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.45394107699394226,
+      "max_contradiction_score": 0.6765519380569458,
+      "max_neutral_score": 0.9936488270759583
+    },
+    {
+      "doc_id": "12584053",
+      "claim_id": "1156",
+      "claim_text": "The DESMOND program caused substantial weight loss in most participants.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.005279440898448229,
+      "max_contradiction_score": 0.25674906373023987,
+      "max_neutral_score": 0.9974283576011658
+    },
+    {
+      "doc_id": "12584053",
+      "claim_id": "1157",
+      "claim_text": "The DESMOND program demonstrates no significant impact on biochemical outcomes.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.19539391994476318,
+      "max_contradiction_score": 0.9327167272567749,
+      "max_neutral_score": 0.9721174836158752
+    },
+    {
+      "doc_id": "12584053",
+      "claim_id": "1158",
+      "claim_text": "The DESMOND program demonstrates no significant impact on lifestyles outcomes.",
+      "pred_label": "contradiction",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.19116942584514618,
+      "max_contradiction_score": 0.9923604130744934,
+      "max_neutral_score": 0.9681177735328674
+    },
+    {
+      "doc_id": "12584053",
+      "claim_id": "1159",
+      "claim_text": "The DESMOND program demonstrates no significant impact on weight loss.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.06565751135349274,
+      "max_contradiction_score": 0.8624120950698853,
+      "max_neutral_score": 0.9856131672859192
+    },
+    {
+      "doc_id": "31272411",
+      "claim_id": "1174",
+      "claim_text": "The PPR MDA5 has twenty N-terminal CARD domains.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.05997331067919731,
+      "max_contradiction_score": 0.3417034447193146,
+      "max_neutral_score": 0.8571717143058777
+    },
+    {
+      "doc_id": "31272411",
+      "claim_id": "1178",
+      "claim_text": "The PRR MDA5 has a C-terminal domain.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.11433269828557968,
+      "max_contradiction_score": 0.443139910697937,
+      "max_neutral_score": 0.7790278792381287
+    },
+    {
+      "doc_id": "31272411",
+      "claim_id": "1175",
+      "claim_text": "The PPR MDA5 has two N-terminal CARD domains.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.23981766402721405,
+      "max_contradiction_score": 0.47130313515663147,
+      "max_neutral_score": 0.7793056964874268
+    },
+    {
+      "doc_id": "31272411",
+      "claim_id": "1179",
+      "claim_text": "The PRR MDA5 has a central DExD/H RNA helices domain.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.07658397406339645,
+      "max_contradiction_score": 0.33238595724105835,
+      "max_neutral_score": 0.880337655544281
+    },
+    {
+      "doc_id": "31272411",
+      "claim_id": "1180",
+      "claim_text": "The PRR MDA5 is a sensor of RNA virus infection.",
+      "pred_label": "entailment",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.9636898636817932,
+      "max_contradiction_score": 0.7014000415802002,
+      "max_neutral_score": 0.760261595249176
+    },
+    {
+      "doc_id": "13905670",
+      "claim_id": "1230",
+      "claim_text": "The minor G allele of FOXO3 downregulates pro-inflammatory cytokines.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.09705480933189392,
+      "max_contradiction_score": 0.3221689462661743,
+      "max_neutral_score": 0.9798398613929749
+    },
+    {
+      "doc_id": "13905670",
+      "claim_id": "1231",
+      "claim_text": "The minor G allele of FOXO3 is related to less severe symptoms of Crohn's Disease.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.9912732243537903,
+      "max_contradiction_score": 0.06271098554134369,
+      "max_neutral_score": 0.9974260926246643
+    },
+    {
+      "doc_id": "13905670",
+      "claim_id": "1234",
+      "claim_text": "The minor G allele of FOXO3 up-regulates IL-10.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.3408834934234619,
+      "max_contradiction_score": 0.27225029468536377,
+      "max_neutral_score": 0.995826780796051
+    },
+    {
+      "doc_id": "13905670",
+      "claim_id": "1232",
+      "claim_text": "The minor G allele of FOXO3 is related to more severe symptoms of Crohn's Disease.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.003544385312125087,
+      "max_contradiction_score": 0.9982925057411194,
+      "max_neutral_score": 0.9972834587097168
+    },
+    {
+      "doc_id": "16284655",
+      "claim_id": "1322",
+      "claim_text": "Transplanted human glial progenitor cells can mature in their host animal.",
+      "pred_label": "entailment",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.9388723969459534,
+      "max_contradiction_score": 0.5657780766487122,
+      "max_neutral_score": 0.7050532102584839
+    },
+    {
+      "doc_id": "16284655",
+      "claim_id": "1319",
+      "claim_text": "Transplanted human glial cells can differentiate within the host animal.",
+      "pred_label": "entailment",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.8898031711578369,
+      "max_contradiction_score": 0.29764166474342346,
+      "max_neutral_score": 0.4768243134021759
+    },
+    {
+      "doc_id": "16284655",
+      "claim_id": "1320",
+      "claim_text": "Transplanted human glial progenitor cells are incapable of forming a neural network with host animals' neurons.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.05136002600193024,
+      "max_contradiction_score": 0.9981847405433655,
+      "max_neutral_score": 0.5364482402801514
+    },
+    {
+      "doc_id": "15482274",
+      "claim_id": "1340",
+      "claim_text": "Ultrasound guidance significantly reduces the number of needle insertion attempts necessary for a given procedure.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.9309176802635193,
+      "max_contradiction_score": 0.3209995627403259,
+      "max_neutral_score": 0.9977390766143799
+    },
+    {
+      "doc_id": "15482274",
+      "claim_id": "1341",
+      "claim_text": "Ultrasound guidance significantly reduces the number of traumatic procedures when attempting needle insertion.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.8774610161781311,
+      "max_contradiction_score": 0.18431879580020905,
+      "max_neutral_score": 0.997654139995575
+    },
+    {
+      "doc_id": "15482274",
+      "claim_id": "1339",
+      "claim_text": "Ultrasound guidance significantly raises the number of traumatic procedures when attempting needle insertion.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.01536194421350956,
+      "max_contradiction_score": 0.9992550015449524,
+      "max_neutral_score": 0.9495164752006531
+    },
+    {
+      "doc_id": "2425364",
+      "claim_id": "1367",
+      "claim_text": "Vitamin D deficiency effects birth weight.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.8157667517662048,
+      "max_contradiction_score": 0.2323242425918579,
+      "max_neutral_score": 0.9229048490524292
+    },
+    {
+      "doc_id": "2425364",
+      "claim_id": "1368",
+      "claim_text": "Vitamin D deficiency effects the term of delivery.",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.27887195348739624,
+      "max_contradiction_score": 0.19125139713287354,
+      "max_neutral_score": 0.8616043925285339
+    },
+    {
+      "doc_id": "2425364",
+      "claim_id": "1370",
+      "claim_text": "Vitamin D deficiency is unrelated to birth weight.",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.03289983421564102,
+      "max_contradiction_score": 0.8902960419654846,
+      "max_neutral_score": 0.32850074768066406
+    },
+    {
+      "doc_id": "17717391",
+      "claim_id": "1397",
+      "claim_text": "p16INK4A degradation is  linked to an abnormal wound response caused by the microinvasive step of advanced Oral Potentially Malignant Lesions (OPMLs).",
+      "pred_label": "contradiction",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.022128906100988388,
+      "max_contradiction_score": 0.9723033308982849,
+      "max_neutral_score": 0.9045132398605347
+    },
+    {
+      "doc_id": "17717391",
+      "claim_id": "1398",
+      "claim_text": "p16INK4A degradation is encoded by CDKN2A.",
+      "pred_label": "contradiction",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.10897904634475708,
+      "max_contradiction_score": 0.8566417694091797,
+      "max_neutral_score": 0.700620710849762
+    },
+    {
+      "doc_id": "17717391",
+      "claim_id": "1395",
+      "claim_text": "p16INK4A accumulation is  linked to an abnormal wound response caused by the microinvasive step of advanced Oral Potentially Malignant Lesions (OPMLs).",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.021233495324850082,
+      "max_contradiction_score": 0.3311830163002014,
+      "max_neutral_score": 0.9496278762817383
+    },
+    {
+      "doc_id": "21366394",
+      "claim_id": "216",
+      "claim_text": "CX3CR1 on the Th2 cells impairs T cell survival",
+      "pred_label": "contradiction",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.07130030542612076,
+      "max_contradiction_score": 0.9837473034858704,
+      "max_neutral_score": 0.933210551738739
+    },
+    {
+      "doc_id": "21366394",
+      "claim_id": "217",
+      "claim_text": "CX3CR1 on the Th2 cells promotes T cell survival",
+      "pred_label": "neutral",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.25563156604766846,
+      "max_contradiction_score": 0.3458293080329895,
+      "max_neutral_score": 0.942736804485321
+    },
+    {
+      "doc_id": "21366394",
+      "claim_id": "218",
+      "claim_text": "CX3CR1 on the Th2 cells promotes airway inflammation.",
+      "pred_label": "contradiction",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.06522940844297409,
+      "max_contradiction_score": 0.9848928451538086,
+      "max_neutral_score": 0.9208207726478577
+    },
+    {
+      "doc_id": "21366394",
+      "claim_id": "219",
+      "claim_text": "CX3CR1 on the Th2 cells suppresses airway inflammation.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.7082805037498474,
+      "max_contradiction_score": 0.9419497847557068,
+      "max_neutral_score": 0.9419586658477783
+    },
+    {
+      "doc_id": "27910499",
+      "claim_id": "1316",
+      "claim_text": "Transferred UCB T cells acquire a memory-like phenotype in recipients.",
+      "pred_label": "neutral",
+      "gold_label": "neutral",
+      "max_entailment_score": 0.2709551453590393,
+      "max_contradiction_score": 0.15496599674224854,
+      "max_neutral_score": 0.9681107401847839
+    },
+    {
+      "doc_id": "27910499",
+      "claim_id": "1335",
+      "claim_text": "UCB T cells maintain high TCR diversity after transplantation.",
+      "pred_label": "contradiction",
+      "gold_label": "entailment",
+      "max_entailment_score": 0.030658163130283356,
+      "max_contradiction_score": 0.9477429986000061,
+      "max_neutral_score": 0.9138582348823547
+    },
+    {
+      "doc_id": "27910499",
+      "claim_id": "1336",
+      "claim_text": "UCB T cells reduce TCR diversity after transplantation.",
+      "pred_label": "neutral",
+      "gold_label": "contradiction",
+      "max_entailment_score": 0.6999254822731018,
+      "max_contradiction_score": 0.6064489483833313,
+      "max_neutral_score": 0.9146428108215332
+    }
+  ],
+  "metrics": {
+    "accuracy": 0.4925373134328358,
+    "macro_precision": 0.6551020728396805,
+    "macro_recall": 0.511658429348526,
+    "macro_f1": 0.4584734504089343
+  }
+}
