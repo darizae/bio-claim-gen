@@ -12,7 +12,7 @@ CLAIMS_TEST = os.path.join(SCIFACT_DIR, "claims_test.jsonl")
 
 CORPUS_FILE = os.path.join(SCIFACT_DIR, "corpus.jsonl")
 
-PREPROCESSED_CLAIMS_PATH = os.path.join("data/scifact/preprocessed_scifact.json")
+PREPROCESSED_CLAIMS_PATH = os.path.join("preprocessed_scifact.json")
 
 
 def load_corpus(path: str) -> Dict[str, Dict]:
