@@ -28,6 +28,19 @@ def init_re_pipeline(model_name=RE_MODEL):
     return Relik.from_pretrained(model_name, device=device)
 
 
+def convert_float32_in_dict(d):
+    """Recursively convert NumPy float32 in a dict to Python float."""
+    for key, value in d.items():
+        if isinstance(value, dict):
+            convert_float32_in_dict(value)
+        elif isinstance(value, list):
+            d[key] = [float(item) if hasattr(item, "dtype") and item.dtype == "float32" else item for item in value]
+        else:
+            if hasattr(value, "dtype") and value.dtype == "float32":
+                d[key] = float(value)
+    return d
+
+
 def main():
     # Load data from preprocessed SciFact
     with open(INPUT_JSON, "r", encoding="utf-8") as f:
@@ -46,11 +59,10 @@ def main():
             relations = []
         else:
             ner_results = ner_pipe(abstract_raw)
+            # Convert any float32 values in ner_results
+            entities = [convert_float32_in_dict(ent) for ent in ner_results]
             # 2) Run RE
-            #   ReLiK uses the text; you can apply it directly to abstract_raw.
-            #   Or you might prefer sentence-level RE. It's up to you.
             re_results = re_pipe(abstract_raw)
-            entities = ner_results
             relations = []
             if hasattr(re_results, "triplets"):
                 for t in re_results.triplets:
@@ -59,7 +71,7 @@ def main():
                             "subject": t.subject.text,
                             "relation": t.label,
                             "object": t.object.text,
-                            "confidence": t.confidence
+                            "confidence": float(t.confidence)  # Convert float32 to Python float
                         })
 
         # Store updated fields
@@ -67,7 +79,7 @@ def main():
             "doc_id": doc_id,
             "abstract_sents": entry["abstract_sents"],
             "abstract_raw": abstract_raw,
-            "claims": entry["claims"],  # The original SciFact claims from preprocessed
+            "claims": entry["claims"],
             "entities": entities,
             "relations": relations
         })
