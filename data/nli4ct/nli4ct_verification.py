@@ -19,7 +19,7 @@ RESULTS_PATH = "nli4ct_verification_results.json"
 
 # Inference configuration parameters.
 CACHE_SAVE_INTERVAL = 200
-SCORE_THRESHOLD = 0.1  # Differential score threshold below which a claim is considered neutral.
+SCORE_THRESHOLD = 0.1
 NUM_SENT_PER_PARAGRAPH = 5
 PARAGRAPH_SLIDING = True
 PARAGRAPH_STRIDE = 1
@@ -160,7 +160,7 @@ class NLI4CTNliPipeline:
                     if gold_label == "none":
                         gold_label = "neutral"
 
-                    best_result = self.aggregate_scores(spans, claim_text)
+                    best_result = self.aggregate_scores_dynamic(source_sents, claim_text)
                     self.results.append({
                         "doc_id": doc_id,
                         "section": section,
@@ -180,6 +180,115 @@ class NLI4CTNliPipeline:
                     if inference_counter % self.cache_save_interval == 0:
                         self._save_cache()
         self._save_cache()
+
+    def aggregate_scores_dynamic(self, sentences: List[str], claim_text: str) -> Dict:
+        """
+        Computes the dynamic factuality score for a claim using FENICE's multi-granular strategy.
+
+        First, compute the best score over sentence-level spans.
+        If that score is >= dynamic_threshold (T), return that result.
+        Otherwise, compute scores for paragraph-level spans (using a sliding window) and for the full document.
+        Then, return the best score from these multi-grained evaluations.
+
+        Returns a dictionary with the best span, granularity, probabilities, NLIScore, and label.
+        """
+        # Define dynamic threshold T (e.g., 0.8 as per FENICE)
+        dynamic_threshold = 0.8
+
+        # First, compute sentence-level scores.
+        best_sentence_result = {
+            "span": None,
+            "granularity": "sentence",
+            "p_entail": 0.0,
+            "p_contr": 0.0,
+            "p_neut": 0.0,
+            "NLIScore": -float("inf"),
+            "label": None
+        }
+        for sent in sentences:
+            cache_key = f"{sent}||{claim_text}"
+            if cache_key in self.cache:
+                probs = self.cache[cache_key]
+            else:
+                probs = self.nli_model.predict(sent, claim_text)
+                self.cache[cache_key] = probs
+            p_contr, p_neut, p_entail = probs
+            nli_score = p_entail - p_contr
+            if nli_score > best_sentence_result["NLIScore"]:
+                if abs(nli_score) < self.score_threshold:
+                    final_label = "neutral"
+                elif nli_score > 0:
+                    final_label = "entailment"
+                else:
+                    final_label = "contradiction"
+                best_sentence_result = {
+                    "span": sent,
+                    "granularity": "sentence",
+                    "p_entail": p_entail,
+                    "p_contr": p_contr,
+                    "p_neut": p_neut,
+                    "NLIScore": nli_score,
+                    "label": final_label
+                }
+
+        # If sentence-level score is high enough, no further verification is needed.
+        if best_sentence_result["NLIScore"] >= dynamic_threshold:
+            return best_sentence_result
+
+        # Otherwise, expand to paragraph-level and full-document verification.
+        # Generate paragraph spans from sentences.
+        paragraphs = split_into_paragraphs(sentences,
+                                           self.num_sent_per_paragraph,
+                                           self.paragraph_sliding,
+                                           self.paragraph_stride)
+        # Also include full document as one span.
+        full_doc = " ".join(sentences)
+
+        multi_spans = ([{"text": para, "granularity": "paragraph"} for para in paragraphs] +
+                       [{"text": full_doc, "granularity": "full-document"}])
+
+        best_multi_result = {
+            "span": None,
+            "granularity": None,
+            "p_entail": 0.0,
+            "p_contr": 0.0,
+            "p_neut": 0.0,
+            "NLIScore": -float("inf"),
+            "label": None
+        }
+        for span_info in multi_spans:
+            span_text = span_info["text"]
+            granularity = span_info["granularity"]
+            cache_key = f"{span_text}||{claim_text}"
+            if cache_key in self.cache:
+                probs = self.cache[cache_key]
+            else:
+                probs = self.nli_model.predict(span_text, claim_text)
+                self.cache[cache_key] = probs
+            p_contr, p_neut, p_entail = probs
+            nli_score = p_entail - p_contr
+            if nli_score > best_multi_result["NLIScore"]:
+                if abs(nli_score) < self.score_threshold:
+                    final_label = "neutral"
+                elif nli_score > 0:
+                    final_label = "entailment"
+                else:
+                    final_label = "contradiction"
+                best_multi_result = {
+                    "span": span_text,
+                    "granularity": granularity,
+                    "p_entail": p_entail,
+                    "p_contr": p_contr,
+                    "p_neut": p_neut,
+                    "NLIScore": nli_score,
+                    "label": final_label
+                }
+
+        # Return the best result among sentence-level and multi-granular checks.
+        if best_multi_result["NLIScore"] > best_sentence_result["NLIScore"]:
+            return best_multi_result
+        else:
+            return best_sentence_result
 
     def aggregate_scores(self, spans: List[Dict[str, str]], claim_text: str) -> Dict:
         """
