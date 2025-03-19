@@ -1,10 +1,13 @@
 import os
 import json
+
+from openai import OpenAI
+
+client = OpenAI()
 from openai import OpenAI
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 import time
-import math
 from dotenv import load_dotenv
 
 # Load the API key from .env file
@@ -14,15 +17,13 @@ load_dotenv()
 MAX_ENTRIES = 200
 SAVE_FREQ = 5
 
+# Filenames
+INPUT_FILENAME = "sample_scifact.json"
+OUTPUT_FILENAME = "sample_scifact_coref.json"
+FAILURE_FILENAME = "failed_entries.json"
 
-def build_prompt(doc):
-    """
-    Constructs the prompt string for a single document.
-    The prompt includes the abstract and each claim, and instructs coreference resolution.
-    """
-    abstract = doc.get("abstract_raw", "")
-    claims = doc.get("claims", [])
-    prompt_text = (
+# Enhanced prompt with chain-of-thought, contextual instructions, and few-shot examples
+ENHANCED_PROMPT_PREFIX = (
     "You are a language model expert in coreference resolution and contextual analysis. "
     "Your task is to review an abstract and its associated claims, and then perform coreference resolution across the entire text. "
     "This means you should merge expressions and pronouns referring to the same entity, eliminate duplicates, and ensure that references in the abstract and in the claims are consistent. "
@@ -51,6 +52,14 @@ def build_prompt(doc):
     "Text:\n"
 )
 
+
+def build_prompt(doc):
+    """
+    Constructs the prompt string for a single document by appending the document's text to the prompt prefix.
+    """
+    abstract = doc.get("abstract_raw", "")
+    claims = doc.get("claims", [])
+    prompt_text = ENHANCED_PROMPT_PREFIX
     prompt_text += "Abstract:\n" + abstract.strip() + "\n\n"
     prompt_text += "Claims:\n"
     for idx, claim in enumerate(claims, 1):
@@ -60,29 +69,22 @@ def build_prompt(doc):
     return prompt_text
 
 
-def process_document_with_coref(prompt_text, max_retries=1):
+def process_document_with_coref(prompt_text):
     """
-    Calls the OpenAI API with the given prompt_text.
+    Calls the OpenAI API with the given prompt_text once.
     Returns the parsed JSON response with keys "abstract" and "claims".
-    In case of error (e.g., invalid JSON), raises an exception.
+    If the call fails (or JSON is invalid), raises an exception.
     """
-    for attempt in range(max_retries):
-        try:
-            response = client.chat.completions.create(model="gpt-3.5-turbo",
-            messages=[
-                {"role": "system", "content": "You perform text processing tasks."},
-                {"role": "user", "content": prompt_text}
-            ],
-            temperature=0.2,
-            max_tokens=1024)
-            answer = response.choices[0].message.content
-            processed = json.loads(answer)
-            return processed
-        except Exception as e:
-            print(f"Error in API call (attempt {attempt + 1}): {e}")
-            time.sleep(2)
-    # After retries, raise exception so the caller can catch it
-    raise Exception("API request failed after multiple attempts.")
+    response = client.chat.completions.create(model="gpt-3.5-turbo",
+    messages=[
+        {"role": "system", "content": "You perform text processing tasks."},
+        {"role": "user", "content": prompt_text}
+    ],
+    temperature=0.2,
+    max_tokens=2048)
+    answer = response.choices[0].message.content
+    processed = json.loads(answer)
+    return processed
 
 
 def save_progress(processed_docs, output_filename):
@@ -95,18 +97,26 @@ def save_progress(processed_docs, output_filename):
 def log_failure(failure_entry, failure_filename):
     """Append the failure entry (as a dict) to a JSON file for later diagnostics."""
     try:
-        # If the file exists, load current failures.
         if os.path.exists(failure_filename):
             with open(failure_filename, "r", encoding="utf-8") as f:
                 failures = json.load(f)
         else:
             failures = []
-    except Exception as e:
+    except Exception:
         failures = []
     failures.append(failure_entry)
     with open(failure_filename, "w", encoding="utf-8") as f:
         json.dump(failures, f, indent=2)
     print(f"Logged failure for document ID {failure_entry.get('doc_id')} to {failure_filename}")
+
+
+def load_existing_processed(output_filename):
+    """Load already processed documents (if any) and return a dict mapping doc_id -> document."""
+    if os.path.exists(output_filename):
+        with open(output_filename, "r", encoding="utf-8") as f:
+            processed = json.load(f)
+        return {doc.get("doc_id", ""): doc for doc in processed}
+    return {}
 
 
 def main():
@@ -118,17 +128,27 @@ def main():
     with open(input_filename, "r", encoding="utf-8") as f:
         documents = json.load(f)
 
-    processed_docs = []
-    total_processed = 0
+    # Load already processed documents (if any) to skip them
+    processed_lookup = load_existing_processed(output_filename)
 
-    # Process only up to MAX_ENTRIES documents
-    for doc in documents[:MAX_ENTRIES]:
+    processed_docs = list(processed_lookup.values())
+    total_processed = len(processed_docs)
+
+    # Process only up to MAX_ENTRIES documents.
+    # Skip any document that is already processed (by checking its doc_id).
+    for doc in documents:
+        if total_processed >= MAX_ENTRIES:
+            break
+
         doc_id = doc.get("doc_id", "unknown")
+        if doc_id in processed_lookup:
+            print(f"Skipping already processed document ID: {doc_id}")
+            continue
+
         prompt_text = build_prompt(doc)
         print(f"Processing document ID: {doc_id}")
         try:
             processed = process_document_with_coref(prompt_text)
-            # Update the document with the processed abstract and claims.
             new_abstract = processed.get("abstract", "")
             new_claims_processed = processed.get("claims", [])
             doc["abstract_raw"] = new_abstract
@@ -142,6 +162,7 @@ def main():
                 else:
                     print(f"Warning: claim id {claim_id} not found in document {doc_id}")
             processed_docs.append(doc)
+            processed_lookup[doc_id] = doc
             total_processed += 1
         except Exception as e:
             error_info = {
@@ -149,20 +170,17 @@ def main():
                 "error": str(e),
                 "metadata": {
                     "num_claims": len(doc.get("claims", []))
-                    # Add any additional metadata as needed
                 }
             }
             log_failure(error_info, failure_filename)
-            # Optionally, continue to next document without adding this one to processed_docs.
             continue
 
-        # Iteratively save progress every SAVE_FREQ entries
+        # Iteratively save progress every SAVE_FREQ successful entries.
         if total_processed % SAVE_FREQ == 0:
             save_progress(processed_docs, output_filename)
-            # Optional sleep to avoid rate limits
             time.sleep(1)
 
-    # Final save (if not already saved in the last iteration)
+    # Final save
     save_progress(processed_docs, output_filename)
     print(f"Processing complete. Total documents processed: {total_processed}")
 
