@@ -156,7 +156,7 @@ class NLI4CTNliPipeline:
                     claim_id = claim.get("claim_id")
                     claim_text = claim.get("claim")
                     # Map gold label to lowercase. Note: in NLI4CT the neutral label might be "None", so we map it to "neutral".
-                    gold_label = claim.get("label", "").lower()
+                    gold_label = (claim.get("label") or "neutral").lower()
                     if gold_label == "none":
                         gold_label = "neutral"
 
