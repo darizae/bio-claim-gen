@@ -1,0 +1,1505 @@
+[
+  {
+    "doc_id": "5289038",
+    "abstract_sents": [
+      "Immune clearance and resource limitation (via red blood cell depletion) shape the peaks and troughs of malaria parasitemia, which in turn affect disease severity and transmission.",
+      "Quantitatively partitioning the relative roles of these effects through time is challenging.",
+      "Using data from rodent malaria, we estimated the effective propagation number, which reflects the relative importance of contrasting within-host control mechanisms through time and is sensitive to the inoculating parasite dose.",
+      "Our analysis showed that the capacity of innate responses to restrict initial parasite growth saturates with parasite dose and that experimentally enhanced innate immunity can affect parasite density indirectly via resource depletion.",
+      "Such a statistical approach offers a tool to improve targeting of drugs or vaccines for human therapy by revealing the dynamics and interactions of within-host regulatory mechanisms."
+    ],
+    "abstract_raw": "Immune clearance and resource limitation (via red blood cell depletion) shape the peaks and troughs of malaria parasitemia, which in turn affect disease severity and transmission. Quantitatively partitioning the relative roles of these effects through time is challenging. Using data from rodent malaria, we estimated the effective propagation number, which reflects the relative importance of contrasting within-host control mechanisms through time and is sensitive to the inoculating parasite dose. Our analysis showed that the capacity of innate responses to restrict initial parasite growth saturates with parasite dose and that experimentally enhanced innate immunity can affect parasite density indirectly via resource depletion. Such a statistical approach offers a tool to improve targeting of drugs or vaccines for human therapy by revealing the dynamics and interactions of within-host regulatory mechanisms.",
+    "claims": [
+      {
+        "id": 1223,
+        "claim": "The innate immune response struggles to remove small numbers of parasites.",
+        "evidence": {
+          "5289038": [
+            {
+              "sentences": [
+                3
+              ],
+              "label": "CONTRADICT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          5289038
+        ]
+      },
+      {
+        "id": 577,
+        "claim": "In mice, P. chabaudi parasites are able to proliferate faster early in infection when inoculated at lower numbers than when inoculated at high numbers.",
+        "evidence": {},
+        "cited_doc_ids": [
+          5289038
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "13794374",
+    "abstract_sents": [
+      "Lipid droplets are ubiquitous triglyceride and sterol ester storage organelles required for energy storage homeostasis and biosynthesis.",
+      "Although little is known about lipid droplet formation and regulation, it is clear that members of the PAT (perilipin, adipocyte differentiation related protein, tail interacting protein of 47 kDa) protein family coat the droplet surface and mediate interactions with lipases that remobilize the stored lipids.",
+      "We identified key Drosophila candidate genes for lipid droplet regulation by RNA interference (RNAi) screening with an image segmentation-based optical read-out system, and show that these regulatory functions are conserved in the mouse.",
+      "Those include the vesicle-mediated Coat Protein Complex I (COPI) transport complex, which is required for limiting lipid storage.",
+      "We found that COPI components regulate the PAT protein composition at the lipid droplet surface, and promote the association of adipocyte triglyceride lipase (ATGL) with the lipid droplet surface to mediate lipolysis.",
+      "Two compounds known to inhibit COPI function, Exo1 and Brefeldin A, phenocopy COPI knockdowns.",
+      "Furthermore, RNAi inhibition of ATGL and simultaneous drug treatment indicate that COPI and ATGL function in the same pathway.",
+      "These data indicate that the COPI complex is an evolutionarily conserved regulator of lipid homeostasis, and highlight an interaction between vesicle transport systems and lipid droplets."
+    ],
+    "abstract_raw": "Lipid droplets are ubiquitous triglyceride and sterol ester storage organelles required for energy storage homeostasis and biosynthesis. Although little is known about lipid droplet formation and regulation, it is clear that members of the PAT (perilipin, adipocyte differentiation related protein, tail interacting protein of 47 kDa) protein family coat the droplet surface and mediate interactions with lipases that remobilize the stored lipids. We identified key Drosophila candidate genes for lipid droplet regulation by RNA interference (RNAi) screening with an image segmentation-based optical read-out system, and show that these regulatory functions are conserved in the mouse. Those include the vesicle-mediated Coat Protein Complex I (COPI) transport complex, which is required for limiting lipid storage. We found that COPI components regulate the PAT protein composition at the lipid droplet surface, and promote the association of adipocyte triglyceride lipase (ATGL) with the lipid droplet surface to mediate lipolysis. Two compounds known to inhibit COPI function, Exo1 and Brefeldin A, phenocopy COPI knockdowns. Furthermore, RNAi inhibition of ATGL and simultaneous drug treatment indicate that COPI and ATGL function in the same pathway. These data indicate that the COPI complex is an evolutionarily conserved regulator of lipid homeostasis, and highlight an interaction between vesicle transport systems and lipid droplets.",
+    "claims": [
+      {
+        "id": 210,
+        "claim": "The COPI complex is involved in lipid homeostasis.",
+        "evidence": {
+          "13794374": [
+            {
+              "sentences": [
+                3
+              ],
+              "label": "SUPPORT"
+            },
+            {
+              "sentences": [
+                4
+              ],
+              "label": "SUPPORT"
+            },
+            {
+              "sentences": [
+                7
+              ],
+              "label": "SUPPORT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          13794374
+        ]
+      },
+      {
+        "id": 211,
+        "claim": "The COPI complex is involved in viral replication.",
+        "evidence": {},
+        "cited_doc_ids": [
+          13794374
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "49556906",
+    "abstract_sents": [
+      "Fibrosis is a pathological result of a dysfunctional repair response to tissue injury and occurs in a number of organs, including the lungs1.",
+      "Cellular metabolism regulates tissue repair and remodelling responses to injury2-4.",
+      "AMPK is a critical sensor of cellular bioenergetics and controls the switch from anabolic to catabolic metabolism5.",
+      "However, the role of AMPK in fibrosis is not well understood.",
+      "Here, we demonstrate that in humans with idiopathic pulmonary fibrosis (IPF) and in an experimental mouse model of lung fibrosis, AMPK activity is lower in fibrotic regions associated with metabolically active and apoptosis-resistant myofibroblasts.",
+      "Pharmacological activation of AMPK in myofibroblasts from lungs of humans with IPF display lower fibrotic activity, along with enhanced mitochondrial biogenesis and normalization of sensitivity to apoptosis.",
+      "In a bleomycin model of lung fibrosis in mice, metformin therapeutically accelerates the resolution of well-established fibrosis in an AMPK-dependent manner.",
+      "These studies implicate deficient AMPK activation in non-resolving, pathologic fibrotic processes, and support a role for metformin (or other AMPK activators) to reverse established fibrosis by facilitating deactivation and apoptosis of myofibroblasts."
+    ],
+    "abstract_raw": "Fibrosis is a pathological result of a dysfunctional repair response to tissue injury and occurs in a number of organs, including the lungs. Cellular metabolism regulates tissue repair and remodelling responses to injury. AMPK is a critical sensor of cellular bioenergetics and controls the switch from anabolic to catabolic metabolism. However, the role of AMPK in fibrosis is not well understood. Here, we demonstrate that in humans with idiopathic pulmonary fibrosis (IPF) and in an experimental mouse model of lung fibrosis, AMPK activity is lower in fibrotic regions associated with metabolically active and apoptosis-resistant myofibroblasts. Pharmacological activation of AMPK in myofibroblasts from lungs of humans with IPF display lower fibrotic activity, along with enhanced mitochondrial biogenesis and normalization of sensitivity to apoptosis. In a bleomycin model of lung fibrosis in mice, metformin therapeutically accelerates the resolution of well-established fibrosis in an AMPK-dependent manner. These studies implicate deficient AMPK activation in non-resolving, pathologic fibrotic processes, and support a role for metformin (or other AMPK activators) to reverse established fibrosis by facilitating deactivation and apoptosis of myofibroblasts.",
+    "claims": [
+      {
+        "id": 55,
+        "claim": "AMP-activated protein kinase (AMPK) activation reduces inflammation-related fibrosis in the lungs.",
+        "evidence": {
+          "49556906": [
+            {
+              "sentences": [
+                5
+              ],
+              "label": "SUPPORT"
+            },
+            {
+              "sentences": [
+                6
+              ],
+              "label": "SUPPORT"
+            },
+            {
+              "sentences": [
+                7
+              ],
+              "label": "SUPPORT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          49556906
+        ]
+      },
+      {
+        "id": 54,
+        "claim": "AMP-activated protein kinase (AMPK) activation increases inflammation-related fibrosis in the lungs.",
+        "evidence": {
+          "49556906": [
+            {
+              "sentences": [
+                5
+              ],
+              "label": "CONTRADICT"
+            },
+            {
+              "sentences": [
+                6
+              ],
+              "label": "CONTRADICT"
+            },
+            {
+              "sentences": [
+                7
+              ],
+              "label": "CONTRADICT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          49556906
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "4423559",
+    "abstract_sents": [
+      "Environmental and genetic aberrations lead to neural tube closure defects (NTDs) in 1 out of every 1,000 births.",
+      "Mouse and frog models for these birth defects have indicated that Van Gogh-like 2 (Vangl2, also known as Strabismus) and other components of planar cell polarity (PCP) signalling might control neurulation by promoting the convergence of neural progenitors to the midline.",
+      "Here we show a novel role for PCP signalling during neurulation in zebrafish.",
+      "We demonstrate that non-canonical Wnt/PCP signalling polarizes neural progenitors along the anteroposterior axis.",
+      "This polarity is transiently lost during cell division in the neural keel but is re-established as daughter cells reintegrate into the neuroepithelium.",
+      "Loss of zebrafish Vangl2 (in trilobite mutants) abolishes the polarization of neural keel cells, disrupts re-intercalation of daughter cells into the neuroepithelium, and results in ectopic neural progenitor accumulations and NTDs.",
+      "Remarkably, blocking cell division leads to rescue of trilobite neural tube morphogenesis despite persistent defects in convergence and extension.",
+      "These results reveal a function for PCP signalling in coupling cell division and morphogenesis at neurulation and indicate a previously unrecognized mechanism that might underlie NTDs."
+    ],
+    "abstract_raw": "Environmental and genetic aberrations lead to neural tube closure defects (NTDs) in 1 out of every 1,000 births. Mouse and frog models for these birth defects have indicated that Van Gogh-like 2 (Vangl2, also known as Strabismus) and other components of planar cell polarity (PCP) signalling might control neurulation by promoting the convergence of neural progenitors to the midline. Here we show a novel role for PCP signalling during neurulation in zebrafish. We demonstrate that non-canonical Wnt/PCP signalling polarizes neural progenitors along the anteroposterior axis. This polarity is transiently lost during cell division in the neural keel but is re-established as daughter cells reintegrate into the neuroepithelium. Loss of zebrafish Vangl2 (in trilobite mutants) abolishes the polarization of neural keel cells, disrupts re-intercalation of daughter cells into the neuroepithelium, and results in ectopic neural progenitor accumulations and NTDs. Remarkably, blocking cell division leads to rescue of trilobite neural tube morphogenesis despite persistent defects in convergence and extension. These results reveal a function for PCP signalling in coupling cell division and morphogenesis at neurulation and indicate a previously unrecognized mechanism that might underlie NTDs.",
+    "claims": [
+      {
+        "id": 439,
+        "claim": "Fz/PCP-dependent Pk localizes to the anterior membrane of neuroectoderm cells during zebrafish neuralation.",
+        "evidence": {},
+        "cited_doc_ids": [
+          4423559
+        ]
+      },
+      {
+        "id": 440,
+        "claim": "Fz/PCP-dependent Pk localizes to the anterior membrane of notochord cells during zebrafish neuralation.",
+        "evidence": {},
+        "cited_doc_ids": [
+          4423559
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "10991183",
+    "abstract_sents": [
+      "How individual cells respond to mechanical forces is of considerable interest to biologists as force affects many aspects of cell behaviour.",
+      "The application of force on integrins triggers cytoskeletal rearrangements and growth of the associated adhesion complex, resulting in increased cellular stiffness, also known as reinforcement.",
+      "Although RhoA has been shown to play a role during reinforcement, the molecular mechanisms that regulate its activity are unknown.",
+      "By combining biochemical and biophysical approaches, we identified two guanine nucleotide exchange factors (GEFs), LARG and GEF-H1, as key molecules that regulate the cellular adaptation to force.",
+      "We show that stimulation of integrins with tensional force triggers activation of these two GEFs and their recruitment to adhesion complexes.",
+      "Surprisingly, activation of LARG and GEF-H1 involves distinct signalling pathways.",
+      "Our results reveal that LARG is activated by the Src family tyrosine kinase Fyn, whereas GEF-H1 catalytic activity is enhanced by ERK downstream of a signalling cascade that includes FAK and Ras."
+    ],
+    "abstract_raw": "How individual cells respond to mechanical forces is of considerable interest to biologists as force affects many aspects of cell behaviour. The application of force on integrins triggers cytoskeletal rearrangements and growth of the associated adhesion complex, resulting in increased cellular stiffness, also known as reinforcement. Although RhoA has been shown to play a role during reinforcement, the molecular mechanisms that regulate its activity are unknown. By combining biochemical and biophysical approaches, we identified two guanine nucleotide exchange factors (GEFs), LARG and GEF-H1, as key molecules that regulate the cellular adaptation to force. We show that stimulation of integrins with tensional force triggers activation of these two GEFs and their recruitment to adhesion complexes. Surprisingly, activation of LARG and GEF-H1 involves distinct signalling pathways. Our results reveal that LARG is activated by the Src family tyrosine kinase Fyn, whereas GEF-H1 catalytic activity is enhanced by ERK downstream of a signalling cascade that includes FAK and Ras.",
+    "claims": [
+      {
+        "id": 482,
+        "claim": "Guanine nucleotide exchange factors (GEFs) mediate RhoA activation in response to tensional forces on fibronectin-binding integrins.",
+        "evidence": {
+          "10991183": [
+            {
+              "sentences": [
+                3
+              ],
+              "label": "SUPPORT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          10991183
+        ]
+      },
+      {
+        "id": 691,
+        "claim": "Leukemia associated Rho guanine nucleotide-exchange factor represses RhoA in response to SRC activation.",
+        "evidence": {},
+        "cited_doc_ids": [
+          10991183
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "16728949",
+    "abstract_sents": [
+      "The forkhead O (FoxO) family of transcription factors participates in diverse physiologic processes, including induction of cell-cycle arrest, stress resistance, differentiation, apoptosis, and metabolism.",
+      "Several recent studies indicate that FoxO-dependent signaling is required for long-term regenerative potential of the hematopoietic stem cell (HSC) compartment through regulation of HSC response to physiologic oxidative stress, quiescence, and survival.",
+      "These observations link FoxO function in mammalian systems with the evolutionarily conserved role of FoxO in promotion of stress resistance and longevity in lower phylogenetic systems.",
+      "Furthermore, these findings have implications for aging in higher organisms and in malignant stem cell biology, and suggest that FoxOs may play an important role in the maintenance and integrity of stem cell compartments in a broad spectrum of tissues."
+    ],
+    "abstract_raw": "The forkhead O (FoxO) family of transcription factors participates in diverse physiologic processes, including induction of cell-cycle arrest, stress resistance, differentiation, apoptosis, and metabolism. Several recent studies indicate that FoxO-dependent signaling is required for long-term regenerative potential of the hematopoietic stem cell (HSC) compartment through regulation of HSC response to physiologic oxidative stress, quiescence, and survival. These observations link FoxO function in mammalian systems with the evolutionarily conserved role of FoxO in promotion of stress resistance and longevity in lower phylogenetic systems. Furthermore, these findings have implications for aging in higher organisms and in malignant stem cell biology, and suggest that FoxOs may play an important role in the maintenance and integrity of stem cell compartments in a broad spectrum of tissues.",
+    "claims": [
+      {
+        "id": 426,
+        "claim": "FoxO transcription factors are involved in apoptosis.",
+        "evidence": {
+          "16728949": [
+            {
+              "sentences": [
+                0
+              ],
+              "label": "SUPPORT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          16728949
+        ]
+      },
+      {
+        "id": 428,
+        "claim": "FoxO transcription factors are involved in cellular differentiation.",
+        "evidence": {
+          "16728949": [
+            {
+              "sentences": [
+                0
+              ],
+              "label": "SUPPORT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          16728949
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "791050",
+    "abstract_sents": [
+      "OBJECTIVE To determine whether higher past exposure to particulate air pollution is associated with prevalent high symptoms of anxiety.   \n",
+      "DESIGN Observational cohort study.   \n",
+      "SETTING Nurses' Health Study.   \n",
+      "PARTICIPANTS 71,271 women enrolled in the Nurses' Health Study residing throughout the contiguous United States who had valid estimates on exposure to particulate matter for at least one exposure period of interest and data on anxiety symptoms.   \n",
+      "MAIN OUTCOME MEASURES Meaningfully high symptoms of anxiety, defined as a score of 6 points or greater on the phobic anxiety subscale of the Crown-Crisp index, administered in 2004.   \n",
+      "RESULTS The 71,271 eligible women were aged between 57 and 85 years (mean 70 years) at the time of assessment of anxiety symptoms, with a prevalence of high anxiety symptoms of 15%.",
+      "Exposure to particulate matter was characterized using estimated average exposure to particulate matter <2.5 \u03bcm in diameter (PM2.5) and 2.5 to 10 \u03bcm in diameter (PM2.5-10) in the one month, three months, six months, one year, and 15 years prior to assessment of anxiety symptoms, and residential distance to the nearest major road two years prior to assessment.",
+      "Significantly increased odds of high anxiety symptoms were observed with higher exposure to PM2.5 for multiple averaging periods (for example, odds ratio per 10 \u00b5g/m(3) increase in prior one month average PM2.5: 1.12, 95% confidence interval 1.06 to 1.19; in prior 12 month average PM2.5: 1.15, 1.06 to 1.26).",
+      "Models including multiple exposure windows suggested short term averaging periods were more relevant than long term averaging periods.",
+      "There was no association between anxiety and exposure to PM2.5-10.",
+      "Residential proximity to major roads was not related to anxiety symptoms in a dose dependent manner.   \n",
+      "CONCLUSIONS Exposure to fine particulate matter (PM2.5) was associated with high symptoms of anxiety, with more recent exposures potentially more relevant than more distant exposures.",
+      "Research evaluating whether reductions in exposure to ambient PM2.5 would reduce the population level burden of clinically relevant symptoms of anxiety is warranted."
+    ],
+    "abstract_raw": "OBJECTIVE To determine whether higher past exposure to particulate air pollution is associated with prevalent high symptoms of anxiety. DESIGN Observational cohort study. SETTING Nurses' Health Study. PARTICIPANTS 71,271 women enrolled in the Nurses' Health Study residing throughout the contiguous United States who had valid estimates on exposure to particulate matter for at least one exposure period of interest and data on anxiety symptoms. MAIN OUTCOME MEASURES Meaningfully high symptoms of anxiety, defined as a score of 6 points or greater on the phobic anxiety subscale of the Crown-Crisp index, administered in 2004. RESULTS The 71,271 eligible women were aged between 57 and 85 years (mean 70 years) at the time of assessment of anxiety symptoms, with a prevalence of high anxiety symptoms of 15%. Exposure to particulate matter was characterized using estimated average exposure to particulate matter <2.5 \u03bcm in diameter (PM2.5) and 2.5 to 10 \u03bcm in diameter (PM2.5-10) in the one month, three months, six months, one year, and 15 years prior to assessment of anxiety symptoms, and residential distance to the nearest major road two years prior to assessment. Significantly increased odds of high anxiety symptoms were observed with higher exposure to PM2.5 for multiple averaging periods (for example, odds ratio per 10 \u00b5g/m(3) increase in prior one month average PM2.5: 1.12, 95% confidence interval 1.06 to 1.19; in prior 12 month average PM2.5: 1.15, 1.06 to 1.26). Models including multiple exposure windows suggested short term averaging periods were more relevant than long term averaging periods. There was no association between anxiety and exposure to PM2.5-10. Residential proximity to major roads was not related to anxiety symptoms in a dose dependent manner. CONCLUSIONS Exposure to fine particulate matter (PM2.5) was associated with high symptoms of anxiety, with more recent exposures potentially more relevant than more distant exposures. Research evaluating whether reductions in exposure to ambient PM2.5 would reduce the population level burden of clinically relevant symptoms of anxiety is warranted.",
+    "claims": [
+      {
+        "id": 400,
+        "claim": "Exposure to fine particulate air pollution is unrelated to anxiety prevalence.",
+        "evidence": {
+          "791050": [
+            {
+              "sentences": [
+                7
+              ],
+              "label": "CONTRADICT"
+            },
+            {
+              "sentences": [
+                11
+              ],
+              "label": "CONTRADICT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          791050
+        ]
+      },
+      {
+        "id": 399,
+        "claim": "Exposure to fine particulate air pollution is related to anxiety prevalence.",
+        "evidence": {
+          "791050": [
+            {
+              "sentences": [
+                7
+              ],
+              "label": "SUPPORT"
+            },
+            {
+              "sentences": [
+                11
+              ],
+              "label": "SUPPORT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          791050
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "15048300",
+    "abstract_sents": [
+      "BACKGROUND Data on absolute risks of outcomes and patterns of drug use in cost-effectiveness analyses are often based on randomised clinical trials (RCTs).",
+      "The objective of this study was to evaluate the external validity of published cost-effectiveness studies by comparing the data used in these studies (typically based on RCTs) to observational data from actual clinical practice.",
+      "Selective Cox-2 inhibitors (coxibs) were used as an example.   \n",
+      "METHODS AND FINDINGS The UK General Practice Research Database (GPRD) was used to estimate the exposure characteristics and individual probabilities of upper gastrointestinal (GI) events during current exposure to nonsteroidal anti-inflammatory drugs (NSAIDs) or coxibs.",
+      "A basic cost-effectiveness model was developed evaluating two alternative strategies: prescription of a conventional NSAID or coxib.",
+      "Outcomes included upper GI events as recorded in GPRD and hospitalisation for upper GI events recorded in the national registry of hospitalisations (Hospital Episode Statistics) linked to GPRD.",
+      "Prescription costs were based on the prescribed number of tables as recorded in GPRD and the 2006 cost data from the British National Formulary.",
+      "The study population included over 1 million patients prescribed conventional NSAIDs or coxibs.",
+      "Only a minority of patients used the drugs long-term and daily (34.5% of conventional NSAIDs and 44.2% of coxibs), whereas coxib RCTs required daily use for at least 6-9 months.",
+      "The mean cost of preventing one upper GI event as recorded in GPRD was US$104k (ranging from US$64k with long-term daily use to US$182k with intermittent use) and US$298k for hospitalizations.",
+      "The mean costs (for GPRD events) over calendar time were US$58k during 1990-1993 and US$174k during 2002-2005.",
+      "Using RCT data rather than GPRD data for event probabilities, the mean cost was US$16k with the VIGOR RCT and US$20k with the CLASS RCT.   \n",
+      "CONCLUSIONS The published cost-effectiveness analyses of coxibs lacked external validity, did not represent patients in actual clinical practice, and should not have been used to inform prescribing policies.",
+      "External validity should be an explicit requirement for cost-effectiveness analyses."
+    ],
+    "abstract_raw": "BACKGROUND Data on absolute risks of outcomes and patterns of drug use in cost-effectiveness analyses are often based on randomised clinical trials (RCTs). The objective of this study was to evaluate the external validity of published cost-effectiveness studies by comparing the data used in these studies (typically based on RCTs) to observational data from actual clinical practice. Selective Cox-2 inhibitors (coxibs) were used as an example. METHODS AND FINDINGS The UK General Practice Research Database (GPRD) was used to estimate the exposure characteristics and individual probabilities of upper gastrointestinal (GI) events during current exposure to nonsteroidal anti-inflammatory drugs (NSAIDs) or coxibs. A basic cost-effectiveness model was developed evaluating two alternative strategies: prescription of a conventional NSAID or coxib. Outcomes included upper GI events as recorded in GPRD and hospitalisation for upper GI events recorded in the national registry of hospitalisations (Hospital Episode Statistics) linked to GPRD. Prescription costs were based on the prescribed number of tables as recorded in GPRD and the 2006 cost data from the British National Formulary. The study population included over 1 million patients prescribed conventional NSAIDs or coxibs. Only a minority of patients used the drugs long-term and daily (34.5% of conventional NSAIDs and 44.2% of coxibs), whereas coxib RCTs required daily use for at least 6-9 months. The mean cost of preventing one upper GI event as recorded in GPRD was US$104k (ranging from US$64k with long-term daily use to US$182k with intermittent use) and US$298k for hospitalizations. The mean costs (for GPRD events) over calendar time were US$58k during 1990-1993 and US$174k during 2002-2005. Using RCT data rather than GPRD data for event probabilities, the mean cost was US$16k with the VIGOR RCT and US$20k with the CLASS RCT. CONCLUSIONS The published cost-effectiveness analyses of coxibs lacked external validity, did not represent patients in actual clinical practice, and should not have been used to inform prescribing policies. External validity should be an explicit requirement for cost-effectiveness analyses.",
+    "claims": [
+      {
+        "id": 290,
+        "claim": "Cost effectiveness evaluations based on cRCT data accurately reflect prices for patients in actual clinical practice.",
+        "evidence": {
+          "15048300": [
+            {
+              "sentences": [
+                10,
+                11
+              ],
+              "label": "CONTRADICT"
+            },
+            {
+              "sentences": [
+                12
+              ],
+              "label": "CONTRADICT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          15048300
+        ]
+      },
+      {
+        "id": 292,
+        "claim": "Cost effectiveness evaluations based on cRCT data lack external validity.",
+        "evidence": {
+          "15048300": [
+            {
+              "sentences": [
+                8
+              ],
+              "label": "SUPPORT"
+            },
+            {
+              "sentences": [
+                10,
+                11
+              ],
+              "label": "SUPPORT"
+            },
+            {
+              "sentences": [
+                12
+              ],
+              "label": "SUPPORT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          15048300
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "14924526",
+    "abstract_sents": [
+      "Febrile (fever-induced) seizures affect 3\u20135% of infants and young children.",
+      "Despite the high incidence of febrile seizures, their contribution to the development of epilepsy later in life has remained controversial.",
+      "Combining a new rat model of complex febrile seizures and patch clamp techniques, we determined that hyperthermia-induced seizures in the immature rat cause a selective presynaptic increase in inhibitory synaptic transmission in the hippocampus that lasts into adulthood.",
+      "The long-lasting nature of these potent alterations in synaptic communication after febrile seizures does not support the prevalent view of the 'benign' nature of early-life febrile convulsions."
+    ],
+    "abstract_raw": "Febrile (fever-induced) seizures affect 3\u20135% of infants and young children. Despite the high incidence of febrile seizures, their contribution to the development of epilepsy later in life has remained controversial. Combining a new rat model of complex febrile seizures and patch clamp techniques, researchers determined that hyperthermia-induced seizures in the immature rat cause a selective presynaptic increase in inhibitory synaptic transmission in the hippocampus that lasts into adulthood. The long-lasting nature of these potent alterations in synaptic communication after febrile seizures does not support the prevalent view of the 'benign' nature of early-life febrile convulsions.",
+    "claims": [
+      {
+        "id": 410,
+        "claim": "Febrile seizures increase the threshold for development of epilepsy.",
+        "evidence": {},
+        "cited_doc_ids": [
+          14924526
+        ]
+      },
+      {
+        "id": 411,
+        "claim": "Febrile seizures reduce the threshold for development of epilepsy.",
+        "evidence": {},
+        "cited_doc_ids": [
+          14924526
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "12827098",
+    "abstract_sents": [
+      "Despite accumulating evidence suggesting local self-maintenance of tissue macrophages in the steady state, the dogma remains that tissue macrophages derive from monocytes.",
+      "Using parabiosis and fate-mapping approaches, we confirmed that monocytes do not show significant contribution to tissue macrophages in the steady state.",
+      "Similarly, we found that after depletion of lung macrophages, the majority of repopulation occurred by stochastic cellular proliferation in situ in a macrophage colony-stimulating factor (M-Csf)- and granulocyte macrophage (GM)-CSF-dependent manner but independently of interleukin-4.",
+      "We also found that after bone marrow transplantation, host macrophages retained the capacity to expand when the development of donor macrophages was compromised.",
+      "Expansion of host macrophages was functional and prevented the development of alveolar proteinosis in mice transplanted with GM-Csf-receptor-deficient progenitors.",
+      "Collectively, these results indicate that tissue-resident macrophages and circulating monocytes should be classified as mononuclear phagocyte lineages that are independently maintained in the steady state."
+    ],
+    "abstract_raw": "Despite accumulating evidence suggesting local self-maintenance of tissue macrophages in the steady state, the dogma remains that tissue macrophages derive from monocytes. Using parabiosis and fate-mapping approaches, we confirmed that monocytes do not show significant contribution to tissue macrophages in the steady state. Similarly, we found that after depletion of lung macrophages, the majority of repopulation occurred by stochastic cellular proliferation in situ in a macrophage colony-stimulating factor (M-Csf)- and granulocyte macrophage (GM)-CSF-dependent manner but independently of interleukin-4. We also found that after bone marrow transplantation, host macrophages retained the capacity to expand when the development of donor macrophages was compromised. Expansion of host macrophages was functional and prevented the development of alveolar proteinosis in mice transplanted with GM-Csf-receptor-deficient progenitors. Collectively, these results indicate that tissue-resident macrophages and circulating monocytes should be classified as mononuclear phagocyte lineages that are independently maintained in the steady state.",
+    "claims": [
+      {
+        "id": 184,
+        "claim": "Bone marrow cells don't contribute to adult macrophage compartments.",
+        "evidence": {
+          "12827098": [
+            {
+              "sentences": [
+                3
+              ],
+              "label": "SUPPORT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          12827098
+        ]
+      },
+      {
+        "id": 183,
+        "claim": "Bone marrow cells contribute to adult macrophage compartments.",
+        "evidence": {
+          "12827098": [
+            {
+              "sentences": [
+                3
+              ],
+              "label": "CONTRADICT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          12827098
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "6421792",
+    "abstract_sents": [
+      "Acute lymphoblastic leukemia (ALL) is an aggressive hematological tumor resulting from the malignant transformation of lymphoid progenitors.",
+      "Despite intensive chemotherapy, 20% of pediatric patients and over 50% of adult patients with ALL do not achieve a complete remission or relapse after intensified chemotherapy, making disease relapse and resistance to therapy the most substantial challenge in the treatment of this disease.",
+      "Using whole-exome sequencing, we identify mutations in the cytosolic 5'-nucleotidase II gene (NT5C2), which encodes a 5'-nucleotidase enzyme that is responsible for the inactivation of nucleoside-analog chemotherapy drugs, in 20/103 (19%) relapse T cell ALLs and 1/35 (3%) relapse B-precursor ALLs.",
+      "NT5C2 mutant proteins show increased nucleotidase activity in vitro and conferred resistance to chemotherapy with 6-mercaptopurine and 6-thioguanine when expressed in ALL lymphoblasts.",
+      "These results support a prominent role for activating mutations in NT5C2 and increased nucleoside-analog metabolism in disease progression and chemotherapy resistance in ALL."
+    ],
+    "abstract_raw": "Acute lymphoblastic leukemia (ALL) is an aggressive hematological tumor resulting from the malignant transformation of lymphoid progenitors. Despite intensive chemotherapy, 20% of pediatric patients and over 50% of adult patients with ALL do not achieve a complete remission or relapse after intensified chemotherapy, making disease relapse and resistance to therapy the most substantial challenge in the treatment of this disease. Using whole-exome sequencing, researchers identify mutations in the cytosolic 5'-nucleotidase II gene (NT5C2), which encodes a 5'-nucleotidase enzyme responsible for the inactivation of nucleoside-analog chemotherapy drugs, in 20/103 (19%) relapse T cell ALLs and 1/35 (3%) relapse B-precursor ALLs. NT5C2 mutant proteins show increased nucleotidase activity in vitro and confer resistance to chemotherapy with 6-mercaptopurine and 6-thioguanine when expressed in ALL lymphoblasts. These results support a prominent role for activating mutations in NT5C2 and increased nucleoside-analog metabolism in disease progression and chemotherapy resistance in ALL.",
+    "claims": [
+      {
+        "id": 1300,
+        "claim": "Thiopurine active metabolites can be catabolized through dephosphorylation of thioguanine nucleotides.",
+        "evidence": {},
+        "cited_doc_ids": [
+          6421792
+        ]
+      },
+      {
+        "id": 768,
+        "claim": "Mercaptopurine is anabolized into the inactive methylmercaptopurine by thiopurine methyltrasnferase (TPMT).",
+        "evidence": {},
+        "cited_doc_ids": [
+          6421792
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "22500262",
+    "abstract_sents": [
+      "During fasting, mammals maintain normal glucose homeostasis by stimulating hepatic gluconeogenesis.",
+      "Elevations in circulating glucagon and epinephrine, two hormones that activate hepatic gluconeogenesis, trigger the cAMP-mediated phosphorylation of cAMP response element-binding protein (Creb) and dephosphorylation of the Creb-regulated transcription coactivator-2 (Crtc2)--two key transcriptional regulators of this process.",
+      "Although the underlying mechanism is unclear, hepatic gluconeogenesis is also regulated by the circadian clock, which coordinates glucose metabolism with changes in the external environment.",
+      "Circadian control of gene expression is achieved by two transcriptional activators, Clock and Bmal1, which stimulate cryptochrome (Cry1 and Cry2) and Period (Per1, Per2 and Per3) repressors that feed back on Clock-Bmal1 activity.",
+      "Here we show that Creb activity during fasting is modulated by Cry1 and Cry2, which are rhythmically expressed in the liver.",
+      "Cry1 expression was elevated during the night-day transition, when it reduced fasting gluconeogenic gene expression by blocking glucagon-mediated increases in intracellular cAMP concentrations and in the protein kinase A-mediated phosphorylation of Creb.",
+      "In biochemical reconstitution studies, we found that Cry1 inhibited accumulation of cAMP in response to G protein-coupled receptor (GPCR) activation but not to forskolin, a direct activator of adenyl cyclase.",
+      "Cry proteins seemed to modulate GPCR activity directly through interaction with G(s)\u03b1.",
+      "As hepatic overexpression of Cry1 lowered blood glucose concentrations and improved insulin sensitivity in insulin-resistant db/db mice, our results suggest that compounds that enhance cryptochrome activity may provide therapeutic benefit to individuals with type 2 diabetes."
+    ],
+    "abstract_raw": "During fasting, mammals maintain normal glucose homeostasis by stimulating hepatic gluconeogenesis. Elevations in circulating glucagon and epinephrine, two hormones that activate hepatic gluconeogenesis, trigger the cAMP-mediated phosphorylation of cAMP response element-binding protein (Creb) and dephosphorylation of the Creb-regulated transcription coactivator-2 (Crtc2)--two key transcriptional regulators of this process. Although the underlying mechanism is unclear, hepatic gluconeogenesis is also regulated by the circadian clock, which coordinates glucose metabolism with changes in the external environment. Circadian control of gene expression is achieved by two transcriptional activators, Clock and Bmal1, which stimulate cryptochrome (Cry1 and Cry2) and Period (Per1, Per2 and Per3) repressors that feed back on Clock-Bmal1 activity. Here we show that Creb activity during fasting is modulated by Cry1 and Cry2, which are rhythmically expressed in the liver. Cry1 expression was elevated during the night-day transition, when it reduced fasting gluconeogenic gene expression by blocking glucagon-mediated increases in intracellular cAMP concentrations and in the protein kinase A-mediated phosphorylation of Creb. In biochemical reconstitution studies, we found that Cry1 inhibited accumulation of cAMP in response to G protein-coupled receptor (GPCR) activation but not to forskolin, a direct activator of adenyl cyclase. Cry proteins seemed to modulate GPCR activity directly through interaction with G(s)\u03b1. As hepatic overexpression of Cry1 lowered blood glucose concentrations and improved insulin sensitivity in insulin-resistant db/db mice, our results suggest that compounds that enhance cryptochrome activity may provide therapeutic benefit to individuals with type 2 diabetes.",
+    "claims": [
+      {
+        "id": 1044,
+        "claim": "Rhythmic expression of Cry1 translates directly into a circadian regulation of cAMP signaling in gluconeogenesis.",
+        "evidence": {
+          "22500262": [
+            {
+              "sentences": [
+                4
+              ],
+              "label": "SUPPORT"
+            },
+            {
+              "sentences": [
+                5
+              ],
+              "label": "SUPPORT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          22500262
+        ]
+      },
+      {
+        "id": 1045,
+        "claim": "Rhythmic expression of Cry1 translates directly into a circadian regulation of cAMP signaling in hepatic glucose metabolism.",
+        "evidence": {
+          "22500262": [
+            {
+              "sentences": [
+                2,
+                3
+              ],
+              "label": "SUPPORT"
+            },
+            {
+              "sentences": [
+                4
+              ],
+              "label": "SUPPORT"
+            },
+            {
+              "sentences": [
+                5
+              ],
+              "label": "SUPPORT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          22500262
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "1710116",
+    "abstract_sents": [
+      "We compared conscious and nonconscious processing of briefly flashed words using a visual masking procedure while recording intracranial electroencephalogram (iEEG) in ten patients.",
+      "Nonconscious processing of masked words was observed in multiple cortical areas, mostly within an early time window (<300 ms), accompanied by induced gamma-band activity, but without coherent long-distance neural activity, suggesting a quickly dissipating feedforward wave.",
+      "In contrast, conscious processing of unmasked words was characterized by the convergence of four distinct neurophysiological markers: sustained voltage changes, particularly in prefrontal cortex, large increases in spectral power in the gamma band, increases in long-distance phase synchrony in the beta range, and increases in long-range Granger causality.",
+      "We argue that all of those measures provide distinct windows into the same distributed state of conscious processing.",
+      "These results have a direct impact on current theoretical discussions concerning the neural correlates of conscious access."
+    ],
+    "abstract_raw": "We compared conscious and nonconscious processing of briefly flashed words using a visual masking procedure while recording intracranial electroencephalogram (iEEG) in ten patients. Nonconscious processing of masked words was observed in multiple cortical areas, mostly within an early time window (<300 ms), accompanied by induced gamma-band activity, but without coherent long-distance neural activity, suggesting a quickly dissipating feedforward wave. In contrast, conscious processing of unmasked words was characterized by the convergence of four distinct neurophysiological markers: sustained voltage changes, particularly in prefrontal cortex, large increases in spectral power in the gamma band, increases in long-distance phase synchrony in the beta range, and increases in long-range Granger causality. We argue that all of those measures provide distinct windows into the same distributed state of conscious processing. These results have a direct impact on current theoretical discussions concerning the neural correlates of conscious access.",
+    "claims": [
+      {
+        "id": 174,
+        "claim": "Beta-band coherence is diminished for visible stimuli over invisible stimuli.",
+        "evidence": {},
+        "cited_doc_ids": [
+          1710116
+        ]
+      },
+      {
+        "id": 175,
+        "claim": "Beta-band coherence is enhanced for visible stimuli over invisible stimuli.",
+        "evidence": {},
+        "cited_doc_ids": [
+          1710116
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "10071552",
+    "abstract_sents": [
+      "BACKGROUND Taxing sugar-sweetened beverages (SSBs) has been proposed in high-income countries to reduce obesity and type 2 diabetes.",
+      "We sought to estimate the potential health effects of such a fiscal strategy in the middle-income country of India, where there is heterogeneity in SSB consumption, patterns of substitution between SSBs and other beverages after tax increases, and vast differences in chronic disease risk within the population.   \n",
+      "METHODS AND FINDINGS Using consumption and price variations data from a nationally representative survey of 100,855 Indian households, we first calculated how changes in SSB price alter per capita consumption of SSBs and substitution with other beverages.",
+      "We then incorporated SSB sales trends, body mass index (BMI), and diabetes incidence data stratified by age, sex, income, and urban/rural residence into a validated microsimulation of caloric consumption, glycemic load, overweight/obesity prevalence, and type 2 diabetes incidence among Indian subpopulations facing a 20% SSB excise tax.",
+      "The 20% SSB tax was anticipated to reduce overweight and obesity prevalence by 3.0% (95% CI 1.6%-5.9%) and type 2 diabetes incidence by 1.6% (95% CI 1.2%-1.9%) among various Indian subpopulations over the period 2014-2023, if SSB consumption continued to increase linearly in accordance with secular trends.",
+      "However, acceleration in SSB consumption trends consistent with industry marketing models would be expected to increase the impact efficacy of taxation, averting 4.2% of prevalent overweight/obesity (95% CI 2.5-10.0%) and 2.5% (95% CI 1.0-2.8%) of incident type 2 diabetes from 2014-2023.",
+      "Given current consumption and BMI distributions, our results suggest the largest relative effect would be expected among young rural men, refuting our a priori hypothesis that urban populations would be isolated beneficiaries of SSB taxation.",
+      "Key limitations of this estimation approach include the assumption that consumer expenditure behavior from prior years, captured in price elasticities, will reflect future behavior among consumers, and potential underreporting of consumption in dietary recall data used to inform our calculations.   \n",
+      "CONCLUSION Sustained SSB taxation at a high tax rate could mitigate rising obesity and type 2 diabetes in India among both urban and rural subpopulations."
+    ],
+    "abstract_raw": "BACKGROUND Taxing sugar-sweetened beverages (SSBs) has been proposed in high-income countries to reduce obesity and type 2 diabetes. We sought to estimate the potential health effects of such a fiscal strategy in the middle-income country of India, where there is heterogeneity in SSB consumption, patterns of substitution between SSBs and other beverages after tax increases, and vast differences in chronic disease risk within the population. METHODS AND FINDINGS Using consumption and price variations data from a nationally representative survey of 100,855 Indian households, we first calculated how changes in SSB price alter per capita consumption of SSBs and substitution with other beverages. We then incorporated SSB sales trends, body mass index (BMI), and diabetes incidence data stratified by age, sex, income, and urban/rural residence into a validated microsimulation of caloric consumption, glycemic load, overweight/obesity prevalence, and type 2 diabetes incidence among Indian subpopulations facing a 20% SSB excise tax. The 20% SSB tax was anticipated to reduce overweight and obesity prevalence by 3.0% (95% CI 1.6%-5.9%) and type 2 diabetes incidence by 1.6% (95% CI 1.2%-1.9%) among various Indian subpopulations over the period 2014-2023, if SSB consumption continued to increase linearly in accordance with secular trends. However, acceleration in SSB consumption trends consistent with industry marketing models would be expected to increase the impact efficacy of taxation, averting 4.2% of prevalent overweight/obesity (95% CI 2.5-10.0%) and 2.5% (95% CI 1.0-2.8%) of incident type 2 diabetes from 2014-2023. Given current consumption and BMI distributions, our results suggest the largest relative effect would be expected among young rural men, refuting our a priori hypothesis that urban populations would be isolated beneficiaries of SSB taxation. Key limitations of this estimation approach include the assumption that consumer expenditure behavior from prior years, captured in price elasticities, will reflect future behavior among consumers, and potential underreporting of consumption in dietary recall data used to inform our calculations. CONCLUSION Sustained SSB taxation at a high tax rate could mitigate rising obesity and type 2 diabetes in India among both urban and rural subpopulations.",
+    "claims": [
+      {
+        "id": 1145,
+        "claim": "Taxation of sugar-sweetened beverages reduced the incidence rate of type II diabetes in India.",
+        "evidence": {
+          "10071552": [
+            {
+              "sentences": [
+                4
+              ],
+              "label": "SUPPORT"
+            },
+            {
+              "sentences": [
+                5
+              ],
+              "label": "SUPPORT"
+            },
+            {
+              "sentences": [
+                8
+              ],
+              "label": "SUPPORT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          10071552
+        ]
+      },
+      {
+        "id": 1144,
+        "claim": "Taxation of sugar-sweetened beverages had no effect on the incidence rate of type II diabetes in India.",
+        "evidence": {
+          "10071552": [
+            {
+              "sentences": [
+                4
+              ],
+              "label": "CONTRADICT"
+            },
+            {
+              "sentences": [
+                5
+              ],
+              "label": "CONTRADICT"
+            },
+            {
+              "sentences": [
+                8
+              ],
+              "label": "CONTRADICT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          10071552
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "34469966",
+    "abstract_sents": [
+      "Interleukin-1\u03b2 (IL-1\u03b2) is a cytokine whose bioactivity is controlled by activation of the inflammasome.",
+      "However, in response to lipopolysaccharide, human monocytes secrete IL-1\u03b2 independently of classical inflammasome stimuli.",
+      "Here, we report that this constituted a species-specific response that is not observed in the murine system.",
+      "Indeed, in human monocytes, lipopolysaccharide triggered an \"alternative inflammasome\" that relied on NLRP3-ASC-caspase-1 signaling, yet was devoid of any classical inflammasome characteristics including pyroptosome formation, pyroptosis induction, and K(+) efflux dependency.",
+      "Genetic dissection of the underlying signaling pathway in a monocyte transdifferentiation system revealed that alternative inflammasome activation was propagated by TLR4-TRIF-RIPK1-FADD-CASP8 signaling upstream of NLRP3.",
+      "Importantly, involvement of this signaling cascade was limited to alternative inflammasome activation and did not extend to classical NLRP3 activation.",
+      "Because alternative inflammasome activation embraces both sensitivity and promiscuity of TLR4, we propose a pivotal role for this signaling cascade in TLR4-driven, IL-1\u03b2-mediated immune responses and immunopathology in humans."
+    ],
+    "abstract_raw": "Interleukin-1\u03b2 (IL-1\u03b2) is a cytokine whose bioactivity is controlled by activation of the inflammasome. However, in response to lipopolysaccharide, human monocytes secrete IL-1\u03b2 independently of classical inflammasome stimuli. Here, we report that this constituted a species-specific response that is not observed in the murine system. Indeed, in human monocytes, lipopolysaccharide triggered an \"alternative inflammasome\" that relied on NLRP3-ASC-caspase-1 signaling, yet was devoid of any classical inflammasome characteristics including pyroptosome formation, pyroptosis induction, and K(+) efflux dependency. Genetic dissection of the underlying signaling pathway in a monocyte transdifferentiation system revealed that alternative inflammasome activation was propagated by TLR4-TRIF-RIPK1-FADD-CASP8 signaling upstream of NLRP3. Importantly, involvement of this signaling cascade was limited to alternative inflammasome activation and did not extend to classical NLRP3 activation. Because alternative inflammasome activation embraces both sensitivity and promiscuity of TLR4, we propose a pivotal role for this signaling cascade in TLR4-driven, IL-1\u03b2-mediated immune responses and immunopathology in humans.",
+    "claims": [
+      {
+        "id": 732,
+        "claim": "M. stadtmanae does not induce ASC speck formation in BlaER1 monocytes.",
+        "evidence": {},
+        "cited_doc_ids": [
+          34469966
+        ]
+      },
+      {
+        "id": 733,
+        "claim": "M. stadtmanae induces ASC speck formation in BlaER1 monocytes.",
+        "evidence": {},
+        "cited_doc_ids": [
+          34469966
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "6076903",
+    "abstract_sents": [
+      "Embryos have the ability to self-regulate and regenerate normal structures after being sectioned in half.",
+      "How is such a morphogenetic field established?",
+      "We discovered that quadruple knockdown of ADMP and BMP2/4/7 in Xenopus embryos eliminates self-regulation, causing ubiquitous neural induction throughout the ectoderm.",
+      "ADMP transcription in the Spemann organizer is activated at low BMP levels.",
+      "When ventral BMP2/4/7 signals are depleted, Admp expression increases, allowing for self-regulation.",
+      "ADMP has BMP-like activity and signals via the ALK-2 receptor.",
+      "It is unable to signal dorsally because of inhibition by Chordin.",
+      "The ventral BMP antagonists Sizzled and Bambi further refine the pattern.",
+      "By transplanting dorsal or ventral wild-type grafts into ADMP/BMP2/4/7-depleted hosts, we demonstrate that both poles serve as signaling centers that can induce histotypic differentiation over considerable distances.",
+      "We conclude that dorsal and ventral BMP signals and their extracellular antagonists expressed under opposing transcriptional regulation provide a molecular mechanism for embryonic self-regulation."
+    ],
+    "abstract_raw": "Embryos have the ability to self-regulate and regenerate normal structures after being sectioned in half. How is such a morphogenetic field established? Researchers discovered that quadruple knockdown of ADMP and BMP2/4/7 in Xenopus embryos eliminates self-regulation, causing ubiquitous neural induction throughout the ectoderm. ADMP transcription in the Spemann organizer is activated at low BMP levels. When ventral BMP2/4/7 signals are depleted, ADMP expression increases, allowing for self-regulation. ADMP has BMP-like activity and signals via the ALK-2 receptor. ADMP is unable to signal dorsally because of inhibition by Chordin. The ventral BMP antagonists Sizzled and Bambi further refine the pattern. By transplanting dorsal or ventral wild-type grafts into ADMP/BMP2/4/7-depleted hosts, researchers demonstrate that both poles serve as signaling centers that can induce histotypic differentiation over considerable distances. Researchers conclude that dorsal and ventral BMP signals and their extracellular antagonists expressed under opposing transcriptional regulation provide a molecular mechanism for embryonic self-regulation.",
+    "claims": [
+      {
+        "id": 73,
+        "claim": "Activator-inhibitor pairs are provided ventrally by Xrl-sizzled.",
+        "evidence": {},
+        "cited_doc_ids": [
+          6076903
+        ]
+      },
+      {
+        "id": 72,
+        "claim": "Activator-inhibitor pairs are provided dorsally by Admpchordin.",
+        "evidence": {},
+        "cited_doc_ids": [
+          6076903
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "21295300",
+    "abstract_sents": [
+      "The phosphatidylinositol-3-kinase-like kinase ATM (ataxia-telangiectasia mutated) has a central role in coordinating DNA damage responses, including cell-cycle checkpoint control, DNA repair and apoptosis.",
+      "Mutations of ATM cause a spectrum of defects ranging from neurodegeneration to cancer predisposition.",
+      "However, the mechanism by which DNA damage activates ATM is poorly understood.",
+      "Here we show that Cdk5 (cyclin-dependent kinase 5), activated by DNA damage, directly phosphorylates ATM at Ser 794 in post-mitotic neurons.",
+      "Phosphorylation at Ser 794 precedes, and is required for, ATM autophosphorylation at Ser 1981, and activates ATM kinase activity.",
+      "The Cdk5-ATM signal regulates phosphorylation and function of the ATM targets p53 and H2AX.",
+      "Interruption of the Cdk5-ATM pathway attenuates DNA-damage-induced neuronal cell cycle re-entry and expression of the p53 targets PUMA and Bax, protecting neurons from death.",
+      "Thus, activation of Cdk5 by DNA damage serves as a critical signal to initiate the ATM response and regulate ATM-dependent cellular processes."
+    ],
+    "abstract_raw": "The phosphatidylinositol-3-kinase-like kinase ATM (ataxia-telangiectasia mutated) has a central role in coordinating DNA damage responses, including cell-cycle checkpoint control, DNA repair and apoptosis. Mutations of ATM cause a spectrum of defects ranging from neurodegeneration to cancer predisposition. However, the mechanism by which DNA damage activates ATM is poorly understood. Here we show that Cdk5 (cyclin-dependent kinase 5), activated by DNA damage, directly phosphorylates ATM at Ser 794 in post-mitotic neurons. Phosphorylation at Ser 794 precedes, and is required for, ATM autophosphorylation at Ser 1981, and activates ATM kinase activity. The Cdk5-ATM signal regulates phosphorylation and function of the ATM targets p53 and H2AX. Interruption of the Cdk5-ATM pathway attenuates DNA-damage-induced neuronal cell cycle re-entry and expression of the p53 targets PUMA and Bax, protecting neurons from death. Thus, activation of Cdk5 by DNA damage serves as a critical signal to initiate the ATM response and regulate ATM-dependent cellular processes.",
+    "claims": [
+      {
+        "id": 67,
+        "claim": "Activated Cdk5 phosphorylates the ATM protein in response to DNA damage.",
+        "evidence": {
+          "21295300": [
+            {
+              "sentences": [
+                3
+              ],
+              "label": "SUPPORT"
+            },
+            {
+              "sentences": [
+                7
+              ],
+              "label": "SUPPORT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          21295300
+        ]
+      },
+      {
+        "id": 68,
+        "claim": "Activated Cdk5 regulates DNA damage-induced neuronal death.",
+        "evidence": {
+          "21295300": [
+            {
+              "sentences": [
+                6
+              ],
+              "label": "SUPPORT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          21295300
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "9669099",
+    "abstract_sents": [
+      "Binding within or nearby target genes involved in cell proliferation and survival enables the p53 tumor suppressor gene to regulate their transcription and cell-cycle progression.",
+      "Using genome-wide chromatin-binding profiles, we describe binding of p53 also to regions located distantly from any known p53 target gene.",
+      "Interestingly, many of these regions possess conserved p53-binding sites and all known hallmarks of enhancer regions.",
+      "We demonstrate that these p53-bound enhancer regions (p53BERs) indeed contain enhancer activity and interact intrachromosomally with multiple neighboring genes to convey long-distance p53-dependent transcription regulation.",
+      "Furthermore, p53BERs produce, in a p53-dependent manner, enhancer RNAs (eRNAs) that are required for efficient transcriptional enhancement of interacting target genes and induction of a p53-dependent cell-cycle arrest.",
+      "Thus, our results ascribe transcription enhancement activity to p53 with the capacity to regulate multiple genes from a single genomic binding site.",
+      "Moreover, eRNA production from p53BERs is required for efficient p53 transcription enhancement."
+    ],
+    "abstract_raw": "Binding within or nearby target genes involved in cell proliferation and survival enables the p53 tumor suppressor gene to regulate their transcription and cell-cycle progression. Using genome-wide chromatin-binding profiles, we describe binding of p53 also to regions located distantly from any known p53 target gene. Interestingly, many of these regions possess conserved p53-binding sites and all known hallmarks of enhancer regions. We demonstrate that these p53-bound enhancer regions (p53BERs) indeed contain enhancer activity and interact intrachromosomally with multiple neighboring genes to convey long-distance p53-dependent transcription regulation. Furthermore, p53BERs produce, in a p53-dependent manner, enhancer RNAs (eRNAs) that are required for efficient transcriptional enhancement of interacting target genes and induction of a p53-dependent cell-cycle arrest. Thus, our results ascribe transcription enhancement activity to p53 with the capacity to regulate multiple genes from a single genomic binding site. Moreover, eRNA production from p53BERs is required for efficient p53 transcription enhancement.",
+    "claims": [
+      {
+        "id": 177,
+        "claim": "Binding of p53 to enhancer regions (p53BERs) regulates the activity of p53 transcription and cell cycle arrest through the production of p53-dependent eRNAs.",
+        "evidence": {
+          "9669099": [
+            {
+              "sentences": [
+                4
+              ],
+              "label": "SUPPORT"
+            },
+            {
+              "sentences": [
+                6
+              ],
+              "label": "SUPPORT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          9669099
+        ]
+      },
+      {
+        "id": 1387,
+        "claim": "eRNAs influence is linked to senescence, aging, and carcinogenesis.",
+        "evidence": {},
+        "cited_doc_ids": [
+          9669099
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "11659421",
+    "abstract_sents": [
+      "Reprogramming somatic cells to induced pluripotent stem cells (iPSCs) resets their identity back to an embryonic age and, thus, presents a significant hurdle for modeling late-onset disorders.",
+      "In this study, we describe a strategy for inducing aging-related features in human iPSC-derived lineages and apply it to the modeling of Parkinson's disease (PD).",
+      "Our approach involves expression of progerin, a truncated form of lamin A associated with premature aging.",
+      "We found that expression of progerin in iPSC-derived fibroblasts and neurons induces multiple aging-related markers and characteristics, including dopamine-specific phenotypes such as neuromelanin accumulation.",
+      "Induced aging in PD iPSC-derived dopamine neurons revealed disease phenotypes that require both aging and genetic susceptibility, such as pronounced dendrite degeneration, progressive loss of tyrosine hydroxylase (TH) expression, and enlarged mitochondria or Lewy-body-precursor inclusions.",
+      "Thus, our study suggests that progerin-induced aging can be used to reveal late-onset age-related disease features in hiPSC-based disease models."
+    ],
+    "abstract_raw": "Reprogramming somatic cells to induced pluripotent stem cells (iPSCs) resets their identity back to an embryonic age and, thus, presents a significant hurdle for modeling late-onset disorders. In this study, we describe a strategy for inducing aging-related features in human iPSC-derived lineages and apply it to the modeling of Parkinson's disease (PD). Our approach involves expression of progerin, a truncated form of lamin A associated with premature aging. We found that expression of progerin in iPSC-derived fibroblasts and neurons induces multiple aging-related markers and characteristics, including dopamine-specific phenotypes such as neuromelanin accumulation. Induced aging in PD iPSC-derived dopamine neurons revealed disease phenotypes that require both aging and genetic susceptibility, such as pronounced dendrite degeneration, progressive loss of tyrosine hydroxylase (TH) expression, and enlarged mitochondria or Lewy-body-precursor inclusions. Thus, our study suggests that progerin-induced aging can be used to reveal late-onset age-related disease features in hiPSC-based disease models.",
+    "claims": [
+      {
+        "id": 382,
+        "claim": "Environmentally-induced senescence is mimicked in disease modeling by adding specific molecules to the culture system.",
+        "evidence": {
+          "11659421": [
+            {
+              "sentences": [
+                1,
+                2
+              ],
+              "label": "SUPPORT"
+            },
+            {
+              "sentences": [
+                4,
+                5
+              ],
+              "label": "SUPPORT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          11659421
+        ]
+      },
+      {
+        "id": 979,
+        "claim": "Progerin induces premature aging in stem cells.",
+        "evidence": {
+          "11659421": [
+            {
+              "sentences": [
+                3
+              ],
+              "label": "SUPPORT"
+            },
+            {
+              "sentences": [
+                5
+              ],
+              "label": "SUPPORT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          11659421
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "6796297",
+    "abstract_sents": [
+      "Osteogenesis during bone modeling and remodeling is coupled with angiogenesis.",
+      "A recent study showed that a specific vessel subtype, strongly positive for CD31 and endomucin (CD31hiEmcnhi), couples angiogenesis and osteogenesis.",
+      "Here, we found that platelet-derived growth factor-BB (PDGF-BB) secreted by preosteoclasts induces CD31hiEmcnhi vessel formation during bone modeling and remodeling.",
+      "Mice with depletion of PDGF-BB in the tartrate-resistant acid phosphatase\u2013positive cell lineage show significantly lower trabecular and cortical bone mass, serum and bone marrow PDGF-BB concentrations, and fewer CD31hiEmcnhi vessels compared to wild-type mice.",
+      "In the ovariectomy (OVX)-induced osteoporotic mouse model, serum and bone marrow levels of PDGF-BB and numbers of CD31hiEmcnhi vessels are significantly lower compared to sham-operated controls.",
+      "Treatment with exogenous PDGF-BB or inhibition of cathepsin K to increase the number of preosteoclasts, and thus the endogenous levels of PDGF-BB, increases CD31hiEmcnhi vessel number and stimulates bone formation in OVX mice.",
+      "Thus, pharmacotherapies that increase PDGF-BB secretion from preosteoclasts offer a new therapeutic target for treating osteoporosis by promoting angiogenesis and thus bone formation."
+    ],
+    "abstract_raw": "Osteogenesis during bone modeling and remodeling is coupled with angiogenesis. A recent study showed that a specific vessel subtype, strongly positive for CD31 and endomucin (CD31hiEmcnhi), couples angiogenesis and osteogenesis. Here, we found that platelet-derived growth factor-BB (PDGF-BB) secreted by preosteoclasts induces CD31hiEmcnhi vessel formation during bone modeling and remodeling. Mice with depletion of PDGF-BB in the tartrate-resistant acid phosphatase\u2013positive cell lineage show significantly lower trabecular and cortical bone mass, serum and bone marrow PDGF-BB concentrations, and fewer CD31hiEmcnhi vessels compared to wild-type mice. In the ovariectomy (OVX)-induced osteoporotic mouse model, serum and bone marrow levels of PDGF-BB and numbers of CD31hiEmcnhi vessels are significantly lower compared to sham-operated controls. Treatment with exogenous PDGF-BB or inhibition of cathepsin K to increase the number of preosteoclasts, and thus the endogenous levels of PDGF-BB, increases CD31hiEmcnhi vessel number and stimulates bone formation in OVX mice. Thus, pharmacotherapies that increase PDGF-BB secretion from preosteoclasts offer a new therapeutic target for treating osteoporosis by promoting angiogenesis and thus bone formation.",
+    "claims": [
+      {
+        "id": 406,
+        "claim": "F4/80+ macrophages regulate mature osteoblast maintenance.",
+        "evidence": {},
+        "cited_doc_ids": [
+          6796297
+        ]
+      },
+      {
+        "id": 1138,
+        "claim": "TRAP+ osteoclasts regulate mature osteoblast maintenance.",
+        "evidence": {
+          "6796297": [
+            {
+              "sentences": [
+                3
+              ],
+              "label": "SUPPORT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          6796297
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "16390264",
+    "abstract_sents": [
+      "OBJECTIVES To determine the extent to which type of hospital admission (emergency compared with elective) and surgical procedure varied by socioeconomic circumstances, age, sex, and year of admission for colorectal, breast, and lung cancer.   \n",
+      "DESIGN Repeated cross sectional study with data from individual patients, 1 April 1999 to 31 March 2006.   \n",
+      "SETTING Hospital episode statistics (HES) dataset.   \n",
+      "PARTICIPANTS 564 821 patients aged 50 and over admitted with a diagnosis of colorectal, breast, or lung cancer.   \n",
+      "MAIN OUTCOME MEASURES Proportion of patients admitted as emergencies, and the proportion receiving the recommended surgical treatment.   \n",
+      "RESULTS Patients from deprived areas, older people, and women were more likely to be admitted as emergencies.",
+      "For example, the adjusted odds ratio for patients with breast cancer in the least compared with most deprived fifth of deprivation was 0.63 (95% confidence interval 0.60 to 0.66) and the adjusted odds ratio for patients with lung cancer aged 80-89 compared with those aged 50-59 was 3.13 (2.93 to 3.34).",
+      "There were some improvements in disparities between age groups but not for patients living in deprived areas over time.",
+      "Patients from deprived areas were less likely to receive preferred procedures for rectal, breast, and lung cancer.",
+      "These findings did not improve with time.",
+      "For example, 67.4% (3529/5237) of patients in the most deprived fifth of deprivation had anterior resection for rectal cancer compared with 75.5% (4497/5959) of patients in the least deprived fifth (1.34, 1.22 to 1.47).",
+      "Over half (54.0%, 11 256/20 849) of patients in the most deprived fifth of deprivation had breast conserving surgery compared with 63.7% (18 445/28 960) of patients in the least deprived fifth (1.21, 1.16 to 1.26).",
+      "Men were less likely than women to undergo anterior resection and lung cancer resection and older people were less likely to receive breast conserving surgery and lung cancer resection.",
+      "For example, the adjusted odds ratio for lung cancer patients aged 80-89 compared with those aged 50-59 was 0.52 (0.46 to 0.59).",
+      "Conclusions Despite the implementation of the NHS Cancer Plan, social factors still strongly influence access to and the provision of care."
+    ],
+    "abstract_raw": "OBJECTIVES To determine the extent to which type of hospital admission (emergency compared with elective) and surgical procedure varied by socioeconomic circumstances, age, sex, and year of admission for colorectal, breast, and lung cancer. DESIGN Repeated cross sectional study with data from individual patients, 1 April 1999 to 31 March 2006. SETTING Hospital episode statistics (HES) dataset. PARTICIPANTS 564 821 patients aged 50 and over admitted with a diagnosis of colorectal, breast, or lung cancer. MAIN OUTCOME MEASURES Proportion of patients admitted as emergencies, and the proportion receiving the recommended surgical treatment. RESULTS Patients from deprived areas, older people, and women were more likely to be admitted as emergencies. For example, the adjusted odds ratio for patients with breast cancer in the least compared with most deprived fifth of deprivation was 0.63 (95% confidence interval 0.60 to 0.66) and the adjusted odds ratio for patients with lung cancer aged 80-89 compared with those aged 50-59 was 3.13 (2.93 to 3.34). There were some improvements in disparities between age groups but not for patients living in deprived areas over time. Patients from deprived areas were less likely to receive preferred procedures for rectal, breast, and lung cancer. These findings did not improve with time. For example, 67.4% (3529/5237) of patients in the most deprived fifth of deprivation had anterior resection for rectal cancer compared with 75.5% (4497/5959) of patients in the least deprived fifth (1.34, 1.22 to 1.47). Over half (54.0%, 11 256/20 849) of patients in the most deprived fifth of deprivation had breast conserving surgery compared with 63.7% (18 445/28 960) of patients in the least deprived fifth (1.21, 1.16 to 1.26). Men were less likely than women to undergo anterior resection and lung cancer resection and older people were less likely to receive breast conserving surgery and lung cancer resection. For example, the adjusted odds ratio for lung cancer patients aged 80-89 compared with those aged 50-59 was 0.52 (0.46 to 0.59). Conclusions Despite the implementation of the NHS Cancer Plan, social factors still strongly influence access to and the provision of care.",
+    "claims": [
+      {
+        "id": 926,
+        "claim": "Patients with common epithelial cancers are more likely to have an emergency event as their first hospital admission if they live in resource-deprived areas.",
+        "evidence": {
+          "16390264": [
+            {
+              "sentences": [
+                6,
+                7
+              ],
+              "label": "SUPPORT"
+            },
+            {
+              "sentences": [
+                10
+              ],
+              "label": "SUPPORT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          16390264
+        ]
+      },
+      {
+        "id": 927,
+        "claim": "Patients with common epithelial cancers are less likely to have an emergency event as their first hospital admission if they live in resource-deprived areas.",
+        "evidence": {
+          "16390264": [
+            {
+              "sentences": [
+                6,
+                7
+              ],
+              "label": "CONTRADICT"
+            },
+            {
+              "sentences": [
+                10
+              ],
+              "label": "CONTRADICT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          16390264
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "18956141",
+    "abstract_sents": [
+      "Intestinal epithelial cells (IECs) regulate gut immune homeostasis, and impaired epithelial responses are implicated in the pathogenesis of inflammatory bowel diseases (IBD).",
+      "IEC-specific ablation of nuclear factor \u03baB (NF-\u03baB) essential modulator (NEMO) caused Paneth cell apoptosis and impaired antimicrobial factor expression in the ileum, as well as colonocyte apoptosis and microbiota-driven chronic inflammation in the colon.",
+      "Combined RelA, c-Rel, and RelB deficiency in IECs caused Paneth cell apoptosis but not colitis, suggesting that NEMO prevents colon inflammation by NF-\u03baB-independent functions.",
+      "Inhibition of receptor-interacting protein kinase 1 (RIPK1) kinase activity or combined deficiency of Fas-associated via death domain protein (FADD) and RIPK3 prevented epithelial cell death, Paneth cell loss, and colitis development in mice with epithelial NEMO deficiency.",
+      "Therefore, NEMO prevents intestinal inflammation by inhibiting RIPK1 kinase activity-mediated IEC death, suggesting that RIPK1 inhibitors could be effective in the treatment of colitis in patients with NEMO mutations and possibly in IBD."
+    ],
+    "abstract_raw": "Intestinal epithelial cells (IECs) regulate gut immune homeostasis, and impaired epithelial responses are implicated in the pathogenesis of inflammatory bowel diseases (IBD). IEC-specific ablation of nuclear factor \u03baB (NF-\u03baB) essential modulator (NEMO) caused Paneth cell apoptosis and impaired antimicrobial factor expression in the ileum, as well as colonocyte apoptosis and microbiota-driven chronic inflammation in the colon. Combined RelA, c-Rel, and RelB deficiency in IECs caused Paneth cell apoptosis but not colitis, suggesting that NEMO prevents colon inflammation by NF-\u03baB-independent functions. Inhibition of receptor-interacting protein kinase 1 (RIPK1) kinase activity or combined deficiency of Fas-associated via death domain protein (FADD) and RIPK3 prevented epithelial cell death, Paneth cell loss, and colitis development in mice with epithelial NEMO deficiency. Therefore, NEMO prevents intestinal inflammation by inhibiting RIPK1 kinase activity-mediated IEC death, suggesting that RIPK1 inhibitors could be effective in the treatment of colitis in patients with NEMO mutations and possibly in IBD.",
+    "claims": [
+      {
+        "id": 1170,
+        "claim": "The NF-\u03baB essential modulator gene induces intestinal inflammation by promoting receptor-interacting protein (RIP) kinase 1 kinase activity-mediated epithelial cell death.",
+        "evidence": {
+          "18956141": [
+            {
+              "sentences": [
+                3
+              ],
+              "label": "CONTRADICT"
+            },
+            {
+              "sentences": [
+                4
+              ],
+              "label": "CONTRADICT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          18956141
+        ]
+      },
+      {
+        "id": 1171,
+        "claim": "The NF-\u03baB essential modulator gene prevents intestinal inflammation by inhibiting receptor-interacting protein (RIP) kinase 1 kinase activity-mediated epithelial cell death.",
+        "evidence": {
+          "18956141": [
+            {
+              "sentences": [
+                3
+              ],
+              "label": "SUPPORT"
+            },
+            {
+              "sentences": [
+                4
+              ],
+              "label": "SUPPORT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          18956141
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "3203590",
+    "abstract_sents": [
+      "Heterodimerization is a common paradigm among eukaryotic transcription factors.",
+      "The 9-cis retinoic acid receptor (RXR) serves as a common heterodimerization partner for several nuclear receptors, including the thyroid hormone receptor (T3R) and retinoic acid receptor (RAR).",
+      "This raises the question as to whether these complexes possess dual hormonal responsiveness.",
+      "We devised a strategy to examine the transcriptional properties of each receptor individually or when tethered to a heterodimeric partner.",
+      "We find that the intrinsic binding properties of RXR are masked in T3R-RXR and RAR-RXR heterodimers.",
+      "In contrast, RXR is active as a non-DNA-binding cofactor with the NGFI-B/Nurr1 orphan receptors.",
+      "Heterodimerization of RXR with constitutively active NGFI-B/Nurr1 creates a novel hormone-dependent complex.",
+      "These findings suggest that allosteric interactions among heterodimers create complexes with unique properties.",
+      "We suggest that allostery is a critical feature underlying the generation of diversity in hormone response networks."
+    ],
+    "abstract_raw": "Heterodimerization is a common paradigm among eukaryotic transcription factors. The 9-cis retinoic acid receptor (RXR) serves as a common heterodimerization partner for several nuclear receptors, including the thyroid hormone receptor (T3R) and retinoic acid receptor (RAR). This raises the question as to whether these complexes possess dual hormonal responsiveness. We devised a strategy to examine the transcriptional properties of each receptor individually or when tethered to a heterodimeric partner. We find that the intrinsic binding properties of RXR are masked in T3R-RXR and RAR-RXR heterodimers. In contrast, RXR is active as a non-DNA-binding cofactor with the NGFI-B/Nurr1 orphan receptors. Heterodimerization of RXR with constitutively active NGFI-B/Nurr1 creates a novel hormone-dependent complex. These findings suggest that allosteric interactions among heterodimers create complexes with unique properties. We suggest that allostery is a critical feature underlying the generation of diversity in hormone response networks.",
+    "claims": [
+      {
+        "id": 913,
+        "claim": "PPAR-RXRs are inhibited by PPAR ligands.",
+        "evidence": {},
+        "cited_doc_ids": [
+          3203590
+        ]
+      },
+      {
+        "id": 914,
+        "claim": "PPAR-RXRs can be activated by PPAR ligands.",
+        "evidence": {},
+        "cited_doc_ids": [
+          3203590
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "17628888",
+    "abstract_sents": [
+      "Modification of proteins by SUMO is essential for the maintenance of genome integrity.",
+      "During DNA replication, the Mms21-branch of the SUMO pathway counteracts recombination intermediates at damaged replication forks, thus facilitating sister chromatid disjunction.",
+      "The Mms21 SUMO ligase docks to the arm region of the Smc5 protein in the Smc5/6 complex; together, they cooperate during recombinational DNA repair.",
+      "Yet how the activity of the SUMO ligase is controlled remains unknown.",
+      "Here we show that the SUMO ligase and the chromosome disjunction functions of Mms21 depend on its docking to an intact and active Smc5/6 complex, indicating that the Smc5/6-Mms21 complex operates as a large SUMO ligase in vivo.",
+      "In spite of the physical distance separating the E3 and the nucleotide-binding domains in Smc5/6, Mms21-dependent sumoylation requires binding of ATP to Smc5, a step that is part of the ligase mechanism that assists Ubc9 function.",
+      "The communication is enabled by the presence of a conserved disruption in the coiled coil domain of Smc5, pointing to potential conformational changes for SUMO ligase activation.",
+      "In accordance, scanning force microscopy of the Smc5-Mms21 heterodimer shows that the molecule is physically remodeled in an ATP-dependent manner.",
+      "Our results demonstrate that the ATP-binding activity of the Smc5/6 complex is coordinated with its SUMO ligase, through the coiled coil domain of Smc5 and the physical remodeling of the molecule, to promote sumoylation and chromosome disjunction during DNA repair."
+    ],
+    "abstract_raw": "Modification of proteins by SUMO is essential for the maintenance of genome integrity. During DNA replication, the Mms21-branch of the SUMO pathway counteracts recombination intermediates at damaged replication forks, thus facilitating sister chromatid disjunction. The Mms21 SUMO ligase docks to the arm region of the Smc5 protein in the Smc5/6 complex; together, they cooperate during recombinational DNA repair. Yet how the activity of the SUMO ligase is controlled remains unknown. Here we show that the SUMO ligase and the chromosome disjunction functions of Mms21 depend on its docking to an intact and active Smc5/6 complex, indicating that the Smc5/6-Mms21 complex operates as a large SUMO ligase in vivo. In spite of the physical distance separating the E3 and the nucleotide-binding domains in Smc5/6, Mms21-dependent sumoylation requires binding of ATP to Smc5, a step that is part of the ligase mechanism that assists Ubc9 function. The communication is enabled by the presence of a conserved disruption in the coiled coil domain of Smc5, pointing to potential conformational changes for SUMO ligase activation. In accordance, scanning force microscopy of the Smc5-Mms21 heterodimer shows that the molecule is physically remodeled in an ATP-dependent manner. Our results demonstrate that the ATP-binding activity of the Smc5/6 complex is coordinated with its SUMO ligase, through the coiled coil domain of Smc5 and the physical remodeling of the molecule, to promote sumoylation and chromosome disjunction during DNA repair.",
+    "claims": [
+      {
+        "id": 1090,
+        "claim": "Smc5/6 engagement halts the activation of SUMO E3 ligase Mms21 by ATP-dependent remodeling.",
+        "evidence": {
+          "17628888": [
+            {
+              "sentences": [
+                7
+              ],
+              "label": "CONTRADICT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          17628888
+        ]
+      },
+      {
+        "id": 1089,
+        "claim": "Smc5/6 engagement drives the activation of SUMO E3 ligase Mms21 by ATP-dependent remodeling.",
+        "evidence": {
+          "17628888": [
+            {
+              "sentences": [
+                7
+              ],
+              "label": "SUPPORT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          17628888
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "18111172",
+    "abstract_sents": [
+      "Nonhomologous end joining (NHEJ) can effectively resolve chromosome breaks despite diverse end structures; however, it is unclear how the steps employed for resolution are determined.",
+      "We sought to address this question by analysing cellular NHEJ of ends with systematically mispaired and damaged termini.",
+      "We show NHEJ is uniquely proficient at bypassing subtle terminal mispairs and radiomimetic damage by direct ligation.",
+      "Nevertheless, bypass ability varies widely, with increases in mispair severity gradually reducing bypass products from 85 to 6%.",
+      "End-processing by nucleases and polymerases is increased to compensate, although paths with the fewest number of steps to generate a substrate suitable for ligation are favoured.",
+      "Thus, both the frequency and nature of end processing are tailored to meet the needs of the ligation step.",
+      "We propose a model where the ligase organizes all steps during NHEJ within the stable paired-end complex to limit end processing and associated errors."
+    ],
+    "abstract_raw": "Nonhomologous end joining (NHEJ) can effectively resolve chromosome breaks despite diverse end structures; however, it is unclear how the steps employed for resolution are determined. We sought to address this question by analysing cellular NHEJ of ends with systematically mispaired and damaged termini. We show NHEJ is uniquely proficient at bypassing subtle terminal mispairs and radiomimetic damage by direct ligation. Nevertheless, bypass ability varies widely, with increases in mispair severity gradually reducing bypass products from 85 to 6%. End-processing by nucleases and polymerases is increased to compensate, although paths with the fewest number of steps to generate a substrate suitable for ligation are favoured. Thus, both the frequency and nature of end processing are tailored to meet the needs of the ligation step. We propose a model where the ligase organizes all steps during NHEJ within the stable paired-end complex to limit end processing and associated errors.",
+    "claims": [
+      {
+        "id": 357,
+        "claim": "During non-homologous end joining, the ligation step is not as tolerant of disrepairs and other distortions when joining 3' of strand breaks as compared to 5' strand breaks.",
+        "evidence": {},
+        "cited_doc_ids": [
+          18111172
+        ]
+      },
+      {
+        "id": 358,
+        "claim": "During non-homologous end joining, the ligation step is not as tolerant of disrepairs and other distortions when joining 5' of strand breaks as compared to 3' strand breaks.",
+        "evidence": {},
+        "cited_doc_ids": [
+          18111172
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "3654468",
+    "abstract_sents": [
+      "Importance Glucagon-like peptide-1 (GLP-1) receptor agonists are effective therapies for the treatment of type 2 diabetes and are all currently available as an injection.",
+      "Objectives To compare the effects of oral semaglutide with placebo (primary) and open-label subcutaneous semaglutide (secondary) on glycemic control in patients with type 2 diabetes.",
+      "Design, Setting, and Patients Phase 2, randomized, parallel-group, dosage-finding, 26-week trial with 5-week follow-up at 100 sites (hospital clinics, general practices, and clinical research centers) in 14 countries conducted between December 2013 and December 2014.",
+      "Of 1106 participants assessed, 632 with type 2 diabetes and insufficient glycemic control using diet and exercise alone or a stable dose of metformin were randomized.",
+      "Randomization was stratified by metformin use.",
+      "Interventions Once-daily oral semaglutide of 2.5 mg (n = 70), 5 mg (n = 70), 10 mg (n = 70), 20 mg (n = 70), 40-mg 4-week dose escalation (standard escalation; n = 71), 40-mg 8-week dose escalation (slow escalation; n = 70), 40-mg 2-week dose escalation (fast escalation, n = 70), oral placebo (n = 71; double-blind) or once-weekly subcutaneous semaglutide of 1.0 mg (n = 70) for 26 weeks.",
+      "Main Outcomes and Measures The primary end point was change in hemoglobing A1c (HbA1c) from baseline to week 26.",
+      "Secondary end points included change from baseline in body weight and adverse events.",
+      "Results Baseline characteristics were comparable across treatment groups.",
+      "Of the 632 randomized patients (mean age, 57.1 years [SD, 10.6]; men, 395 (62.7%); diabetes duration, 6.3 years [SD, 5.2]; body weight, 92.3 kg [SD, 16.8]; BMI, 31.7 [SD, 4.3]), 583 (92%) completed the trial.",
+      "Mean change in HbA1c level from baseline to week 26 decreased with oral semaglutide (dosage-dependent range, \u22120.7% to \u22121.9%) and subcutaneous semaglutide (\u22121.9%) and placebo (\u22120.3%); oral semaglutide reductions were significant vs placebo (dosage-dependent estimated treatment difference [ETD] range for oral semaglutide vs placebo, \u20130.4% to \u20131.6%; P = .01 for 2.5 mg, <.001 for all other dosages).",
+      "Reductions in body weight were greater with oral semaglutide (dosage-dependent range, \u22122.1 kg to \u22126.9 kg) and subcutaneous semaglutide (\u22126.4 kg) vs placebo (\u22121.2 kg), and significant for oral semaglutide dosages of 10 mg or more vs placebo (dosage-dependent ETD range, \u20130.9 to \u20135.7 kg; P < .001).",
+      "Adverse events were reported by 63% to 86% (371 of 490 patients) in the oral semaglutide groups, 81% (56 of 69 patients) in the subcutaneous semaglutide group, and 68% (48 of 71 patients) in the placebo group; mild to moderate gastrointestinal events were most common.",
+      "Conclusions and Relevance Among patients with type 2 diabetes, oral semaglutide resulted in better glycemic control than placebo over 26 weeks.",
+      "These findings support phase 3 studies to assess longer-term and clinical outcomes, as well as safety.",
+      "Trial Registration clinicaltrials.gov Identifier: NCT01923181"
+    ],
+    "abstract_raw": "Importance Glucagon-like peptide-1 (GLP-1) receptor agonists are effective therapies for the treatment of type 2 diabetes and are all currently available as an injection. Objectives To compare the effects of oral semaglutide with placebo (primary) and open-label subcutaneous semaglutide (secondary) on glycemic control in patients with type 2 diabetes. Design, Setting, and Patients Phase 2, randomized, parallel-group, dosage-finding, 26-week trial with 5-week follow-up at 100 sites (hospital clinics, general practices, and clinical research centers) in 14 countries conducted between December 2013 and December 2014. Of 1106 participants assessed, 632 with type 2 diabetes and insufficient glycemic control using diet and exercise alone or a stable dose of metformin were randomized. Randomization was stratified by metformin use. Interventions Once-daily oral semaglutide of 2.5 mg (n = 70), 5 mg (n = 70), 10 mg (n = 70), 20 mg (n = 70), 40-mg 4-week dose escalation (standard escalation; n = 71), 40-mg 8-week dose escalation (slow escalation; n = 70), 40-mg 2-week dose escalation (fast escalation, n = 70), oral placebo (n = 71; double-blind) or once-weekly subcutaneous semaglutide of 1.0 mg (n = 70) for 26 weeks. Main Outcomes and Measures The primary end point was change in hemoglobing A1c (HbA1c) from baseline to week 26. Secondary end points included change from baseline in body weight and adverse events. Results Baseline characteristics were comparable across treatment groups. Of the 632 randomized patients (mean age, 57.1 years [SD, 10.6]; men, 395 (62.7%); diabetes duration, 6.3 years [SD, 5.2]; body weight, 92.3 kg [SD, 16.8]; BMI, 31.7 [SD, 4.3]), 583 (92%) completed the trial. Mean change in HbA1c level from baseline to week 26 decreased with oral semaglutide (dosage-dependent range, \u22120.7% to \u22121.9%) and subcutaneous semaglutide (\u22121.9%) and placebo (\u22120.3%); oral semaglutide reductions were significant vs placebo (dosage-dependent estimated treatment difference [ETD] range for oral semaglutide vs placebo, \u20130.4% to \u20131.6%; P = .01 for 2.5 mg, <.001 for all other dosages). Reductions in body weight were greater with oral semaglutide (dosage-dependent range, \u22122.1 kg to \u22126.9 kg) and subcutaneous semaglutide (\u22126.4 kg) vs placebo (\u22121.2 kg), and significant for oral semaglutide dosages of 10 mg or more vs placebo (dosage-dependent ETD range, \u20130.9 to \u20135.7 kg; P < .001). Adverse events were reported by 63% to 86% (371 of 490 patients) in the oral semaglutide groups, 81% (56 of 69 patients) in the subcutaneous semaglutide group, and 68% (48 of 71 patients) in the placebo group; mild to moderate gastrointestinal events were most common. Conclusions and Relevance Among patients with type 2 diabetes, oral semaglutide resulted in better glycemic control than placebo over 26 weeks. These findings support phase 3 studies to assess longer-term and clinical outcomes, as well as safety. Trial Registration clinicaltrials.gov Identifier: NCT01923181",
+    "claims": [
+      {
+        "id": 1237,
+        "claim": "The most prevalent adverse events to Semaglutide are gastrointestinal.",
+        "evidence": {
+          "3654468": [
+            {
+              "sentences": [
+                12
+              ],
+              "label": "CONTRADICT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          3654468
+        ]
+      },
+      {
+        "id": 1238,
+        "claim": "The most prevalent adverse events to Semaglutide are gastrointestinal.",
+        "evidence": {
+          "3654468": [
+            {
+              "sentences": [
+                12
+              ],
+              "label": "SUPPORT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          3654468
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "17997584",
+    "abstract_sents": [
+      "Regulatory T (Treg) cells play a pivotal role in suppressing self-harmful T cell responses, but how Treg cells mediate suppression to maintain immune homeostasis and limit responses during inflammation is unclear.",
+      "Here we show that effector Treg cells express high amounts of the integrin \u03b1v\u03b28, which enables them to activate latent transforming growth factor-\u03b2 (TGF-\u03b2).",
+      "Treg-cell-specific deletion of integrin \u03b1v\u03b28 did not result in a spontaneous inflammatory phenotype, suggesting that this pathway is not important in Treg-cell-mediated maintenance of immune homeostasis.",
+      "However, Treg cells lacking expression of integrin \u03b1v\u03b28 were unable to suppress pathogenic T cell responses during active inflammation.",
+      "Thus, our results identify a mechanism by which Treg cells suppress exuberant immune responses, highlighting a key role for effector Treg-cell-mediated activation of latent TGF-\u03b2 in suppression of self-harmful T cell responses during active inflammation."
+    ],
+    "abstract_raw": "Regulatory T (Treg) cells play a pivotal role in suppressing self-harmful T cell responses, but how Treg cells mediate suppression to maintain immune homeostasis and limit responses during inflammation is unclear. Here we show that effector Treg cells express high amounts of the integrin \u03b1v\u03b28, which enables them to activate latent transforming growth factor-\u03b2 (TGF-\u03b2). Treg-cell-specific deletion of integrin \u03b1v\u03b28 did not result in a spontaneous inflammatory phenotype, suggesting that this pathway is not important in Treg-cell-mediated maintenance of immune homeostasis. However, Treg cells lacking expression of integrin \u03b1v\u03b28 were unable to suppress pathogenic T cell responses during active inflammation. Thus, our results identify a mechanism by which Treg cells suppress exuberant immune responses, highlighting a key role for effector Treg-cell-mediated activation of latent TGF-\u03b2 in suppression of self-harmful T cell responses during active inflammation.",
+    "claims": [
+      {
+        "id": 327,
+        "claim": "Deletion of \u03b1v\u03b28 does not result in a spontaneous inflammatory phenotype.",
+        "evidence": {
+          "17997584": [
+            {
+              "sentences": [
+                2
+              ],
+              "label": "SUPPORT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          17997584
+        ]
+      },
+      {
+        "id": 1130,
+        "claim": "T regulatory cells (tTregs) lacking \u03b1v\u03b28 are more adept at suppressing pathogenic T-cell responses during active inflammation.",
+        "evidence": {
+          "17997584": [
+            {
+              "sentences": [
+                3
+              ],
+              "label": "CONTRADICT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          17997584
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "17587795",
+    "abstract_sents": [
+      "Dnmt1 epigenetically propagates symmetrical CG methylation in many eukaryotes.",
+      "Their genomes are typically depleted of CG dinucleotides because of imperfect repair of deaminated methylcytosines.",
+      "Here, we extensively survey diverse species lacking Dnmt1 and show that, surprisingly, symmetrical CG methylation is nonetheless frequently present and catalyzed by a different DNA methyltransferase family, Dnmt5.",
+      "Numerous Dnmt5-containing organisms that diverged more than a billion years ago exhibit clustered methylation, specifically in nucleosome linkers.",
+      "Clustered methylation occurs at unprecedented densities and directly disfavors nucleosomes, contributing to nucleosome positioning between clusters.",
+      "Dense methylation is enabled by a regime of genomic sequence evolution that enriches CG dinucleotides and drives the highest CG frequencies known.",
+      "Species with linker methylation have small, transcriptionally active nuclei that approach the physical limits of chromatin compaction.",
+      "These features constitute a previously unappreciated genome architecture, in which dense methylation influences nucleosome positions, likely facilitating nuclear processes under extreme spatial constraints."
+    ],
+    "abstract_raw": "Dnmt1 epigenetically propagates symmetrical CG methylation in many eukaryotes. Their genomes are typically depleted of CG dinucleotides because of imperfect repair of deaminated methylcytosines. Here, we extensively survey diverse species lacking Dnmt1 and show that, surprisingly, symmetrical CG methylation is nonetheless frequently present and catalyzed by a different DNA methyltransferase family, Dnmt5. Numerous Dnmt5-containing organisms that diverged more than a billion years ago exhibit clustered methylation, specifically in nucleosome linkers. Clustered methylation occurs at unprecedented densities and directly disfavors nucleosomes, contributing to nucleosome positioning between clusters. Dense methylation is enabled by a regime of genomic sequence evolution that enriches CG dinucleotides and drives the highest CG frequencies known. Species with linker methylation have small, transcriptionally active nuclei that approach the physical limits of chromatin compaction. These features constitute a previously unappreciated genome architecture, in which dense methylation influences nucleosome positions, likely facilitating nuclear processes under extreme spatial constraints.",
+    "claims": [
+      {
+        "id": 717,
+        "claim": "Low nucleosome occupancy correlates with high methylation levels across species.",
+        "evidence": {
+          "17587795": [
+            {
+              "sentences": [
+                4
+              ],
+              "label": "SUPPORT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          17587795
+        ]
+      },
+      {
+        "id": 718,
+        "claim": "Low nucleosome occupancy correlates with low methylation levels across species.",
+        "evidence": {
+          "17587795": [
+            {
+              "sentences": [
+                4
+              ],
+              "label": "CONTRADICT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          17587795
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "1456068",
+    "abstract_sents": [
+      "BACKGROUND Although cigarette smoking, excessive alcohol drinking, obesity, and several other well-studied unhealthy lifestyle-related factors each have been linked to the risk of multiple chronic diseases and premature death, little is known about the combined impact on mortality outcomes, in particular among Chinese and other non-Western populations.",
+      "The objective of this study was to quantify the overall impact of lifestyle-related factors beyond that of active cigarette smoking and alcohol consumption on all-cause and cause-specific mortality in Chinese women.   \n",
+      "METHODS AND FINDINGS We used data from the Shanghai Women's Health Study, an ongoing population-based prospective cohort study in China.",
+      "Participants included 71,243 women aged 40 to 70 years enrolled during 1996-2000 who never smoked or drank alcohol regularly.",
+      "A healthy lifestyle score was created on the basis of five lifestyle-related factors shown to be independently associated with mortality outcomes (normal weight, lower waist-hip ratio, daily exercise, never exposed to spouse's smoking, higher daily fruit and vegetable intake).",
+      "The score ranged from zero (least healthy) to five (most healthy) points.",
+      "During an average follow-up of 9 years, 2,860 deaths occurred, including 775 from cardiovascular disease (CVD) and 1,351 from cancer.",
+      "Adjusted hazard ratios for mortality decreased progressively with an increasing number of healthy lifestyle factors.",
+      "Compared to women with a score of zero, hazard ratios (95% confidence intervals) for women with four to five factors were 0.57 (0.44-0.74) for total mortality, 0.29 (0.16-0.54) for CVD mortality, and 0.76 (0.54-1.06) for cancer mortality.",
+      "The inverse association between the healthy lifestyle score and mortality was seen consistently regardless of chronic disease status at baseline.",
+      "The population attributable risks for not having 4-5 healthy lifestyle factors were 33% for total deaths, 59% for CVD deaths, and 19% for cancer deaths.   \n",
+      "CONCLUSIONS In this first study, to our knowledge, to quantify the combined impact of lifestyle-related factors on mortality outcomes in Chinese women, a healthier lifestyle pattern-including being of normal weight, lower central adiposity, participation in physical activity, nonexposure to spousal smoking, and higher fruit and vegetable intake-was associated with reductions in total and cause-specific mortality among lifetime nonsmoking and nondrinking women, supporting the importance of overall lifestyle modification in disease prevention.",
+      "Please see later in the article for the Editors' Summary."
+    ],
+    "abstract_raw": "Although cigarette smoking, excessive alcohol drinking, obesity, and several other well-studied unhealthy lifestyle-related factors each have been linked to the risk of multiple chronic diseases and premature death, little is known about the combined impact on mortality outcomes, in particular among Chinese and other non-Western populations. The objective of this study was to quantify the overall impact of lifestyle-related factors beyond that of active cigarette smoking and alcohol consumption on all-cause and cause-specific mortality in Chinese women. We used data from the Shanghai Women's Health Study, an ongoing population-based prospective cohort study in China. Participants included 71,243 women aged 40 to 70 years enrolled during 1996-2000 who never smoked or drank alcohol regularly. A healthy lifestyle score was created on the basis of five lifestyle-related factors shown to be independently associated with mortality outcomes (normal weight, lower waist-hip ratio, daily exercise, never exposed to spouse's smoking, higher daily fruit and vegetable intake). The score ranged from zero (least healthy) to five (most healthy) points. During an average follow-up of 9 years, 2,860 deaths occurred, including 775 from cardiovascular disease (CVD) and 1,351 from cancer. Adjusted hazard ratios for mortality decreased progressively with an increasing number of healthy lifestyle factors. Compared to women with a score of zero, hazard ratios (95% confidence intervals) for women with four to five factors were 0.57 (0.44-0.74) for total mortality, 0.29 (0.16-0.54) for CVD mortality, and 0.76 (0.54-1.06) for cancer mortality. The inverse association between the healthy lifestyle score and mortality was seen consistently regardless of chronic disease status at baseline. The population attributable risks for not having 4-5 healthy lifestyle factors were 33% for total deaths, 59% for CVD deaths, and 19% for cancer deaths. In this first study, to our knowledge, to quantify the combined impact of lifestyle-related factors on mortality outcomes in Chinese women, a healthier lifestyle pattern-including being of normal weight, lower central adiposity, participation in physical activity, nonexposure to spousal smoking, and higher fruit and vegetable intake-was associated with reductions in total and cause-specific mortality among lifetime nonsmoking and nondrinking women, supporting the importance of overall lifestyle modification in disease prevention.",
+    "claims": [
+      {
+        "id": 396,
+        "claim": "Exercise increases cancer mortality rates among Chinese citizens.",
+        "evidence": {
+          "1456068": [
+            {
+              "sentences": [
+                8
+              ],
+              "label": "CONTRADICT"
+            },
+            {
+              "sentences": [
+                10
+              ],
+              "label": "CONTRADICT"
+            },
+            {
+              "sentences": [
+                11
+              ],
+              "label": "CONTRADICT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          1456068
+        ]
+      },
+      {
+        "id": 397,
+        "claim": "Exercise reduces cancer mortality rates among Chinese citizens.",
+        "evidence": {
+          "1456068": [
+            {
+              "sentences": [
+                8
+              ],
+              "label": "SUPPORT"
+            },
+            {
+              "sentences": [
+                10
+              ],
+              "label": "SUPPORT"
+            },
+            {
+              "sentences": [
+                11
+              ],
+              "label": "SUPPORT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          1456068
+        ]
+      }
+    ]
+  },
+  {
+    "doc_id": "4740447",
+    "abstract_sents": [
+      "The antibacterial peptide microcin J25 (MccJ25) inhibits transcription by bacterial RNA polymerase (RNAP).",
+      "Biochemical results indicate that inhibition of transcription occurs at the level of NTP uptake or NTP binding by RNAP.",
+      "Genetic results indicate that inhibition of transcription requires an extensive determinant, comprising more than 50 amino acid residues, within the RNAP secondary channel (also known as the \"NTP-uptake channel\" or \"pore\").",
+      "Biophysical results indicate that inhibition of transcription involves binding of MccJ25 within the RNAP secondary channel.",
+      "Molecular modeling indicates that binding of MccJ25 within the RNAP secondary channel obstructs the RNAP secondary channel.",
+      "We conclude that MccJ25 inhibits transcription by binding within and obstructing the RNAP secondary channel--acting essentially as a \"cork in a bottle.",
+      "\"",
+      "Obstruction of the RNAP secondary channel represents an attractive target for drug discovery."
+    ],
+    "abstract_raw": "The antibacterial peptide microcin J25 (MccJ25) inhibits transcription by bacterial RNA polymerase (RNAP). Biochemical results indicate that inhibition of transcription occurs at the level of NTP uptake or NTP binding by RNAP. Genetic results indicate that inhibition of transcription requires an extensive determinant, comprising more than 50 amino acid residues, within the RNAP secondary channel (also known as the \"NTP-uptake channel\" or \"pore\"). Biophysical results indicate that inhibition of transcription involves binding of MccJ25 within the RNAP secondary channel. Molecular modeling indicates that binding of MccJ25 within the RNAP secondary channel obstructs the RNAP secondary channel. We conclude that MccJ25 inhibits transcription by binding within and obstructing the RNAP secondary channel--acting essentially as a \"cork in a bottle.\" Obstruction of the RNAP secondary channel represents an attractive target for drug discovery.",
+    "claims": [
+      {
+        "id": 787,
+        "claim": "Microcin J25 encourages nucleoside triphosphate (NTP) binding.",
+        "evidence": {
+          "4740447": [
+            {
+              "sentences": [
+                1
+              ],
+              "label": "CONTRADICT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          4740447
+        ]
+      },
+      {
+        "id": 788,
+        "claim": "Microcin J25 inhibits nucleoside triphosphate (NTP) binding.",
+        "evidence": {
+          "4740447": [
+            {
+              "sentences": [
+                1
+              ],
+              "label": "SUPPORT"
+            }
+          ]
+        },
+        "cited_doc_ids": [
+          4740447
+        ]
+      }
+    ]
+  }
+]
