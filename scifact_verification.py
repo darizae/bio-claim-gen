@@ -2,8 +2,11 @@
 # -*- coding: utf-8 -*-
 
 import json
+import math
 import os
 from typing import List, Dict, Any
+
+import numpy as np
 import torch
 import torch.nn.functional as F
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
@@ -62,7 +65,7 @@ class NLIModel:
 class SciFactNliPipeline:
     """
     Orchestrates reading SciFact data, caching NLI predictions,
-    aggregating sentence-level scores, computing metrics, etc.
+    and computing per-claim label predictions using a differential scoring method.
     """
     def __init__(
         self,
@@ -70,21 +73,24 @@ class SciFactNliPipeline:
         cache_path: str = "nli_cache_subset.json",
         results_path: str = "nli_verification_results_subset.json",
         skip_no_evidence: bool = False,
-        cache_save_interval: int = 200
+        cache_save_interval: int = 200,
+        score_threshold: float = 0.1  # Threshold for deciding neutrality
     ):
         """
         Args:
-            data_path: path to the selected SciFact JSON subset (default: "selected_scifact_subset.json").
-            cache_path: path to the cache JSON for NLI inference (default: "nli_cache_subset.json").
+            data_path: path to the selected SciFact JSON subset.
+            cache_path: path to the cache JSON for NLI inference.
             results_path: final results (predictions+metrics).
-            skip_no_evidence: if True, exclude claims with no evidence for doc_id from final results & metrics.
+            skip_no_evidence: if True, exclude claims with no evidence.
             cache_save_interval: how many (sentence, claim) inferences before saving the cache.
+            score_threshold: differential score below which the claim is considered neutral.
         """
         self.data_path = data_path
         self.cache_path = cache_path
         self.results_path = results_path
         self.skip_no_evidence = skip_no_evidence
         self.cache_save_interval = cache_save_interval
+        self.score_threshold = score_threshold
 
         self.nli_model = NLIModel()
 
@@ -97,7 +103,7 @@ class SciFactNliPipeline:
             with open(self.cache_path, "r", encoding="utf-8") as cf:
                 self.cache = json.load(cf)
         else:
-            self.cache = {}  # { "docid||sentidx||claimid": [prob_contradict, prob_neutral, prob_entailment] }
+            self.cache = {}  # { "docid||sentidx||claimid": [prob_contradiction, prob_neutral, prob_entailment] }
 
         self.results = []  # Will store final results at claim-level
 
@@ -105,12 +111,11 @@ class SciFactNliPipeline:
         """
         For each document in scifact_data, for each claim referencing that doc,
         compute NLI probabilities for all (abstract_sentence, claim) pairs if not cached.
-        Then aggregate across sentences to derive a final predicted label.
+        Then, for each claim, select the sentence with the highest differential score and assign a label.
         """
-        # Count how many (sentence, claim) inferences we've processed since last save
         inference_counter = 0
 
-        # Prepare a progress bar over the total # of (doc->claim->sentence) combos
+        # Total number of (doc -> claim -> sentence) pairs
         total_pairs = sum(len(doc["abstract_sents"]) * len(doc.get("claims", []))
                           for doc in self.scifact_data)
         with tqdm(total=total_pairs, desc="NLI Inference") as pbar:
@@ -128,44 +133,32 @@ class SciFactNliPipeline:
 
                     # Optionally skip claims that have no evidence
                     if self.skip_no_evidence and (not has_evidence):
-                        # Don't process or store them => skip
-                        # Just update pbar to reflect those sentences
                         pbar.update(len(abstract_sents))
                         continue
 
-                    sentence_probs = []
-                    for sent_idx, sent_text in enumerate(abstract_sents):
-                        cache_key = f"{doc_id}||{sent_idx}||{claim_id}"
-                        if cache_key in self.cache:
-                            probs = self.cache[cache_key]
-                        else:
-                            probs = self.nli_model.predict(sent_text, claim_text)
-                            self.cache[cache_key] = probs
-                        sentence_probs.append(probs)
-
-                        pbar.update(1)
-                        inference_counter += 1
-
-                        # Save cache every N=cache_save_interval inferences
-                        if inference_counter % self.cache_save_interval == 0:
-                            self._save_cache()
-
-                    # Aggregate scores
-                    pred_label, max_scores = self.aggregate_scores(sentence_probs)
+                    # Compute differential scores for each sentence in the abstract.
+                    best_result = self.aggregate_scores(abstract_sents, claim_text)
 
                     # Save results for metric calculation
                     self.results.append({
                         "doc_id": doc_id,
                         "claim_id": claim_id,
                         "claim_text": claim_text,
-                        "pred_label": pred_label,
+                        "pred_label": best_result["label"],
                         "gold_label": gold_label,
-                        "max_entailment_score": max_scores["entailment"],
-                        "max_contradiction_score": max_scores["contradiction"],
-                        "max_neutral_score": max_scores["neutral"]
+                        "matched_sentence": best_result["sentence"],
+                        "p_entail": best_result["p_entail"],
+                        "p_contr": best_result["p_contr"],
+                        "p_neut": best_result["p_neut"],
+                        "NLIScore": best_result["NLIScore"]
                     })
 
-        # After finishing *all* docs, do a final cache save
+                    # Update progress bar for each sentence evaluated
+                    pbar.update(len(abstract_sents))
+                    inference_counter += len(abstract_sents)
+                    if inference_counter % self.cache_save_interval == 0:
+                        self._save_cache()
+
         self._save_cache()
 
     def _get_gold_label_for_doc(self, claim_data: Dict[str, Any], doc_id: str):
@@ -186,7 +179,7 @@ class SciFactNliPipeline:
         Returns:
           (gold_label, has_evidence)
             gold_label (str): "entailment", "contradiction", or "neutral"
-            has_evidence (bool): True if doc_id had some evidence annotation
+            has_evidence (bool): True if evidence exists for doc_id.
         """
         ev = claim_data.get("evidence", {})
         if doc_id not in ev or not ev[doc_id]:
@@ -202,48 +195,61 @@ class SciFactNliPipeline:
         else:
             return "neutral", True
 
-    def aggregate_scores(self, sentence_probs: List[List[float]]):
+    def aggregate_scores(self, abstract_sentences: List[str], claim_text: str) -> Dict:
         """
-        sentence_probs is a list of length N (# sentences),
-        each element = [prob_contradiction, prob_neutral, prob_entailment].
+        For a given claim, compute the differential NLIScore for each abstract sentence
+        and select the sentence with the highest score.
 
-        We'll define a simple aggregator that looks at the maximum
-        contradiction, neutral, and entailment across all sentences.
-
-        Then pick whichever category has the highest max prob as final label.
+        NLIScore = p_entail - p_contr
+        If |NLIScore| < self.score_threshold, the label is considered neutral.
 
         Returns:
-           pred_label (str): "contradiction"/"neutral"/"entailment"
-           max_scores (dict): e.g. {"contradiction": 0.9, "neutral": 0.5, "entailment": 0.2}
+            A dictionary with the best matching sentence, its NLI probabilities,
+            the computed NLIScore, and the final label.
         """
-        max_contradiction = 0.0
-        max_neutral = 0.0
-        max_entailment = 0.0
-
-        for probs in sentence_probs:
-            c, n, e = probs
-            if c > max_contradiction:
-                max_contradiction = c
-            if n > max_neutral:
-                max_neutral = n
-            if e > max_entailment:
-                max_entailment = e
-
-        max_dict = {
-            "contradiction": max_contradiction,
-            "neutral": max_neutral,
-            "entailment": max_entailment
+        best_result = {
+            "sentence": None,
+            "p_entail": 0.0,
+            "p_contr": 0.0,
+            "p_neut": 0.0,
+            "NLIScore": -float("inf"),
+            "label": None
         }
+        for sent_idx, sent_text in enumerate(abstract_sentences):
+            cache_key = f"{sent_text}||{claim_text}"
+            if cache_key in self.cache:
+                probs = self.cache[cache_key]
+            else:
+                probs = self.nli_model.predict(sent_text, claim_text)
+                self.cache[cache_key] = probs
 
-        final_label = max(max_dict, key=max_dict.get)
-        return final_label, max_dict
+            # Recall: probs = [P(contradiction), P(neutral), P(entailment)]
+            p_contr, p_neut, p_entail = probs
+            nli_score = p_entail - p_contr
+
+            # If this sentence has a higher differential score, update best_result.
+            if nli_score > best_result["NLIScore"]:
+                # Decide label based on score threshold.
+                if abs(nli_score) < self.score_threshold:
+                    final_label = "neutral"
+                elif nli_score > 0:
+                    final_label = "entailment"
+                else:
+                    final_label = "contradiction"
+                best_result = {
+                    "sentence": sent_text,
+                    "p_entail": p_entail,
+                    "p_contr": p_contr,
+                    "p_neut": p_neut,
+                    "NLIScore": nli_score,
+                    "label": final_label
+                }
+        return best_result
 
     def calculate_metrics(self):
         """
         After run_inference, compute overall accuracy, precision, recall, F1
         for the predicted vs. gold labels in results.
-
-        We'll do a 3-class classification on: "contradiction", "neutral", "entailment"
         """
         gold_labels = [r["gold_label"] for r in self.results]
         pred_labels = [r["pred_label"] for r in self.results]
@@ -268,8 +274,7 @@ class SciFactNliPipeline:
 
     def save_results(self, metrics: Dict[str, float]):
         """
-        Save the claim-level predictions and the overall metrics
-        into a single JSON file.
+        Save the claim-level predictions and the overall metrics into a single JSON file.
         """
         output_dict = {
             "results": self.results,
@@ -290,18 +295,19 @@ class SciFactNliPipeline:
 
 def main():
     # Example usage:
-    # data_path => your newly selected subset of ~100 abstracts
+    # data_path => your subset of SciFact abstracts
     # skip_no_evidence => whether to exclude claims with no evidence from the final results
 
     pipeline = SciFactNliPipeline(
-        data_path="selected_scifact_subset.json",     # <--- Our subset file
-        cache_path="nli_cache_subset.json",           # <--- Separate cache for the subset
+        data_path="selected_scifact_subset.json",     # <--- Your subset file
+        cache_path="nli_cache_subset.json",            # <--- Cache for NLI inferences
         results_path="nli_verification_results_subset.json",
         skip_no_evidence=False,
-        cache_save_interval=200                       # <--- Save cache every 200 inferences
+        cache_save_interval=200,                       # <--- Save cache every 200 inferences
+        score_threshold=0.1                            # Differential score threshold for neutrality
     )
 
-    # 1) Run the NLI inference
+    # 1) Run the NLI inference (per-claim evaluation)
     pipeline.run_inference()
 
     # 2) Compute metrics
