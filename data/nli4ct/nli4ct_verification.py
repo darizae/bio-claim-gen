@@ -19,7 +19,7 @@ RESULTS_PATH = "nli4ct_verification_results.json"
 
 # Inference configuration parameters.
 CACHE_SAVE_INTERVAL = 200
-SCORE_THRESHOLD = 0.1
+SCORE_THRESHOLD = 0.0001
 NUM_SENT_PER_PARAGRAPH = 5
 PARAGRAPH_SLIDING = True
 PARAGRAPH_STRIDE = 1
