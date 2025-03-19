@@ -12,7 +12,7 @@ from tqdm import tqdm
 class NLIModel:
     """
     Wraps a HuggingFace NLI model for SciFact.
-    Uses MilosKosRad/DeBERTa-v3-large-SciFact by default.
+    Uses roberta-large-mnli by default.
     """
     def __init__(self, model_name: str = "roberta-large-mnli", device: str = None):
         self.model_name = model_name
@@ -27,8 +27,7 @@ class NLIModel:
         self.model.to(self.device)
         self.model.eval()
 
-        # By default for SciFact-based NLI:
-        # 0 -> CONTRADICTION, 1 -> NEUTRAL, 2 -> ENTAILMENT
+        # Mapping: 0 -> CONTRADICTION, 1 -> NEUTRAL, 2 -> ENTAILMENT
         self.label2id = {"contradiction": 0, "neutral": 1, "entailment": 2}
         self.id2label = {v: k for k, v in self.label2id.items()}
 
@@ -44,7 +43,6 @@ class NLIModel:
             max_length=512,
             truncation=True
         )
-        # Move inputs to device
         for k, v in inputs.items():
             inputs[k] = v.to(self.device)
 
@@ -52,8 +50,6 @@ class NLIModel:
             outputs = self.model(**inputs)
             logits = outputs.logits  # shape (1, 3)
             probs = F.softmax(logits, dim=1).squeeze()  # shape (3,)
-
-        # probs = [P(contradiction), P(neutral), P(entailment)]
         return probs.cpu().tolist()
 
 
@@ -76,7 +72,7 @@ def split_into_paragraphs(sentences: List[str], num_sent_per_paragraph: int = 5,
 class SciFactNliPipeline:
     """
     Orchestrates reading SciFact data, caching NLI predictions,
-    and computing per-claim label predictions using multi-granular spans.
+    and computing per-claim label predictions using dynamic multi-granular spans.
     """
     def __init__(
         self,
@@ -85,10 +81,13 @@ class SciFactNliPipeline:
         results_path: str = "nli_verification_results_full.json",
         skip_no_evidence: bool = False,
         cache_save_interval: int = 200,
-        score_threshold: float = 0.1,  # Differential score threshold for neutrality
-        num_sent_per_paragraph: int = 5,  # Number of sentences to group as a paragraph
+        # The base threshold for neutrality on a fine-grained scale (for instance-level inference)
+        score_threshold: float = 0.1,
+        num_sent_per_paragraph: int = 5,
         paragraph_sliding: bool = True,
-        paragraph_stride: int = 1
+        paragraph_stride: int = 1,
+        # Dynamic threshold T for deciding whether extra granular analysis is needed
+        dynamic_threshold: float = 0.8
     ):
         """
         Args:
@@ -101,6 +100,7 @@ class SciFactNliPipeline:
             num_sent_per_paragraph: number of sentences per paragraph for multi-granular evaluation.
             paragraph_sliding: whether to use sliding windows when grouping sentences.
             paragraph_stride: sliding stride for paragraph formation.
+            dynamic_threshold: threshold T (e.g., 0.8) to decide if sentence-level evidence is sufficient.
         """
         self.data_path = data_path
         self.cache_path = cache_path
@@ -111,6 +111,7 @@ class SciFactNliPipeline:
         self.num_sent_per_paragraph = num_sent_per_paragraph
         self.paragraph_sliding = paragraph_sliding
         self.paragraph_stride = paragraph_stride
+        self.dynamic_threshold = dynamic_threshold
 
         self.nli_model = NLIModel()
 
@@ -130,8 +131,7 @@ class SciFactNliPipeline:
     def run_inference(self):
         """
         For each document in scifact_data, for each claim referencing that doc,
-        compute NLI probabilities for each abstract span (both sentence and paragraph level)
-        if not cached. Then select the span with the highest differential score and assign a label.
+        compute NLI probabilities for each span using dynamic thresholding.
         """
         inference_counter = 0
 
@@ -162,7 +162,7 @@ class SciFactNliPipeline:
                         pbar.update(len(spans))
                         continue
 
-                    best_result = self.aggregate_scores(spans, claim_text)
+                    best_result = self.aggregate_scores_dynamic(spans, abstract_sents, claim_text)
 
                     # Save result for metrics and analysis.
                     self.results.append({
@@ -206,13 +206,70 @@ class SciFactNliPipeline:
         else:
             return "neutral", True
 
-    def aggregate_scores(self, spans: List[Dict[str, str]], claim_text: str) -> Dict:
+    def aggregate_scores_dynamic(self, spans: List[Dict[str, str]], sentences: List[str], claim_text: str) -> Dict:
         """
-        For a given claim, compute the differential NLIScore (p_entail - p_contr)
-        for each span (sentence or paragraph) and select the span with the highest score.
-        If |NLIScore| < score_threshold, label as neutral.
+        Implements dynamic thresholding in a multi-granular approach:
+        1. Compute best sentence-level score.
+        2. If that score >= dynamic_threshold, return it.
+        3. Otherwise, evaluate on larger spans (paragraph and full-document) and return the best score.
         """
-        best_result = {
+        # 1. Sentence-level evaluation
+        best_sentence_result = {
+            "span": None,
+            "granularity": "sentence",
+            "p_entail": 0.0,
+            "p_contr": 0.0,
+            "p_neut": 0.0,
+            "NLIScore": -float("inf"),
+            "label": None
+        }
+        # Consider only spans labeled as sentence for initial check.
+        for span_info in spans:
+            if span_info["granularity"] != "sentence":
+                continue
+            span_text = span_info["text"]
+            cache_key = f"{span_text}||{claim_text}"
+            if cache_key in self.cache:
+                probs = self.cache[cache_key]
+            else:
+                probs = self.nli_model.predict(span_text, claim_text)
+                self.cache[cache_key] = probs
+
+            p_contr, p_neut, p_entail = probs
+            nli_score = p_entail - p_contr
+
+            # Apply fixed score threshold for neutrality at the fine-grained level.
+            if abs(nli_score) < self.score_threshold:
+                final_label = "neutral"
+            elif nli_score > 0:
+                final_label = "entailment"
+            else:
+                final_label = "contradiction"
+
+            if nli_score > best_sentence_result["NLIScore"]:
+                best_sentence_result = {
+                    "span": span_text,
+                    "granularity": "sentence",
+                    "p_entail": p_entail,
+                    "p_contr": p_contr,
+                    "p_neut": p_neut,
+                    "NLIScore": nli_score,
+                    "label": final_label
+                }
+
+        # 2. If the sentence-level score meets/exceeds the dynamic threshold, return it.
+        if best_sentence_result["NLIScore"] >= self.dynamic_threshold:
+            return best_sentence_result
+
+        # 3. Otherwise, perform a multi-granular check: evaluate on paragraph-level spans and full-document.
+        paragraphs = split_into_paragraphs(sentences, self.num_sent_per_paragraph, self.paragraph_sliding, self.paragraph_stride)
+        full_document = " ".join(sentences)
+        multi_spans = (
+            [{"text": para, "granularity": "paragraph"} for para in paragraphs] +
+            [{"text": full_document, "granularity": "full-document"}]
+        )
+
+        best_multi_result = {
             "span": None,
             "granularity": None,
             "p_entail": 0.0,
@@ -221,7 +278,7 @@ class SciFactNliPipeline:
             "NLIScore": -float("inf"),
             "label": None
         }
-        for span_info in spans:
+        for span_info in multi_spans:
             span_text = span_info["text"]
             granularity = span_info["granularity"]
             cache_key = f"{span_text}||{claim_text}"
@@ -231,19 +288,18 @@ class SciFactNliPipeline:
                 probs = self.nli_model.predict(span_text, claim_text)
                 self.cache[cache_key] = probs
 
-            # Recall: probs = [P(contradiction), P(neutral), P(entailment)]
             p_contr, p_neut, p_entail = probs
             nli_score = p_entail - p_contr
 
-            # Check if this span is the best match so far.
-            if nli_score > best_result["NLIScore"]:
-                if abs(nli_score) < self.score_threshold:
-                    final_label = "neutral"
-                elif nli_score > 0:
-                    final_label = "entailment"
-                else:
-                    final_label = "contradiction"
-                best_result = {
+            if abs(nli_score) < self.score_threshold:
+                final_label = "neutral"
+            elif nli_score > 0:
+                final_label = "entailment"
+            else:
+                final_label = "contradiction"
+
+            if nli_score > best_multi_result["NLIScore"]:
+                best_multi_result = {
                     "span": span_text,
                     "granularity": granularity,
                     "p_entail": p_entail,
@@ -252,11 +308,16 @@ class SciFactNliPipeline:
                     "NLIScore": nli_score,
                     "label": final_label
                 }
-        return best_result
+
+        # 4. Return the best result among sentence-level and multi-granular evaluations.
+        if best_multi_result["NLIScore"] > best_sentence_result["NLIScore"]:
+            return best_multi_result
+        else:
+            return best_sentence_result
 
     def calculate_metrics(self):
         """
-        Compute overall accuracy, precision, recall, F1 for the predicted vs. gold labels.
+        Compute overall accuracy, macro precision, recall, and F1 for the predicted vs. gold labels.
         """
         gold_labels = [r["gold_label"] for r in self.results]
         pred_labels = [r["pred_label"] for r in self.results]
@@ -304,13 +365,14 @@ def main():
     pipeline = SciFactNliPipeline(
         skip_no_evidence=False,
         cache_save_interval=200,
-        score_threshold=0.1,
+        score_threshold=0.1,  # Base threshold for neutrality on fine-grained level
         num_sent_per_paragraph=5,
         paragraph_sliding=True,
-        paragraph_stride=1
+        paragraph_stride=1,
+        dynamic_threshold=0.8  # Dynamic threshold T for sentence-level verification
     )
 
-    # 1) Run inference (per-claim evaluation with multi-granular spans)
+    # 1) Run inference (per-claim evaluation with dynamic multi-granular spans)
     pipeline.run_inference()
 
     # 2) Compute metrics
