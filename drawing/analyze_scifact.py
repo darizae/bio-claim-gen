@@ -3,7 +3,7 @@ from collections import Counter
 
 def main():
     # Load data from a JSON file; adjust the filename as needed.
-    with open('sample_scifact.json', 'r', encoding='utf-8') as f:
+    with open('scifact_annotated.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
 
     total_documents = len(data)

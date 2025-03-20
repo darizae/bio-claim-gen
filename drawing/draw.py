@@ -102,7 +102,7 @@ def main():
     random.seed(42)
 
     # Sample for preprocessed_scifact
-    sample_preprocessed_scifact("preprocessed_scifact.json", "sample_scifact.json", sample_size=100)
+    sample_preprocessed_scifact("scifact_annotated.json", "sample_scifact.json", sample_size=100)
 
     # Sample for preprocessed_nli4ct
     sample_preprocessed_nli4ct("preprocessed_nli4ct.json", "sample_nli4ct.json", sample_size=100)
