@@ -1,14 +1,10 @@
 import os
 import json
-
-from openai import OpenAI
-
-client = OpenAI()
+import time
+from dotenv import load_dotenv
 from openai import OpenAI
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-import time
-from dotenv import load_dotenv
 
 # Load the API key from .env file
 load_dotenv()
@@ -22,44 +18,61 @@ INPUT_FILENAME = "sample_scifact.json"
 OUTPUT_FILENAME = "sample_scifact_coref.json"
 FAILURE_FILENAME = "failed_entries.json"
 
-# Enhanced prompt with chain-of-thought, contextual instructions, and few-shot examples
+# Enhanced prompt prefix with chain-of-thought instructions, few-shot examples,
+# and a placeholder for injecting pre-extracted entities.
 ENHANCED_PROMPT_PREFIX = (
     "You are a language model expert in coreference resolution and contextual analysis. "
-    "Your task is to review an abstract and its associated claims, and then perform coreference resolution across the entire text. "
-    "This means you should merge expressions and pronouns referring to the same entity, eliminate duplicates, and ensure that references in the abstract and in the claims are consistent. "
+    "Your task is to review an abstract, its associated claims, and a list of extracted entities, "
+    "and then perform coreference resolution across the entire text. "
+    "This means you should merge expressions and pronouns referring to the same entity, eliminate duplicates, "
+    "and ensure that references in the abstract and in the claims are consistent. "
+    "Use the provided extracted entities to help guide your resolution.\n\n"
     "Please follow these steps carefully:\n\n"
-    "1. **Chain-of-Thought Reasoning:** Think through the context provided by the abstract and the claims. Identify all key entities and concepts, and consider how they are mentioned in different parts of the text.\n\n"
-    "2. **Contextual Consistency:** Make sure that any entity mentioned in the abstract is consistently referred to in the claims, and vice versa.\n\n"
+    "1. **Chain-of-Thought Reasoning:** Think through the context provided by the abstract and the claims. "
+    "Identify all key entities and concepts, and consider how they are mentioned in different parts of the text.\n\n"
+    "2. **Contextual Consistency:** Ensure that any entity mentioned in the abstract is consistently referred to in the claims, and vice versa.\n\n"
     "3. **Merge Duplicates:** If the same entity is referred to using different expressions (for example, 'the drug', 'it', or 'this medication'), merge them into one uniform reference.\n\n"
-    "4. **Few-Shot Examples:**\n"
+    "4. **Use Extracted Entities:** Below is a list of entities extracted from the abstract. "
+    "Use these words as guidance to improve the resolution process. Do not modify the entity words; only use them to inform your processing.\n\n"
+    "5. **Few-Shot Examples:**\n"
     "   - Example 1:\n"
     "     Input Abstract: \"A study of aspirin in patients with cardiovascular disease shows that the drug reduces heart attacks.\"\n"
-    "     Input Claims: [ {\"id\": \"1\", \"claim\": \"The medication reduces the incidence of heart attacks.\"} ]\n"
-    "     Expected Output: {\n"
+    "     Input Claims: [ {{\"id\": \"1\", \"claim\": \"The medication reduces the incidence of heart attacks.\"}} ]\n"
+    "     Expected Output: {{\n"
     "         \"abstract\": \"A study of aspirin in patients with cardiovascular disease shows that aspirin reduces heart attacks.\",\n"
-    "         \"claims\": [ {\"id\": \"1\", \"claim\": \"Aspirin reduces the incidence of heart attacks.\"} ]\n"
-    "     }\n\n"
+    "         \"claims\": [ {{\"id\": \"1\", \"claim\": \"Aspirin reduces the incidence of heart attacks.\"}} ]\n"
+    "     }}\n\n"
     "   - Example 2:\n"
     "     Input Abstract: \"Researchers found that the protein p53 plays a crucial role in cancer suppression.\"\n"
-    "     Input Claims: [ {\"id\": \"2\", \"claim\": \"It is believed that p53 helps prevent cancer.\"} ]\n"
-    "     Expected Output: {\n"
+    "     Input Claims: [ {{\"id\": \"2\", \"claim\": \"It is believed that p53 helps prevent cancer.\"}} ]\n"
+    "     Expected Output: {{\n"
     "         \"abstract\": \"Researchers found that the protein p53 plays a crucial role in cancer suppression.\",\n"
-    "         \"claims\": [ {\"id\": \"2\", \"claim\": \"p53 helps prevent cancer.\"} ]\n"
-    "     }\n\n"
+    "         \"claims\": [ {{\"id\": \"2\", \"claim\": \"p53 helps prevent cancer.\"}} ]\n"
+    "     }}\n\n"
     "IMPORTANT: When you return your final answer, output only a valid JSON object without any markdown formatting or triple backticks. "
     "The JSON object must have two keys: \"abstract\" (the processed abstract text) and \"claims\" (an array of objects, each with keys \"id\" and \"claim\").\n\n"
-    "Now, below you will be given an abstract and a list of claims. Perform coreference resolution on the entire text and return the resulting JSON object.\n\n"
+    "Now, below you will be given an abstract and a list of claims. Also provided is a list of extracted entities (words). "
+    "Perform coreference resolution on the entire text using the entities to guide your work, and return the resulting JSON object.\n\n"
+    "Extracted Entities: {entities}\n\n"
     "Text:\n"
 )
 
-
 def build_prompt(doc):
     """
-    Constructs the prompt string for a single document by appending the document's text to the prompt prefix.
+    Constructs the prompt string for a single document.
+    It appends the document's abstract, claims, and if available, the extracted entities.
     """
     abstract = doc.get("abstract_raw", "")
     claims = doc.get("claims", [])
-    prompt_text = ENHANCED_PROMPT_PREFIX
+    # Extract entity words if present.
+    entities_list = []
+    if "entities" in doc:
+        # We extract only the "word" for each entity.
+        entities_list = [entity.get("word", "") for entity in doc["entities"]]
+    # Create a comma-separated string of unique entity words.
+    entities_str = ", ".join(sorted(set(entities_list))) if entities_list else "None"
+
+    prompt_text = ENHANCED_PROMPT_PREFIX.format(entities=entities_str)
     prompt_text += "Abstract:\n" + abstract.strip() + "\n\n"
     prompt_text += "Claims:\n"
     for idx, claim in enumerate(claims, 1):
@@ -67,7 +80,6 @@ def build_prompt(doc):
         claim_text = claim.get("claim", "")
         prompt_text += f"{idx}. [ID: {claim_id}] {claim_text.strip()}\n"
     return prompt_text
-
 
 def process_document_with_coref(prompt_text):
     """
@@ -86,13 +98,11 @@ def process_document_with_coref(prompt_text):
     processed = json.loads(answer)
     return processed
 
-
 def save_progress(processed_docs, output_filename):
     """Save the current processed documents to output JSON file."""
     with open(output_filename, "w", encoding="utf-8") as f:
         json.dump(processed_docs, f, indent=2)
     print(f"Progress saved to {output_filename}")
-
 
 def log_failure(failure_entry, failure_filename):
     """Append the failure entry (as a dict) to a JSON file for later diagnostics."""
@@ -109,7 +119,6 @@ def log_failure(failure_entry, failure_filename):
         json.dump(failures, f, indent=2)
     print(f"Logged failure for document ID {failure_entry.get('doc_id')} to {failure_filename}")
 
-
 def load_existing_processed(output_filename):
     """Load already processed documents (if any) and return a dict mapping doc_id -> document."""
     if os.path.exists(output_filename):
@@ -118,24 +127,17 @@ def load_existing_processed(output_filename):
         return {doc.get("doc_id", ""): doc for doc in processed}
     return {}
 
-
 def main():
-    input_filename = "sample_scifact.json"  # Input sample file for SciFact
-    output_filename = "sample_scifact_coref.json"
-    failure_filename = "failed_entries.json"
-
-    # Load the sample data
-    with open(input_filename, "r", encoding="utf-8") as f:
+    # Load input sample file
+    with open(INPUT_FILENAME, "r", encoding="utf-8") as f:
         documents = json.load(f)
 
-    # Load already processed documents (if any) to skip them
-    processed_lookup = load_existing_processed(output_filename)
-
+    # Load already processed documents to skip them
+    processed_lookup = load_existing_processed(OUTPUT_FILENAME)
     processed_docs = list(processed_lookup.values())
     total_processed = len(processed_docs)
 
     # Process only up to MAX_ENTRIES documents.
-    # Skip any document that is already processed (by checking its doc_id).
     for doc in documents:
         if total_processed >= MAX_ENTRIES:
             break
@@ -172,18 +174,17 @@ def main():
                     "num_claims": len(doc.get("claims", []))
                 }
             }
-            log_failure(error_info, failure_filename)
+            log_failure(error_info, FAILURE_FILENAME)
             continue
 
         # Iteratively save progress every SAVE_FREQ successful entries.
         if total_processed % SAVE_FREQ == 0:
-            save_progress(processed_docs, output_filename)
+            save_progress(processed_docs, OUTPUT_FILENAME)
             time.sleep(1)
 
     # Final save
-    save_progress(processed_docs, output_filename)
+    save_progress(processed_docs, OUTPUT_FILENAME)
     print(f"Processing complete. Total documents processed: {total_processed}")
-
 
 if __name__ == "__main__":
     main()
